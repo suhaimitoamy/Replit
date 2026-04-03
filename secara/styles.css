@@ -1,0 +1,388 @@
+:root {
+  color-scheme: dark;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #08111f;
+  color: #ebf2ff;
+  --bg: #08111f;
+  --panel: #0f1b30;
+  --panel-soft: #13233f;
+  --line: rgba(255, 255, 255, 0.08);
+  --muted: #9cb0d3;
+  --bull: #4fd98b;
+  --bear: #ff7a7a;
+  --gold: #f0c86e;
+  --blue: #7db0ff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at top right, rgba(240, 200, 110, 0.15), transparent 24%),
+    radial-gradient(circle at bottom left, rgba(125, 176, 255, 0.12), transparent 24%),
+    var(--bg);
+  color: #ebf2ff;
+}
+
+button,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  border: 0;
+  border-radius: 12px;
+  padding: 0.85rem 1rem;
+  cursor: pointer;
+  background: linear-gradient(135deg, #f0c86e, #d99c1b);
+  color: #0b1019;
+  font-weight: 700;
+}
+
+button.ghost {
+  background: transparent;
+  color: #ebf2ff;
+  border: 1px solid var(--line);
+}
+
+select,
+textarea {
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  background: #091424;
+  color: #ebf2ff;
+  padding: 0.85rem 1rem;
+}
+
+textarea {
+  resize: vertical;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+.app-shell {
+  display: grid;
+  grid-template-columns: 280px minmax(0, 1fr);
+  min-height: 100vh;
+}
+
+.sidebar {
+  border-right: 1px solid var(--line);
+  padding: 1.5rem;
+  background: rgba(7, 15, 28, 0.75);
+  backdrop-filter: blur(18px);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+}
+
+.brand {
+  font-size: 1.6rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+}
+
+.side-card,
+.panel,
+.stat-card,
+.roadmap-card,
+.feature-card {
+  background: rgba(15, 27, 48, 0.8);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  box-shadow: 0 14px 44px rgba(0, 0, 0, 0.18);
+}
+
+.side-card {
+  padding: 1rem;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.side-card label,
+.mini-title,
+.badge-title,
+.stat-card span,
+.eyebrow {
+  color: var(--muted);
+  font-size: 0.86rem;
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.chip,
+.badge,
+.impact {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  border-radius: 999px;
+  padding: 0.32rem 0.7rem;
+  font-size: 0.8rem;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.main-content {
+  padding: 1.6rem;
+  display: grid;
+  gap: 1.2rem;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.6rem;
+  border-radius: 24px;
+  border: 1px solid var(--line);
+  background:
+    linear-gradient(135deg, rgba(240, 200, 110, 0.12), rgba(125, 176, 255, 0.08)),
+    rgba(15, 27, 48, 0.65);
+}
+
+.hero h1 {
+  font-size: clamp(2rem, 3vw, 3rem);
+  margin-bottom: 0.7rem;
+}
+
+.hero-copy {
+  max-width: 72ch;
+  color: #d4def2;
+}
+
+.hero-badge {
+  min-width: 190px;
+  padding: 1rem;
+  border-radius: 18px;
+  border: 1px solid var(--line);
+  background: rgba(8, 17, 31, 0.5);
+  display: grid;
+  gap: 0.4rem;
+  align-content: start;
+}
+
+.hero-badge strong {
+  font-size: 1.75rem;
+}
+
+.stats-grid,
+.feature-grid,
+.grid-2,
+.roadmap-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.stats-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.feature-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.grid-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.roadmap-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.stat-card,
+.feature-card,
+.panel,
+.roadmap-card {
+  padding: 1.2rem;
+}
+
+.stat-card strong {
+  display: block;
+  font-size: 1.85rem;
+  margin: 0.4rem 0 0.3rem;
+}
+
+.panel h2,
+.panel h3,
+.feature-card h3,
+.roadmap-card h3 {
+  margin-bottom: 0.75rem;
+}
+
+.two-column {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1.4fr 1fr;
+}
+
+.section-title-row,
+.score-label-row,
+.scan-summary,
+.button-row,
+.event-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8rem;
+}
+
+.soft-box {
+  margin-top: 0.9rem;
+  border-radius: 14px;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.soft-box.compact {
+  font-size: 0.95rem;
+}
+
+.clean-list,
+.alerts-list,
+.roadmap-card ul {
+  padding-left: 1.1rem;
+  margin-bottom: 0;
+}
+
+.clean-list li,
+.alerts-list li,
+.roadmap-card li {
+  margin-bottom: 0.7rem;
+}
+
+.score-wrap {
+  margin-bottom: 1rem;
+}
+
+.score-bar {
+  margin-top: 0.45rem;
+  height: 10px;
+  width: 100%;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  overflow: hidden;
+}
+
+.score-fill {
+  height: 100%;
+  border-radius: 999px;
+}
+
+.score-fill.bull {
+  background: linear-gradient(90deg, #2bb673, #7ce8af);
+}
+
+.score-fill.bear {
+  background: linear-gradient(90deg, #ff9b9b, #ff5f5f);
+}
+
+.scan-summary {
+  padding: 0.85rem 0 0;
+}
+
+.event-list,
+.history-list {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.event-item {
+  padding: 0.85rem 0;
+  border-bottom: 1px solid var(--line);
+  align-items: flex-start;
+}
+
+.event-item:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.event-item p {
+  margin: 0.25rem 0 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.impact.high {
+  background: rgba(255, 122, 122, 0.12);
+  color: #ffd0d0;
+}
+
+.impact.medium {
+  background: rgba(240, 200, 110, 0.12);
+  color: #ffe6a8;
+}
+
+.history-item {
+  padding: 0.9rem;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.history-item p {
+  margin: 0.45rem 0 0;
+  color: #dbe5f7;
+}
+
+.button-row {
+  margin: 0.8rem 0 1rem;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1100px) {
+  .app-shell {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar {
+    position: static;
+    height: auto;
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .stats-grid,
+  .feature-grid,
+  .grid-2,
+  .roadmap-grid,
+  .two-column {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 760px) {
+  .main-content {
+    padding: 1rem;
+  }
+
+  .hero {
+    flex-direction: column;
+  }
+
+  .stats-grid,
+  .feature-grid,
+  .grid-2,
+  .roadmap-grid,
+  .two-column {
+    grid-template-columns: 1fr;
+  }
+}
