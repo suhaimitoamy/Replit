@@ -60,5 +60,5 @@ Full ICT Backtesting Model adalah alat untuk membaca konteks, bukan tombol entry
 Jika belum paham, ulangi bagian **Cara Membaca di Chart** dan buat satu contoh sendiri dari XAUUSD. Jangan lanjut sebelum bisa menjelaskan liquidity, target, dan invalidation dengan jelas.
 
 
-![1000680420](/images/lessons/level-80/1779859703569-1000680420.jpg)
+
 
