@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="100%" height="100%" style="background-color: #1a1a2e; font-family: sans-serif;">
+  <defs>
+    <linearGradient id="breaker" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00ffaa" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#00ffaa" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+
+  <text x="400" y="40" fill="#ffffff" font-size="24" font-weight="bold" text-anchor="middle">Konfirmasi Entry Multi-Timeframe</text>
+  
+  <!-- HTF Breaker Zone -->
+  <rect x="50" y="200" width="700" height="150" fill="url(#breaker)" stroke="#00ffaa" stroke-width="2" stroke-dasharray="10,5"/>
+  <text x="150" y="225" fill="#00ffaa" font-size="16" font-weight="bold">Bullish Breaker Block H1</text>
+
+  <!-- LTF Price Action -->
+  <!-- Downtrend into zone -->
+  <path d="M 100 50 L 150 150 L 200 120 L 250 250 L 300 200 L 350 320" fill="none" stroke="#ff3366" stroke-width="3" />
+  
+  <text x="350" y="340" fill="#ffffff" font-size="12" text-anchor="middle">Lower Low (M5)</text>
+
+  <!-- The CHoCH in LTF -->
+  <path d="M 350 320 L 450 150" fill="none" stroke="#00ffaa" stroke-width="4" />
+  <line x1="280" y1="200" x2="480" y2="200" stroke="#ffffff" stroke-width="2" stroke-dasharray="4,4"/>
+  <text x="485" y="205" fill="#ffffff" font-size="14" font-weight="bold">CHoCH M5</text>
+  
+  <!-- LTF Pullback -->
+  <path d="M 450 150 L 550 280" fill="none" stroke="#8b8c9a" stroke-width="3" stroke-dasharray="4,4" />
+  
+  <!-- New LTF FVG/OB Zone -->
+  <rect x="500" y="250" width="100" height="40" fill="#ffffff" fill-opacity="0.1" stroke="#ffffff" stroke-width="1"/>
+  <text x="550" y="275" fill="#ffffff" font-size="12" text-anchor="middle">OB M5</text>
+
+  <!-- Entry and TP -->
+  <path d="M 550 280 L 750 50" fill="none" stroke="#00ffaa" stroke-width="5" />
+  
+  <circle cx="550" cy="280" r="8" fill="#00ffaa" stroke="#ffffff" stroke-width="2"/>
+  <text x="550" y="315" fill="#00ffaa" font-size="16" font-weight="bold" text-anchor="middle">SAFE BUY ENTRY</text>
+  
+  <!-- Stop Loss -->
+  <line x1="500" y1="340" x2="600" y2="340" stroke="#ff3366" stroke-width="3"/>
+  <text x="550" y="360" fill="#ff3366" font-size="14" font-weight="bold" text-anchor="middle">Tight SL (Di bawah Low M5)</text>
+</svg>

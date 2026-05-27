@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" width="100%" height="200" style="background-color: #1a1a2e; border-radius: 8px; border: 1px solid #2a2a4a; margin-top: 10px; margin-bottom: 20px;">
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+    <text x="200" y="30" fill="#ffffff" font-family="monospace" font-size="14" text-anchor="middle">Pertarungan Buyer vs Seller</text>
+    
+  <line x1="135" y1="40" x2="135" y2="180" stroke="#00ffaa" stroke-width="2"/>
+  <rect x="120" y="60" width="30" height="100" fill="#00ffaa" rx="2"/>
+
+    
+  <line x1="265" y1="40" x2="265" y2="180" stroke="#ff4444" stroke-width="2"/>
+  <rect x="250" y="60" width="30" height="100" fill="#ff4444" rx="2"/>
+
+    <text x="135" y="120" fill="#111" font-family="monospace" font-size="20" text-anchor="middle">B</text>
+    <text x="265" y="120" fill="#111" font-family="monospace" font-size="20" text-anchor="middle">S</text>
+  
+</svg>

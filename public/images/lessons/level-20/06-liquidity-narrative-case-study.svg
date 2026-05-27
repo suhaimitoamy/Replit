@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#1a1a2e"/>
+  
+  <text x="400" y="30" fill="#ffffff" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle">Studi Kasus: Top-Down Analysis</text>
+  
+  <!-- Layout panels -->
+  <rect x="30" y="60" width="230" height="300" rx="10" fill="#2a2a35" stroke="#555577"/>
+  <text x="145" y="85" fill="#00ffaa" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">1. HTF (Daily)</text>
+  
+  <rect x="285" y="60" width="230" height="300" rx="10" fill="#2a2a35" stroke="#555577"/>
+  <text x="400" y="85" fill="#00ffaa" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">2. MTF (H1)</text>
+  
+  <rect x="540" y="60" width="230" height="300" rx="10" fill="#2a2a35" stroke="#555577"/>
+  <text x="655" y="85" fill="#00ffaa" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">3. LTF (M5)</text>
+
+  <!-- Panel 1: HTF -->
+  <path d="M 50 200 L 100 150 L 150 280 L 180 200 L 230 180" fill="none" stroke="#ffffff" stroke-width="2"/>
+  <line x1="50" y1="260" x2="240" y2="260" stroke="#ff3366" stroke-dasharray="2,2"/>
+  <circle cx="150" cy="280" r="4" fill="#ff3366"/>
+  <text x="145" y="305" fill="#ffffff" font-family="Arial" font-size="10" text-anchor="middle">HTF Sweep (SSL)</text>
+  <line x1="50" y1="120" x2="240" y2="120" stroke="#00ffaa" stroke-dasharray="2,2"/>
+  <text x="145" y="110" fill="#ffffff" font-family="Arial" font-size="10" text-anchor="middle">Target (Daily High)</text>
+  
+  <!-- Panel 2: MTF -->
+  <path d="M 300 280 L 350 240 L 400 260 L 450 180 L 480 210 L 500 150" fill="none" stroke="#ffffff" stroke-width="2"/>
+  <line x1="380" y1="240" x2="430" y2="240" stroke="#555577" stroke-dasharray="2,2"/>
+  <text x="405" y="230" fill="#ffffff" font-family="Arial" font-size="10" text-anchor="middle">CHoCH</text>
+  <rect x="440" y="180" width="30" height="30" fill="#00ffaa" opacity="0.3"/>
+  <text x="455" y="235" fill="#ffffff" font-family="Arial" font-size="10" text-anchor="middle">H1 FVG (Wait)</text>
+  
+  <!-- Panel 3: LTF -->
+  <path d="M 560 180 L 600 260 L 620 280 L 640 220 L 670 240 L 750 100" fill="none" stroke="#00ffaa" stroke-width="2"/>
+  <rect x="560" y="240" width="100" height="50" fill="#00ffaa" opacity="0.1" stroke="#00ffaa" stroke-width="1"/>
+  <text x="610" y="295" fill="#ffffff" font-family="Arial" font-size="10" text-anchor="middle">Dalam H1 FVG</text>
+  <circle cx="620" cy="280" r="4" fill="#00ffaa"/>
+  <text x="640" y="295" fill="#00ffaa" font-family="Arial" font-size="10" font-weight="bold">Entry!</text>
+  <line x1="550" y1="100" x2="760" y2="100" stroke="#00ffaa" stroke-width="2" stroke-dasharray="2,2"/>
+  <text x="655" y="90" fill="#ffffff" font-family="Arial" font-size="10" text-anchor="middle">Liquidity Objective</text>
+  
+  <!-- Arrows linking panels -->
+  <path d="M 265 210 L 280 210" fill="none" stroke="#00ffaa" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M 520 210 L 535 210" fill="none" stroke="#00ffaa" stroke-width="3" marker-end="url(#arrow)"/>
+  
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#00ffaa" />
+    </marker>
+  </defs>
+</svg>

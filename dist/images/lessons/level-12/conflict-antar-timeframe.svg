@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#1a1a2e"/>
+  
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="24" fill="#ffffff" text-anchor="middle" font-weight="bold">Konflik Antar Timeframe (Counter-Trend Phase)</text>
+  
+  <!-- HTF Structure (Faded to show background context) -->
+  <path d="M 100 450 L 300 150 L 700 450" fill="none" stroke="#00ffaa" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" opacity="0.3" />
+  <text x="250" y="130" font-family="Arial, sans-serif" font-size="20" fill="#00ffaa" font-weight="bold" opacity="0.5">HTF Bullish Impulse</text>
+  <text x="600" y="350" font-family="Arial, sans-serif" font-size="20" fill="#ff3366" font-weight="bold" opacity="0.5">HTF Pullback</text>
+  
+  <!-- HTF POI target at the bottom right -->
+  <rect x="650" y="420" width="100" height="40" fill="rgba(0, 255, 170, 0.2)" stroke="#00ffaa" stroke-width="2" />
+  <text x="700" y="445" font-family="Arial, sans-serif" font-size="14" fill="#00ffaa" text-anchor="middle">HTF POI</text>
+  
+  <!-- LTF Structure (Detailed, inside the pullback) -->
+  <!-- Falling zig-zag from the top peak -->
+  <path d="M 300 150 L 350 250 L 400 200 L 480 320 L 530 270 L 600 400 L 660 350 L 700 420" fill="none" stroke="#ff3366" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+  
+  <!-- LTF Nodes -->
+  <circle cx="350" cy="250" r="5" fill="#ff3366" />
+  <circle cx="400" cy="200" r="5" fill="#ff3366" />
+  <circle cx="480" cy="320" r="5" fill="#ff3366" />
+  <circle cx="530" cy="270" r="5" fill="#ff3366" />
+  <circle cx="600" cy="400" r="5" fill="#ff3366" />
+  
+  <!-- Annotations -->
+  <text x="530" y="250" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">LTF Lower High</text>
+  <text x="600" y="425" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">LTF Lower Low</text>
+  
+  <rect x="420" y="70" width="250" height="70" fill="rgba(255, 255, 255, 0.1)" stroke="#ffffff" stroke-width="1" rx="5" />
+  <text x="545" y="95" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">Konflik:</text>
+  <text x="545" y="115" font-family="Arial, sans-serif" font-size="14" fill="#a0a0b0" text-anchor="middle">HTF: Trend Naik (Bullish)</text>
+  <text x="545" y="130" font-family="Arial, sans-serif" font-size="14" fill="#a0a0b0" text-anchor="middle">LTF: Trend Turun (Bearish)</text>
+  
+  <!-- Warning sign for Counter Trend Traders -->
+  <circle cx="450" cy="300" r="15" fill="none" stroke="#ffcc00" stroke-width="2" />
+  <text x="450" y="305" font-family="Arial, sans-serif" font-size="16" fill="#ffcc00" text-anchor="middle" font-weight="bold">!</text>
+  <text x="350" y="350" font-family="Arial, sans-serif" font-size="12" fill="#ffcc00" text-anchor="middle">Trade Sell di sini berbahaya</text>
+  <text x="350" y="365" font-family="Arial, sans-serif" font-size="12" fill="#ffcc00" text-anchor="middle">karena mendekati HTF POI</text>
+  
+  <text x="400" y="480" font-family="Arial, sans-serif" font-size="16" fill="#a0a0b0" text-anchor="middle">LTF yang Bearish hanyalah kendaraan untuk membawa harga kembali ke zona diskon (POI) HTF.</text>
+</svg>

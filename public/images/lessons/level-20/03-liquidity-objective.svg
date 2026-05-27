@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#1a1a2e"/>
+  
+  <text x="400" y="40" fill="#ffffff" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle">Liquidity Objective (Target Objektif)</text>
+  
+  <!-- Price action -->
+  <path d="M 100 80 L 150 200 L 250 100 L 300 250 L 400 150 L 450 320" fill="none" stroke="#ff3366" stroke-width="4"/>
+  
+  <!-- Support area - Entry -->
+  <line x1="400" y1="320" x2="550" y2="320" stroke="#00ffaa" stroke-width="2" stroke-dasharray="4,4"/>
+  <text x="475" y="340" fill="#00ffaa" font-family="Arial" font-size="14" text-anchor="middle">HTF Support / Sweep</text>
+  <circle cx="450" cy="320" r="6" fill="#00ffaa"/>
+  
+  <!-- Upward move -->
+  <path d="M 450 320 L 500 240 L 550 260 L 650 90" fill="none" stroke="#00ffaa" stroke-width="4"/>
+  
+  <!-- Objectives -->
+  <line x1="600" y1="150" x2="750" y2="150" stroke="#ffff00" stroke-width="2" stroke-dasharray="4,4"/>
+  <text x="675" y="145" fill="#ffff00" font-family="Arial" font-size="12" text-anchor="middle">Objektif 1: Old High H1</text>
+  
+  <line x1="600" y1="90" x2="750" y2="90" stroke="#00ffaa" stroke-width="3" stroke-dasharray="6,4"/>
+  <text x="675" y="80" fill="#00ffaa" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Objektif Utama: Daily High</text>
+  
+  <circle cx="650" cy="90" r="8" fill="#ffff00" stroke="#ffffff" stroke-width="2"/>
+  <text x="650" y="65" fill="#ffffff" font-family="Arial" font-size="14" text-anchor="middle">🎯 Take Profit</text>
+  
+  <!-- Stop Loss -->
+  <line x1="400" y1="360" x2="500" y2="360" stroke="#ff3366" stroke-width="2"/>
+  <text x="450" y="380" fill="#ff3366" font-family="Arial" font-size="12" text-anchor="middle">Stop Loss (Invalidasi)</text>
+</svg>

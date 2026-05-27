@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <rect width="100%" height="100%" fill="#1a1a2e"/>
+  
+  <text x="400" y="50" fill="#ffffff" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle">Manajemen Risiko (The Shield)</text>
+  
+  <circle cx="200" cy="200" r="100" fill="none" stroke="#00ffaa" stroke-width="4"/>
+  <text x="200" y="190" fill="#00ffaa" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle">Profit</text>
+  <text x="200" y="215" fill="#ffffff" font-family="Arial" font-size="14" text-anchor="middle">Tanpa Risk Management</text>
+  
+  <!-- Smashed shield for left side -->
+  <line x1="150" y1="150" x2="250" y2="250" stroke="#ff3366" stroke-width="4"/>
+  <line x1="250" y1="150" x2="150" y2="250" stroke="#ff3366" stroke-width="4"/>
+  
+  <text x="400" y="200" fill="#ffffff" font-family="Arial" font-size="30" font-weight="bold" text-anchor="middle">VS</text>
+
+  <circle cx="600" cy="200" r="100" fill="none" stroke="#00ffaa" stroke-width="4"/>
+  <text x="600" y="190" fill="#00ffaa" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle">Consistent Profit</text>
+  <text x="600" y="215" fill="#ffffff" font-family="Arial" font-size="14" text-anchor="middle">Dengan Risk Management</text>
+  <!-- Shield icon -->
+  <path d="M 570 230 L 630 230 L 630 260 C 630 280 600 300 600 300 C 600 300 570 280 570 260 Z" fill="#00ffaa"/>
+  
+  <text x="400" y="360" fill="#ffffff" font-family="Arial" font-size="16" text-anchor="middle">"Trading bukan tentang tidak pernah kalah, melainkan tentang bertahan hidup saat kalah."</text>
+</svg>

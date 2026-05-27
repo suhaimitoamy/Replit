@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" fill="none">
+    <rect width="800" height="400" fill="#1a1a2e" rx="10"/>
+    <text x="400" y="50" font-family="Arial" font-size="24" fill="#ffffff" font-weight="bold" text-anchor="middle">Mentalitas Trader Funded</text>
+    
+    <path d="M 400 100 L 500 150 L 500 250 L 400 320 L 300 250 L 300 150 Z" fill="#2a2a4e" stroke="#00ffaa" stroke-width="4"/>
+    
+    <text x="400" y="180" font-family="Arial" font-size="18" fill="#ffffff" font-weight="bold" text-anchor="middle">Objektif</text>
+    <text x="400" y="210" font-family="Arial" font-size="18" fill="#ffffff" font-weight="bold" text-anchor="middle">Disiplin</text>
+    <text x="400" y="240" font-family="Arial" font-size="18" fill="#ffffff" font-weight="bold" text-anchor="middle">Konsisten</text>
+    <text x="400" y="270" font-family="Arial" font-size="18" fill="#ffffff" font-weight="bold" text-anchor="middle">Fokus Proses</text>
+    
+    <circle cx="300" cy="150" r="10" fill="#ff3366"/>
+    <circle cx="500" cy="150" r="10" fill="#ff3366"/>
+    <circle cx="300" cy="250" r="10" fill="#00ffaa"/>
+    <circle cx="500" cy="250" r="10" fill="#00ffaa"/>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <!-- Background -->
+  <rect width="800" height="450" fill="#1a1a2e" />
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" fill="#ffffff" font-weight="bold" text-anchor="middle">Logika Institusi: Proses Mitigasi (Break-Even)</text>
+
+  <!-- Market Path -->
+  <path d="M 100,280 L 200,100 L 300,220 L 400,150 L 500,350 L 600,150 L 700,280" fill="none" stroke="#444466" stroke-width="4" stroke-linejoin="round" />
+  
+  <!-- High & Low labels -->
+  <text x="200" y="85" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">High</text>
+  <text x="300" y="240" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">Low</text>
+
+  <!-- Step 1: The Trap (Lower High) -->
+  <circle cx="400" cy="150" r="8" fill="#00ffaa" />
+  <text x="400" y="130" font-family="Arial, sans-serif" font-size="16" fill="#00ffaa" font-weight="bold" text-anchor="middle">1. Institusi BUY (Terjebak)</text>
+  <text x="400" y="110" font-family="Arial, sans-serif" font-size="12" fill="#aaaaaa" text-anchor="middle">Gagal tembus High</text>
+
+  <!-- Step 2: The Drop & Drawdown -->
+  <circle cx="500" cy="350" r="6" fill="#ff3366" />
+  <text x="500" y="375" font-family="Arial, sans-serif" font-size="16" fill="#ff3366" font-weight="bold" text-anchor="middle">2. Harga Anjlok (Drawdown)</text>
+  <text x="500" y="395" font-family="Arial, sans-serif" font-size="12" fill="#aaaaaa" text-anchor="middle">Posisi BUY kini merugi besar</text>
+  <path d="M 410,165 L 490,335" fill="none" stroke="#ff3366" stroke-width="2" stroke-dasharray="5,5" />
+
+  <!-- BOS Line -->
+  <line x1="280" y1="220" x2="480" y2="220" stroke="#ffffff" stroke-width="2" stroke-dasharray="4,4" />
+  <text x="350" y="215" font-family="Arial, sans-serif" font-size="12" fill="#ffffff">Break of Structure (BOS)</text>
+
+  <!-- Step 3: Mitigation Zone Highlight -->
+  <rect x="350" y="135" width="300" height="30" fill="rgba(0,255,170,0.15)" stroke="#00ffaa" stroke-width="1" stroke-dasharray="4,4" />
+  <line x1="400" y1="150" x2="600" y2="150" stroke="#00ffaa" stroke-width="2" stroke-dasharray="5,5" />
+
+  <!-- Step 4: Mitigation / Break Even -->
+  <circle cx="600" cy="150" r="8" fill="#ffcc00" />
+  <text x="600" y="110" font-family="Arial, sans-serif" font-size="16" fill="#ffcc00" font-weight="bold" text-anchor="middle">3. Harga Kembali (Mitigasi)</text>
+  <text x="600" y="130" font-family="Arial, sans-serif" font-size="12" fill="#ffffff" text-anchor="middle">Tutup posisi BUY di Break-Even</text>
+  
+  <rect x="630" y="180" width="140" height="50" rx="8" fill="#2a2a4e" stroke="#ffcc00" stroke-width="2" />
+  <text x="700" y="200" font-family="Arial, sans-serif" font-size="12" fill="#ffffff" text-anchor="middle">Menutup BUY = Sell</text>
+  <text x="700" y="218" font-family="Arial, sans-serif" font-size="12" fill="#ff3366" font-weight="bold" text-anchor="middle">Harga tertekan turun!</text>
+
+  <!-- Arrow pointing down after mitigation -->
+  <path d="M 610,165 L 680,265" fill="none" stroke="#ff3366" stroke-width="4" marker-end="url(#arrowhead)" />
+  
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ff3366" />
+    </marker>
+  </defs>
+</svg>

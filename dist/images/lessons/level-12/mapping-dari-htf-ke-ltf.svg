@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#1a1a2e"/>
+  
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" fill="#ffffff" text-anchor="middle" font-weight="bold">Top-Down Analysis: Mapping Workflow</text>
+  
+  <!-- Container for Step 1 (HTF) -->
+  <rect x="50" y="80" width="220" height="350" fill="rgba(255,255,255,0.02)" stroke="#444455" stroke-width="2" rx="8" />
+  <text x="160" y="110" font-family="Arial, sans-serif" font-size="16" fill="#00ffaa" text-anchor="middle" font-weight="bold">Step 1 &amp; 2: HTF (H4)</text>
+  <text x="160" y="130" font-family="Arial, sans-serif" font-size="12" fill="#ffffff" text-anchor="middle">Identifikasi Trend &amp; POI</text>
+  
+  <path d="M 80 380 L 140 200 L 180 280 L 250 150" fill="none" stroke="#00ffaa" stroke-width="3" />
+  <rect x="150" y="270" width="50" height="30" fill="rgba(0, 255, 170, 0.2)" stroke="#00ffaa" stroke-width="1" />
+  <text x="175" y="315" font-family="Arial, sans-serif" font-size="12" fill="#00ffaa" text-anchor="middle">H4 POI</text>
+  <line x1="140" y1="200" x2="220" y2="200" stroke="#fff" stroke-dasharray="3,3" stroke-width="1" />
+  <text x="180" y="195" font-family="Arial, sans-serif" font-size="10" fill="#fff">BOS</text>
+  
+  <!-- Container for Step 3 (LTF Context) -->
+  <rect x="290" y="80" width="220" height="350" fill="rgba(255,255,255,0.02)" stroke="#444455" stroke-width="2" rx="8" />
+  <text x="400" y="110" font-family="Arial, sans-serif" font-size="16" fill="#ffcc00" text-anchor="middle" font-weight="bold">Step 3: LTF (M15)</text>
+  <text x="400" y="130" font-family="Arial, sans-serif" font-size="12" fill="#ffffff" text-anchor="middle">Observasi Fase Pullback</text>
+  
+  <rect x="320" y="320" width="160" height="80" fill="rgba(0, 255, 170, 0.1)" stroke="#00ffaa" stroke-width="1" stroke-dasharray="4,4" />
+  <text x="400" y="415" font-family="Arial, sans-serif" font-size="12" fill="#00ffaa" text-anchor="middle">Zoom-in H4 POI</text>
+  
+  <path d="M 320 180 L 350 230 L 380 210 L 410 270 L 440 250 L 470 340" fill="none" stroke="#ff3366" stroke-width="3" />
+  <circle cx="470" cy="340" r="4" fill="#ff3366" />
+  <text x="400" y="240" font-family="Arial, sans-serif" font-size="12" fill="#ff3366" text-anchor="middle">Menuju ke bawah</text>
+  
+  <!-- Container for Step 4 (LTF Entry) -->
+  <rect x="530" y="80" width="220" height="350" fill="rgba(255,255,255,0.02)" stroke="#444455" stroke-width="2" rx="8" />
+  <text x="640" y="110" font-family="Arial, sans-serif" font-size="16" fill="#00aaff" text-anchor="middle" font-weight="bold">Step 4: Eksekusi (M5)</text>
+  <text x="640" y="130" font-family="Arial, sans-serif" font-size="12" fill="#ffffff" text-anchor="middle">Tunggu CHoCH &amp; Entry</text>
+  
+  <rect x="550" y="320" width="180" height="80" fill="rgba(0, 255, 170, 0.1)" stroke="#00ffaa" stroke-width="1" stroke-dasharray="4,4" />
+  <path d="M 550 300 L 570 340 L 600 320 L 630 380 L 690 280 L 710 320 L 740 180" fill="none" stroke="#00aaff" stroke-width="3" />
+  <line x1="600" y1="320" x2="660" y2="320" stroke="#fff" stroke-dasharray="3,3" stroke-width="1" />
+  <text x="640" y="315" font-family="Arial, sans-serif" font-size="10" fill="#fff">CHoCH</text>
+  
+  <rect x="680" y="310" width="40" height="20" fill="rgba(0, 170, 255, 0.3)" />
+  <text x="730" y="325" font-family="Arial, sans-serif" font-size="12" fill="#00aaff">Entry Buy</text>
+  
+  <!-- Connecting Arrows -->
+  <path d="M 275 255 L 285 255" fill="none" stroke="#ffffff" stroke-width="2" />
+  <polygon points="290,255 285,250 285,260" fill="#ffffff" />
+  
+  <path d="M 515 255 L 525 255" fill="none" stroke="#ffffff" stroke-width="2" />
+  <polygon points="530,255 525,250 525,260" fill="#ffffff" />
+  
+  <text x="400" y="470" font-family="Arial, sans-serif" font-size="14" fill="#a0a0b0" text-anchor="middle">Filter sinyal dari HTF (Gambaran Besar) ke LTF (Detail Eksekusi Presisi).</text>
+</svg>

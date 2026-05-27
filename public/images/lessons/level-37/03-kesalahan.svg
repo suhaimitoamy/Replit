@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#1a1a2e" />
+  
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#ff3366" text-anchor="middle">Kesalahan Umum: Mengabaikan Checklist</text>
+  <text x="400" y="80" font-family="Arial, sans-serif" font-size="16" fill="#a0a0b0" text-anchor="middle">"Ah, cuma satu syarat yang nggak terpenuhi, pasti tetap profit!"</text>
+
+  <!-- Left: Ignored Checklist -->
+  <g transform="translate(150, 150)">
+    <rect x="0" y="0" width="200" height="280" rx="10" fill="#2d2d44" stroke="#4a4a6a" stroke-width="2" transform="rotate(-15)"/>
+    <line x1="20" y1="50" x2="180" y2="50" stroke="#4a4a6a" stroke-width="2" transform="rotate(-15)"/>
+    
+    <!-- Red Cross over the checklist -->
+    <path d="M-20 40 L180 250" stroke="#ff3366" stroke-width="8" opacity="0.8"/>
+    <path d="M180 40 L-20 250" stroke="#ff3366" stroke-width="8" opacity="0.8"/>
+    
+    <text x="80" y="320" font-family="Arial, sans-serif" font-size="20" fill="#ff3366" font-weight="bold" transform="rotate(-15)">DIABAIKAN</text>
+  </g>
+
+  <!-- Center: The consequences (Messy chart, FOMO) -->
+  <g transform="translate(450, 150)">
+    <rect x="0" y="0" width="280" height="200" rx="10" fill="#24243e" stroke="#ff3366" stroke-width="3"/>
+    
+    <!-- Chaotic Chart -->
+    <path d="M 20 180 L 50 140 L 80 160 L 110 50 L 150 120 L 180 80 L 210 170 L 250 30" fill="none" stroke="#ffaa00" stroke-width="3"/>
+    
+    <!-- Big BUY Button -->
+    <rect x="90" y="220" width="100" height="50" rx="10" fill="#ff3366"/>
+    <text x="140" y="252" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">BUY NOW</text>
+    <circle cx="180" cy="245" r="15" fill="#ffffff" opacity="0.3"/> <!-- Mouse click effect -->
+  </g>
+
+  <!-- Bottom Text Bubbles -->
+  <path d="M 100 450 Q 150 400 300 450 Q 250 500 100 450" fill="#2d2d44" opacity="0.7"/>
+  <text x="200" y="455" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">"Takut Ketinggalan (FOMO)!"</text>
+
+  <path d="M 400 420 Q 500 380 600 430 Q 500 480 400 420" fill="#2d2d44" opacity="0.7"/>
+  <text x="500" y="435" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">"Feeling ku sih ini naik..."</text>
+
+  <path d="M 650 500 Q 550 550 750 550 Q 750 500 650 500" fill="#2d2d44" opacity="0.7"/>
+  <text x="670" y="535" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">"Bosan ah nunggu setup."</text>
+
+</svg>

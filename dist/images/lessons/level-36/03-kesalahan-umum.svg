@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#1a1a2e"/>
+  
+  <text x="400" y="50" fill="#ffffff" font-family="sans-serif" font-size="24" font-weight="bold" text-anchor="middle">Kesalahan Umum Eksekusi Plan</text>
+
+  <!-- Box 1: Menggeser SL -->
+  <rect x="50" y="100" width="300" height="150" rx="10" fill="#16213e" stroke="#e94560" stroke-width="3"/>
+  <text x="200" y="140" fill="#e94560" font-family="sans-serif" font-size="18" font-weight="bold" text-anchor="middle">1. Menggeser Stop Loss</text>
+  <path d="M 100 220 L 150 180 L 180 230 L 220 160 L 280 240" fill="none" stroke="#e94560" stroke-width="2"/>
+  <line x1="80" y1="200" x2="300" y2="200" stroke="#00ffaa" stroke-width="2" stroke-dasharray="4"/>
+  <text x="310" y="205" fill="#00ffaa" font-family="sans-serif" font-size="12">SL Awal</text>
+  <line x1="80" y1="230" x2="300" y2="230" stroke="#ffcc00" stroke-width="2" stroke-dasharray="4"/>
+  <text x="310" y="235" fill="#ffcc00" font-family="sans-serif" font-size="12">SL Digeser</text>
+  <circle cx="280" cy="240" r="5" fill="#e94560"/>
+
+  <!-- Box 2: Entry FOMO -->
+  <rect x="450" y="100" width="300" height="150" rx="10" fill="#16213e" stroke="#e94560" stroke-width="3"/>
+  <text x="600" y="140" fill="#e94560" font-family="sans-serif" font-size="18" font-weight="bold" text-anchor="middle">2. FOMO (Chasing Price)</text>
+  <path d="M 480 230 L 520 230 L 540 220 L 560 170 L 600 160" fill="none" stroke="#00ffaa" stroke-width="2"/>
+  <circle cx="600" cy="160" r="5" fill="#e94560"/>
+  <text x="620" y="165" fill="#e94560" font-family="sans-serif" font-size="12">Entry Sini!</text>
+  <line x1="480" y1="240" x2="700" y2="240" stroke="#ffffff" stroke-width="1" stroke-dasharray="3"/>
+  <text x="710" y="245" fill="#ffffff" font-family="sans-serif" font-size="12">Area Plan</text>
+
+  <!-- Box 3: Mengabaikan News -->
+  <rect x="50" y="280" width="300" height="150" rx="10" fill="#16213e" stroke="#e94560" stroke-width="3"/>
+  <text x="200" y="320" fill="#e94560" font-family="sans-serif" font-size="18" font-weight="bold" text-anchor="middle">3. Mengabaikan News</text>
+  <path d="M 80 400 L 120 390 L 150 400 L 160 310 L 170 420 L 220 380 L 280 390" fill="none" stroke="#ffffff" stroke-width="2"/>
+  <text x="200" y="340" fill="#ffcc00" font-family="sans-serif" font-size="14" font-weight="bold">NFP Rilis!</text>
+  <circle cx="165" cy="365" r="30" fill="none" stroke="#ffcc00" stroke-width="2" stroke-dasharray="4"/>
+
+  <!-- Box 4: Terlalu Kompleks -->
+  <rect x="450" y="280" width="300" height="150" rx="10" fill="#16213e" stroke="#e94560" stroke-width="3"/>
+  <text x="600" y="320" fill="#e94560" font-family="sans-serif" font-size="18" font-weight="bold" text-anchor="middle">4. Overcomplicating</text>
+  <text x="600" y="350" fill="#ffffff" font-family="sans-serif" font-size="12" text-anchor="middle">EMA 50 + EMA 200 + RSI + MACD</text>
+  <text x="600" y="370" fill="#ffffff" font-family="sans-serif" font-size="12" text-anchor="middle">+ Fibonacci + Bollinger Bands...</text>
+  <text x="600" y="400" fill="#ffcc00" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle">"Analysis Paralysis"</text>
+
+  <text x="400" y="480" fill="#00ffaa" font-family="sans-serif" font-size="16" font-style="italic" text-anchor="middle">Hindari hal-hal ini untuk melindungi modal Anda.</text>
+</svg>

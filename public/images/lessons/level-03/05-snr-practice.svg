@@ -1,0 +1,26 @@
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+    <rect width="100%" height="100%" fill="#1a1a2e" />
+    <text x="400" y="40" fill="#ffffff" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle">Memetakan SNR di Chart</text>
+    
+    <rect x="50" y="100" width="700" height="30" fill="#ff3366" opacity="0.2" />
+    <text x="760" y="120" fill="#ff3366" font-family="Arial" font-size="14" font-weight="bold">R1</text>
+    
+    <rect x="50" y="200" width="700" height="30" fill="#ffffff" opacity="0.1" />
+    <text x="760" y="220" fill="#ffffff" font-family="Arial" font-size="14" font-weight="bold">S1 / R2</text>
+    
+    <rect x="50" y="300" width="700" height="30" fill="#00ffaa" opacity="0.2" />
+    <text x="760" y="320" fill="#00ffaa" font-family="Arial" font-size="14" font-weight="bold">S2</text>
+    
+    <path d="M 60 215 L 120 115 L 180 215 L 240 115 L 320 315 L 400 215 L 480 315 L 560 215 L 640 115" fill="none" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" />
+    
+    <circle cx="120" cy="115" r="8" fill="#ff3366" />
+    <circle cx="240" cy="115" r="8" fill="#ff3366" />
+    <circle cx="640" cy="115" r="8" fill="#ff3366" />
+    
+    <circle cx="320" cy="315" r="8" fill="#00ffaa" />
+    <circle cx="480" cy="315" r="8" fill="#00ffaa" />
+    
+    <circle cx="180" cy="215" r="8" fill="#ffffff" />
+    <circle cx="400" cy="215" r="8" fill="#ffffff" />
+    <circle cx="560" cy="215" r="8" fill="#ffffff" />
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#1a1a2e"/>
+  
+  <text x="400" y="40" fill="#ffffff" font-family="sans-serif" font-size="24" font-weight="bold" text-anchor="middle">SNR Dalam Range &amp; Deviation</text>
+  
+  <!-- Range Box -->
+  <rect x="100" y="100" width="600" height="200" fill="rgba(255, 255, 255, 0.05)" stroke="#555" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="100" y1="100" x2="700" y2="100" stroke="#ff3366" stroke-width="3"/>
+  <line x1="100" y1="300" x2="700" y2="300" stroke="#00ffaa" stroke-width="3"/>
+  
+  <text x="50" y="105" fill="#ff3366" font-family="sans-serif" font-size="16" font-weight="bold">Resistance</text>
+  <text x="50" y="305" fill="#00ffaa" font-family="sans-serif" font-size="16" font-weight="bold">Support</text>
+  
+  <!-- Choppy Price Action -->
+  <path d="M100 250 L 150 150 L 200 280 L 250 120 L 300 290" fill="none" stroke="#ffffff" stroke-width="3" stroke-linejoin="round"/>
+  
+  <!-- Deviation / Fakeout Top -->
+  <path d="M300 290 L 350 150 L 400 50 L 450 150 L 500 250" fill="none" stroke="#ffcc00" stroke-width="4" stroke-linejoin="round"/>
+  <circle cx="400" cy="50" r="8" fill="#ffcc00"/>
+  <text x="400" y="30" fill="#ffcc00" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle">Deviation / Liquidity Sweep (Fakeout)</text>
+  
+  <text x="450" y="80" fill="#ffffff" font-family="sans-serif" font-size="12">Retail Buy on Breakout (Trapped!)</text>
+  
+  <!-- Drop back to bottom -->
+  <path d="M500 250 L 550 300 L 600 250" fill="none" stroke="#ff3366" stroke-width="4" stroke-linejoin="round" marker-end="url(#arrow-red)"/>
+  <text x="600" y="230" fill="#ffffff" font-family="sans-serif" font-size="14" font-weight="bold">Sell on Re-entry!</text>
+  
+  <defs>
+    <marker id="arrow-red" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#ff3366"/>
+    </marker>
+  </defs>
+</svg>

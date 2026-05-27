@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#1a1a2e"/>
+  
+  <text x="400" y="40" fill="#ffffff" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle">SOP Mental Reset (Circuit Breaker)</text>
+
+  <!-- Step 1: Hit SL -->
+  <circle cx="150" cy="180" r="60" fill="#ff3366"/>
+  <text x="150" y="170" fill="#ffffff" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle">Terkena</text>
+  <text x="150" y="200" fill="#ffffff" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle">Stop Loss</text>
+
+  <path d="M 220 180 L 270 180" stroke="#ffffff" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <!-- Step 2: Stop & Walk Away -->
+  <circle cx="400" cy="180" r="60" fill="#ffaa00"/>
+  <text x="400" y="160" fill="#1a1a2e" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">Tinggalkan</text>
+  <text x="400" y="185" fill="#1a1a2e" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">Layar Monitor</text>
+  <text x="400" y="210" fill="#1a1a2e" font-family="Arial" font-size="14" text-anchor="middle">(15 Menit)</text>
+
+  <path d="M 470 180 L 520 180" stroke="#ffffff" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <!-- Step 3: Journal & Reflect -->
+  <circle cx="650" cy="180" r="60" fill="#00ffaa"/>
+  <text x="650" y="170" fill="#1a1a2e" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">Tulis Jurnal &amp;</text>
+  <text x="650" y="195" fill="#1a1a2e" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">Logika Aktif</text>
+  
+  <!-- Checkboxes -->
+  <rect x="250" y="280" width="300" height="80" fill="#2a2a4a" rx="5"/>
+  <text x="400" y="305" fill="#ffffff" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Aturan Wajib:</text>
+  <text x="400" y="325" fill="#00ffaa" font-family="Arial" font-size="14" text-anchor="middle">✓ Tidak ada klik "Buy/Sell" secara emosional</text>
+  <text x="400" y="345" fill="#00ffaa" font-family="Arial" font-size="14" text-anchor="middle">✓ Jurnal setiap emosi yang dirasakan</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#ffffff" />
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <style>
+      .bg { fill: #1a1a2e; }
+      .text-light { fill: #ffffff; font-family: sans-serif; font-size: 16px; }
+      .text-title { fill: #ffffff; font-family: sans-serif; font-size: 24px; font-weight: bold; }
+      .bullish { fill: #00ffaa; stroke: #00ffaa; stroke-width: 2; }
+      .bearish { fill: #ff3366; stroke: #ff3366; stroke-width: 2; }
+      .wick { stroke-width: 2; }
+      .fvg-box { fill: #00ffaa; fill-opacity: 0.2; stroke: #00ffaa; stroke-dasharray: 4; stroke-width: 2; }
+      .line-label { fill: #ffffff; font-family: sans-serif; font-size: 14px; }
+      .highlight { fill: #ffd700; font-family: sans-serif; font-size: 14px; font-weight: bold; }
+      .cross { stroke: #ff3366; stroke-width: 4; stroke-linecap: round; }
+    </style>
+  </defs>
+
+  <rect width="100%" height="100%" class="bg" />
+
+  <text x="400" y="40" class="text-title" text-anchor="middle">Kapan FVG Dikatakan Gagal?</text>
+  <text x="400" y="70" class="text-light" text-anchor="middle">Perbedaan Wick Sweep (Masih Valid) dan Body Close (Gagal)</text>
+
+  <!-- Left Side: Wick Sweep (Masih Valid) -->
+  <text x="250" y="120" class="highlight" text-anchor="middle">Kasus 1: Wick Sweep (Masih Valid)</text>
+
+  <rect x="150" y="250" width="200" height="60" class="fvg-box" />
+  <text x="250" y="240" fill="#00ffaa" font-family="sans-serif" font-size="14px" text-anchor="middle">Bullish FVG</text>
+
+  <!-- Candle 1 (Bullish Base) -->
+  <line x1="200" y1="200" x2="200" y2="350" stroke="#00ffaa" class="wick" />
+  <rect x="190" y="210" width="20" height="40" class="bullish" />
+
+  <!-- Drop into FVG but sweep -->
+  <line x1="280" y1="210" x2="280" y2="350" stroke="#ff3366" class="wick" />
+  <rect x="270" y="220" width="20" height="50" class="bearish" />
+  
+  <line x1="120" y1="310" x2="380" y2="310" stroke="#ffffff" stroke-dasharray="2" />
+  <text x="120" y="325" class="line-label">Batas Bawah FVG</text>
+
+  <text x="250" y="380" class="text-light" text-anchor="middle">Body Close di atas FVG.</text>
+  <text x="250" y="400" class="text-light" text-anchor="middle">Hanya ekor (wick) yang menembus.</text>
+  <text x="250" y="430" fill="#00ffaa" font-family="sans-serif" font-weight="bold" text-anchor="middle">✓ FVG MASIH VALID</text>
+
+
+  <!-- Right Side: Body Break (Gagal) -->
+  <text x="550" y="120" class="highlight" text-anchor="middle">Kasus 2: Body Break (Gagal / Inversion)</text>
+
+  <rect x="450" y="250" width="200" height="60" class="fvg-box" />
+  <text x="550" y="240" fill="#00ffaa" font-family="sans-serif" font-size="14px" text-anchor="middle">Bullish FVG</text>
+
+  <!-- Candle 1 (Bullish Base) -->
+  <line x1="500" y1="200" x2="500" y2="350" stroke="#00ffaa" class="wick" />
+  <rect x="490" y="210" width="20" height="40" class="bullish" />
+
+  <!-- Drop into FVG and body close below -->
+  <line x1="580" y1="210" x2="580" y2="370" stroke="#ff3366" class="wick" />
+  <rect x="570" y="220" width="20" height="130" class="bearish" />
+
+  <line x1="420" y1="310" x2="680" y2="310" stroke="#ffffff" stroke-dasharray="2" />
+
+  <text x="550" y="390" class="text-light" text-anchor="middle">Body Close di bawah FVG.</text>
+  <text x="550" y="430" fill="#ff3366" font-family="sans-serif" font-weight="bold" text-anchor="middle">✗ FVG GAGAL (Menjadi iFVG)</text>
+
+  <!-- Arrow pointing to body close -->
+  <path d="M 660 370 L 610 340" fill="none" stroke="#ffd700" stroke-width="2" />
+  <text x="670" y="380" fill="#ffd700" font-family="sans-serif" font-size="14px">Body Close!</text>
+
+  <!-- X mark on right side FVG -->
+  <line x1="530" y1="260" x2="570" y2="300" class="cross" />
+  <line x1="570" y1="260" x2="530" y2="300" class="cross" />
+
+</svg>

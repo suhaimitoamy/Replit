@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <rect width="800" height="400" fill="#1a1a2e" />
+  
+  <text x="50" y="50" fill="#fff" font-family="Arial" font-size="22" font-weight="bold">Kesalahan Umum: Memindahkan Stop Loss</text>
+  
+  <!-- Harga bergerak turun -->
+  <path d="M 100 150 L 300 200 L 400 180 L 500 280 L 600 350" fill="none" stroke="#ff3366" stroke-width="4" />
+  
+  <!-- Entry -->
+  <circle cx="100" cy="150" r="6" fill="#00ffaa" />
+  <text x="115" y="145" fill="#00ffaa" font-family="Arial" font-size="16" font-weight="bold">Buy Entry</text>
+  
+  <!-- Original SL -->
+  <line x1="100" y1="210" x2="350" y2="210" stroke="#ffaa00" stroke-width="2" stroke-dasharray="4,4" />
+  <text x="150" y="230" fill="#ffaa00" font-family="Arial" font-size="14">Original Stop Loss (Ditembus)</text>
+  
+  <!-- Moved SL 1 -->
+  <line x1="350" y1="290" x2="550" y2="290" stroke="#ffaa00" stroke-width="2" stroke-dasharray="4,4" />
+  <text x="360" y="310" fill="#ffaa00" font-family="Arial" font-size="14">Geser SL ke bawah</text>
+  <text x="360" y="330" fill="#fff" font-family="Arial" font-size="12">"Pasti mantul naik"</text>
+  
+  <!-- Stop Out -->
+  <line x1="550" y1="380" x2="700" y2="380" stroke="#ff3366" stroke-width="3" />
+  <text x="560" y="370" fill="#ff3366" font-family="Arial" font-size="16" font-weight="bold">MARGIN CALL / STOP OUT</text>
+  
+  <!-- Arrow representing thought -->
+  <path d="M 200 150 Q 250 100 350 150" fill="none" stroke="#fff" stroke-width="2" stroke-dasharray="5,5" />
+  <text x="220" y="120" fill="#fff" font-family="Arial" font-size="14" font-style="italic">"Ah saya lagi hoki, biarin aja tanpa SL"</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#1a1a2e"/>
+  
+  <text x="400" y="40" fill="#ffffff" font-family="sans-serif" font-size="24" font-weight="bold" text-anchor="middle">Top-Down Analysis Case Study</text>
+  
+  <!-- Checklists Box -->
+  <rect x="50" y="80" width="250" height="200" fill="rgba(255, 255, 255, 0.1)" stroke="#ffffff" stroke-width="2" rx="10"/>
+  <text x="175" y="110" fill="#00ffaa" font-family="sans-serif" font-size="18" font-weight="bold" text-anchor="middle">Confluence Checklist</text>
+  
+  <text x="60" y="145" fill="#ffffff" font-family="sans-serif" font-size="14">1. Uptrend (H4)</text>
+  <text x="60" y="175" fill="#ffffff" font-family="sans-serif" font-size="14">2. Clean Support Zone</text>
+  <text x="60" y="205" fill="#ffffff" font-family="sans-serif" font-size="14">3. Refined to M15 Base</text>
+  <text x="60" y="235" fill="#ffffff" font-family="sans-serif" font-size="14">4. V-Shape Reaction Confirm</text>
+  
+  <!-- The Trade execution visual on the right -->
+  <line x1="400" y1="280" x2="700" y2="280" stroke="#00ffaa" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="400" y="270" fill="#00ffaa" font-family="sans-serif" font-size="14">Refined LTF Zone</text>
+  
+  <!-- Price Action dropping -->
+  <path d="M400 100 L 450 180 L 500 150 L 550 220 L 600 280" fill="none" stroke="#ffffff" stroke-width="3" stroke-linejoin="round"/>
+  
+  <!-- The Pin Bar Bounce -->
+  <line x1="600" y1="280" x2="600" y2="330" stroke="#ffffff" stroke-width="2"/> <!-- long wick -->
+  <rect x="590" y="270" width="20" height="10" fill="#00ffaa"/> <!-- pin bar body -->
+  
+  <!-- Shoot up -->
+  <path d="M600 270 L 650 180 L 700 80" fill="none" stroke="#00ffaa" stroke-width="4" stroke-linejoin="round" marker-end="url(#arrow-green)"/>
+  
+  <circle cx="600" cy="280" r="10" fill="rgba(0, 255, 170, 0.4)"/>
+  <text x="600" y="350" fill="#ffffff" font-family="sans-serif" font-size="14" text-anchor="middle">Aggressive Rejection (Buy)</text>
+  
+  <defs>
+    <marker id="arrow-green" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#00ffaa"/>
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <rect width="800" height="400" fill="#1a1a2e" />
+  <path d="M 50 350 L 150 320 L 250 280 L 350 220 L 450 150 L 550 80" fill="none" stroke="#00ffaa" stroke-width="4" />
+  <path d="M 550 80 L 650 360 L 750 380" fill="none" stroke="#ff3366" stroke-width="4" stroke-dasharray="8,4" />
+  <circle cx="550" cy="80" r="8" fill="#fff" />
+  <text x="300" y="280" fill="#00ffaa" font-family="Arial" font-size="20" font-weight="bold">Winning Streak (Euforia)</text>
+  <text x="560" y="60" fill="#fff" font-family="Arial" font-size="24" font-weight="bold">Overconfidence Trigger</text>
+  <text x="660" y="250" fill="#ff3366" font-family="Arial" font-size="20" font-weight="bold">Massive Loss!</text>
+  <text x="660" y="280" fill="#ff3366" font-family="Arial" font-size="16">(Lot ugal-ugalan)</text>
+</svg>

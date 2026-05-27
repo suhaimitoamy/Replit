@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <rect width="100%" height="100%" fill="#1a1a2e" />
+  <text x="400" y="40" fill="#ffffff" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle">GEJALA FOMO: INTERNAL &amp; EKSTERNAL</text>
+  
+  <line x1="400" y1="80" x2="400" y2="350" stroke="#444466" stroke-width="2" />
+  
+  <!-- Left Side: Chart (Eksternal) -->
+  <text x="200" y="80" fill="#00ffaa" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle">GEJALA EKSTERNAL (DI CHART)</text>
+  
+  <rect x="80" y="250" width="20" height="40" fill="#00ffaa" />
+  <line x1="90" y1="230" x2="90" y2="300" stroke="#00ffaa" stroke-width="2" />
+  
+  <rect x="120" y="180" width="20" height="70" fill="#00ffaa" />
+  <line x1="130" y1="160" x2="130" y2="260" stroke="#00ffaa" stroke-width="2" />
+  
+  <rect x="160" y="100" width="20" height="80" fill="#00ffaa" />
+  <line x1="170" y1="80" x2="170" y2="190" stroke="#00ffaa" stroke-width="2" />
+  
+  <rect x="250" y="130" width="120" height="60" rx="5" fill="#33334d" stroke="#ffffff" stroke-width="1"/>
+  <text x="310" y="155" fill="#ffffff" font-family="Arial" font-size="12" text-anchor="middle">- Candle momentum masif</text>
+  <text x="310" y="175" fill="#ffffff" font-family="Arial" font-size="12" text-anchor="middle">- Rilis berita volatil</text>
+  
+  <!-- Right Side: Internal (Diri Sendiri) -->
+  <text x="600" y="80" fill="#ff3366" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle">GEJALA INTERNAL (FISIK &amp; MENTAL)</text>
+  
+  <!-- Heartbeat icon approx -->
+  <path d="M 450 150 L 480 150 L 490 120 L 510 180 L 520 150 L 550 150" fill="none" stroke="#ff3366" stroke-width="3" />
+  <text x="570" y="155" fill="#ffffff" font-family="Arial" font-size="14">Detak jantung meningkat</text>
+  
+  <circle cx="480" cy="210" r="5" fill="#ffaa00" />
+  <text x="500" y="215" fill="#ffffff" font-family="Arial" font-size="14">Telapak tangan berkeringat</text>
+
+  <circle cx="480" cy="250" r="5" fill="#ffaa00" />
+  <text x="500" y="255" fill="#ffffff" font-family="Arial" font-size="14">Mengabaikan aturan / sistem</text>
+
+  <circle cx="480" cy="290" r="5" fill="#ffaa00" />
+  <text x="500" y="295" fill="#ffffff" font-family="Arial" font-size="14">Rasa takut tertinggal peluang</text>
+
+  <rect x="500" y="320" width="200" height="40" rx="5" fill="#ff3366" />
+  <text x="600" y="345" fill="#ffffff" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">JIKA MUNCUL, JANGAN ENTRY!</text>
+</svg>

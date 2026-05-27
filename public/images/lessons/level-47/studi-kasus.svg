@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" fill="none">
+    <rect width="800" height="400" fill="#1a1a2e" rx="10"/>
+    <text x="400" y="50" font-family="Arial" font-size="24" fill="#ffffff" font-weight="bold" text-anchor="middle">Studi Kasus: Trader A vs Trader B</text>
+    
+    <!-- Trader A -->
+    <rect x="50" y="100" width="320" height="250" fill="#2a2a4e" rx="10"/>
+    <text x="210" y="140" font-family="Arial" font-size="18" fill="#ff3366" font-weight="bold" text-anchor="middle">Trader A (Emosional)</text>
+    <path d="M 70 250 L 120 180 L 150 280 L 200 150 L 250 320 L 300 340" stroke="#ff3366" stroke-width="3" fill="none"/>
+    <text x="210" y="320" font-family="Arial" font-size="14" fill="#ffffff" text-anchor="middle">Fokus pada uang, takut rugi,</text>
+    <text x="210" y="340" font-family="Arial" font-size="14" fill="#ffffff" text-anchor="middle">gagal mempertahankan akun.</text>
+
+    <!-- Trader B -->
+    <rect x="430" y="100" width="320" height="250" fill="#2a2a4e" rx="10"/>
+    <text x="590" y="140" font-family="Arial" font-size="18" fill="#00ffaa" font-weight="bold" text-anchor="middle">Trader B (Disiplin)</text>
+    <path d="M 450 300 L 500 280 L 550 290 L 600 240 L 650 260 L 700 180" stroke="#00ffaa" stroke-width="3" fill="none"/>
+    <text x="590" y="320" font-family="Arial" font-size="14" fill="#ffffff" text-anchor="middle">Fokus pada sistem &amp; persentase,</text>
+    <text x="590" y="340" font-family="Arial" font-size="14" fill="#ffffff" text-anchor="middle">berhasil mencapai payout pertama.</text>
+</svg>

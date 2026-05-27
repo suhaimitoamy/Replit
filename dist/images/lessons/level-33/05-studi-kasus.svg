@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#1a1a2e"/>
+  
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">Studi Kasus: Siklus Kehancuran Akun</text>
+
+  <!-- Graph Area -->
+  <rect x="80" y="80" width="650" height="300" fill="#0f0f1a" rx="5" stroke="#ffffff" stroke-width="2"/>
+  
+  <!-- Y-Axis (Equity) -->
+  <line x1="80" y1="80" x2="80" y2="380" stroke="#ffffff" stroke-width="2"/>
+  <text x="70" y="100" font-family="Arial, sans-serif" font-size="12" fill="#ffffff" text-anchor="end">$1300</text>
+  <text x="70" y="200" font-family="Arial, sans-serif" font-size="12" fill="#ffffff" text-anchor="end">$1150</text>
+  <text x="70" y="300" font-family="Arial, sans-serif" font-size="12" fill="#ffffff" text-anchor="end">$1000</text>
+  <text x="70" y="380" font-family="Arial, sans-serif" font-size="12" fill="#ffffff" text-anchor="end">$0</text>
+
+  <!-- X-Axis (Time) -->
+  <line x1="80" y1="380" x2="730" y2="380" stroke="#ffffff" stroke-width="2"/>
+  <text x="250" y="400" font-family="Arial, sans-serif" font-size="12" fill="#ffffff" text-anchor="middle">Minggu 1 &amp; 2 (Disiplin)</text>
+  <text x="580" y="400" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#ff3366" text-anchor="middle">HARI KEHANCURAN (2 Jam!)</text>
+
+  <!-- Grid Lines -->
+  <line x1="80" y1="300" x2="730" y2="300" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="80" y1="200" x2="730" y2="200" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="80" y1="100" x2="730" y2="100" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- Divider for Time -->
+  <line x1="450" y1="80" x2="450" y2="380" stroke="#ffffff" stroke-width="2" stroke-dasharray="8,4"/>
+
+  <!-- The Equity Line (Growth) -->
+  <!-- Starts at 1000 (y=300), ends at 1300 (y=100) at x=450 -->
+  <path d="M 80 300 L 120 280 L 150 290 L 180 250 L 220 260 L 260 210 L 300 230 L 340 180 L 380 190 L 420 130 L 450 100" fill="none" stroke="#00ffaa" stroke-width="4"/>
+
+  <!-- The Equity Line (Crash) -->
+  <!-- Small loss to 1290 -->
+  <path d="M 450 100 L 480 110" fill="none" stroke="#ff3366" stroke-width="4"/>
+  <!-- Revenge Trade 1 (Bigger loss to 1260) -->
+  <path d="M 480 110 L 520 140" fill="none" stroke="#ff3366" stroke-width="5"/>
+  <!-- Revenge Trade 2 (Panic to 1060) -->
+  <path d="M 520 140 L 560 260" fill="none" stroke="#ff3366" stroke-width="6"/>
+  <!-- Revenge Trade 3 (All in XAUUSD to 0) -->
+  <path d="M 560 260 L 620 378" fill="none" stroke="#ff3366" stroke-width="8"/>
+
+  <!-- Annotations -->
+  <!-- Win streak -->
+  <rect x="180" y="140" width="160" height="30" fill="#00ffaa" fill-opacity="0.1" rx="4" stroke="#00ffaa" stroke-width="1"/>
+  <text x="260" y="160" font-family="Arial, sans-serif" font-size="12" fill="#00ffaa" text-anchor="middle">Profit $30/hari, Lot 0.05</text>
+
+  <!-- The first loss -->
+  <circle cx="480" cy="110" r="5" fill="#ffdd55"/>
+  <text x="495" y="105" font-family="Arial, sans-serif" font-size="12" fill="#ffdd55">Loss $10 (Ego Terluka)</text>
+
+  <!-- Averaging down -->
+  <circle cx="520" cy="140" r="5" fill="#ff3366"/>
+  <text x="540" y="140" font-family="Arial, sans-serif" font-size="12" fill="#ff3366">Lot 0.10! (-$30)</text>
+
+  <!-- Panic Martingale -->
+  <circle cx="560" cy="260" r="5" fill="#ff3366"/>
+  <text x="580" y="260" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#ff3366">Lot 0.20 Tanpa SL (-$200)</text>
+
+  <!-- Margin Call -->
+  <circle cx="620" cy="378" r="8" fill="#ff3366"/>
+  <text x="650" y="375" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ff3366">MARGIN CALL</text>
+  <text x="650" y="390" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#ff3366">Lot 0.50 XAUUSD</text>
+
+  <!-- Bottom Message -->
+  <rect x="80" y="430" width="650" height="40" fill="#ff3366" fill-opacity="0.2" rx="5"/>
+  <text x="405" y="455" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">Usaha 2 Minggu dengan kedisiplinan <tspan font-weight="bold" fill="#ff3366">HANCUR DALAM 2 JAM</tspan> akibat emosi.</text>
+
+</svg>

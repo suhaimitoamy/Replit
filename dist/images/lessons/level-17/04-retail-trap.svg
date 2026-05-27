@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <rect width="800" height="500" fill="#1a1a2e"/>
+  
+  <text x="400" y="40" fill="#ffffff" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle">Retail Trap (Jebakan Ritel)</text>
+  <text x="400" y="70" fill="#a0a0b0" font-family="Arial" font-size="16" text-anchor="middle">Pola Klasik yang Digunakan Sebagai Inducement</text>
+
+  <!-- Left Side: Equal Highs (Double Top) -->
+  <text x="200" y="120" fill="#ff3366" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle">Equal Highs (Double Top)</text>
+  
+  <path d="M 50 350 L 120 180 L 180 260 L 240 180 L 300 350" fill="none" stroke="#4a4a6e" stroke-width="4"/>
+  <line x1="100" y1="180" x2="260" y2="180" stroke="#ffff00" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="180" y="165" fill="#ffff00" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Retail Resistance (Sell Here)</text>
+  
+  <!-- Liquidity Pool Above -->
+  <rect x="110" y="130" width="140" height="30" fill="#ff3366" opacity="0.2"/>
+  <text x="180" y="150" fill="#ff3366" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle">$$$ Stop Loss Pool $$$</text>
+  
+  <!-- SMC Move -->
+  <path d="M 300 350 L 320 280 L 340 120 L 380 400" fill="none" stroke="#ff3366" stroke-width="6" stroke-linejoin="round"/>
+  <circle cx="340" cy="120" r="8" fill="#ff3366"/>
+  <text x="350" y="100" fill="#ff3366" font-family="Arial" font-size="12" font-weight="bold">Sweep &amp; Drop</text>
+
+  <!-- Divider -->
+  <line x1="400" y1="100" x2="400" y2="400" stroke="#4a4a6e" stroke-width="2"/>
+
+  <!-- Right Side: Trendline Liquidity -->
+  <text x="600" y="120" fill="#00ffaa" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle">Trendline Liquidity</text>
+  
+  <path d="M 450 380 L 500 300 L 520 350 L 580 250 L 600 300 L 660 180 L 680 230" fill="none" stroke="#4a4a6e" stroke-width="4"/>
+  
+  <!-- Trendline -->
+  <line x1="430" y1="390" x2="700" y2="220" stroke="#ffff00" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="560" y="320" fill="#ffff00" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Retail Trendline (Buy Here)</text>
+
+  <!-- Liquidity Pool Below -->
+  <text x="580" y="350" fill="#ff3366" font-family="Arial" font-size="12" font-weight="bold" transform="rotate(-30, 580, 350)">$$$ Stop Loss Pool $$$</text>
+  
+  <!-- Valid POI below TL -->
+  <rect x="630" y="380" width="80" height="30" fill="#00ffaa" opacity="0.3"/>
+  <text x="670" y="400" fill="#00ffaa" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle">SMC POI</text>
+
+  <!-- SMC Move -->
+  <path d="M 680 230 L 710 390 L 760 150" fill="none" stroke="#00ffaa" stroke-width="6" stroke-linejoin="round"/>
+  <circle cx="710" cy="390" r="8" fill="#00ffaa"/>
+  <text x="730" y="410" fill="#00ffaa" font-family="Arial" font-size="12" font-weight="bold">Sweep TL &amp; Fly</text>
+
+  <!-- Info Box -->
+  <rect x="50" y="420" width="700" height="60" fill="#2a2a4e" rx="10"/>
+  <text x="400" y="445" fill="#ffffff" font-family="Arial" font-size="14" text-anchor="middle">Pola klasik (Double Top/Bottom, Trendline) sangat mudah dikenali semua orang.</text>
+  <text x="400" y="465" fill="#ffffff" font-family="Arial" font-size="14" text-anchor="middle">Smart Money menggunakannya sebagai umpan untuk mengumpulkan likuiditas sebelum disapu bersih.</text>
+</svg>

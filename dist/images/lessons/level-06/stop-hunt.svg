@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" style="background-color:#1a1a2e;font-family:sans-serif;">
+  <text x="400" y="40" fill="#ffffff" font-size="24" font-weight="bold" text-anchor="middle">Stop Hunt (Manipulasi Ritel)</text>
+
+  <!-- Asian Session Box -->
+  <rect x="100" y="150" width="200" height="100" fill="none" stroke="#555555" stroke-width="2"/>
+  <text x="200" y="140" fill="#aaaaaa" font-size="14" text-anchor="middle">Sesi Asia (Konsolidasi)</text>
+  
+  <!-- Asian Session Price Action -->
+  <path d="M 110 200 L 140 160 L 170 230 L 210 170 L 250 240 L 280 190" fill="none" stroke="#ffffff" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Support Line representing SSL -->
+  <line x1="100" y1="250" x2="350" y2="250" stroke="#ff3366" stroke-width="2" stroke-dasharray="4,4"/>
+  <text x="100" y="265" fill="#ff3366" font-size="12">Retail Stop Losses Here (SSL)</text>
+
+  <!-- The Stop Hunt / Judas Swing -->
+  <path d="M 280 190 L 320 320 L 340 330" fill="none" stroke="#ff3366" stroke-width="4" stroke-linejoin="round"/>
+  <text x="350" y="345" fill="#ff3366" font-size="16" font-weight="bold">Stop Hunt (London Open)</text>
+  <circle cx="340" cy="330" r="15" fill="none" stroke="#ff3366" stroke-width="2"/>
+
+  <!-- The V-Shape Recovery -->
+  <path d="M 340 330 L 380 180 L 450 100 L 550 50" fill="none" stroke="#00ffaa" stroke-width="4" stroke-linejoin="round"/>
+  <text x="450" y="80" fill="#00ffaa" font-size="16" font-weight="bold">Smart Money Buy</text>
+  
+  <text x="600" y="200" fill="#ffffff" font-size="14">
+    <tspan x="600" dy="0">1. Harga konsolidasi.</tspan>
+    <tspan x="600" dy="25">2. Turun tajam memakan SL.</tspan>
+    <tspan x="600" dy="25">3. Berbalik naik seketika.</tspan>
+  </text>
+</svg>

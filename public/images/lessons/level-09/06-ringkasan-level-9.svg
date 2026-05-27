@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#1a1a2e" />
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" fill="#ffffff" text-anchor="middle" font-weight="bold">Merangkai Puzzle ICT (The Ultimate Setup)</text>
+  
+  <!-- Background Killzone -->
+  <rect x="150" y="80" width="600" height="380" fill="#3366ff" fill-opacity="0.05" rx="5" />
+  <text x="450" y="100" font-family="Arial, sans-serif" font-size="14" fill="#3366ff" text-anchor="middle">1. Killzone (Waktu yang Tepat)</text>
+
+  <!-- Asian Low Liquidity Line -->
+  <line x1="50" y1="350" x2="300" y2="350" stroke="#ffaa00" stroke-width="2" stroke-dasharray="5,5" />
+  <text x="60" y="340" font-family="Arial, sans-serif" font-size="12" fill="#ffaa00">Asian Low (Likuiditas)</text>
+  
+  <!-- Price Path 1: Sweep -->
+  <path d="M 50 250 L 120 300 L 180 270 L 250 380" fill="none" stroke="#ff3366" stroke-width="3" stroke-linejoin="round" />
+  <circle cx="250" cy="380" r="6" fill="#ff3366" />
+  <text x="250" y="400" font-family="Arial, sans-serif" font-size="14" fill="#ff3366" text-anchor="middle">2. Liquidity Sweep</text>
+  
+  <!-- Order Block -->
+  <rect x="230" y="320" width="40" height="60" fill="#ff3366" fill-opacity="0.5" rx="2" />
+  <text x="250" y="315" font-family="Arial, sans-serif" font-size="10" fill="#ffffff" text-anchor="middle">OB</text>
+
+  <!-- Displacement and MSS -->
+  <line x1="150" y1="270" x2="400" y2="270" stroke="#cccccc" stroke-width="2" stroke-dasharray="3,3" />
+  <text x="350" y="260" font-family="Arial, sans-serif" font-size="12" fill="#cccccc">Market Structure Shift</text>
+
+  <path d="M 250 380 L 320 180" fill="none" stroke="#00ffaa" stroke-width="4" stroke-linejoin="round" />
+  <text x="280" y="230" font-family="Arial, sans-serif" font-size="14" fill="#00ffaa" text-anchor="end" font-weight="bold">3. Displacement</text>
+
+  <!-- FVG Zone -->
+  <rect x="360" y="240" width="100" height="50" fill="#ffaa00" fill-opacity="0.3" rx="3" />
+  <text x="410" y="270" font-family="Arial, sans-serif" font-size="14" fill="#ffaa00" text-anchor="middle" font-weight="bold">4. FVG (POI)</text>
+
+  <!-- Pullback / Mitigation -->
+  <path d="M 320 180 L 370 200 L 410 260" fill="none" stroke="#ffffff" stroke-width="3" stroke-linejoin="round" stroke-dasharray="4,4" />
+  <text x="460" y="240" font-family="Arial, sans-serif" font-size="14" fill="#ffffff">5. Mitigasi (Sabar Menunggu)</text>
+  
+  <!-- Entry & Take Profit -->
+  <circle cx="410" cy="260" r="8" fill="#00ffaa" />
+  <text x="410" y="290" font-family="Arial, sans-serif" font-size="14" fill="#00ffaa" text-anchor="middle" font-weight="bold">6. BUY ENTRY</text>
+  
+  <path d="M 410 260 L 480 150 L 550 180 L 650 80" fill="none" stroke="#00ffaa" stroke-width="4" stroke-linejoin="round" />
+  
+  <line x1="450" y1="80" x2="700" y2="80" stroke="#00ffaa" stroke-width="2" stroke-dasharray="5,5" />
+  <text x="680" y="70" font-family="Arial, sans-serif" font-size="14" fill="#00ffaa" font-weight="bold">Take Profit (Buy Side Liquidity)</text>
+
+  <!-- Stop Loss -->
+  <line x1="380" y1="390" x2="440" y2="390" stroke="#ff3366" stroke-width="2" stroke-dasharray="3,3" />
+  <text x="410" y="410" font-family="Arial, sans-serif" font-size="12" fill="#ff3366" text-anchor="middle">Stop Loss (Bawah OB)</text>
+
+</svg>

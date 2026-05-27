@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#1a1a2e"/>
+  
+  <text x="400" y="50" fill="#ffffff" font-family="sans-serif" font-size="24" font-weight="bold" text-anchor="middle">Siklus Kontrol Diri (Walk Away Rule)</text>
+
+  <!-- Lingkaran 1: Gejala -->
+  <circle cx="200" cy="200" r="80" fill="#16213e" stroke="#e94560" stroke-width="4"/>
+  <text x="200" y="190" fill="#e94560" font-family="sans-serif" font-size="18" font-weight="bold" text-anchor="middle">1. Gejala Muncul</text>
+  <text x="200" y="215" fill="#ffffff" font-family="sans-serif" font-size="12" text-anchor="middle">Panik, Emosi,</text>
+  <text x="200" y="235" fill="#ffffff" font-family="sans-serif" font-size="12" text-anchor="middle">Ingin Revenge Trade</text>
+
+  <!-- Lingkaran 2: Jeda -->
+  <circle cx="400" cy="350" r="80" fill="#16213e" stroke="#ffcc00" stroke-width="4"/>
+  <text x="400" y="340" fill="#ffcc00" font-family="sans-serif" font-size="18" font-weight="bold" text-anchor="middle">2. STOP &amp; JEDA</text>
+  <text x="400" y="365" fill="#ffffff" font-family="sans-serif" font-size="12" text-anchor="middle">Tinggalkan Layar</text>
+  <text x="400" y="385" fill="#ffffff" font-family="sans-serif" font-size="12" text-anchor="middle">(Walk Away 10 Menit)</text>
+
+  <!-- Lingkaran 3: Logika Kembali -->
+  <circle cx="600" cy="200" r="80" fill="#16213e" stroke="#00ffaa" stroke-width="4"/>
+  <text x="600" y="190" fill="#00ffaa" font-family="sans-serif" font-size="18" font-weight="bold" text-anchor="middle">3. Reset Mental</text>
+  <text x="600" y="215" fill="#ffffff" font-family="sans-serif" font-size="12" text-anchor="middle">Logika &amp; Prefrontal</text>
+  <text x="600" y="235" fill="#ffffff" font-family="sans-serif" font-size="12" text-anchor="middle">Cortex Aktif Kembali</text>
+
+  <!-- Panah Navigasi -->
+  <path d="M 260 250 L 340 310" fill="none" stroke="#ffffff" stroke-width="4" marker-end="url(#arrow)"/>
+  <path d="M 460 310 L 540 250" fill="none" stroke="#ffffff" stroke-width="4" marker-end="url(#arrow)"/>
+  <path d="M 520 170 Q 400 100 280 170" fill="none" stroke="#ffffff" stroke-width="4" stroke-dasharray="8" marker-end="url(#arrow)"/>
+  
+  <text x="400" y="130" fill="#ffffff" font-family="sans-serif" font-size="14" font-style="italic" text-anchor="middle">Siap kembali menghadapi chart secara objektif</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#ffffff" />
+    </marker>
+  </defs>
+
+  <!-- Kotak Peringatan Bawah -->
+  <rect x="150" y="450" width="500" height="40" rx="5" fill="#e94560"/>
+  <text x="400" y="475" fill="#ffffff" font-family="sans-serif" font-size="16" font-weight="bold" text-anchor="middle">HARD RULE: Sentuh Daily Loss Limit = Tutup Terminal!</text>
+</svg>

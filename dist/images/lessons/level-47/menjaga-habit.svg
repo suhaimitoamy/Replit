@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" fill="none">
+    <rect width="800" height="400" fill="#1a1a2e" rx="10"/>
+    <text x="400" y="50" font-family="Arial" font-size="24" fill="#ffffff" font-weight="bold" text-anchor="middle">Menjaga Siklus Kebiasaan Baik</text>
+    
+    <circle cx="400" cy="220" r="120" fill="none" stroke="#00ffaa" stroke-width="4" stroke-dasharray="15,10"/>
+    
+    <rect x="340" y="80" width="120" height="40" fill="#2a2a4e" stroke="#00ffaa" rx="5"/>
+    <text x="400" y="105" font-family="Arial" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="bold">1. Plan</text>
+    
+    <rect x="520" y="200" width="120" height="40" fill="#2a2a4e" stroke="#00ffaa" rx="5"/>
+    <text x="580" y="225" font-family="Arial" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="bold">2. Execute</text>
+    
+    <rect x="340" y="320" width="120" height="40" fill="#2a2a4e" stroke="#00ffaa" rx="5"/>
+    <text x="400" y="345" font-family="Arial" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="bold">3. Journal</text>
+    
+    <rect x="160" y="200" width="120" height="40" fill="#2a2a4e" stroke="#00ffaa" rx="5"/>
+    <text x="220" y="225" font-family="Arial" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="bold">4. Review</text>
+    
+    <text x="400" y="225" font-family="Arial" font-size="20" fill="#00ffaa" text-anchor="middle" font-weight="bold">KONSISTEN</text>
+</svg>

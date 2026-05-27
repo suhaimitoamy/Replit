@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#1a1a2e"/>
+  
+  <!-- Title -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="28" fill="#ffffff" text-anchor="middle" font-weight="bold">Deep Retest</text>
+  <text x="400" y="80" font-family="Arial, sans-serif" font-size="16" fill="#a0a0b0" text-anchor="middle">Retest Masuk Ke Dalam FVG atau Order Block</text>
+  
+  <!-- Zones -->
+  <!-- Broken Resistance -->
+  <line x1="100" y1="220" x2="700" y2="220" stroke="#00ffaa" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="110" y="215" font-family="Arial, sans-serif" font-size="14" fill="#00ffaa">Broken Resistance</text>
+
+  <!-- Deep Zone (Order Block / FVG) -->
+  <rect x="350" y="280" width="150" height="40" fill="#00ffaa" opacity="0.2"/>
+  <text x="425" y="305" font-family="Arial, sans-serif" font-size="12" fill="#00ffaa" text-anchor="middle">Order Block / FVG</text>
+
+  <!-- Trend Line / Path -->
+  <!-- Previous -->
+  <path d="M 150 400 L 250 320 L 280 340" fill="none" stroke="#a0a0b0" stroke-width="4"/>
+  
+  <!-- Breakout Impulse -->
+  <path d="M 280 340 L 400 120" fill="none" stroke="#00ffaa" stroke-width="6"/>
+  <circle cx="400" cy="120" r="5" fill="#00ffaa"/>
+  
+  <!-- Deep Retest Pullback -->
+  <path d="M 400 120 L 450 300" fill="none" stroke="#ff3366" stroke-width="5"/>
+  <circle cx="450" cy="300" r="6" fill="#ff3366"/>
+  
+  <!-- Continuation -->
+  <path d="M 450 300 L 650 80" fill="none" stroke="#00ffaa" stroke-width="6"/>
+  <circle cx="650" cy="80" r="5" fill="#00ffaa"/>
+
+  <!-- Annotations -->
+  <text x="290" y="150" font-family="Arial, sans-serif" font-size="14" fill="#00ffaa">Impulsive Breakout</text>
+  
+  <text x="480" y="295" font-family="Arial, sans-serif" font-size="16" fill="#ffffff" font-weight="bold">Deep Retest</text>
+  <text x="480" y="315" font-family="Arial, sans-serif" font-size="12" fill="#a0a0b0">Menembus support garis,</text>
+  <text x="480" y="330" font-family="Arial, sans-serif" font-size="12" fill="#a0a0b0">menuju zona likuiditas asal.</text>
+
+  <!-- Risk Reward visualization -->
+  <!-- Stop Loss Zone -->
+  <line x1="420" y1="340" x2="480" y2="340" stroke="#ff3366" stroke-width="2"/>
+  <text x="490" y="345" font-family="Arial, sans-serif" font-size="12" fill="#ff3366">Aman untuk SL</text>
+  
+  <!-- Legend / Info box -->
+  <rect x="50" y="420" width="700" height="60" rx="10" fill="#2a2a4a"/>
+  <text x="400" y="445" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">Harga turun dalam, menembus garis support kasatmata, untuk mitigasi pesanan di bawahnya.</text>
+  <text x="400" y="465" font-family="Arial, sans-serif" font-size="14" fill="#00ffaa" text-anchor="middle">Keuntungan: Rasio Risk to Reward (R:R) sangat besar dengan SL terukur.</text>
+
+</svg>

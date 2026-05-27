@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#1a1a2e"/>
+  
+  <text x="400" y="40" fill="#ffffff" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle">Studi Kasus: Sistem 3 Ember Alex</text>
+  <text x="400" y="65" fill="#00ffaa" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">Total Kekayaan Bersih: Rp 200 Juta</text>
+  
+  <!-- Bucket 1: Safety -->
+  <g transform="translate(150, 150)">
+    <path d="M 0,0 L 100,0 L 80,120 L 20,120 Z" fill="#4a90e2" opacity="0.9" stroke="#ffffff" stroke-width="2"/>
+    <rect x="-10" y="-10" width="120" height="15" fill="#4a90e2" rx="5"/>
+    <text x="50" y="-25" fill="#4a90e2" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">Ember 1: Aman</text>
+    <text x="50" y="50" fill="#ffffff" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle">25%</text>
+    <text x="50" y="75" fill="#ffffff" font-family="Arial" font-size="14" text-anchor="middle">Rp 50 Jt</text>
+    
+    <!-- Description below bucket -->
+    <rect x="-30" y="140" width="160" height="60" rx="5" fill="#2a2a4e"/>
+    <text x="50" y="160" fill="#ffffff" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle">Dana Darurat</text>
+    <text x="50" y="180" fill="#ffffff" font-family="Arial" font-size="12" text-anchor="middle">Tarik Tunai Kapanpun</text>
+  </g>
+
+  <!-- Bucket 2: Growth -->
+  <g transform="translate(350, 150)">
+    <path d="M -10,0 L 110,0 L 85,120 L 15,120 Z" fill="#f39c12" opacity="0.9" stroke="#ffffff" stroke-width="2"/>
+    <rect x="-20" y="-10" width="140" height="15" fill="#f39c12" rx="5"/>
+    <text x="50" y="-25" fill="#f39c12" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">Ember 2: Tumbuh</text>
+    <text x="50" y="50" fill="#ffffff" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle">60%</text>
+    <text x="50" y="75" fill="#ffffff" font-family="Arial" font-size="14" text-anchor="middle">Rp 120 Jt</text>
+
+    <!-- Description below bucket -->
+    <rect x="-30" y="140" width="160" height="60" rx="5" fill="#2a2a4e"/>
+    <text x="50" y="160" fill="#ffffff" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle">Saham / Emas</text>
+    <text x="50" y="180" fill="#ffffff" font-family="Arial" font-size="12" text-anchor="middle">Investasi Jangka Panjang</text>
+  </g>
+
+  <!-- Bucket 3: Speculative -->
+  <g transform="translate(550, 150)">
+    <path d="M 0,40 L 100,40 L 80,120 L 20,120 Z" fill="#ff3366" opacity="0.9" stroke="#ffffff" stroke-width="2"/>
+    <path d="M 0,0 L 100,0 L 93,40 L 7,40 Z" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.5"/>
+    <rect x="-10" y="-10" width="120" height="15" fill="#ff3366" rx="5"/>
+    <text x="50" y="-25" fill="#ff3366" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">Ember 3: Agresif</text>
+    <text x="50" y="70" fill="#ffffff" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle">15%</text>
+    <text x="50" y="95" fill="#ffffff" font-family="Arial" font-size="14" text-anchor="middle">Rp 30 Jt</text>
+
+    <!-- Description below bucket -->
+    <rect x="-30" y="140" width="160" height="60" rx="5" fill="#2a2a4e"/>
+    <text x="50" y="160" fill="#ffffff" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle">Akun Trading</text>
+    <text x="50" y="180" fill="#ffffff" font-family="Arial" font-size="12" text-anchor="middle">Risiko MC</text>
+  </g>
+
+  <!-- Flow arrows -->
+  <path d="M 600,370 L 600,420 L 400,420 L 400,360" fill="none" stroke="#00ffaa" stroke-width="4" stroke-dasharray="10,5" marker-end="url(#arrowhead)"/>
+  <circle cx="600" cy="370" r="20" fill="#00ffaa"/>
+  <text x="600" y="375" fill="#1a1a2e" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">WD</text>
+  
+  <rect x="250" y="405" width="220" height="30" fill="#1a1a2e"/>
+  <text x="400" y="445" fill="#00ffaa" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Profit trading dialirkan ke Ember 2</text>
+  
+  <!-- Info Box -->
+  <text x="400" y="480" fill="#ffffff" font-family="Arial" font-size="12" text-anchor="middle">Sekalipun Ember 3 bocor/MC, total kekayaan dan hidup Alex tetap aman.</text>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#00ffaa" />
+    </marker>
+  </defs>
+</svg>

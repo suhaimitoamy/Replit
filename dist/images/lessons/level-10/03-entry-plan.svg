@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#1a1a2e"/>
+  
+  <!-- TP Line -->
+  <line x1="100" y1="80" x2="700" y2="80" stroke="#00ffaa" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="110" y="70" fill="#00ffaa" font-family="Arial" font-size="16" font-weight="bold">Take Profit (Target Liquidity)</text>
+  
+  <!-- Price movement -->
+  <path d="M 150 150 L 250 300 L 320 220 L 400 320" fill="none" stroke="#ffffff" stroke-width="3"/>
+  <path d="M 400 320 L 500 160" fill="none" stroke="#00ffaa" stroke-width="3"/> <!-- CHoCH move -->
+  <path d="M 500 160 L 560 260" fill="none" stroke="#ff3366" stroke-width="3"/> <!-- Pullback -->
+  <path d="M 560 260 L 680 50" fill="none" stroke="#00ffaa" stroke-width="4" marker-end="url(#arrow)"/> <!-- Continuation -->
+  
+  <!-- Entry Line -->
+  <line x1="500" y1="260" x2="700" y2="260" stroke="#3498db" stroke-width="2"/>
+  <circle cx="560" cy="260" r="6" fill="#3498db"/>
+  <text x="580" y="280" fill="#3498db" font-family="Arial" font-size="16" font-weight="bold">Entry Point (Pullback to LTF OB)</text>
+  
+  <!-- SL / Invalidation Line -->
+  <line x1="100" y1="340" x2="700" y2="340" stroke="#ff3366" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="110" y="360" fill="#ff3366" font-family="Arial" font-size="16" font-weight="bold">Stop Loss / Invalidation Level (Below Low)</text>
+  
+  <!-- Structure markers -->
+  <line x1="300" y1="220" x2="520" y2="220" stroke="#f1c40f" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="420" y="210" fill="#f1c40f" font-family="Arial" font-size="12">CHoCH Level</text>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#00ffaa"/>
+    </marker>
+  </defs>
+</svg>

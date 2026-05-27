@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#1a1a2e" />
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" fill="#ffffff" text-anchor="middle" font-weight="bold">Fair Value Gap (FVG) / Imbalance</text>
+  
+  <!-- Candle 1 -->
+  <text x="200" y="320" font-family="Arial, sans-serif" font-size="14" fill="#cccccc" text-anchor="middle">Candle 1</text>
+  <line x1="200" y1="200" x2="200" y2="300" stroke="#00ffaa" stroke-width="3" /> <!-- Wick -->
+  <rect x="190" y="240" width="20" height="40" fill="#00ffaa" /> <!-- Body -->
+  <line x1="150" y1="200" x2="400" y2="200" stroke="#cccccc" stroke-width="1" stroke-dasharray="3,3" />
+  <text x="145" y="205" font-family="Arial, sans-serif" font-size="12" fill="#cccccc" text-anchor="end">High C1</text>
+  
+  <!-- Candle 2 (Displacement) -->
+  <text x="250" y="320" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">Candle 2</text>
+  <line x1="250" y1="50" x2="250" y2="280" stroke="#00ffaa" stroke-width="3" /> <!-- Wick -->
+  <rect x="240" y="60" width="20" height="200" fill="#00ffaa" /> <!-- Body -->
+  
+  <!-- Candle 3 -->
+  <text x="300" y="320" font-family="Arial, sans-serif" font-size="14" fill="#cccccc" text-anchor="middle">Candle 3</text>
+  <line x1="300" y1="40" x2="300" y2="150" stroke="#ff3366" stroke-width="3" /> <!-- Wick -->
+  <rect x="290" y="50" width="20" height="80" fill="#ff3366" /> <!-- Body -->
+  <line x1="150" y1="150" x2="400" y2="150" stroke="#cccccc" stroke-width="1" stroke-dasharray="3,3" />
+  <text x="145" y="155" font-family="Arial, sans-serif" font-size="12" fill="#cccccc" text-anchor="end">Low C3</text>
+  
+  <!-- FVG Zone Highlight -->
+  <rect x="320" y="150" width="200" height="50" fill="#ffaa00" fill-opacity="0.3" rx="3" />
+  <text x="420" y="180" font-family="Arial, sans-serif" font-size="18" fill="#ffaa00" text-anchor="middle" font-weight="bold">Fair Value Gap (FVG)</text>
+  
+  <!-- Price filling the gap later -->
+  <path d="M 330 100 L 370 140 L 420 180 L 480 80" fill="none" stroke="#ffffff" stroke-width="3" stroke-linejoin="round" stroke-dasharray="4,4"/>
+  <circle cx="420" cy="180" r="6" fill="#00ffaa" />
+  <text x="420" y="210" font-family="Arial, sans-serif" font-size="14" fill="#00ffaa" text-anchor="middle">Harga turun mengisi FVG lalu naik</text>
+  
+  <!-- Explanation -->
+  <rect x="150" y="380" width="500" height="80" fill="#2a2a4e" rx="10" />
+  <text x="400" y="410" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">FVG adalah ruang antara High Candle 1 dan Low Candle 3.</text>
+  <text x="400" y="435" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">Ruang ini terjadi karena pergerakan harga yang terlalu cepat (imbalance).</text>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#1a1a2e"/>
+  
+  <text x="400" y="40" fill="#ffffff" font-family="sans-serif" font-size="24" font-weight="bold" text-anchor="middle">Ringkasan Market Structure</text>
+
+  <!-- Complete Cycle -->
+  <!-- Uptrend -->
+  <path d="M 50,350 L 150,200 L 220,270 L 330,120 L 400,180 L 520,60" fill="none" stroke="#00ffaa" stroke-width="3" stroke-linejoin="round"/>
+  
+  <circle cx="150" cy="200" r="4" fill="#00ffaa"/>
+  <text x="150" y="185" fill="#00ffaa" font-family="sans-serif" font-size="12" text-anchor="middle">H</text>
+
+  <circle cx="220" cy="270" r="4" fill="#00ffaa"/>
+  <text x="220" y="290" fill="#00ffaa" font-family="sans-serif" font-size="12" text-anchor="middle">HL</text>
+
+  <circle cx="330" cy="120" r="4" fill="#00ffaa"/>
+  <text x="330" y="105" fill="#00ffaa" font-family="sans-serif" font-size="12" text-anchor="middle">HH</text>
+
+  <circle cx="400" cy="180" r="4" fill="#00ffaa"/>
+  <text x="400" y="200" fill="#00ffaa" font-family="sans-serif" font-size="12" text-anchor="middle">HL</text>
+
+  <circle cx="520" cy="60" r="4" fill="#00ffaa"/>
+  <text x="520" y="45" fill="#00ffaa" font-family="sans-serif" font-size="12" text-anchor="middle">HH</text>
+
+  <line x1="150" y1="200" x2="280" y2="200" stroke="#ffffff" stroke-width="1.5" stroke-dasharray="4,4"/>
+  <text x="200" y="195" fill="#ffffff" font-family="sans-serif" font-size="10">BOS</text>
+
+  <line x1="330" y1="120" x2="450" y2="120" stroke="#ffffff" stroke-width="1.5" stroke-dasharray="4,4"/>
+  <text x="390" y="115" fill="#ffffff" font-family="sans-serif" font-size="10">BOS</text>
+
+  <!-- CHoCH -->
+  <path d="M 520,60 L 590,230" fill="none" stroke="#ff3366" stroke-width="3" stroke-linejoin="round"/>
+  <line x1="400" y1="180" x2="620" y2="180" stroke="#f0b90b" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="600" y="170" fill="#f0b90b" font-family="sans-serif" font-size="12" font-weight="bold">CHoCH</text>
+
+  <!-- Downtrend -->
+  <circle cx="590" cy="230" r="4" fill="#ff3366"/>
+  <text x="590" y="250" fill="#ff3366" font-family="sans-serif" font-size="12" text-anchor="middle">LL</text>
+
+  <path d="M 590,230 L 650,150 L 760,320" fill="none" stroke="#ff3366" stroke-width="3" stroke-linejoin="round"/>
+  
+  <circle cx="650" cy="150" r="4" fill="#ff3366"/>
+  <text x="650" y="135" fill="#ff3366" font-family="sans-serif" font-size="12" text-anchor="middle">LH</text>
+
+  <line x1="590" y1="230" x2="700" y2="230" stroke="#ffffff" stroke-width="1.5" stroke-dasharray="4,4"/>
+  <text x="660" y="225" fill="#ffffff" font-family="sans-serif" font-size="10">BOS</text>
+
+  <circle cx="760" cy="320" r="4" fill="#ff3366"/>
+  <text x="760" y="340" fill="#ff3366" font-family="sans-serif" font-size="12" text-anchor="middle">LL</text>
+
+  <!-- Legend Box -->
+  <rect x="50" y="280" width="220" height="100" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.2" rx="5"/>
+  <text x="60" y="300" fill="#ffffff" font-family="sans-serif" font-size="12">HH: Higher High | HL: Higher Low</text>
+  <text x="60" y="320" fill="#ffffff" font-family="sans-serif" font-size="12">LH: Lower High | LL: Lower Low</text>
+  <text x="60" y="340" fill="#ffffff" font-family="sans-serif" font-size="12">BOS: Break of Structure (Lanjut)</text>
+  <text x="60" y="360" fill="#ffffff" font-family="sans-serif" font-size="12">CHoCH: Change of Character (Balik)</text>
+
+</svg>

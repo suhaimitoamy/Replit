@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#1a1a2e"/>
+  
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="24" fill="#ffffff" text-anchor="middle" font-weight="bold">High Timeframe (HTF) Structure</text>
+  
+  <!-- HTF Swings -->
+  <path d="M 100 400 L 250 200 L 350 280 L 550 100 L 650 180" fill="none" stroke="#00ffaa" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  
+  <!-- Nodes -->
+  <circle cx="100" cy="400" r="8" fill="#00ffaa" />
+  <circle cx="250" cy="200" r="8" fill="#00ffaa" />
+  <circle cx="350" cy="280" r="8" fill="#00ffaa" />
+  <circle cx="550" cy="100" r="8" fill="#00ffaa" />
+  <circle cx="650" cy="180" r="8" fill="#00ffaa" />
+  
+  <!-- Labels -->
+  <text x="100" y="430" font-family="Arial, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle">HL</text>
+  <text x="250" y="180" font-family="Arial, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle">HH</text>
+  <text x="350" y="310" font-family="Arial, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle">HL</text>
+  <text x="550" y="80" font-family="Arial, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle">HH</text>
+  
+  <!-- BOS Line -->
+  <line x1="250" y1="200" x2="450" y2="200" stroke="#ffffff" stroke-width="2" stroke-dasharray="5,5" />
+  <text x="400" y="190" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">HTF BOS</text>
+  
+  <!-- HTF POI -->
+  <rect x="320" y="270" width="60" height="40" fill="rgba(0, 255, 170, 0.2)" stroke="#00ffaa" stroke-width="2" />
+  <text x="350" y="340" font-family="Arial, sans-serif" font-size="14" fill="#00ffaa" text-anchor="middle">HTF POI (OB)</text>
+  
+  <!-- Arrow indicating trend -->
+  <path d="M 670 160 L 720 100" fill="none" stroke="#00ffaa" stroke-width="4" />
+  <polygon points="725,95 710,105 720,115" fill="#00ffaa" transform="rotate(-40 720 100)" />
+  
+  <text x="400" y="460" font-family="Arial, sans-serif" font-size="16" fill="#a0a0b0" text-anchor="middle">HTF memberikan gambaran besar pergerakan harga (Bias &amp; POI Utama)</text>
+</svg>

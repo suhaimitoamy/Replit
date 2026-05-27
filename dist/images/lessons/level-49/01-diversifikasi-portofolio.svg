@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#1a1a2e"/>
+  
+  <text x="400" y="50" fill="#ffffff" font-family="Arial" font-size="28" font-weight="bold" text-anchor="middle">Diversifikasi Portofolio Seorang Trader</text>
+  
+  <g transform="translate(400, 270)">
+    <!-- Cash & Equivalents (30%) -->
+    <path d="M 0,0 L 0,-150 A 150,150 0 0,1 142.6,-46.3 Z" fill="#00ffaa" opacity="0.8"/>
+    <!-- Fixed Income (25%) -->
+    <path d="M 0,0 L 142.6,-46.3 A 150,150 0 0,1 142.6,46.3 L 0,0 Z" fill="#4a90e2" opacity="0.8"/>
+    <!-- Equities (20%) -->
+    <path d="M 0,0 L 142.6,46.3 A 150,150 0 0,1 -88.1,121.3 L 0,0 Z" fill="#f39c12" opacity="0.8"/>
+    <!-- Real Assets/Gold (15%) -->
+    <path d="M 0,0 L -88.1,121.3 A 150,150 0 0,1 -150,-2.6 L 0,0 Z" fill="#e74c3c" opacity="0.8"/>
+    <!-- Active Trading (10%) -->
+    <path d="M 0,0 L -150,-2.6 A 150,150 0 0,1 0,-150 Z" fill="#ff3366" opacity="0.8"/>
+    
+    <circle cx="0" cy="0" r="60" fill="#1a1a2e"/>
+    <text x="0" y="5" fill="#ffffff" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">Net Worth</text>
+  </g>
+  
+  <g transform="translate(100, 150)">
+    <rect x="0" y="0" width="20" height="20" fill="#00ffaa"/>
+    <text x="30" y="16" fill="#ffffff" font-family="Arial" font-size="16">Kas / Dana Darurat (30%)</text>
+    
+    <rect x="0" y="40" width="20" height="20" fill="#4a90e2"/>
+    <text x="30" y="56" fill="#ffffff" font-family="Arial" font-size="16">Obligasi / SBN (25%)</text>
+    
+    <rect x="0" y="80" width="20" height="20" fill="#f39c12"/>
+    <text x="30" y="96" fill="#ffffff" font-family="Arial" font-size="16">Saham Jangka Panjang (20%)</text>
+    
+    <rect x="0" y="120" width="20" height="20" fill="#e74c3c"/>
+    <text x="30" y="136" fill="#ffffff" font-family="Arial" font-size="16">Emas / Properti (15%)</text>
+    
+    <rect x="0" y="160" width="20" height="20" fill="#ff3366"/>
+    <text x="30" y="176" fill="#ffffff" font-family="Arial" font-size="16">Modal Trading Aktif (10%)</text>
+  </g>
+  
+  <!-- Info Box -->
+  <rect x="20" y="400" width="760" height="80" rx="10" fill="#2a2a4e"/>
+  <text x="400" y="430" fill="#00ffaa" font-family="Arial" font-size="16" text-anchor="middle">Portofolio yang seimbang melindungi kekayaan Anda dari risiko hancurnya satu instrumen.</text>
+  <text x="400" y="455" fill="#ffffff" font-family="Arial" font-size="14" text-anchor="middle">Jangan taruh semua kekayaan hidup Anda pada trading akun berisiko tinggi!</text>
+</svg>

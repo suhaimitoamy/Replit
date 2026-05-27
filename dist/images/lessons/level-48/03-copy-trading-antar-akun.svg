@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#1a1a2e"/>
+  
+  <text x="400" y="40" fill="#ffffff" font-family="Arial" font-size="28" font-weight="bold" text-anchor="middle">Copy Trading Antar Akun (Trade Copier)</text>
+
+  <!-- Master Account -->
+  <rect x="300" y="100" width="200" height="120" rx="10" fill="#2a2a4a" stroke="#00ffaa" stroke-width="3"/>
+  <text x="400" y="140" fill="#00ffaa" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle">MASTER ACCOUNT</text>
+  <text x="400" y="170" fill="#ffffff" font-family="Arial" font-size="16" text-anchor="middle">Prop Firm A ($100k)</text>
+  <circle cx="400" cy="195" r="8" fill="#00ffaa"/>
+  
+  <!-- Connections -->
+  <path d="M 350 220 L 200 320" fill="none" stroke="#4a4a6a" stroke-width="4" stroke-dasharray="8,4"/>
+  <path d="M 400 220 L 400 320" fill="none" stroke="#4a4a6a" stroke-width="4" stroke-dasharray="8,4"/>
+  <path d="M 450 220 L 600 320" fill="none" stroke="#4a4a6a" stroke-width="4" stroke-dasharray="8,4"/>
+
+  <!-- Pulse animation effect logic (static here) -->
+  <circle cx="275" cy="270" r="4" fill="#ffffff"/>
+  <circle cx="400" cy="270" r="4" fill="#ffffff"/>
+  <circle cx="525" cy="270" r="4" fill="#ffffff"/>
+
+  <!-- Slave Account 1 -->
+  <rect x="80" y="320" width="180" height="100" rx="10" fill="#1a1a2e" stroke="#00bfff" stroke-width="2"/>
+  <text x="170" y="355" fill="#00bfff" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">SLAVE ACCOUNT 1</text>
+  <text x="170" y="385" fill="#ffffff" font-family="Arial" font-size="14" text-anchor="middle">Prop Firm B ($50k)</text>
+
+  <!-- Slave Account 2 -->
+  <rect x="310" y="320" width="180" height="100" rx="10" fill="#1a1a2e" stroke="#00bfff" stroke-width="2"/>
+  <text x="400" y="355" fill="#00bfff" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">SLAVE ACCOUNT 2</text>
+  <text x="400" y="385" fill="#ffffff" font-family="Arial" font-size="14" text-anchor="middle">Prop Firm C ($100k)</text>
+
+  <!-- Slave Account 3 -->
+  <rect x="540" y="320" width="180" height="100" rx="10" fill="#1a1a2e" stroke="#00bfff" stroke-width="2"/>
+  <text x="630" y="355" fill="#00bfff" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">SLAVE ACCOUNT 3</text>
+  <text x="630" y="385" fill="#ffffff" font-family="Arial" font-size="14" text-anchor="middle">Personal Acc ($10k)</text>
+
+  <!-- Warning Info -->
+  <rect x="250" y="440" width="300" height="40" rx="5" fill="#3a1a2e" stroke="#ff3366"/>
+  <text x="400" y="465" fill="#ffffff" font-family="Arial" font-size="14" text-anchor="middle">Software Copier mengatur proporsi lot otomatis</text>
+</svg>

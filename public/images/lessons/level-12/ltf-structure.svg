@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#1a1a2e"/>
+  
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="24" fill="#ffffff" text-anchor="middle" font-weight="bold">Low Timeframe (LTF) Structure inside HTF POI</text>
+  
+  <!-- HTF POI Background -->
+  <rect x="150" y="300" width="500" height="150" fill="rgba(0, 255, 170, 0.1)" stroke="#00ffaa" stroke-width="2" stroke-dasharray="8,8" />
+  <text x="400" y="430" font-family="Arial, sans-serif" font-size="20" fill="#00ffaa" text-anchor="middle" opacity="0.6">HTF POI (H4/Daily)</text>
+  
+  <!-- LTF Structure (Bearish coming in) -->
+  <path d="M 100 150 L 200 280 L 250 200 L 350 380" fill="none" stroke="#ff3366" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+  
+  <!-- LTF Nodes (Bearish) -->
+  <circle cx="200" cy="280" r="6" fill="#ff3366" />
+  <circle cx="250" cy="200" r="6" fill="#ff3366" />
+  <circle cx="350" cy="380" r="6" fill="#ff3366" />
+  
+  <!-- Labels Bearish -->
+  <text x="250" y="180" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">Lower High</text>
+  <text x="350" y="410" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">Lower Low</text>
+  
+  <!-- LTF CHoCH Line -->
+  <line x1="250" y1="200" x2="500" y2="200" stroke="#ffffff" stroke-width="2" stroke-dasharray="5,5" />
+  <text x="400" y="190" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">LTF CHoCH</text>
+  
+  <!-- LTF Structure (Bullish coming out) -->
+  <path d="M 350 380 L 480 150 L 550 320 L 700 100" fill="none" stroke="#00ffaa" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+  
+  <!-- LTF Nodes (Bullish) -->
+  <circle cx="480" cy="150" r="6" fill="#00ffaa" />
+  <circle cx="550" cy="320" r="6" fill="#00ffaa" />
+  <circle cx="700" cy="100" r="6" fill="#00ffaa" />
+  
+  <!-- LTF Entry POI -->
+  <rect x="520" y="300" width="60" height="40" fill="rgba(0, 255, 170, 0.4)" />
+  <text x="620" y="325" font-family="Arial, sans-serif" font-size="14" fill="#00ffaa" text-anchor="start">LTF OB (Entry Zone)</text>
+  
+  <text x="400" y="475" font-family="Arial, sans-serif" font-size="16" fill="#a0a0b0" text-anchor="middle">Struktur LTF berubah arah (CHoCH) ketika masuk ke dalam area HTF POI</text>
+</svg>

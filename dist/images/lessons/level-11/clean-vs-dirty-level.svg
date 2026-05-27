@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#1a1a2e"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" fill="#ffffff" font-family="sans-serif" font-size="24" font-weight="bold" text-anchor="middle">Clean Level vs Dirty Level</text>
+  
+  <!-- Clean Level Area (Top Left to Right) -->
+  <rect x="50" y="80" width="700" height="40" fill="rgba(0, 255, 170, 0.2)" stroke="#00ffaa" stroke-width="2"/>
+  <text x="400" y="105" fill="#00ffaa" font-family="sans-serif" font-size="18" font-weight="bold" text-anchor="middle">Clean Level (Fresh Order Block / Supply)</text>
+  
+  <!-- Dirty Level Area (Middle) -->
+  <rect x="50" y="180" width="500" height="30" fill="rgba(255, 51, 102, 0.2)" stroke="#ff3366" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="300" y="170" fill="#ff3366" font-family="sans-serif" font-size="16" font-weight="bold" text-anchor="middle">Dirty Level (Resistance Diuji Berkali-kali)</text>
+  
+  <!-- Path -->
+  <!-- Starts high, drops forming clean level, creates dirty level, then sweeps it -->
+  <path d="M50 80 L 100 250 L 150 180 L 200 260 L 250 180 L 300 280 L 350 180 L 400 270 L 450 180 L 500 250 L 550 80 L 600 350" fill="none" stroke="#ffffff" stroke-width="3" stroke-linejoin="round"/>
+  
+  <!-- Liquidity indicator above Dirty Level -->
+  <text x="300" y="145" fill="#ffcc00" font-family="sans-serif" font-size="14" text-anchor="middle">$$$ Retail Stop Loss $$$</text>
+  
+  <!-- Sweep arrow -->
+  <circle cx="550" cy="80" r="8" fill="#00ffaa"/>
+  <text x="650" y="90" fill="#00ffaa" font-family="sans-serif" font-size="14" text-anchor="middle">Sweep &amp; Mitigate Clean Level</text>
+  
+  <text x="300" y="310" fill="#ffffff" font-family="sans-serif" font-size="14" text-anchor="middle">Retail Trader masuk SELL berulang kali di sini</text>
+  <text x="650" y="300" fill="#ff3366" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle">Smart Money Drop!</text>
+</svg>

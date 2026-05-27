@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <rect width="800" height="600" fill="#1a1a2e"/>
+  <text x="400" y="60" fill="#ffffff" font-family="sans-serif" font-size="32" font-weight="bold" text-anchor="middle">Latihan Analisa Candlestick</text>
+
+  <!-- Simulasi Chart -->
+  <g transform="translate(150, 150)">
+    
+    <!-- Candle 1: Bullish dominan -->
+    <line x1="50" y1="180" x2="50" y2="280" stroke="#00ffaa" stroke-width="3"/>
+    <rect x="35" y="200" width="30" height="70" fill="#00ffaa" rx="2"/>
+
+    <!-- Candle 2: Bullish sedang -->
+    <line x1="120" y1="120" x2="120" y2="210" stroke="#00ffaa" stroke-width="3"/>
+    <rect x="105" y="140" width="30" height="60" fill="#00ffaa" rx="2"/>
+
+    <!-- Candle 3: Bullish kecil / Doji -->
+    <line x1="190" y1="90" x2="190" y2="150" stroke="#00ffaa" stroke-width="3"/>
+    <rect x="175" y="110" width="30" height="30" fill="#00ffaa" rx="2"/>
+
+    <!-- Candle 4: Rejection bearis -->
+    <line x1="260" y1="10" x2="260" y2="120" stroke="#ff3366" stroke-width="3"/>
+    <rect x="245" y="90" width="30" height="20" fill="#ff3366" rx="2"/>
+
+    <!-- Labels & Arrows -->
+    <path d="M 65 240 Q 150 160 170 140" fill="none" stroke="#a0a0b0" stroke-width="2" stroke-dasharray="4,4"/>
+    <text x="100" y="300" fill="#00ffaa" font-family="sans-serif" font-size="14" text-anchor="middle">Momentum Melemah</text>
+    <text x="100" y="320" fill="#00ffaa" font-family="sans-serif" font-size="14" text-anchor="middle">(Deselerasi)</text>
+
+    <path d="M 270 50 L 350 50" fill="none" stroke="#ffffff" stroke-width="2"/>
+    <text x="360" y="55" fill="#ff3366" font-family="sans-serif" font-size="16" font-weight="bold">Wick Atas Panjang!</text>
+    <text x="360" y="75" fill="#ffffff" font-family="sans-serif" font-size="14">(Seller Menolak Kuat)</text>
+    
+    <text x="360" y="125" fill="#ffffff" font-family="sans-serif" font-size="20" font-weight="bold">Pertanyaan Latihan:</text>
+    <text x="360" y="155" fill="#00ffaa" font-family="sans-serif" font-size="16">1. Siapa yang menang?</text>
+    <text x="360" y="180" fill="#00ffaa" font-family="sans-serif" font-size="16">2. Ada Rejection?</text>
+    <text x="360" y="205" fill="#00ffaa" font-family="sans-serif" font-size="16">3. Bagaimana Momentumnya?</text>
+  </g>
+
+  <!-- Jawaban Kotak -->
+  <rect x="150" y="440" width="500" height="100" fill="#111122" rx="10" stroke="#333344" stroke-width="2"/>
+  <text x="400" y="470" fill="#ffffff" font-family="sans-serif" font-size="16" font-weight="bold" text-anchor="middle">Kesimpulan Analisa</text>
+  <text x="400" y="500" fill="#a0a0b0" font-family="sans-serif" font-size="14" text-anchor="middle">Tren naik melemah + Rejection dari atas = Probabilitas turun tinggi.</text>
+  <text x="400" y="520" fill="#ff3366" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle">Bersiap mencari peluang posisi SELL.</text>
+
+</svg>

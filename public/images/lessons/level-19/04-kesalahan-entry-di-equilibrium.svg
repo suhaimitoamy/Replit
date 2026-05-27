@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <style>
+      .bg { fill: #1a1a2e; }
+      .text-light { fill: #e0e0e0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+      .text-alert { fill: #ffcc00; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold; }
+      .line { stroke: #33334d; stroke-width: 2; }
+      .fib-line { stroke: #aaaaaa; stroke-width: 2; stroke-dasharray: 5,5; }
+      .price-line { stroke: #e0e0e0; stroke-width: 3; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      .price-danger { stroke: #ff3366; stroke-width: 3; fill: none; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 4,4; }
+      .eq-box { fill: #ffcc00; fill-opacity: 0.2; stroke: #ffcc00; stroke-width: 1; stroke-dasharray: 2,2; }
+      .arrow { fill: #00ffaa; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" class="arrow" />
+    </marker>
+  </defs>
+
+  <rect class="bg" width="800" height="500" rx="10" />
+  
+  <text x="400" y="40" class="text-light" font-size="24" text-anchor="middle" font-weight="bold">Kesalahan Entry di Equilibrium</text>
+
+  <!-- Equilibrium Danger Zone -->
+  <rect x="180" y="235" width="440" height="30" class="eq-box" />
+
+  <!-- Fib Levels -->
+  <line x1="180" y1="100" x2="620" y2="100" class="fib-line" stroke="#ff3366" />
+  <text x="170" y="105" fill="#ff3366" font-size="14" text-anchor="end">100%</text>
+
+  <line x1="180" y1="250" x2="620" y2="250" class="fib-line" stroke="#ffcc00" />
+  <text x="170" y="255" class="text-alert" font-size="14" text-anchor="end">50% (Equilibrium)</text>
+
+  <line x1="180" y1="400" x2="620" y2="400" class="fib-line" stroke="#00ffaa" />
+  <text x="170" y="405" fill="#00ffaa" font-size="14" text-anchor="end">0%</text>
+
+  <!-- Price Movement -->
+  <!-- Low -> High -> Reaches 50% -> bounces a bit -> fake out down -> true entry -> up -->
+  <path class="price-line" d="M 220 400 L 300 100 L 360 250 L 400 220 L 460 340 L 560 80" marker-end="url(#arrowhead)" />
+  
+  <circle cx="360" cy="250" r="5" fill="#ffcc00" />
+  <text x="360" y="275" class="text-alert" font-size="12" text-anchor="middle">Retail Buy Here</text>
+
+  <circle cx="400" cy="220" r="5" fill="#ffcc00" />
+  
+  <path class="price-danger" d="M 400 220 L 430 300" />
+  <text x="430" y="280" fill="#ff3366" font-size="12" text-anchor="end" font-weight="bold">Stop Loss Tersapu!</text>
+
+  <circle cx="460" cy="340" r="6" fill="#00ffaa" />
+  <text x="460" y="365" fill="#00ffaa" font-size="14" text-anchor="middle" font-weight="bold">Smart Money Entry (Discount)</text>
+
+  <!-- Labels -->
+  <text x="400" y="450" class="text-light" font-size="16" text-anchor="middle">Equilibrium (50%) sering menjadi jebakan / Inducement.</text>
+  <text x="400" y="475" class="text-light" font-size="16" text-anchor="middle">Harga bereaksi sesaat di 50%, menjebak buyer, lalu jatuh lebih dalam menyapu Stop Loss.</text>
+
+</svg>

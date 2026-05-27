@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <rect width="800" height="500" fill="#1a1a2e"/>
+  
+  <text x="400" y="40" fill="#ffffff" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle">Menunggu Inducement Selesai</text>
+  <text x="400" y="70" fill="#a0a0b0" font-family="Arial" font-size="16" text-anchor="middle">3 Fase Penting Sebelum Eksekusi Entry</text>
+
+  <!-- 3 Phases Boxes -->
+  <rect x="50" y="100" width="220" height="280" fill="#2a2a4e" rx="10"/>
+  <text x="160" y="130" fill="#ffffff" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">1. Pembentukan</text>
+  <text x="160" y="150" fill="#a0a0b0" font-family="Arial" font-size="12" text-anchor="middle">(Tahan Diri)</text>
+
+  <rect x="290" y="100" width="220" height="280" fill="#2a2a4e" rx="10"/>
+  <text x="400" y="130" fill="#ffffff" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">2. Pengambilan (Sweep)</text>
+  <text x="400" y="150" fill="#ff3366" font-family="Arial" font-size="12" text-anchor="middle">(Stop Loss Ritel Disapu)</text>
+
+  <rect x="530" y="100" width="220" height="280" fill="#2a2a4e" rx="10"/>
+  <text x="640" y="130" fill="#ffffff" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">3. Reaksi &amp; Entry</text>
+  <text x="640" y="150" fill="#00ffaa" font-family="Arial" font-size="12" text-anchor="middle">(Lampu Hijau!)</text>
+
+  <!-- Path Phase 1 -->
+  <path d="M 80 200 L 120 280 L 160 250 L 220 320" fill="none" stroke="#4a4a6e" stroke-width="4"/>
+  <line x1="140" y1="250" x2="240" y2="250" stroke="#ffff00" stroke-width="2" stroke-dasharray="4,4"/>
+  <circle cx="160" cy="250" r="5" fill="#ffff00"/>
+  <text x="160" y="240" fill="#ffff00" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle">IDM</text>
+
+  <!-- POI Box Phase 1 -->
+  <rect x="80" y="340" width="160" height="30" fill="#00ffaa" opacity="0.1"/>
+  
+  <!-- Path Phase 2 -->
+  <path d="M 320 200 L 360 280 L 400 250 L 460 360" fill="none" stroke="#ff3366" stroke-width="4"/>
+  <line x1="380" y1="250" x2="480" y2="250" stroke="#ffff00" stroke-width="2" stroke-dasharray="4,4"/>
+  <!-- Sweep arrow -->
+  <path d="M 460 250 L 460 360" fill="none" stroke="#ff3366" stroke-width="4" marker-end="url(#arrow)"/>
+  
+  <!-- POI Box Phase 2 -->
+  <rect x="320" y="340" width="160" height="30" fill="#00ffaa" opacity="0.3"/>
+  
+  <!-- Path Phase 3 -->
+  <path d="M 560 200 L 600 280 L 640 250 L 700 360 L 730 200" fill="none" stroke="#00ffaa" stroke-width="4"/>
+  <line x1="620" y1="250" x2="720" y2="250" stroke="#ffff00" stroke-width="2" stroke-dasharray="4,4"/>
+  <!-- Entry Circle -->
+  <circle cx="715" cy="280" r="8" fill="#00ffaa"/>
+  <text x="750" y="285" fill="#00ffaa" font-family="Arial" font-size="14" font-weight="bold">Buy!</text>
+  
+  <!-- POI Box Phase 3 -->
+  <rect x="560" y="340" width="160" height="30" fill="#00ffaa" opacity="0.3"/>
+  <text x="640" y="360" fill="#00ffaa" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle">Valid POI</text>
+
+  <!-- Markers -->
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#ff3366"/>
+    </marker>
+  </defs>
+
+  <!-- Info Box -->
+  <rect x="50" y="400" width="700" height="60" fill="#2a2a4e" rx="10"/>
+  <text x="400" y="425" fill="#ffffff" font-family="Arial" font-size="14" text-anchor="middle">Menunggu Inducement disapu adalah filter probabilitas terbaik.</text>
+  <text x="400" y="445" fill="#ffffff" font-family="Arial" font-size="14" text-anchor="middle">Jangan pernah mengeksekusi order jika harga belum menyapu likuiditas ritel (Fase 2).</text>
+</svg>

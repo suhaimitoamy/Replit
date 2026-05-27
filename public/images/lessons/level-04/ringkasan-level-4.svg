@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="400" fill="#1a1a2e"/>
+  
+  <!-- Grid -->
+  <path d="M0 100 h800 M0 200 h800 M0 300 h800 M200 0 v400 M400 0 v400 M600 0 v400" 
+        stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
+  
+  <!-- Title & Desc -->
+  <text x="40" y="40" fill="#ffffff" font-family="Arial, sans-serif" font-size="24" font-weight="bold">Siklus Lengkap Break Retest</text>
+  <text x="40" y="65" fill="#a0a0b0" font-family="Arial, sans-serif" font-size="14">Dari validasi awal, pullback korektif sehat, hingga pantulan di area SR Flip.</text>
+  
+  <!-- Dynamic Elements -->
+  
+  <!-- Complete Cycle Path -->
+  <line x1="50" y1="220" x2="750" y2="220" stroke="#a0a0b0" stroke-width="2" stroke-dasharray="4,4"/>
+  
+  <!-- Phase 1: Buildup -->
+  <path d="M 50 350 L 120 250 L 150 280 L 200 230 L 230 260" fill="none" stroke="#00ffaa" stroke-width="2"/>
+  
+  <!-- Phase 2: Breakout -->
+  <path d="M 230 260 L 320 120" fill="none" stroke="#00ffaa" stroke-width="4"/>
+  <circle cx="320" cy="120" r="5" fill="#ffffff"/>
+  <text x="330" y="115" fill="#ffffff" font-family="Arial" font-size="12" font-weight="bold">1. Valid Breakout</text>
+  
+  <!-- Phase 3: Pullback -->
+  <path d="M 320 120 L 350 150 L 360 140 L 400 180 L 410 170 L 460 220" fill="none" stroke="#ff3366" stroke-width="2"/>
+  <text x="410" y="140" fill="#a0a0b0" font-family="Arial" font-size="12">2. Pullback Sehat</text>
+  
+  <!-- Phase 4: SR Flip Entry -->
+  <circle cx="460" cy="220" r="7" fill="#00ffaa"/>
+  <text x="470" y="240" fill="#00ffaa" font-family="Arial" font-size="12" font-weight="bold">3. SR Flip / Entry</text>
+  
+  <!-- Phase 5: Trend Continuation -->
+  <path d="M 460 220 L 550 150 L 600 170 L 700 80" fill="none" stroke="#00ffaa" stroke-width="3"/>
+  <text x="560" y="130" fill="#ffffff" font-family="Arial" font-size="12" font-weight="bold">4. Profit Target (Lanjutan)</text>
+
+</svg>

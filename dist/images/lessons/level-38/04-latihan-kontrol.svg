@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#1a1a2e" />
+  
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="22" fill="#ffffff" text-anchor="middle" font-weight="bold">LATIHAN KONTROL DIRI</text>
+
+  <!-- Checklist Box -->
+  <rect x="200" y="80" width="400" height="260" fill="#2a2a4e" rx="10" stroke="#00ffaa" stroke-width="2" />
+
+  <!-- Items -->
+  <rect x="230" y="110" width="20" height="20" rx="3" fill="#1a1a2e" stroke="#00ffaa" stroke-width="2" />
+  <path d="M 235 120 L 240 125 L 255 105" fill="none" stroke="#00ffaa" stroke-width="3" />
+  <text x="270" y="125" font-family="Arial, sans-serif" font-size="16" fill="#ffffff" font-weight="bold">Gunakan Price Alerts</text>
+  <text x="270" y="145" font-family="Arial, sans-serif" font-size="12" fill="#a0a0b0">Jangan tatap layar sebelum harga capai Key Level.</text>
+
+  <rect x="230" y="170" width="20" height="20" rx="3" fill="#1a1a2e" stroke="#00ffaa" stroke-width="2" />
+  <path d="M 235 180 L 240 185 L 255 165" fill="none" stroke="#00ffaa" stroke-width="3" />
+  <text x="270" y="185" font-family="Arial, sans-serif" font-size="16" fill="#ffffff" font-weight="bold">Daily Drawdown Limit</text>
+  <text x="270" y="205" font-family="Arial, sans-serif" font-size="12" fill="#a0a0b0">Berhenti trading jika kerugian harian tersentuh.</text>
+
+  <rect x="230" y="230" width="20" height="20" rx="3" fill="#1a1a2e" stroke="#00ffaa" stroke-width="2" />
+  <path d="M 235 240 L 240 245 L 255 225" fill="none" stroke="#00ffaa" stroke-width="3" />
+  <text x="270" y="245" font-family="Arial, sans-serif" font-size="16" fill="#ffffff" font-weight="bold">Cooldown Rule</text>
+  <text x="270" y="265" font-family="Arial, sans-serif" font-size="12" fill="#a0a0b0">Jeda 15-30 menit setelah menutup posisi.</text>
+
+  <rect x="230" y="290" width="20" height="20" rx="3" fill="#1a1a2e" stroke="#00ffaa" stroke-width="2" />
+  <path d="M 235 300 L 240 305 L 255 285" fill="none" stroke="#00ffaa" stroke-width="3" />
+  <text x="270" y="305" font-family="Arial, sans-serif" font-size="16" fill="#ffffff" font-weight="bold">Catat Alasan Entry</text>
+  <text x="270" y="325" font-family="Arial, sans-serif" font-size="12" fill="#a0a0b0">Tulis 3 alasan logis sebelum klik Buy/Sell.</text>
+
+</svg>

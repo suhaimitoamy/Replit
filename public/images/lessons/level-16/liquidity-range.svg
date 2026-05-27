@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" style="background-color:#1a1a2e;">
+  <!-- Title -->
+  <text x="400" y="40" fill="#ffffff" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle">Liquidity di Dalam Range (Konsolidasi)</text>
+
+  <!-- Range Box -->
+  <rect x="150" y="180" width="350" height="140" fill="#ffffff" opacity="0.05" stroke="#ffffff" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <line x1="100" y1="180" x2="550" y2="180" stroke="#ff3366" stroke-width="2"/>
+  <text x="100" y="170" fill="#ff3366" font-family="Arial" font-size="14" font-weight="bold">Resistance (Buy-Side Liquidity Terakumulasi $$$)</text>
+
+  <line x1="100" y1="320" x2="550" y2="320" stroke="#00ffaa" stroke-width="2"/>
+  <text x="100" y="340" fill="#00ffaa" font-family="Arial" font-size="14" font-weight="bold">Support (Sell-Side Liquidity Terakumulasi $$$)</text>
+
+  <!-- Price Action inside range -->
+  <path d="M 150 250 L 200 180 L 250 320 L 300 180 L 350 320 L 400 180 L 450 320" fill="none" stroke="#ffffff" stroke-width="3" stroke-linejoin="round"/>
+  
+  <!-- Manipulation & Expansion -->
+  <path d="M 450 320 L 500 100 L 550 250 L 600 450 L 700 450" fill="none" stroke="#ffff00" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- Annotations -->
+  <text x="300" y="250" fill="#ffffff" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle">Fase Konsolidasi</text>
+  <text x="300" y="270" fill="#ffffff" font-family="Arial" font-size="12" text-anchor="middle">(Retail bermain Ping-Pong)</text>
+
+  <ellipse cx="500" cy="100" rx="30" ry="20" fill="none" stroke="#ff3366" stroke-width="2"/>
+  <text x="500" y="70" fill="#ff3366" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">1. Manipulasi (Sweep Atas)</text>
+
+  <ellipse cx="600" cy="450" rx="30" ry="20" fill="none" stroke="#00ffaa" stroke-width="2"/>
+  <text x="600" y="490" fill="#00ffaa" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">2. Target Sebenarnya (Sweep Bawah)</text>
+</svg>

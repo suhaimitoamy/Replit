@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <rect width="800" height="500" fill="#1a1a2e"/>
+  
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">Partial Fill &amp; Consequent Encroachment (50%)</text>
+  
+  <g transform="translate(150, 80)">
+    <!-- FVG Box -->
+    <rect x="50" y="100" width="400" height="120" fill="#00ffaa" fill-opacity="0.1" stroke="#00ffaa" stroke-width="1"/>
+    
+    <!-- CE Line (50%) -->
+    <line x1="50" y1="160" x2="450" y2="160" stroke="#ffffff" stroke-width="2" stroke-dasharray="8,4"/>
+    <text x="460" y="165" font-family="Arial" font-size="14" fill="#ffffff">50% (Consequent Encroachment)</text>
+
+    <!-- FVG Boundaries Text -->
+    <text x="460" y="105" font-family="Arial" font-size="12" fill="#888">High Candle 1 (Batas Bawah)</text>
+    <text x="460" y="225" font-family="Arial" font-size="12" fill="#888">Low Candle 3 (Batas Atas)</text>
+
+    <!-- Bearish Pullback Candle touching 50% -->
+    <line x1="150" y1="20" x2="150" y2="160" stroke="#ff3366" stroke-width="4"/>
+    <rect x="135" y="40" width="30" height="80" fill="#ff3366"/>
+    
+    <!-- Wick rejecting exactly at 50% -->
+    <circle cx="150" cy="160" r="5" fill="#ffffff"/>
+    <path d="M 160 180 L 220 180" stroke="#ffffff" stroke-width="2" marker-end="url(#arrow)"/>
+    <text x="230" y="185" font-family="Arial" font-size="14" fill="#ffffff">Harga memantul di area 50%</text>
+    
+    <!-- Bullish Continuation -->
+    <line x1="250" y1="50" x2="250" y2="150" stroke="#00ffaa" stroke-width="4"/>
+    <rect x="235" y="60" width="30" height="60" fill="#00ffaa"/>
+    <text x="250" y="30" font-family="Arial" font-size="14" font-weight="bold" fill="#00ffaa" text-anchor="middle">Lanjut Naik!</text>
+  </g>
+  
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#ffffff" />
+    </marker>
+  </defs>
+</svg>

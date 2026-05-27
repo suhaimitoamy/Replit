@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <rect width="800" height="600" fill="#1a1a2e"/>
+  <text x="400" y="60" fill="#ffffff" font-family="sans-serif" font-size="32" font-weight="bold" text-anchor="middle">Ringkasan Candle Reader</text>
+
+  <!-- Poin 1 -->
+  <rect x="50" y="100" width="700" height="100" fill="#111122" rx="10" stroke="#00ffaa" stroke-width="2"/>
+  <rect x="80" y="125" width="20" height="50" fill="#00ffaa" rx="2"/>
+  <line x1="90" y1="115" x2="90" y2="185" stroke="#00ffaa" stroke-width="3"/>
+  <text x="140" y="145" fill="#00ffaa" font-family="sans-serif" font-size="20" font-weight="bold">1. Body Menunjukkan Dominasi</text>
+  <text x="140" y="170" fill="#a0a0b0" font-family="sans-serif" font-size="16">Makin tebal body, makin kuat pihak yang menang.</text>
+
+  <!-- Poin 2 -->
+  <rect x="50" y="230" width="700" height="100" fill="#111122" rx="10" stroke="#ff3366" stroke-width="2"/>
+  <rect x="80" y="240" width="20" height="15" fill="#ff3366" rx="2"/>
+  <line x1="90" y1="240" x2="90" y2="310" stroke="#ff3366" stroke-width="3"/>
+  <text x="140" y="275" fill="#ff3366" font-family="sans-serif" font-size="20" font-weight="bold">2. Wick Menunjukkan Penolakan</text>
+  <text x="140" y="300" fill="#a0a0b0" font-family="sans-serif" font-size="16">Ekor (wick) yang panjang merupakan bukti kekalahan tekanan harga.</text>
+
+  <!-- Poin 3 -->
+  <rect x="50" y="360" width="700" height="100" fill="#111122" rx="10" stroke="#ffffff" stroke-width="2"/>
+  <!-- mini candles -->
+  <rect x="80" y="380" width="10" height="20" fill="#ffffff" rx="1"/>
+  <rect x="100" y="375" width="10" height="40" fill="#ffffff" rx="1"/>
+  <rect x="120" y="370" width="10" height="60" fill="#ffffff" rx="1"/>
+  <text x="150" y="405" fill="#ffffff" font-family="sans-serif" font-size="20" font-weight="bold">3. Momentum adalah Urutan</text>
+  <text x="150" y="430" fill="#a0a0b0" font-family="sans-serif" font-size="16">Body yang membesar (Akselerasi) vs Body mengecil (Deselerasi).</text>
+
+  <!-- Poin 4 -->
+  <rect x="50" y="490" width="700" height="80" fill="#332233" rx="10" stroke="#ff3366" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="400" y="525" fill="#ff3366" font-family="sans-serif" font-size="20" font-weight="bold" text-anchor="middle">ATURAN EMAS: Jangan pernah Entry sebelum Candle CLOSE!</text>
+
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" width="100%" height="200" style="background-color: #1a1a2e; border-radius: 8px; border: 1px solid #2a2a4a; margin-top: 10px; margin-bottom: 20px;">
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+    <text x="80" y="30" fill="#ffffff" font-family="monospace" font-size="14" text-anchor="middle">Uptrend</text>
+    <path d="M20,150 L60,110 L80,130 L120,70 L140,90 L180,40" stroke="#00ffaa" fill="none" stroke-width="3" filter="url(#glow)"/>
+    <text x="320" y="30" fill="#ffffff" font-family="monospace" font-size="14" text-anchor="middle">Downtrend</text>
+    <path d="M220,40 L260,90 L280,70 L320,130 L340,110 L380,160" stroke="#ff4444" fill="none" stroke-width="3" filter="url(#glow)"/>
+    <text x="200" y="120" fill="#ffffff" font-family="monospace" font-size="14" text-anchor="middle">Sideways (Range)</text>
+    <path d="M150,160 L180,140 L210,160 L240,140 L270,160 L300,140" stroke="#8888ff" fill="none" stroke-width="3" filter="url(#glow)"/>
+  
+</svg>

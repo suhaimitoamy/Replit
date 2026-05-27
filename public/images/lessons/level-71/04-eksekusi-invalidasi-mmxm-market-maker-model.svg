@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+<rect width="1200" height="675" fill="#0b1020"/>
+<line x1="80" y1="95" x2="80" y2="615" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="160" y1="95" x2="160" y2="615" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="240" y1="95" x2="240" y2="615" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="320" y1="95" x2="320" y2="615" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="400" y1="95" x2="400" y2="615" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="480" y1="95" x2="480" y2="615" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="560" y1="95" x2="560" y2="615" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="640" y1="95" x2="640" y2="615" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="720" y1="95" x2="720" y2="615" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="800" y1="95" x2="800" y2="615" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="880" y1="95" x2="880" y2="615" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="960" y1="95" x2="960" y2="615" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="1040" y1="95" x2="1040" y2="615" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="60" y1="120" x2="1140" y2="120" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="60" y1="180" x2="1140" y2="180" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="60" y1="240" x2="1140" y2="240" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="60" y1="300" x2="1140" y2="300" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="60" y1="360" x2="1140" y2="360" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="60" y1="420" x2="1140" y2="420" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="60" y1="480" x2="1140" y2="480" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="60" y1="540" x2="1140" y2="540" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="60" y1="600" x2="1140" y2="600" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<text x="50" y="55" fill="#18f57a" font-family="Arial, sans-serif" font-size="28" font-weight="700">Level 71 — Eksekusi, Target, dan Invalidasi MMXM / Market Maker Model</text>
+<text x="50" y="86" fill="#9ca3af" font-family="Arial, sans-serif" font-size="16" font-weight="500">Amy Trading Quest • Advanced ICT / XAUUSD</text>
+<circle cx="155" cy="300" r="58" fill="#111827" stroke="#ff4d4d" stroke-width="4"/>
+<text x="105" y="306" fill="#ff4d4d" font-family="Arial, sans-serif" font-size="19" font-weight="700">Sweep</text>
+<path d="M215 300 L 280 300" stroke="#9ca3af" stroke-width="4" marker-end="url(#arrow)"/>
+<circle cx="355" cy="300" r="58" fill="#111827" stroke="#22d3ee" stroke-width="4"/>
+<text x="305" y="306" fill="#22d3ee" font-family="Arial, sans-serif" font-size="19" font-weight="700">Shift / MSS</text>
+<path d="M415 300 L 495 300" stroke="#9ca3af" stroke-width="4" marker-end="url(#arrow)"/>
+<circle cx="570" cy="300" r="58" fill="#111827" stroke="#18f57a" stroke-width="4"/>
+<text x="520" y="306" fill="#18f57a" font-family="Arial, sans-serif" font-size="19" font-weight="700">PD Array Entry</text>
+<path d="M630 300 L 725 300" stroke="#9ca3af" stroke-width="4" marker-end="url(#arrow)"/>
+<circle cx="800" cy="300" r="58" fill="#111827" stroke="#facc15" stroke-width="4"/>
+<text x="750" y="306" fill="#facc15" font-family="Arial, sans-serif" font-size="19" font-weight="700">Invalidation</text>
+<path d="M860 300 L 935 300" stroke="#9ca3af" stroke-width="4" marker-end="url(#arrow)"/>
+<circle cx="1010" cy="300" r="58" fill="#111827" stroke="#a78bfa" stroke-width="4"/>
+<text x="960" y="306" fill="#a78bfa" font-family="Arial, sans-serif" font-size="19" font-weight="700">Target</text>
+<text x="120" y="470" fill="#e5e7eb" font-family="Arial, sans-serif" font-size="25" font-weight="700">Eksekusi valid harus punya alasan masuk, titik batal, dan target liquidity.</text>
+<text x="120" y="510" fill="#9ca3af" font-family="Arial, sans-serif" font-size="20" font-weight="500">Jika accumulation hilang, setup berubah menjadi tebakan.</text>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#18f57a"/></marker></defs>
+</svg>

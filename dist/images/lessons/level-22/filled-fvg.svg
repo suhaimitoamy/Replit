@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <rect width="800" height="500" fill="#1a1a2e"/>
+  
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">Fully Filled FVG (Termitigasi Penuh)</text>
+  
+  <g transform="translate(100, 80)">
+    <!-- FVG Box Outline -->
+    <rect x="0" y="100" width="600" height="100" fill="#33334d" stroke="#555" stroke-dasharray="5,5" stroke-width="2"/>
+    <text x="300" y="155" font-family="Arial" font-size="16" fill="#888" text-anchor="middle">Original FVG Area (Sekarang Kosong/Terisi)</text>
+
+    <!-- Initial Move forming FVG -->
+    <!-- Candle 1 -->
+    <line x1="50" y1="200" x2="50" y2="300" stroke="#00ffaa" stroke-width="4"/>
+    <rect x="35" y="220" width="30" height="60" fill="#00ffaa"/>
+    <!-- Candle 2 (Displacement) -->
+    <line x1="120" y1="50" x2="120" y2="250" stroke="#00ffaa" stroke-width="4"/>
+    <rect x="105" y="60" width="30" height="180" fill="#00ffaa"/>
+    <!-- Candle 3 -->
+    <line x1="190" y1="20" x2="190" y2="100" stroke="#00ffaa" stroke-width="4"/>
+    <rect x="175" y="40" width="30" height="50" fill="#00ffaa"/>
+
+    <!-- Pullback Move filling the FVG -->
+    <!-- Candle 4 -->
+    <line x1="300" y1="30" x2="300" y2="120" stroke="#ff3366" stroke-width="4"/>
+    <rect x="285" y="40" width="30" height="70" fill="#ff3366"/>
+    <!-- Candle 5 (The Filler) -->
+    <line x1="370" y1="100" x2="370" y2="220" stroke="#ff3366" stroke-width="4"/>
+    <rect x="355" y="110" width="30" height="100" fill="#ff3366"/>
+    
+    <!-- Explanation Text -->
+    <path d="M 400 160 L 450 160" stroke="#ffffff" stroke-width="2" marker-end="url(#arrow)"/>
+    <text x="460" y="165" font-family="Arial" font-size="14" fill="#ff3366">Wick menembus batas bawah FVG</text>
+    
+    <text x="370" y="250" font-family="Arial" font-size="16" font-weight="bold" fill="#ff3366" text-anchor="middle">Fully Filled / Mitigated</text>
+    <text x="370" y="270" font-family="Arial" font-size="12" fill="#ffffff" text-anchor="middle">Tidak valid lagi untuk Buy</text>
+  </g>
+  
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#ffffff" />
+    </marker>
+  </defs>
+</svg>

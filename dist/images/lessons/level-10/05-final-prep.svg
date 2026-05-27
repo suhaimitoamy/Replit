@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#1a1a2e"/>
+  
+  <text x="400" y="50" fill="#ffffff" font-family="Arial" font-size="22" font-weight="bold" text-anchor="middle">Rutinitas Harian &amp; Trading Plan</text>
+
+  <!-- Box 1 -->
+  <rect x="50" y="150" width="150" height="80" rx="10" fill="#34495e" stroke="#3498db" stroke-width="2"/>
+  <text x="125" y="185" fill="#ffffff" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">1. Persiapan</text>
+  <text x="125" y="205" fill="#bdc3c7" font-family="Arial" font-size="12" text-anchor="middle">Cek Berita, HTF Bias</text>
+
+  <!-- Arrow -->
+  <path d="M 200 190 L 230 190" fill="none" stroke="#ffffff" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Box 2 -->
+  <rect x="240" y="150" width="150" height="80" rx="10" fill="#34495e" stroke="#f1c40f" stroke-width="2"/>
+  <text x="315" y="185" fill="#ffffff" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">2. Menunggu</text>
+  <text x="315" y="205" fill="#bdc3c7" font-family="Arial" font-size="12" text-anchor="middle">Tandai POI, Pasang Alert</text>
+
+  <!-- Arrow -->
+  <path d="M 390 190 L 420 190" fill="none" stroke="#ffffff" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Box 3 -->
+  <rect x="430" y="150" width="150" height="80" rx="10" fill="#34495e" stroke="#00ffaa" stroke-width="2"/>
+  <text x="505" y="185" fill="#ffffff" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">3. Eksekusi</text>
+  <text x="505" y="205" fill="#bdc3c7" font-family="Arial" font-size="12" text-anchor="middle">Konfirmasi, Pasang SL/TP</text>
+
+  <!-- Arrow -->
+  <path d="M 580 190 L 610 190" fill="none" stroke="#ffffff" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Box 4 -->
+  <rect x="620" y="150" width="150" height="80" rx="10" fill="#34495e" stroke="#9b59b6" stroke-width="2"/>
+  <text x="695" y="185" fill="#ffffff" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">4. Evaluasi</text>
+  <text x="695" y="205" fill="#bdc3c7" font-family="Arial" font-size="12" text-anchor="middle">Catat di Jurnal, Review</text>
+
+  <rect x="250" y="280" width="300" height="50" rx="5" fill="#e74c3c" fill-opacity="0.2" stroke="#e74c3c" stroke-width="1"/>
+  <text x="400" y="310" fill="#e74c3c" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Kunci: Jangan paksa pasar. Ikuti Plan.</text>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#ffffff"/>
+    </marker>
+  </defs>
+</svg>

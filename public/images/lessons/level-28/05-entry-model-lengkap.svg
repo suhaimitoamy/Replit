@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#1a1a2e" />
+  
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" fill="#ffffff" text-anchor="middle" font-weight="bold">The HTF to LTF Entry Model</text>
+  <text x="400" y="65" font-family="Arial, sans-serif" font-size="16" fill="#a0a0b0" text-anchor="middle">SOP Mekanis 4 Langkah</text>
+
+  <!-- Flowchart blocks -->
+  
+  <!-- Step 1 -->
+  <rect x="50" y="100" width="150" height="80" fill="#2a2a4e" rx="10" stroke="#00ffaa" stroke-width="2" />
+  <text x="125" y="125" font-family="Arial" font-size="16" fill="#00ffaa" text-anchor="middle" font-weight="bold">Langkah 1</text>
+  <text x="125" y="150" font-family="Arial" font-size="14" fill="#ffffff" text-anchor="middle">Tentukan HTF Bias</text>
+  <text x="125" y="165" font-family="Arial" font-size="12" fill="#a0a0b0" text-anchor="middle">(H4/M15 Trend)</text>
+  
+  <path d="M 200,140 L 230,140" fill="none" stroke="#ffffff" stroke-width="2" marker-end="url(#arrow-head)" />
+
+  <!-- Step 2 -->
+  <rect x="240" y="100" width="150" height="80" fill="#2a2a4e" rx="10" stroke="#00ffaa" stroke-width="2" />
+  <text x="315" y="125" font-family="Arial" font-size="16" fill="#00ffaa" text-anchor="middle" font-weight="bold">Langkah 2</text>
+  <text x="315" y="150" font-family="Arial" font-size="14" fill="#ffffff" text-anchor="middle">Tandai HTF POI</text>
+  <text x="315" y="165" font-family="Arial" font-size="12" fill="#a0a0b0" text-anchor="middle">(OB / FVG M15)</text>
+
+  <path d="M 390,140 L 420,140" fill="none" stroke="#ffffff" stroke-width="2" marker-end="url(#arrow-head)" />
+
+  <!-- Step 3 -->
+  <rect x="430" y="100" width="150" height="80" fill="#2a2a4e" rx="10" stroke="#00ffaa" stroke-width="2" />
+  <text x="505" y="125" font-family="Arial" font-size="16" fill="#00ffaa" text-anchor="middle" font-weight="bold">Langkah 3</text>
+  <text x="505" y="150" font-family="Arial" font-size="14" fill="#ffffff" text-anchor="middle">LTF Trigger</text>
+  <text x="505" y="165" font-family="Arial" font-size="12" fill="#a0a0b0" text-anchor="middle">(CHoCH M5/M1)</text>
+
+  <path d="M 580,140 L 610,140" fill="none" stroke="#ffffff" stroke-width="2" marker-end="url(#arrow-head)" />
+
+  <!-- Step 4 -->
+  <rect x="620" y="100" width="150" height="80" fill="#2a2a4e" rx="10" stroke="#00aaff" stroke-width="2" />
+  <text x="695" y="125" font-family="Arial" font-size="16" fill="#00aaff" text-anchor="middle" font-weight="bold">Langkah 4</text>
+  <text x="695" y="150" font-family="Arial" font-size="14" fill="#ffffff" text-anchor="middle">Eksekusi</text>
+  <text x="695" y="165" font-family="Arial" font-size="12" fill="#a0a0b0" text-anchor="middle">(Limit Order &amp; SL)</text>
+
+  <defs>
+    <marker id="arrow-head" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#ffffff" />
+    </marker>
+  </defs>
+
+  <!-- Illustration of the combined model below -->
+  <rect x="50" y="220" width="700" height="250" fill="#151525" rx="8" stroke="#333344" stroke-width="1" />
+  <text x="400" y="245" font-family="Arial" font-size="14" fill="#ffffff" text-anchor="middle">Implementasi Visual</text>
+
+  <!-- HTF Structure showing bias -->
+  <polyline points="100,430 150,320 200,370 250,260" fill="none" stroke="#555577" stroke-width="3" stroke-dasharray="4" />
+  <text x="150" y="300" font-family="Arial" font-size="12" fill="#555577">Bias: Bullish</text>
+
+  <!-- HTF POI Box -->
+  <rect x="230" y="360" width="120" height="40" fill="#00ffaa" opacity="0.2" />
+  <text x="290" y="385" font-family="Arial" font-size="12" fill="#00ffaa" text-anchor="middle">HTF Demand</text>
+
+  <!-- Price dropping into POI -->
+  <polyline points="250,260 280,330 310,290 330,370" fill="none" stroke="#ff3366" stroke-width="3" />
+  
+  <!-- The trigger inside POI -->
+  <polyline points="330,370 380,280" fill="none" stroke="#00ffaa" stroke-width="4" />
+  <line x1="290" y1="290" x2="400" y2="290" stroke="#ffff00" stroke-width="2" stroke-dasharray="2" />
+  <text x="350" y="285" font-family="Arial" font-size="12" fill="#ffff00">CHoCH</text>
+
+  <!-- The Execution -->
+  <rect x="340" y="340" width="50" height="20" fill="#00aaff" opacity="0.4" />
+  <polyline points="380,280 360,350 450,240" fill="none" stroke="#00ffaa" stroke-width="3" />
+  
+  <circle cx="360" cy="350" r="5" fill="#ffffff" />
+  <text x="360" y="375" font-family="Arial" font-size="12" fill="#ffffff" text-anchor="middle">Buy Limit</text>
+  
+  <line x1="330" y1="385" x2="390" y2="385" stroke="#ff3366" stroke-width="2" />
+  <text x="360" y="405" font-family="Arial" font-size="10" fill="#ff3366" text-anchor="middle">Stop Loss</text>
+
+  <line x1="430" y1="240" x2="470" y2="240" stroke="#00ffaa" stroke-width="2" />
+  <text x="450" y="230" font-family="Arial" font-size="10" fill="#00ffaa" text-anchor="middle">Take Profit Target</text>
+
+</svg>

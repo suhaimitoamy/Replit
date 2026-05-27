@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <style>
+      .bg { fill: #1a1a2e; }
+      .text-title { fill: #ffffff; font-family: sans-serif; font-size: 24px; font-weight: bold; }
+      .text-sub { fill: #a0a0b0; font-family: sans-serif; font-size: 16px; }
+      .text-label { fill: #ffffff; font-family: sans-serif; font-size: 14px; font-weight: bold; }
+      .text-info { fill: #00ffaa; font-family: sans-serif; font-size: 12px; }
+      .text-alert { fill: #ff3366; font-family: sans-serif; font-size: 12px; }
+      .line-price { stroke: #404060; stroke-width: 1; stroke-dasharray: 4 4; }
+      .bullish { stroke: #00ffaa; stroke-width: 3; fill: none; stroke-linejoin: round; }
+      .bearish { stroke: #ff3366; stroke-width: 3; fill: none; stroke-linejoin: round; }
+      .zone-profit { fill: #00ffaa; opacity: 0.1; }
+      .zone-loss { fill: #ff3366; opacity: 0.1; }
+      .box { fill: #2a2a4e; stroke: #404060; stroke-width: 1; rx: 5; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100" height="100" class="bg" width="800" height="500" />
+  
+  <!-- Title -->
+  <text x="400" y="40" class="text-title" text-anchor="middle">Manage Floating Position</text>
+  <text x="400" y="65" class="text-sub" text-anchor="middle">Emotion vs Logic during Open Trades</text>
+
+  <!-- Chart Areas -->
+  <!-- Floating Profit Area -->
+  <rect x="50" y="100" width="320" height="300" class="box" />
+  <text x="210" y="130" class="text-label" text-anchor="middle">Floating Profit: Don't Panic Exit</text>
+  <rect x="50" y="150" width="320" height="150" class="zone-profit" />
+  
+  <path d="M 70 280 L 120 200 L 160 230 L 220 160 L 260 190 L 330 110" class="bullish" />
+  
+  <line x1="50" y1="280" x2="370" y2="280" class="line-price" />
+  <text x="60" y="275" class="text-info">Entry</text>
+  
+  <!-- Points -->
+  <circle cx="160" cy="230" r="5" fill="#ff3366" />
+  <text x="160" y="250" class="text-alert" text-anchor="middle">Pullback</text>
+  <text x="160" y="265" class="text-alert" text-anchor="middle">(Don't panic!)</text>
+
+  <circle cx="260" cy="190" r="5" fill="#ff3366" />
+  <text x="260" y="210" class="text-alert" text-anchor="middle">Pullback</text>
+  <text x="260" y="225" class="text-info" text-anchor="middle">(Higher Low)</text>
+
+  <!-- Floating Loss Area -->
+  <rect x="430" y="100" width="320" height="300" class="box" />
+  <text x="590" y="130" class="text-label" text-anchor="middle">Floating Loss: Don't Move SL</text>
+  <rect x="430" y="150" width="320" height="150" class="zone-loss" />
+  
+  <path d="M 450 160 L 510 240 L 560 200 L 630 280 L 680 250 L 730 320" class="bearish" />
+  
+  <line x1="430" y1="160" x2="750" y2="160" class="line-price" />
+  <text x="440" y="155" class="text-info">Entry (Buy)</text>
+
+  <line x1="430" y1="350" x2="750" y2="350" class="line-price" stroke="#ff3366" />
+  <text x="440" y="345" class="text-alert">Stop Loss (SL)</text>
+
+  <!-- Move SL Action -->
+  <path d="M 700 350 Q 720 380 700 410" stroke="#ff3366" stroke-width="2" fill="none" stroke-dasharray="4 4" marker-end="url(#arrow)" />
+  <text x="680" y="380" class="text-alert" font-weight="bold">X</text>
+  <text x="650" y="420" class="text-alert" font-size="10">Never move SL down!</text>
+
+  <!-- Arrow marker -->
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#ff3366" />
+    </marker>
+  </defs>
+
+  <!-- Bottom Notes -->
+  <rect x="50" y="420" width="700" height="60" class="box" />
+  <text x="400" y="445" class="text-label" text-anchor="middle">Rule of Thumb: Trust the Structure</text>
+  <text x="400" y="465" class="text-sub" text-anchor="middle" font-size="12">If structure holds (Higher Lows for Buy), keep the trade open. Avoid manual closing out of fear.</text>
+
+</svg>

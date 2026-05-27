@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#1a1a2e"/>
+  
+  <text x="400" y="40" fill="#ffffff" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle">Narasi Likuiditas (Liquidity Narrative)</text>
+  
+  <path d="M 100 250 L 200 150 L 300 280 L 400 180 L 500 320" fill="none" stroke="#555577" stroke-width="4" stroke-dasharray="5,5"/>
+  <path d="M 500 320 L 550 360 L 600 300 L 700 100" fill="none" stroke="#00ffaa" stroke-width="6"/>
+  
+  <line x1="450" y1="340" x2="600" y2="340" stroke="#ff3366" stroke-width="2" stroke-dasharray="4,4"/>
+  <text x="525" y="380" fill="#ff3366" font-family="Arial" font-size="14" text-anchor="middle">Sell-Side Liquidity Swept</text>
+  
+  <line x1="600" y1="120" x2="750" y2="120" stroke="#00ffaa" stroke-width="2" stroke-dasharray="4,4"/>
+  <text x="675" y="100" fill="#00ffaa" font-family="Arial" font-size="14" text-anchor="middle">Buy-Side Target (Delivery)</text>
+
+  <g transform="translate(150, 60)">
+    <rect width="500" height="60" rx="10" fill="#2a2a40" stroke="#00ffaa" stroke-width="2"/>
+    <text x="400" y="25" fill="#ffffff" font-family="Arial" font-size="16" text-anchor="middle">Narasi: "Harga menyapu Stop Loss di bawah (Sweep)</text>
+    <text x="400" y="45" fill="#ffffff" font-family="Arial" font-size="16" text-anchor="middle">untuk mendapatkan bahan bakar menuju target atas (Delivery)."</text>
+  </g>
+  
+  <circle cx="550" cy="360" r="8" fill="#ff3366"/>
+  <circle cx="700" cy="100" r="8" fill="#00ffaa"/>
+  <text x="550" y="340" fill="#ffffff" font-family="Arial" font-size="12" text-anchor="middle">Bensin Terisi</text>
+  <text x="700" y="80" fill="#ffffff" font-family="Arial" font-size="12" text-anchor="middle">Tujuan</text>
+</svg>

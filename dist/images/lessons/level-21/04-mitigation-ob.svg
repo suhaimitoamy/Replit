@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" style="background-color:#1a1a2e; font-family:sans-serif;">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a2e" />
+      <stop offset="100%" stop-color="#16213e" />
+    </linearGradient>
+  </defs>
+
+  <rect width="100%" height="100%" fill="url(#bgGradient)" />
+
+  <text x="400" y="50" fill="#ffffff" font-size="24" font-weight="bold" text-anchor="middle">Mitigation Order Block</text>
+
+  <!-- Explanation: Bullish OB fails, becomes Resistance -->
+  
+  <!-- Step 1: Uptrend forming an OB -->
+  <path d="M 100 350 L 150 200 L 200 250 L 250 100" fill="none" stroke="#00ffaa" stroke-width="4" />
+  
+  <!-- Formed Bullish OB (Now failed) -->
+  <rect x="180" y="230" width="500" height="40" fill="#ff3366" fill-opacity="0.2" stroke="#ff3366" stroke-width="2" stroke-dasharray="5,5" />
+  <text x="690" y="255" fill="#ff3366" font-size="14" font-weight="bold">Mitigation OB</text>
+
+  <!-- Step 2: Failed higher high (Mitigation Block scenario) -->
+  <path d="M 250 100 L 300 180 L 350 120" fill="none" stroke="#00ffaa" stroke-width="4" />
+  <text x="350" y="100" fill="#ffffff" font-size="14" font-weight="bold">Lower High (Gagal ke atas)</text>
+
+  <!-- Step 3: Massive dump breaking the OB -->
+  <path d="M 350 120 L 400 350" fill="none" stroke="#ff3366" stroke-width="5" />
+  <circle cx="390" cy="270" r="8" fill="#e94560" />
+  <text x="410" y="340" fill="#ff3366" font-size="14" font-weight="bold">BOS / CHoCH ke Bawah</text>
+  <text x="410" y="275" fill="#e94560" font-size="14">OB Tembus (Jebol)</text>
+
+  <!-- Step 4: Return to Mitigate -->
+  <path d="M 400 350 L 500 250" fill="none" stroke="#ffffff" stroke-width="3" stroke-dasharray="4,4" />
+  <text x="510" y="230" fill="#00ffaa" font-size="14" font-weight="bold">Entry SELL di sini</text>
+  <circle cx="500" cy="250" r="8" fill="#00ffaa" />
+
+  <!-- Step 5: Continuation Drop -->
+  <path d="M 500 250 L 600 450" fill="none" stroke="#ff3366" stroke-width="4" />
+
+  <!-- Info Box -->
+  <rect x="50" y="380" width="280" height="90" fill="#0f3460" fill-opacity="0.8" rx="8" />
+  <text x="60" y="405" fill="#ffffff" font-size="14" font-weight="bold">Konsep Mitigation OB:</text>
+  <text x="60" y="430" fill="#ffffff" font-size="12">1. Bullish OB yang dijebol dengan kuat.</text>
+  <text x="60" y="450" fill="#ffffff" font-size="12">2. Harga kembali ke OB lama tersebut.</text>
+  <text x="60" y="470" fill="#ffffff" font-size="12">3. Mantan Support menjadi Resistance kuat.</text>
+</svg>

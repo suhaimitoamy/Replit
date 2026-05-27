@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <style>
+      .bg { fill: #1a1a2e; }
+      .text-title { fill: #ffffff; font-family: sans-serif; font-size: 24px; font-weight: bold; }
+      .text-sub { fill: #a0a0b0; font-family: sans-serif; font-size: 16px; }
+      .text-label { fill: #ffffff; font-family: sans-serif; font-size: 14px; font-weight: bold; }
+      .text-info { fill: #00ffaa; font-family: sans-serif; font-size: 12px; }
+      .text-alert { fill: #ff3366; font-family: sans-serif; font-size: 12px; }
+      .text-warning { fill: #ffaa00; font-family: sans-serif; font-size: 12px; }
+      .line-price { stroke: #00ffaa; stroke-width: 2; stroke-dasharray: 4 4; }
+      .line-sl { stroke: #ff3366; stroke-width: 2; stroke-dasharray: 6 6; }
+      .line-bep { stroke: #ffffff; stroke-width: 2; stroke-dasharray: 4 4; }
+      .bearish { stroke: #ff3366; stroke-width: 3; fill: none; stroke-linejoin: round; }
+      .zone-fvg { fill: #ffffff; opacity: 0.1; }
+      .box { fill: #2a2a4e; stroke: #404060; stroke-width: 1; rx: 5; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" class="bg" />
+  
+  <!-- Title -->
+  <text x="400" y="40" class="text-title" text-anchor="middle">Break Even Point (BEP)</text>
+  <text x="400" y="65" class="text-sub" text-anchor="middle">Risk-Free Trade vs Premature Exit</text>
+
+  <!-- Split Screen View -->
+  
+  <!-- LEFT PANEL: The Good BEP -->
+  <rect x="30" y="100" width="350" height="300" class="box" />
+  <text x="205" y="130" class="text-label" text-anchor="middle">Skenario Ideal: Risk Free</text>
+  
+  <!-- Levels Left -->
+  <line x1="40" y1="160" x2="370" y2="160" class="line-sl" />
+  <text x="50" y="155" class="text-alert">Original SL</text>
+
+  <line x1="40" y1="210" x2="370" y2="210" class="line-bep" />
+  <text x="50" y="205" class="text-label">Entry (Sell) -> New SL (BEP)</text>
+  <path d="M 120 160 L 120 190" stroke="#ffffff" stroke-width="2" marker-end="url(#arrow-white)" />
+
+  <line x1="40" y1="360" x2="370" y2="360" class="line-price" />
+  <text x="50" y="355" class="text-info">Target / TP</text>
+
+  <!-- Price Action Left -->
+  <path d="M 80 180 L 120 210 L 180 270 L 220 240 L 280 320 L 320 300 L 360 360" class="bearish" />
+  <circle cx="180" cy="270" r="4" fill="#a0a0b0" />
+  <text x="210" y="280" class="text-info">1:1 Target Hit</text>
+  <text x="210" y="295" class="text-info">(Move to BEP)</text>
+
+
+  <!-- RIGHT PANEL: The Bad BEP -->
+  <rect x="420" y="100" width="350" height="300" class="box" />
+  <text x="595" y="130" class="text-label" text-anchor="middle">Skenario Whipsaw (Premature)</text>
+
+  <!-- FVG Zone -->
+  <rect x="430" y="180" width="330" height="30" class="zone-fvg" />
+  <text x="740" y="195" class="text-sub" font-size="10" text-anchor="end">FVG / Resistance</text>
+
+  <!-- Levels Right -->
+  <line x1="430" y1="160" x2="760" y2="160" class="line-sl" />
+  <text x="440" y="155" class="text-alert">Original SL</text>
+
+  <line x1="430" y1="210" x2="760" y2="210" class="line-bep" />
+  <text x="440" y="205" class="text-label">Entry (Sell) -> New SL (BEP)</text>
+
+  <!-- Price Action Right -->
+  <!-- Start (450,210) -> drop slightly (480,240) -> move to BEP here -> Spike up to mitigate FVG (530,190) -> Drop hard to Target (650,360) -->
+  <path d="M 450 190 L 470 210 L 500 240 L 540 190 L 600 280 L 650 360" class="bearish" />
+  
+  <circle cx="500" cy="240" r="4" fill="#a0a0b0" />
+  <text x="480" y="260" class="text-warning">Moved BEP</text>
+  <text x="480" y="275" class="text-warning">too early</text>
+
+  <circle cx="530" cy="210" r="6" fill="#ffaa00" />
+  <text x="545" y="200" class="text-warning" font-weight="bold">Hit BEP! (Stopped out)</text>
+  
+  <text x="630" y="340" class="text-alert" font-style="italic">Missed Profit</text>
+
+
+  <!-- Arrow marker -->
+  <defs>
+    <marker id="arrow-white" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#ffffff" />
+    </marker>
+  </defs>
+
+  <!-- Bottom Notes -->
+  <rect x="30" y="420" width="740" height="60" class="box" />
+  <text x="400" y="445" class="text-label" text-anchor="middle">Pelajaran Penting</text>
+  <text x="400" y="465" class="text-sub" text-anchor="middle" font-size="12">BEP melindungi modal, tetapi memindahkannya terlalu cepat sebelum harga benar-benar aman</text>
+  <text x="400" y="485" class="text-sub" text-anchor="middle" font-size="12">dari zona penjemputan likuiditas (mitigation) sering kali memicu penutupan posisi prematur.</text>
+
+</svg>

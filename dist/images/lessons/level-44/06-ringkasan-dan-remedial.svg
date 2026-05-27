@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" style="background-color:#1a1a2e;font-family:sans-serif;">
+  <text x="400" y="40" fill="#ffffff" font-size="24" font-weight="bold" text-anchor="middle">Ringkasan Compounding vs Withdraw</text>
+
+  <!-- Left Side: Grow -->
+  <rect x="100" y="100" width="250" height="200" rx="10" fill="#2a2a4e" stroke="#00ffaa" stroke-width="3"/>
+  <text x="225" y="140" fill="#00ffaa" font-size="20" font-weight="bold" text-anchor="middle">GROW (Compounding)</text>
+  <path d="M 140 250 Q 225 250 280 160" fill="none" stroke="#00ffaa" stroke-width="4"/>
+  <circle cx="280" cy="160" r="6" fill="#00ffaa"/>
+  <text x="225" y="280" fill="#aaaaaa" font-size="14" text-anchor="middle">Snowball Effect</text>
+
+  <!-- Balance -->
+  <path d="M 370 200 L 430 200" stroke="#ffffff" stroke-width="4" stroke-dasharray="5,5" fill="none"/>
+  <text x="400" y="180" fill="#ffffff" font-size="16" font-weight="bold" text-anchor="middle">BALANCED</text>
+
+  <!-- Right Side: Realize -->
+  <rect x="450" y="100" width="250" height="200" rx="10" fill="#2a2a4e" stroke="#ffcc00" stroke-width="3"/>
+  <text x="575" y="140" fill="#ffcc00" font-size="20" font-weight="bold" text-anchor="middle">REALIZE (Withdraw)</text>
+  <rect x="520" y="180" width="110" height="60" rx="5" fill="#1a1a2e" stroke="#ffcc00" stroke-width="2"/>
+  <text x="575" y="215" fill="#ffffff" font-size="16" font-weight="bold" text-anchor="middle">$$ in Bank</text>
+  <text x="575" y="280" fill="#aaaaaa" font-size="14" text-anchor="middle">Pay Yourself First</text>
+
+</svg>

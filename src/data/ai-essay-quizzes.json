@@ -1,0 +1,4546 @@
+[
+  {
+    "id": "essay-quiz-1",
+    "quizId": "quiz-1",
+    "levelId": "level-1",
+    "title": "Newbie Trader AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Jelaskan apa yang dimaksud dengan trading forex dan mengapa kita perlu memahami chart serta candlestick?",
+        "expectedConcepts": [
+          "pengertian trading",
+          "jual beli mata uang",
+          "membaca pergerakan harga",
+          "candlestick sebagai visualisasi"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Apa perbedaan utama antara market yang sedang trending dan market yang sedang ranging (sideways)? Bagaimana cara kita mengenalinya?",
+        "expectedConcepts": [
+          "trending",
+          "arah jelas",
+          "ranging",
+          "sideways",
+          "bolak-balik di area yang sama"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Sebutkan mengapa konsep Support, Resistance, dan manajemen Risiko dasar sangat penting bagi seorang pemula?",
+        "expectedConcepts": [
+          "support",
+          "resistance",
+          "batas harga",
+          "manajemen risiko",
+          "melindungi modal"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban sangat komprehensif, logis, dan menyentuh konsep utama secara akurat dengan penjelasan yang jelas.",
+      "pass": "Jawaban memahami poin penting dan konsep dasar walaupun kurang lengkap dalam penjelasan.",
+      "fail": "Jawaban dangkal, tidak relevan, atau tidak memahami konsep dasar yang ditanyakan."
+    },
+    "remedialLessons": [
+      "level-01/01-trading-itu-apa",
+      "level-01/02-chart-dan-candlestick",
+      "level-01/03-trend-dan-range",
+      "level-01/04-support-resistance-awal",
+      "level-01/05-risiko-dasar",
+      "level-01/06-ringkasan-level-1"
+    ]
+  },
+  {
+    "id": "essay-quiz-2",
+    "quizId": "quiz-2",
+    "levelId": "level-2",
+    "title": "Candle Reader AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Bagaimana cara membedakan candlestick yang menunjukkan momentum kuat (dominan) dibandingkan candlestick yang lemah?",
+        "expectedConcepts": [
+          "body besar",
+          "sumbu kecil",
+          "momentum kuat",
+          "body kecil",
+          "sumbu panjang",
+          "momentum lemah"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Jelaskan makna dari sumbu (wick) yang panjang pada sebuah candlestick di area Support atau Resistance!",
+        "expectedConcepts": [
+          "penolakan",
+          "rejection",
+          "tekanan beli atau jual",
+          "gagal menembus"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Sebutkan beberapa kesalahan umum yang sering dilakukan trader pemula saat membaca candlestick!",
+        "expectedConcepts": [
+          "hanya melihat bentuk",
+          "mengabaikan konteks market",
+          "tidak melihat snr",
+          "masuk terlalu cepat sebelum candle close"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban sangat komprehensif, logis, dan menyentuh konsep utama secara akurat dengan penjelasan yang jelas.",
+      "pass": "Jawaban memahami poin penting dan konsep dasar walaupun kurang lengkap dalam penjelasan.",
+      "fail": "Jawaban dangkal, tidak relevan, atau tidak memahami konsep dasar yang ditanyakan."
+    },
+    "remedialLessons": [
+      "level-02/01-candle-bullish-bearish",
+      "level-02/02-candle-dominan-lemah",
+      "level-02/03-momentum-sederhana",
+      "level-02/04-latihan-candle",
+      "level-02/05-kesalahan-umum-candle",
+      "level-02/06-ringkasan-level-2"
+    ]
+  },
+  {
+    "id": "essay-quiz-3",
+    "quizId": "quiz-3",
+    "levelId": "level-3",
+    "title": "SNR Hunter AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Jelaskan dengan bahasa sederhana apa itu area Support dan apa itu area Resistance!",
+        "expectedConcepts": [
+          "support",
+          "lantai",
+          "titik pantul bawah",
+          "resistance",
+          "atap",
+          "titik pantul atas"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Apa saja syarat atau ciri-ciri sebuah area Support atau Resistance dikatakan valid dan kuat?",
+        "expectedConcepts": [
+          "diuji beberapa kali",
+          "rejection kuat",
+          "terlihat jelas",
+          "area bukan titik harga pasti"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Mengapa kita sebaiknya menggambar SNR sebagai sebuah area atau zona (zone) dan bukan sebuah garis (line) tunggal?",
+        "expectedConcepts": [
+          "harga fluktuatif",
+          "bisa melebihi garis",
+          "menghindari jebakan",
+          "area pantulan",
+          "toleransi pergerakan"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban sangat komprehensif, logis, dan menyentuh konsep utama secara akurat dengan penjelasan yang jelas.",
+      "pass": "Jawaban memahami poin penting dan konsep dasar walaupun kurang lengkap dalam penjelasan.",
+      "fail": "Jawaban dangkal, tidak relevan, atau tidak memahami konsep dasar yang ditanyakan."
+    },
+    "remedialLessons": [
+      "level-03/01-support-dasar",
+      "level-03/02-resistance-dasar",
+      "level-03/03-area-snr-valid",
+      "level-03/04-kesalahan-menarik-snr",
+      "level-03/05-latihan-snr",
+      "level-03/06-ringkasan-level-3"
+    ]
+  },
+  {
+    "id": "essay-quiz-4",
+    "quizId": "quiz-4",
+    "levelId": "level-4",
+    "title": "Break Retest Scout AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Jelaskan konsep dasar Breakout pada Support atau Resistance dan apa yang membuatnya bisa menjadi peluang trading!",
+        "expectedConcepts": [
+          "harga menembus batas",
+          "momentum berlanjut",
+          "snr pecah",
+          "pindah ke level berikutnya"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Apa yang dimaksud dengan Fake Breakout (Fakeout) dan bagaimana cara kita menghindarinya?",
+        "expectedConcepts": [
+          "gagal breakout",
+          "harga kembali ke range",
+          "tunggu candle close",
+          "lihat konfirmasi",
+          "rejection kuat"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Mengapa menunggu Retest (pantulan kembali ke area yang ditembus) lebih disarankan daripada langsung masuk saat Breakout terjadi?",
+        "expectedConcepts": [
+          "konfirmasi",
+          "snr berubah fungsi",
+          "lebih aman",
+          "menghindari fakeout",
+          "risk reward lebih baik"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban sangat komprehensif, logis, dan menyentuh konsep utama secara akurat dengan penjelasan yang jelas.",
+      "pass": "Jawaban memahami poin penting dan konsep dasar walaupun kurang lengkap dalam penjelasan.",
+      "fail": "Jawaban dangkal, tidak relevan, atau tidak memahami konsep dasar yang ditanyakan."
+    },
+    "remedialLessons": [
+      "level-04/01-breakout-dasar",
+      "level-04/02-fake-breakout",
+      "level-04/03-break-and-retest",
+      "level-04/04-retest-sehat-dan-lemah",
+      "level-04/05-kapan-breakout-tidak-layak",
+      "level-04/06-ringkasan-level-4"
+    ]
+  },
+  {
+    "id": "essay-quiz-5",
+    "quizId": "quiz-5",
+    "levelId": "level-5",
+    "title": "Structure Learner AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Jelaskan apa yang dimaksud dengan Higher High (HH) dan Higher Low (HL) dalam konteks Market Structure!",
+        "expectedConcepts": [
+          "uptrend",
+          "tren naik",
+          "puncak lebih tinggi",
+          "lembah lebih tinggi"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Apa itu BOS (Break of Structure) dan bagaimana hal ini mengkonfirmasi tren yang sedang berlanjut?",
+        "expectedConcepts": [
+          "break of structure",
+          "menembus high sebelumnya",
+          "menembus low sebelumnya",
+          "tren berlanjut"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Jelaskan konsep dasar dari CHoCH (Change of Character) dan perbedaannya dengan BOS!",
+        "expectedConcepts": [
+          "change of character",
+          "indikasi pembalikan",
+          "reversal",
+          "bos adalah kelanjutan",
+          "choch adalah perubahan tren"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban sangat komprehensif, logis, dan menyentuh konsep utama secara akurat dengan penjelasan yang jelas.",
+      "pass": "Jawaban memahami poin penting dan konsep dasar walaupun kurang lengkap dalam penjelasan.",
+      "fail": "Jawaban dangkal, tidak relevan, atau tidak memahami konsep dasar yang ditanyakan."
+    },
+    "remedialLessons": [
+      "level-05/01-market-structure",
+      "level-05/02-hh-hl-lh-ll",
+      "level-05/03-bos-dasar",
+      "level-05/04-choch-dasar",
+      "level-05/05-bullish-bearish-structure",
+      "level-05/06-ringkasan-level-5"
+    ]
+  },
+  {
+    "id": "essay-quiz-6",
+    "quizId": "quiz-6",
+    "levelId": "level-6",
+    "title": "Liquidity Seeker AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Dalam trading, apa yang dimaksud dengan Liquidity (Likuiditas) dan mengapa area tersebut sering dituju oleh harga?",
+        "expectedConcepts": [
+          "kumpulan order",
+          "stop loss",
+          "pending order",
+          "bahan bakar harga",
+          "institusi butuh likuiditas"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Jelaskan apa itu Stop Hunt atau Liquidity Sweep pada titik High atau Low sebelumnya!",
+        "expectedConcepts": [
+          "menyapu stop loss",
+          "mengambil likuiditas",
+          "hanya sumbu (wick)",
+          "reversal cepat",
+          "jebakan retail"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Apa itu Inducement dasar dan bagaimana market menggunakannya untuk menjebak trader retail?",
+        "expectedConcepts": [
+          "inducement",
+          "pancingan",
+          "support resistance palsu",
+          "menjebak masuk lebih awal",
+          "sebelum area yang sebenarnya"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban sangat komprehensif, logis, dan menyentuh konsep utama secara akurat dengan penjelasan yang jelas.",
+      "pass": "Jawaban memahami poin penting dan konsep dasar walaupun kurang lengkap dalam penjelasan.",
+      "fail": "Jawaban dangkal, tidak relevan, atau tidak memahami konsep dasar yang ditanyakan."
+    },
+    "remedialLessons": [
+      "level-06/01-liquidity-dasar",
+      "level-06/02-liquidity-high-low",
+      "level-06/03-sweep",
+      "level-06/04-stop-hunt",
+      "level-06/05-inducement-dasar",
+      "level-06/06-ringkasan-level-6"
+    ]
+  },
+  {
+    "id": "essay-quiz-7",
+    "quizId": "quiz-7",
+    "levelId": "level-7",
+    "title": "Risk Guardian AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Mengapa penggunaan Stop Loss (SL) dan Take Profit (TP) adalah hal yang wajib dalam setiap trading plan?",
+        "expectedConcepts": [
+          "membatasi kerugian",
+          "mengamankan profit",
+          "mengontrol emosi",
+          "menjaga modal"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Jelaskan apa itu Risk to Reward Ratio (RR) dan berikan contoh RR yang sehat untuk trader pemula!",
+        "expectedConcepts": [
+          "perbandingan risiko dan keuntungan",
+          "risk to reward",
+          "minimal 1 banding 2",
+          "loss kecil profit besar"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Apa dampak negatif dari Overtrade dan Layering (membuka banyak posisi) tanpa perhitungan risk per trade yang jelas?",
+        "expectedConcepts": [
+          "margin call",
+          "kerugian berlipat",
+          "emosi tidak terkontrol",
+          "risiko terlalu besar"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban sangat komprehensif, logis, dan menyentuh konsep utama secara akurat dengan penjelasan yang jelas.",
+      "pass": "Jawaban memahami poin penting dan konsep dasar walaupun kurang lengkap dalam penjelasan.",
+      "fail": "Jawaban dangkal, tidak relevan, atau tidak memahami konsep dasar yang ditanyakan."
+    },
+    "remedialLessons": [
+      "level-07/01-risk-management",
+      "level-07/02-sl-tp-rr",
+      "level-07/03-lot-dan-risk-per-trade",
+      "level-07/04-overtrade-dan-layering",
+      "level-07/05-latihan-hitung-risk",
+      "level-07/06-ringkasan-level-7"
+    ]
+  },
+  {
+    "id": "essay-quiz-8",
+    "quizId": "quiz-8",
+    "levelId": "level-8",
+    "title": "Entry Planner AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Mengapa memiliki Checklist Entry sangat penting sebelum mengeksekusi sebuah trade?",
+        "expectedConcepts": [
+          "mengurangi kesalahan",
+          "disiplin",
+          "obyektif",
+          "menghindari fomo",
+          "konfirmasi rencana"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Apa yang dimaksud dengan Invalidasi (kondisi batal) dalam sebuah setup trading?",
+        "expectedConcepts": [
+          "setup tidak berlaku",
+          "harga menembus level batas",
+          "alasan entry hilang",
+          "stop loss terkena"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Sebutkan perbedaan antara Entry yang Valid (sesuai sistem) dibandingkan dengan Entry yang Emosional!",
+        "expectedConcepts": [
+          "ada alasan logis",
+          "sesuai checklist",
+          "emosional asal tebak",
+          "fomo",
+          "balas dendam"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban sangat komprehensif, logis, dan menyentuh konsep utama secara akurat dengan penjelasan yang jelas.",
+      "pass": "Jawaban memahami poin penting dan konsep dasar walaupun kurang lengkap dalam penjelasan.",
+      "fail": "Jawaban dangkal, tidak relevan, atau tidak memahami konsep dasar yang ditanyakan."
+    },
+    "remedialLessons": [
+      "level-08/01-entry-plan",
+      "level-08/02-invalidasi",
+      "level-08/03-poi-dasar",
+      "level-08/04-checklist-entry",
+      "level-08/05-entry-valid-vs-emosional",
+      "level-08/06-ringkasan-level-8"
+    ]
+  },
+  {
+    "id": "essay-quiz-9",
+    "quizId": "quiz-9",
+    "levelId": "level-9",
+    "title": "ICT Apprentice AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Jelaskan dengan sederhana apa itu Order Block dan bagaimana trader menggunakannya sebagai POI (Point of Interest)?",
+        "expectedConcepts": [
+          "order block",
+          "jejak institusi",
+          "candle terakhir sebelum pergerakan besar",
+          "area pantulan"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Apa itu Fair Value Gap (FVG) dan mengapa harga sering kembali ke area tersebut?",
+        "expectedConcepts": [
+          "fvg",
+          "ketidakseimbangan",
+          "imbalance",
+          "gap 3 candle",
+          "harga mengisi kekosongan"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Bagaimana sebuah pergerakan Displacement (pergerakan kuat searah) membantu mengkonfirmasi arah trend?",
+        "expectedConcepts": [
+          "momentum kuat",
+          "candle besar",
+          "menciptakan fvg",
+          "break structure",
+          "niat institusi"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban sangat komprehensif, logis, dan menyentuh konsep utama secara akurat dengan penjelasan yang jelas.",
+      "pass": "Jawaban memahami poin penting dan konsep dasar walaupun kurang lengkap dalam penjelasan.",
+      "fail": "Jawaban dangkal, tidak relevan, atau tidak memahami konsep dasar yang ditanyakan."
+    },
+    "remedialLessons": [
+      "level-09/01-ict-dasar",
+      "level-09/02-order-block",
+      "level-09/03-fvg",
+      "level-09/04-displacement",
+      "level-09/05-session-dan-poi",
+      "level-09/06-ringkasan-level-9"
+    ]
+  },
+  {
+    "id": "essay-quiz-10",
+    "quizId": "quiz-10",
+    "levelId": "level-10",
+    "title": "God Level Candidate AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Jelaskan tahapan dasar melakukan Full Chart Analysis sebelum mengambil keputusan trading!",
+        "expectedConcepts": [
+          "menentukan bias",
+          "melihat struktur",
+          "mencari likuiditas",
+          "menentukan poi",
+          "menunggu konfirmasi entry"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Bagaimana Bias (arah kecenderungan harga), Liquidity, dan POI saling berhubungan untuk membentuk setup yang probabilitas tinggi?",
+        "expectedConcepts": [
+          "bias menentukan arah",
+          "liquidity menyediakan bahan bakar",
+          "poi memberikan area entry",
+          "konvergensi",
+          "setup matang"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Mengapa Jurnal Trading dan Evaluasi rutin adalah kunci utama menuju konsistensi sebagai trader?",
+        "expectedConcepts": [
+          "mencatat kesalahan",
+          "memperbaiki strategi",
+          "mengukur performa",
+          "menjaga kedisiplinan",
+          "evaluasi obyektif"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban sangat komprehensif, logis, dan menyentuh konsep utama secara akurat dengan penjelasan yang jelas.",
+      "pass": "Jawaban memahami poin penting dan konsep dasar walaupun kurang lengkap dalam penjelasan.",
+      "fail": "Jawaban dangkal, tidak relevan, atau tidak memahami konsep dasar yang ditanyakan."
+    },
+    "remedialLessons": [
+      "level-10/01-full-chart-analysis",
+      "level-10/02-bias-liquidity-poi",
+      "level-10/03-entry-sl-tp-invalidasi",
+      "level-10/04-jurnal-dan-evaluasi",
+      "level-10/05-final-preparation",
+      "level-10/06-ringkasan-level-10"
+    ]
+  },
+  {
+    "id": "essay-quiz-11",
+    "quizId": "quiz-11",
+    "levelId": "level-11",
+    "title": "Advanced SNR AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Mengapa sebuah zona Support atau Resistance (SNR) yang sebelumnya kuat dapat dianggap 'dirty' atau kurang valid untuk dientri lagi, dan bagaimana cara melakukan zone refinement yang benar?",
+        "expectedConcepts": [
+          "dirty level",
+          "multiple tests",
+          "zone refinement",
+          "fresh zone"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Jelaskan perbedaan kualitas reaksi harga di sebuah zona SNR saat pasar sedang trending dibandingkan saat pasar berada dalam fase ranging (konsolidasi)!",
+        "expectedConcepts": [
+          "trending",
+          "ranging",
+          "reaction quality",
+          "momentum"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Dalam studi kasus Advanced SNR, apa peran struktur pasar dalam menentukan validitas sebuah area Support atau Resistance?",
+        "expectedConcepts": [
+          "market structure",
+          "confluence",
+          "breakout",
+          "validity"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban sangat komprehensif, logis, dan menyentuh konsep utama teknikal dengan sangat jelas.",
+      "pass": "Jawaban memahami poin penting secara teknikal walaupun kurang mendetail.",
+      "fail": "Jawaban dangkal, tidak relevan, atau tidak memahami konsep teknikal yang ditanyakan."
+    },
+    "remedialLessons": [
+      "level-11/01-zone-refinement",
+      "level-11/02-reaction-quality",
+      "level-11/03-clean-vs-dirty-level",
+      "level-11/04-snr-dalam-trend",
+      "level-11/05-snr-dalam-range",
+      "level-11/06-advanced-snr-case-study"
+    ]
+  },
+  {
+    "id": "essay-quiz-12",
+    "quizId": "quiz-12",
+    "levelId": "level-12",
+    "title": "Multi Timeframe Structure AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Bagaimana cara melakukan alignment (penyelarasan) antara Higher Timeframe (HTF) structure dan Lower Timeframe (LTF) structure sebelum mengambil keputusan entri?",
+        "expectedConcepts": [
+          "alignment",
+          "HTF",
+          "LTF",
+          "trend"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Apa yang harus dilakukan seorang trader ketika terjadi konflik antara bias di Higher Timeframe (HTF) dan struktur harga yang terbentuk di Lower Timeframe (LTF)?",
+        "expectedConcepts": [
+          "conflict",
+          "HTF bias",
+          "LTF structure",
+          "wait for confirmation",
+          "alignment"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Jelaskan langkah-langkah praktis melakukan mapping struktur dari Higher Timeframe (HTF) turun ke Lower Timeframe (LTF) untuk mencari probabilitas entri yang tinggi!",
+        "expectedConcepts": [
+          "mapping",
+          "top-down analysis",
+          "HTF POI",
+          "LTF confirmation"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban sangat komprehensif, logis, dan menyentuh konsep utama teknikal dengan sangat jelas.",
+      "pass": "Jawaban memahami poin penting secara teknikal walaupun kurang mendetail.",
+      "fail": "Jawaban dangkal, tidak relevan, atau tidak memahami konsep teknikal yang ditanyakan."
+    },
+    "remedialLessons": [
+      "level-12/01-htf-structure",
+      "level-12/02-ltf-structure",
+      "level-12/03-alignment",
+      "level-12/04-conflict-antar-timeframe",
+      "level-12/05-mapping-dari-htf-ke-ltf",
+      "level-12/06-mtf-structure-case-study"
+    ]
+  },
+  {
+    "id": "essay-quiz-13",
+    "quizId": "quiz-13",
+    "levelId": "level-13",
+    "title": "Advanced Break and Retest AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Jelaskan perbedaan mendasar antara shallow retest dan deep retest setelah terjadinya breakout, serta bagaimana hal ini mempengaruhi penempatan stop loss?",
+        "expectedConcepts": [
+          "shallow retest",
+          "deep retest",
+          "stop loss placement",
+          "momentum"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Mengapa sebuah retest bisa mengalami kegagalan (failed retest) setelah harga menembus level penting, dan tanda apa yang biasanya mendahuluinya?",
+        "expectedConcepts": [
+          "failed retest",
+          "fakeout",
+          "lack of momentum",
+          "liquidity grab"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Bagaimana kehadiran liquidity (likuiditas) dan pergeseran struktur (structure shift) dapat digunakan sebagai konfirmasi tambahan pada strategi break and retest?",
+        "expectedConcepts": [
+          "liquidity",
+          "structure shift",
+          "confirmation",
+          "high probability"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban sangat komprehensif, logis, dan menyentuh konsep utama teknikal dengan sangat jelas.",
+      "pass": "Jawaban memahami poin penting secara teknikal walaupun kurang mendetail.",
+      "fail": "Jawaban dangkal, tidak relevan, atau tidak memahami konsep teknikal yang ditanyakan."
+    },
+    "remedialLessons": [
+      "level-13/01-shallow-retest",
+      "level-13/02-deep-retest",
+      "level-13/03-failed-retest",
+      "level-13/04-retest-dengan-liquidity",
+      "level-13/05-retest-dengan-structure-shift",
+      "level-13/06-advanced-break-retest-case-study"
+    ]
+  },
+  {
+    "id": "essay-quiz-14",
+    "quizId": "quiz-14",
+    "levelId": "level-14",
+    "title": "Compression and Expansion AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Apa ciri-ciri pergerakan harga yang mengalami compression (kompresi) mendekati sebuah Point of Interest (POI), dan apa indikasi psikologis di baliknya?",
+        "expectedConcepts": [
+          "compression",
+          "liquidity building",
+          "indecision",
+          "POI"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Bagaimana cara mengidentifikasi 'trap' atau jebakan harga yang sering terjadi tepat sebelum harga meledak ke satu arah (expansion candle)?",
+        "expectedConcepts": [
+          "trap",
+          "liquidity sweep",
+          "fake breakout",
+          "expansion"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Jelaskan hubungan antara fase compression di dekat POI dengan potensi terjadinya expansion yang kuat, dan bagaimana strategi memanfaatkannya?",
+        "expectedConcepts": [
+          "compression to expansion",
+          "POI reaction",
+          "momentum release",
+          "entry setup"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban sangat komprehensif, logis, dan menyentuh konsep utama teknikal dengan sangat jelas.",
+      "pass": "Jawaban memahami poin penting secara teknikal walaupun kurang mendetail.",
+      "fail": "Jawaban dangkal, tidak relevan, atau tidak memahami konsep teknikal yang ditanyakan."
+    },
+    "remedialLessons": [
+      "level-14/01-compression-dasar",
+      "level-14/02-ciri-price-compression",
+      "level-14/03-expansion-candle",
+      "level-14/04-trap-sebelum-expansion",
+      "level-14/05-compression-di-poi",
+      "level-14/06-compression-expansion-case-study"
+    ]
+  },
+  {
+    "id": "essay-quiz-15",
+    "quizId": "quiz-15",
+    "levelId": "level-15",
+    "title": "Advanced Fakeout AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Apa perbedaan mendasar antara liquidity grab dengan failed breakout biasa, dan bagaimana cara membedakannya di chart?",
+        "expectedConcepts": [
+          "liquidity grab",
+          "failed breakout",
+          "sweep",
+          "candle close"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Dalam skenario fakeout, jelaskan bagaimana cara mengidentifikasi apakah fakeout tersebut akan berujung pada reversal (pembalikan) atau justru continuation (kelanjutan arah)!",
+        "expectedConcepts": [
+          "reversal",
+          "continuation",
+          "HTF context",
+          "momentum"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Konfirmasi apa yang harus dicari oleh trader setelah mengidentifikasi terjadinya fakeout sebelum memutuskan untuk masuk ke dalam pasar?",
+        "expectedConcepts": [
+          "confirmation",
+          "structure shift",
+          "displacement",
+          "re-entry"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban sangat komprehensif, logis, dan menyentuh konsep utama teknikal dengan sangat jelas.",
+      "pass": "Jawaban memahami poin penting secara teknikal walaupun kurang mendetail.",
+      "fail": "Jawaban dangkal, tidak relevan, atau tidak memahami konsep teknikal yang ditanyakan."
+    },
+    "remedialLessons": [
+      "level-15/01-failed-breakout",
+      "level-15/02-liquidity-grab",
+      "level-15/03-fakeout-dengan-reversal",
+      "level-15/04-fakeout-dengan-continuation",
+      "level-15/05-konfirmasi-setelah-fakeout",
+      "level-15/06-advanced-fakeout-case-study"
+    ]
+  },
+  {
+    "id": "essay-quiz-16",
+    "quizId": "quiz-16",
+    "levelId": "level-16",
+    "title": "Internal and External Liquidity AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Jelaskan perbedaan antara Internal Liquidity dan External Liquidity, serta bagaimana institusi besar memanfaatkannya!",
+        "expectedConcepts": [
+          "internal liquidity",
+          "external liquidity",
+          "range bounds",
+          "target"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Mengapa pembentukan Equal Highs atau Equal Lows sering dijadikan sebagai target likuiditas (liquidity pool) yang sangat menarik di pasar?",
+        "expectedConcepts": [
+          "equal highs",
+          "equal lows",
+          "retail stop loss",
+          "liquidity pool"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Bagaimana cara menentukan target likuiditas (liquidity targets) yang logis ketika harga sedang bergerak di dalam sebuah range?",
+        "expectedConcepts": [
+          "range",
+          "internal liquidity target",
+          "premium discount",
+          "sweep"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban sangat komprehensif, logis, dan menyentuh konsep utama teknikal dengan sangat jelas.",
+      "pass": "Jawaban memahami poin penting secara teknikal walaupun kurang mendetail.",
+      "fail": "Jawaban dangkal, tidak relevan, atau tidak memahami konsep teknikal yang ditanyakan."
+    },
+    "remedialLessons": [
+      "level-16/01-internal-liquidity",
+      "level-16/02-external-liquidity",
+      "level-16/03-equal-highs-equal-lows",
+      "level-16/04-liquidity-di-dalam-range",
+      "level-16/05-target-likuiditas",
+      "level-16/06-internal-external-case-study"
+    ]
+  },
+  {
+    "id": "essay-quiz-17",
+    "quizId": "quiz-17",
+    "levelId": "level-17",
+    "title": "Inducement AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Apa yang dimaksud dengan Inducement dalam konteks pergerakan harga, dan mengapa ia sering terjadi tepat sebelum harga mencapai Point of Interest (POI) yang valid?",
+        "expectedConcepts": [
+          "inducement",
+          "early buyers/sellers",
+          "liquidity building",
+          "POI"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Bagaimana cara membedakan antara Inducement (jebakan) dengan setup entry yang valid agar terhindar dari retail trap?",
+        "expectedConcepts": [
+          "inducement",
+          "valid entry",
+          "sweep",
+          "retail trap"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Mengapa sangat penting bagi seorang trader untuk menunggu proses pengambilan Inducement (inducement sweep) selesai sebelum mengeksekusi perdagangan?",
+        "expectedConcepts": [
+          "wait for sweep",
+          "confirmation",
+          "higher probability",
+          "stop loss protection"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban sangat komprehensif, logis, dan menyentuh konsep utama teknikal dengan sangat jelas.",
+      "pass": "Jawaban memahami poin penting secara teknikal walaupun kurang mendetail.",
+      "fail": "Jawaban dangkal, tidak relevan, atau tidak memahami konsep teknikal yang ditanyakan."
+    },
+    "remedialLessons": [
+      "level-17/01-apa-itu-inducement",
+      "level-17/02-inducement-sebelum-poi",
+      "level-17/03-inducement-vs-entry-valid",
+      "level-17/04-retail-trap",
+      "level-17/05-menunggu-inducement-selesai",
+      "level-17/06-inducement-case-study"
+    ]
+  },
+  {
+    "id": "essay-quiz-18",
+    "quizId": "quiz-18",
+    "levelId": "level-18",
+    "title": "Dealing Range AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Bagaimana cara menarik Dealing Range (Range High ke Range Low) yang benar setelah terjadinya pembentukan struktur pergerakan harga yang signifikan?",
+        "expectedConcepts": [
+          "dealing range",
+          "range high",
+          "range low",
+          "swing points"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Jelaskan konsep Equilibrium (titik tengah 50%) dalam sebuah Dealing Range dan mengapa area ini sering kali harus dihindari (middle range) untuk entry!",
+        "expectedConcepts": [
+          "equilibrium",
+          "50 percent",
+          "middle range",
+          "low probability",
+          "chop"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Apa perbedaan mengambil keputusan trading di Discount Area versus Premium Area dalam sebuah dealing range?",
+        "expectedConcepts": [
+          "discount area",
+          "premium area",
+          "buy low",
+          "sell high"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban sangat komprehensif, logis, dan menyentuh konsep utama teknikal dengan sangat jelas.",
+      "pass": "Jawaban memahami poin penting secara teknikal walaupun kurang mendetail.",
+      "fail": "Jawaban dangkal, tidak relevan, atau tidak memahami konsep teknikal yang ditanyakan."
+    },
+    "remedialLessons": [
+      "level-18/01-range-high-low",
+      "level-18/02-equilibrium",
+      "level-18/03-discount-area",
+      "level-18/04-premium-area",
+      "level-18/05-menghindari-middle-range",
+      "level-18/06-dealing-range-case-study"
+    ]
+  },
+  {
+    "id": "essay-quiz-19",
+    "quizId": "quiz-19",
+    "levelId": "level-19",
+    "title": "Premium Discount AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Berdasarkan konsep Premium dan Discount, mengapa secara logis kita mencari peluang Buy hanya di Discount Area dan Sell di Premium Area?",
+        "expectedConcepts": [
+          "buy at discount",
+          "sell at premium",
+          "value",
+          "risk to reward"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Jelaskan bahaya utama melakukan eksekusi entri tepat di level Equilibrium (50%) dan bagaimana cara mengkombinasikan Premium/Discount dengan Point of Interest (POI)!",
+        "expectedConcepts": [
+          "equilibrium danger",
+          "POI combination",
+          "confluence",
+          "whipsaw"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Dalam sebuah studi kasus pasar yang sedang tren naik (bullish), bagaimana Anda menggunakan matriks Premium-Discount untuk menyaring sinyal trading yang valid?",
+        "expectedConcepts": [
+          "bullish trend",
+          "wait for discount",
+          "filter signals",
+          "alignment"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban sangat komprehensif, logis, dan menyentuh konsep utama teknikal dengan sangat jelas.",
+      "pass": "Jawaban memahami poin penting secara teknikal walaupun kurang mendetail.",
+      "fail": "Jawaban dangkal, tidak relevan, atau tidak memahami konsep teknikal yang ditanyakan."
+    },
+    "remedialLessons": [
+      "level-19/01-konsep-premium-discount",
+      "level-19/02-buy-di-discount",
+      "level-19/03-sell-di-premium",
+      "level-19/04-kesalahan-entry-di-equilibrium",
+      "level-19/05-premium-discount-dengan-poi",
+      "level-19/06-premium-discount-case-study"
+    ]
+  },
+  {
+    "id": "essay-quiz-20",
+    "quizId": "quiz-20",
+    "levelId": "level-20",
+    "title": "Liquidity Narrative AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Apa yang dimaksud dengan Liquidity Narrative (narasi likuiditas) dan bagaimana hal ini membantu trader memahami ke mana harga (price) sebenarnya ingin bergerak (where price wants to go)?",
+        "expectedConcepts": [
+          "liquidity narrative",
+          "order flow",
+          "draw on liquidity",
+          "price direction"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Jelaskan proses dari 'Sweep to Delivery' di mana harga mengambil sebuah likuiditas untuk kemudian didistribusikan ke target likuiditas (liquidity objective) di arah berlawanan!",
+        "expectedConcepts": [
+          "sweep",
+          "delivery",
+          "liquidity objective",
+          "expansion"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Bagaimana cara membangun sebuah narasi arah tren (bullish atau bearish narrative) yang kokoh dengan hanya bermodalkan peta likuiditas (liquidity map)?",
+        "expectedConcepts": [
+          "bullish narrative",
+          "bearish narrative",
+          "liquidity map",
+          "HTF targets",
+          "context"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban sangat komprehensif, logis, dan menyentuh konsep utama teknikal dengan sangat jelas.",
+      "pass": "Jawaban memahami poin penting secara teknikal walaupun kurang mendetail.",
+      "fail": "Jawaban dangkal, tidak relevan, atau tidak memahami konsep teknikal yang ditanyakan."
+    },
+    "remedialLessons": [
+      "level-20/01-narasi-likuiditas",
+      "level-20/02-where-price-wants-to-go",
+      "level-20/03-liquidity-objective",
+      "level-20/04-sweep-to-delivery",
+      "level-20/05-narasi-bullish-bearish",
+      "level-20/06-liquidity-narrative-case-study"
+    ]
+  },
+  {
+    "id": "essay-quiz-21",
+    "quizId": "quiz-21",
+    "levelId": "level-21",
+    "title": "Order Block Refinement AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Jelaskan dengan detail perbedaan antara Order Block yang valid dengan Order Block yang invalid. Faktor apa saja yang membuat sebuah OB memiliki probabilitas tinggi?",
+        "expectedConcepts": [
+          "valid order block",
+          "invalid order block",
+          "liquidity sweep",
+          "displacement",
+          "imbalance"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Bagaimana cara melakukan refinement (penyempurnaan) pada area Order Block dari High Timeframe ke Lower Timeframe tanpa kehilangan konteks pergerakan harga?",
+        "expectedConcepts": [
+          "ob refinement",
+          "htf to ltf",
+          "risk to reward",
+          "precision",
+          "context"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Apa yang dimaksud dengan Mitigation Block dalam konteks kegagalan Order Block, dan bagaimana Anda mengidentifikasi bahwa sebuah OB telah termitigasi (mitigated)?",
+        "expectedConcepts": [
+          "mitigation ob",
+          "failed order block",
+          "mitigated",
+          "reaction",
+          "price delivery"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban sangat komprehensif, logis, dan menyentuh konsep utama seperti validasi OB, refinement multi-timeframe, dan mitigation dengan standar expert.",
+      "pass": "Jawaban memahami poin penting tentang Order Block dan refinement walaupun penjelasan tentang mitigation atau validasi kurang mendalam.",
+      "fail": "Jawaban dangkal, tidak relevan, atau tidak memahami konsep Order Block dan perbedaannya dengan support/resistance biasa."
+    },
+    "remedialLessons": [
+      "level-21/01-valid-order-block",
+      "level-21/02-invalid-order-block",
+      "level-21/03-ob-refinement",
+      "level-21/04-mitigation-ob",
+      "level-21/05-ob-dengan-displacement",
+      "level-21/06-ob-refinement-case-study"
+    ]
+  },
+  {
+    "id": "essay-quiz-22",
+    "quizId": "quiz-22",
+    "levelId": "level-22",
+    "title": "FVG Refinement AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Deskripsikan bagaimana Anda memvalidasi sebuah Fair Value Gap (FVG) yang berkualitas tinggi dibandingkan dengan FVG yang lemah di dalam tren harga.",
+        "expectedConcepts": [
+          "valid fvg",
+          "displacement",
+          "imbalance",
+          "market structure",
+          "momentum"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Jelaskan konsep \"Partial Fill\" dan \"Filled FVG\". Bagaimana respons harga pada kedua kondisi tersebut menentukan arah pergerakan selanjutnya?",
+        "expectedConcepts": [
+          "filled fvg",
+          "partial fill",
+          "price reaction",
+          "liquidity draw",
+          "continuation"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Dalam skenario chart, bagaimana Anda menggunakan FVG sebagai area Entry Zone (POI) utama, dan bagaimana refinement dilakukan untuk meminimalisir risiko?",
+        "expectedConcepts": [
+          "fvg sebagai entry zone",
+          "fvg refinement",
+          "risk management",
+          "poi",
+          "ltf confirmation"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban sangat komprehensif, menjelaskan validasi FVG, konsep partial fill vs filled, serta cara menjadikan FVG sebagai entry zone secara expert.",
+      "pass": "Jawaban cukup baik dalam menjelaskan FVG dan kondisinya, namun kurang detail dalam skenario entry zone atau refinement.",
+      "fail": "Jawaban tidak mencerminkan pemahaman tentang Fair Value Gap dan cara merespons interaksi harga terhadap imbalance tersebut."
+    },
+    "remedialLessons": [
+      "level-22/01-valid-fvg",
+      "level-22/02-filled-fvg",
+      "level-22/03-partial-fill",
+      "level-22/04-fvg-dengan-displacement",
+      "level-22/05-fvg-sebagai-entry-zone",
+      "level-22/06-fvg-refinement-case-study"
+    ]
+  },
+  {
+    "id": "essay-quiz-23",
+    "quizId": "quiz-23",
+    "levelId": "level-23",
+    "title": "Breaker Block AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Apa yang dimaksud dengan Breaker Block secara teknikal, dan bagaimana sebuah failed Order Block bertransformasi menjadi Breaker Block?",
+        "expectedConcepts": [
+          "breaker block",
+          "failed ob menjadi breaker",
+          "liquidity sweep",
+          "market structure shift"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Bedakan antara skenario Breaker Bullish dan Breaker Bearish. Apa saja syarat utama agar Breaker tersebut dianggap high probability?",
+        "expectedConcepts": [
+          "breaker bullish",
+          "breaker bearish",
+          "high probability",
+          "displacement",
+          "return to origin"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Sebutkan konfirmasi apa saja yang wajib Anda cari sebelum memutuskan untuk entry (masuk pasar) pada area Breaker Block.",
+        "expectedConcepts": [
+          "konfirmasi breaker",
+          "ltf entry",
+          "displacement",
+          "fvg alignment",
+          "respect breaker"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban mendeskripsikan secara sempurna transformasi OB menjadi Breaker, membedakan Bullish/Bearish, dan menyebutkan konfirmasi entry berstandar expert.",
+      "pass": "Jawaban mendasar tentang Breaker Block sudah benar, namun detail konfirmasi atau syarat high probability masih kurang lengkap.",
+      "fail": "Jawaban salah mengartikan Breaker Block dengan support/resistance klasik atau tidak memahami konsep failed OB."
+    },
+    "remedialLessons": [
+      "level-23/01-apa-itu-breaker-block",
+      "level-23/02-failed-ob-menjadi-breaker",
+      "level-23/03-breaker-bullish",
+      "level-23/04-breaker-bearish",
+      "level-23/05-konfirmasi-breaker",
+      "level-23/06-breaker-block-case-study"
+    ]
+  },
+  {
+    "id": "essay-quiz-24",
+    "quizId": "quiz-24",
+    "levelId": "level-24",
+    "title": "Mitigation Block AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Jelaskan secara mendalam logika di balik Mitigation Block. Mengapa institusi atau smart money harus melakukan mitigasi posisi mereka pada area ini?",
+        "expectedConcepts": [
+          "mitigation block",
+          "logika mitigation",
+          "smart money",
+          "breakeven",
+          "drawdown relief"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Apa perbedaan paling krusial antara Mitigation Block dan Breaker Block? Bagaimana Anda membedakan keduanya di dalam chart?",
+        "expectedConcepts": [
+          "mitigation vs breaker",
+          "liquidity sweep",
+          "failure to sweep",
+          "lower high",
+          "higher low"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Bagaimana Anda menentukan reaction zone yang valid pada Mitigation Block, dan apa yang menjadi kriteria invalidasi sebuah Mitigation Block?",
+        "expectedConcepts": [
+          "reaction zone",
+          "invalidasi mitigation",
+          "candle close",
+          "displacement",
+          "respect block"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban sangat kuat dalam menjelaskan logika mitigasi institusional, perbedaan dengan Breaker secara presisi, dan zona reaksi/invalidasinya.",
+      "pass": "Jawaban cukup baik dalam mendefinisikan Mitigation Block dan perbedaannya, walau logika institusional kurang dalam.",
+      "fail": "Jawaban tertukar antara Mitigation Block dan Breaker Block, atau tidak memahami konsep mitigasi."
+    },
+    "remedialLessons": [
+      "level-24/01-apa-itu-mitigation-block",
+      "level-24/02-logika-mitigation",
+      "level-24/03-mitigation-vs-order-block",
+      "level-24/04-reaction-zone",
+      "level-24/05-invalidasi-mitigation",
+      "level-24/06-mitigation-block-case-study"
+    ]
+  },
+  {
+    "id": "essay-quiz-25",
+    "quizId": "quiz-25",
+    "levelId": "level-25",
+    "title": "Inversion FVG AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Apa definisi dari Inversion FVG, dan bagaimana sebuah FVG yang tadinya gagal (diabaikan harga) bisa berbalik menjadi area penting?",
+        "expectedConcepts": [
+          "inversion fvg",
+          "fvg gagal",
+          "reclaimed",
+          "change in state of delivery",
+          "price action"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Jelaskan skenario di mana Inversion FVG bertindak sebagai area Support dinamis, dan skenario di mana ia berfungsi sebagai Resistance dinamis.",
+        "expectedConcepts": [
+          "inversion sebagai support",
+          "inversion sebagai resistance",
+          "bullish inversion",
+          "bearish inversion",
+          "retest"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Mengapa penggabungan Inversion FVG dengan Structure Shift (ChoCh/BOS) menciptakan model setup probabilitas tinggi? Berikan analisis Anda.",
+        "expectedConcepts": [
+          "inversion dengan structure shift",
+          "confluence",
+          "high probability setup",
+          "narrative change",
+          "momentum shift"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban menjelaskan proses transisi FVG menjadi Inversion dengan akurat, mengaplikasikan sebagai support/resistance, dan menggabungkannya dengan structure shift sangat baik.",
+      "pass": "Jawaban memahami konsep dasar Inversion FVG walau kurang tajam dalam menjelaskan aspek confluence dengan structure shift.",
+      "fail": "Jawaban tidak mengetahui apa itu Inversion FVG, menganggapnya sekadar area kosong biasa tanpa nilai reaktif pasca ditembus."
+    },
+    "remedialLessons": [
+      "level-25/01-apa-itu-inversion-fvg",
+      "level-25/02-fvg-gagal",
+      "level-25/03-inversion-sebagai-support",
+      "level-25/04-inversion-sebagai-resistance",
+      "level-25/05-inversion-dengan-structure-shift",
+      "level-25/06-inversion-fvg-case-study"
+    ]
+  },
+  {
+    "id": "essay-quiz-26",
+    "quizId": "quiz-26",
+    "levelId": "level-26",
+    "title": "Displacement Model AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Jelaskan konsep dasar dari Displacement. Ciri-ciri visual apa yang harus ada pada candlestick agar bisa disebut sebagai candle displacement sejati?",
+        "expectedConcepts": [
+          "displacement dasar",
+          "ciri candle displacement",
+          "large body",
+          "strong momentum",
+          "imbalance creation"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Bagaimana hubungan antara Displacement dan Imbalance (FVG)? Mengapa displacement yang baik selalu meninggalkan FVG di belakangnya?",
+        "expectedConcepts": [
+          "displacement dan imbalance",
+          "fvg",
+          "agresivitas institusi",
+          "liquidity void",
+          "inefficiency"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Mengapa mengidentifikasi Displacement setelah terjadinya Liquidity Sweep merupakan konfirmasi (entry model) yang sangat kuat dalam ICT?",
+        "expectedConcepts": [
+          "displacement setelah sweep",
+          "konfirmasi",
+          "smart money reversal",
+          "stop hunt",
+          "change in state of delivery"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban mendefinisikan ciri candle displacement secara presisi, menghubungkannya dengan imbalance, dan memahami perannya pasca liquidity sweep dengan sangat baik.",
+      "pass": "Jawaban memahami arti displacement sebagai pergerakan kuat, namun belum secara penuh menghubungkannya dengan konfirmasi entry atau liquidity sweep.",
+      "fail": "Jawaban salah memahami displacement, mencampuradukkannya dengan breakout biasa tanpa mempertimbangkan konteks imbalance atau sweep."
+    },
+    "remedialLessons": [
+      "level-26/01-displacement-dasar",
+      "level-26/02-ciri-candle-displacement",
+      "level-26/03-displacement-dan-imbalance",
+      "level-26/04-displacement-setelah-sweep",
+      "level-26/05-displacement-sebagai-konfirmasi",
+      "level-26/06-displacement-model-case-study"
+    ]
+  },
+  {
+    "id": "essay-quiz-27",
+    "quizId": "quiz-27",
+    "levelId": "level-27",
+    "title": "Session Timing Advanced AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Bandingkan karakteristik pergerakan harga antara Asia Session, London Session, dan New York Session. Apa peran tipikal dari masing-masing sesi ini dalam siklus harian?",
+        "expectedConcepts": [
+          "asia session",
+          "london session",
+          "new york session",
+          "consolidation",
+          "manipulation",
+          "expansion"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Apa yang dimaksud dengan \"Killzone Behavior\", dan bagaimana seorang trader menggunakan rentang waktu tersebut untuk mengeksekusi peluang probabilitas tinggi?",
+        "expectedConcepts": [
+          "killzone behavior",
+          "volatility injection",
+          "liquidity hunt",
+          "timing precision",
+          "session overlap"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Jelaskan skenario \"Session Manipulation\" (misal: false breakout di awal sesi London/Frankfurt). Bagaimana cara Anda menghindarinya atau memanfaatkannya?",
+        "expectedConcepts": [
+          "session manipulation",
+          "false breakout",
+          "judas swing",
+          "liquidity grab",
+          "smart money trap"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban sangat detail membedah fungsi tiap sesi (AMD - Accumulation, Manipulation, Distribution), killzone, serta taktik manipulasi sesi.",
+      "pass": "Jawaban mengetahui perbedaan sesi dan waktu-waktunya, namun strategi di dalam killzone atau pemahaman manipulasi sesi masih kurang tajam.",
+      "fail": "Jawaban tidak mencerminkan pemahaman tentang waktu (timing) dalam market dan menganggap semua jam trading memiliki bobot probabilitas yang sama."
+    },
+    "remedialLessons": [
+      "level-27/01-asia-session",
+      "level-27/02-london-session",
+      "level-27/03-new-york-session",
+      "level-27/04-killzone-behavior",
+      "level-27/05-session-manipulation",
+      "level-27/06-session-timing-case-study"
+    ]
+  },
+  {
+    "id": "essay-quiz-28",
+    "quizId": "quiz-28",
+    "levelId": "level-28",
+    "title": "HTF to LTF Entry Model AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Mengapa menetapkan \"HTF Bias\" (High Timeframe) adalah langkah krusial sebelum mencari \"LTF Trigger\" (Lower Timeframe)? Jelaskan bahayanya jika tidak sinkron.",
+        "expectedConcepts": [
+          "htf bias",
+          "ltf trigger",
+          "alignment",
+          "trend direction",
+          "low probability setup"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Sebutkan langkah-langkah sistematis bagaimana Anda memetakan \"HTF POI\" (misalnya di H4/Daily) lalu turun untuk mengeksekusi di M15 ke M5 entry.",
+        "expectedConcepts": [
+          "htf poi",
+          "m15 ke m5 entry",
+          "refinement",
+          "market structure shift",
+          "fractal nature"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Rancang sebuah \"Entry Model Lengkap\" yang menggabungkan HTF POI, Liquidity Sweep di LTF, dan Displacement/ChoCh untuk entry. Jelaskan flow-nya.",
+        "expectedConcepts": [
+          "entry model lengkap",
+          "htf ltf case study",
+          "sweep",
+          "displacement",
+          "choch",
+          "fvg entry"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban mendemonstrasikan keahlian tingkat expert dalam merajut korelasi timeframe dari Daily/H4 hingga eksekusi presisi di M5/M1 dengan konfirmasi lengkap.",
+      "pass": "Jawaban sudah mengerti konsep MTF (Multi Timeframe) namun kurang terstruktur dalam menjelaskan flow setup dari HTF ke LTF.",
+      "fail": "Jawaban berantakan, tidak memahami konsep fraktal harga, atau tidak bisa membedakan fungsi HTF POI dengan LTF Trigger."
+    },
+    "remedialLessons": [
+      "level-28/01-htf-bias",
+      "level-28/02-htf-poi",
+      "level-28/03-ltf-trigger",
+      "level-28/04-m15-ke-m5-entry",
+      "level-28/05-entry-model-lengkap",
+      "level-28/06-htf-ltf-case-study"
+    ]
+  },
+  {
+    "id": "essay-quiz-29",
+    "quizId": "quiz-29",
+    "levelId": "level-29",
+    "title": "Trade Management Advanced AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Bagaimana cara paling rasional dan objektif dalam melakukan \"Manage Floating Position\" saat harga hampir mencapai TP atau justru berbalik mendekati SL?",
+        "expectedConcepts": [
+          "manage floating position",
+          "objectivity",
+          "market structure",
+          "trailing sl",
+          "emotional control"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Jelaskan taktik yang tepat kapan Anda harus \"Memindahkan SL ke Break Even\" dan kapan Anda sebaiknya mengambil \"Partial Close\" untuk mengamankan profit.",
+        "expectedConcepts": [
+          "memindahkan sl",
+          "break even",
+          "partial close",
+          "risk free",
+          "securing profits"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Dalam kondisi market apa seorang trader profesional memutuskan \"Hold\" (menahan posisi) dibanding \"Exit\" prematur? Indikator teknikal atau price action apa yang mereka lihat?",
+        "expectedConcepts": [
+          "hold vs exit",
+          "momentum",
+          "higher timeframe narrative",
+          "liquidity draw",
+          "trailing structure"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban sangat luar biasa dalam manajemen risiko proaktif (break even, partial profit, trailing) berlandaskan murni pembacaan struktur harga (price action).",
+      "pass": "Jawaban mengerti fungsi BE dan partial close, namun dasar pengambilan keputusannya kadang masih belum sepenuhnya objektif bersandar pada chart.",
+      "fail": "Jawaban menunjukkan ketidakpahaman tentang pengelolaan trade setelah entry, hanya berfokus pada pasrah menunggu kena TP atau SL mutlak tanpa manajemen aktif."
+    },
+    "remedialLessons": [
+      "level-29/01-manage-floating-position",
+      "level-29/02-memindahkan-sl",
+      "level-29/03-break-even",
+      "level-29/04-partial-close",
+      "level-29/05-hold-vs-exit",
+      "level-29/06-trade-management-case-study"
+    ]
+  },
+  {
+    "id": "essay-quiz-30",
+    "quizId": "quiz-30",
+    "levelId": "level-30",
+    "title": "God Technical Boss AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 80,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Sebagai seorang trader berstatus \"God Technical\", jelaskan bagaimana \"Full Technical Framework\" Anda menggabungkan HTF Bias, Narasi Likuiditas, dan POI menjadi satu kesatuan analisis menyeluruh.",
+        "expectedConcepts": [
+          "full technical framework",
+          "htf bias liquidity",
+          "poi",
+          "narrative",
+          "market alignment"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Ceritakan proses berurutan dari identifikasi POI hingga Entry, serta bagaimana Anda menetapkan aturan \"Invalidation\" harga secara presisi untuk SL dan TP.",
+        "expectedConcepts": [
+          "poi entry invalidation",
+          "sl tp risk management",
+          "stop loss placement",
+          "target liquidity",
+          "precision execution"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Setelah trade selesai, apa saja elemen penting yang harus dievaluasi dalam \"Execution Review\" agar dapat terus meningkatkan performa setup teknikal Anda di masa depan?",
+        "expectedConcepts": [
+          "execution review",
+          "journaling",
+          "mistake analysis",
+          "setup efficiency",
+          "continuous improvement"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban paripurna, mencerminkan pemikiran God Level. Sinkronisasi luar biasa antara bias HTF, eksekusi LTF, penempatan risk yang presisi, dan komitmen pada jurnal/evaluasi.",
+      "pass": "Jawaban komprehensif, mencakup banyak framework penting walau integrasi antar komponen (seperti POI dengan Review) belum sepenuhnya mulus.",
+      "fail": "Jawaban gagal mencerminkan kerangka kerja tingkat mahir, analisis masih terpisah-pisah dan mengabaikan manajemen risiko serta evaluasi sistematis."
+    },
+    "remedialLessons": [
+      "level-30/01-full-technical-framework",
+      "level-30/02-htf-bias-liquidity",
+      "level-30/03-poi-entry-invalidation",
+      "level-30/04-sl-tp-risk-management",
+      "level-30/05-execution-review",
+      "level-30/06-god-technical-boss-test"
+    ]
+  },
+  {
+    "id": "essay-quiz-31",
+    "quizId": "quiz-31",
+    "levelId": "level-31",
+    "title": "FOMO Control AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Jelaskan bagaimana Anda membedakan antara peluang trading yang solid berdasarkan sistem Anda dibandingkan dengan impuls masuk karena melihat harga bergerak cepat (FOMO).",
+        "expectedConcepts": [
+          "sistem trading",
+          "impuls",
+          "analisis rasional",
+          "emosi",
+          "disiplin"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Saat Anda menyadari diri Anda sedang mengalami FOMO karena ketinggalan momen bullish tajam, langkah konkret apa yang harus Anda lakukan untuk meredakan dorongan emosional tersebut sebelum membuka posisi?",
+        "expectedConcepts": [
+          "jeda",
+          "menjauh dari layar",
+          "observasi diri",
+          "tidak masuk pasar",
+          "mengontrol pernapasan"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Evaluasi dampak jangka panjang dari kebiasaan menyerah pada FOMO meskipun sesekali memberikan profit, dan mengapa kontrol emosi lebih berharga daripada profit acak.",
+        "expectedConcepts": [
+          "kebiasaan buruk",
+          "profit acak",
+          "jangka panjang",
+          "konsistensi",
+          "risiko hancur"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban sangat komprehensif, logis, dan menyentuh konsep utama secara mendalam. Menunjukkan pemahaman psikologi trading yang sangat baik dan kesadaran diri.",
+      "pass": "Jawaban memahami poin penting walaupun kurang lengkap atau agak dangkal. Menunjukkan pemahaman dasar tentang bahaya emosi dalam trading.",
+      "fail": "Jawaban dangkal, tidak relevan, atau tidak memahami konsep sama sekali. Gagal mengidentifikasi masalah psikologis atau memberikan solusi yang rasional."
+    },
+    "remedialLessons": [
+      "level-31/01-konsep-utama",
+      "level-31/02-gejala-di-chart-atau-diri-sendiri",
+      "level-31/03-kesalahan-umum",
+      "level-31/04-latihan-kontrol",
+      "level-31/05-studi-kasus",
+      "level-31/06-ringkasan-dan-remedial"
+    ]
+  },
+  {
+    "id": "essay-quiz-32",
+    "quizId": "quiz-32",
+    "levelId": "level-32",
+    "title": "Fear of Loss AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Fear of loss sering kali membuat trader ragu-ragu untuk masuk meskipun setup sudah sempurna. Analisis bagaimana pemahaman probabilitas dapat membantu mengatasi ketakutan ini.",
+        "expectedConcepts": [
+          "probabilitas",
+          "keraguan",
+          "sistem",
+          "eksekusi",
+          "statistik"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Saat posisi Anda mulai mendekati level cut loss, bagaimana Anda menjaga kedisiplinan agar tidak membatalkan stop loss karena ketakutan untuk merealisasikan kerugian?",
+        "expectedConcepts": [
+          "disiplin stop loss",
+          "rasional",
+          "mengendalikan takut",
+          "menerima kerugian",
+          "risk management"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Jelaskan proses kognitif untuk menerima bahwa kerugian (loss) adalah biaya operasional dalam bisnis trading, dan bagaimana cara memisahkan ego dari hasil setiap trade tunggal.",
+        "expectedConcepts": [
+          "biaya operasional",
+          "ego",
+          "trade tunggal",
+          "bisnis",
+          "mindset"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban sangat komprehensif, logis, dan menyentuh konsep utama secara mendalam. Menunjukkan pemahaman psikologi trading yang sangat baik dan kesadaran diri.",
+      "pass": "Jawaban memahami poin penting walaupun kurang lengkap atau agak dangkal. Menunjukkan pemahaman dasar tentang bahaya emosi dalam trading.",
+      "fail": "Jawaban dangkal, tidak relevan, atau tidak memahami konsep sama sekali. Gagal mengidentifikasi masalah psikologis atau memberikan solusi yang rasional."
+    },
+    "remedialLessons": [
+      "level-32/01-konsep-utama",
+      "level-32/02-gejala-di-chart-atau-diri-sendiri",
+      "level-32/03-kesalahan-umum",
+      "level-32/04-latihan-kontrol",
+      "level-32/05-studi-kasus",
+      "level-32/06-ringkasan-dan-remedial"
+    ]
+  },
+  {
+    "id": "essay-quiz-33",
+    "quizId": "quiz-33",
+    "levelId": "level-33",
+    "title": "Revenge Trading AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Setelah mengalami kekalahan beruntun (losing streak), dorongan untuk membalas dendam pada market sangat kuat. Apa tanda-tanda psikologis awal bahwa Anda berisiko melakukan revenge trading?",
+        "expectedConcepts": [
+          "marah",
+          "membalas dendam",
+          "losing streak",
+          "emosi tidak stabil",
+          "frustrasi"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Bagaimana peran jeda waktu atau \"time-out\" dapat memutus siklus emosi destruktif dari revenge trading? Rancang protokol jeda pribadi Anda.",
+        "expectedConcepts": [
+          "time-out",
+          "jeda",
+          "memutus siklus",
+          "menenangkan diri",
+          "protokol"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Evaluasi bagaimana revenge trading seringkali merusak aturan risk management yang sudah ditetapkan, dan jelaskan langkah-langkah untuk kembali rasional setelah menyadari kesalahan ini.",
+        "expectedConcepts": [
+          "overleveraging",
+          "risk management hancur",
+          "kembali rasional",
+          "evaluasi",
+          "kesadaran diri"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban sangat komprehensif, logis, dan menyentuh konsep utama secara mendalam. Menunjukkan pemahaman psikologi trading yang sangat baik dan kesadaran diri.",
+      "pass": "Jawaban memahami poin penting walaupun kurang lengkap atau agak dangkal. Menunjukkan pemahaman dasar tentang bahaya emosi dalam trading.",
+      "fail": "Jawaban dangkal, tidak relevan, atau tidak memahami konsep sama sekali. Gagal mengidentifikasi masalah psikologis atau memberikan solusi yang rasional."
+    },
+    "remedialLessons": [
+      "level-33/01-konsep-utama",
+      "level-33/02-gejala-di-chart-atau-diri-sendiri",
+      "level-33/03-kesalahan-umum",
+      "level-33/04-latihan-kontrol",
+      "level-33/05-studi-kasus",
+      "level-33/06-ringkasan-dan-remedial"
+    ]
+  },
+  {
+    "id": "essay-quiz-34",
+    "quizId": "quiz-34",
+    "levelId": "level-34",
+    "title": "Overconfidence After Win AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Kemenangan berturut-turut dapat menimbulkan ilusi kontrol. Mengapa overconfidence sangat berbahaya dan bagaimana ia mengubah persepsi Anda terhadap risiko?",
+        "expectedConcepts": [
+          "ilusi kontrol",
+          "overconfidence",
+          "meremehkan risiko",
+          "euforia",
+          "bias"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Jelaskan rutinitas atau kebiasaan mental yang dapat Anda terapkan untuk tetap rendah hati dan objektif meskipun baru saja mencetak profit besar.",
+        "expectedConcepts": [
+          "rendah hati",
+          "objektif",
+          "rutinitas evaluasi",
+          "bersyukur",
+          "tidak sombong"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Jika Anda mendapati diri Anda meningkatkan ukuran lot secara tidak rasional setelah winning streak, bagaimana cara Anda mengevaluasi kembali keputusan tersebut dengan sudut pandang sistem trading Anda?",
+        "expectedConcepts": [
+          "evaluasi lot",
+          "sistem",
+          "rasionalitas",
+          "aturan ukuran posisi",
+          "keserakahan"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban sangat komprehensif, logis, dan menyentuh konsep utama secara mendalam. Menunjukkan pemahaman psikologi trading yang sangat baik dan kesadaran diri.",
+      "pass": "Jawaban memahami poin penting walaupun kurang lengkap atau agak dangkal. Menunjukkan pemahaman dasar tentang bahaya emosi dalam trading.",
+      "fail": "Jawaban dangkal, tidak relevan, atau tidak memahami konsep sama sekali. Gagal mengidentifikasi masalah psikologis atau memberikan solusi yang rasional."
+    },
+    "remedialLessons": [
+      "level-34/01-konsep-utama",
+      "level-34/02-gejala-di-chart-atau-diri-sendiri",
+      "level-34/03-kesalahan-umum",
+      "level-34/04-latihan-kontrol",
+      "level-34/05-studi-kasus",
+      "level-34/06-ringkasan-dan-remedial"
+    ]
+  },
+  {
+    "id": "essay-quiz-35",
+    "quizId": "quiz-35",
+    "levelId": "level-35",
+    "title": "Mental Reset After Loss AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Sebuah kerugian besar bisa merusak keseimbangan mental. Jelaskan secara rinci proses mental reset yang efektif sebelum Anda diizinkan untuk melihat chart kembali.",
+        "expectedConcepts": [
+          "mental reset",
+          "istirahat",
+          "detoks chart",
+          "pemulihan",
+          "keseimbangan"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Bandingkan antara bereaksi secara reaktif terhadap loss versus merespon dengan analitis. Apa peran jurnal trading dalam transisi menuju sikap analitis ini?",
+        "expectedConcepts": [
+          "reaktif vs analitis",
+          "jurnal trading",
+          "data objektif",
+          "emosi",
+          "pembelajaran"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Bagaimana Anda menggunakan teknik mindfulness atau reframing untuk mengubah kerugian menyakitkan menjadi data objektif yang berguna untuk pengembangan diri?",
+        "expectedConcepts": [
+          "mindfulness",
+          "reframing",
+          "data objektif",
+          "pengembangan",
+          "menerima realitas"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban sangat komprehensif, logis, dan menyentuh konsep utama secara mendalam. Menunjukkan pemahaman psikologi trading yang sangat baik dan kesadaran diri.",
+      "pass": "Jawaban memahami poin penting walaupun kurang lengkap atau agak dangkal. Menunjukkan pemahaman dasar tentang bahaya emosi dalam trading.",
+      "fail": "Jawaban dangkal, tidak relevan, atau tidak memahami konsep sama sekali. Gagal mengidentifikasi masalah psikologis atau memberikan solusi yang rasional."
+    },
+    "remedialLessons": [
+      "level-35/01-konsep-utama",
+      "level-35/02-gejala-di-chart-atau-diri-sendiri",
+      "level-35/03-kesalahan-umum",
+      "level-35/04-latihan-kontrol",
+      "level-35/05-studi-kasus",
+      "level-35/06-ringkasan-dan-remedial"
+    ]
+  },
+  {
+    "id": "essay-quiz-36",
+    "quizId": "quiz-36",
+    "levelId": "level-36",
+    "title": "Daily Trading Plan AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Mengapa memiliki Daily Trading Plan sebelum market buka sangat krusial dalam mengurangi kelelahan pengambilan keputusan (decision fatigue) saat jam trading?",
+        "expectedConcepts": [
+          "decision fatigue",
+          "persiapan",
+          "rencana harian",
+          "jam trading",
+          "kelelahan mental"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Uraikan komponen-komponen emosional dan psikologis yang wajib Anda periksa dalam diri Anda sendiri ketika menyusun Daily Trading Plan.",
+        "expectedConcepts": [
+          "cek emosi",
+          "tingkat stres",
+          "kesiapan mental",
+          "mood",
+          "psikologis"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Jika di tengah hari trading market bergerak di luar skenario yang ada di Daily Plan Anda, jelaskan bagaimana Anda sebaiknya bereaksi untuk menjaga konsistensi dan kontrol emosi.",
+        "expectedConcepts": [
+          "tidak memaksakan",
+          "tetap sesuai rencana",
+          "kontrol emosi",
+          "fleksibel tapi disiplin",
+          "observasi"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban sangat komprehensif, logis, dan menyentuh konsep utama secara mendalam. Menunjukkan pemahaman psikologi trading yang sangat baik dan kesadaran diri.",
+      "pass": "Jawaban memahami poin penting walaupun kurang lengkap atau agak dangkal. Menunjukkan pemahaman dasar tentang bahaya emosi dalam trading.",
+      "fail": "Jawaban dangkal, tidak relevan, atau tidak memahami konsep sama sekali. Gagal mengidentifikasi masalah psikologis atau memberikan solusi yang rasional."
+    },
+    "remedialLessons": [
+      "level-36/01-konsep-utama",
+      "level-36/02-gejala-di-chart-atau-diri-sendiri",
+      "level-36/03-kesalahan-umum",
+      "level-36/04-latihan-kontrol",
+      "level-36/05-studi-kasus",
+      "level-36/06-ringkasan-dan-remedial"
+    ]
+  },
+  {
+    "id": "essay-quiz-37",
+    "quizId": "quiz-37",
+    "levelId": "level-37",
+    "title": "Pre Entry Checklist AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Apa peran dari Pre Entry Checklist dalam menjembatani antara analisis yang rasional dan eksekusi yang kadang dipengaruhi emosi sesaat?",
+        "expectedConcepts": [
+          "checklist",
+          "rasionalitas",
+          "eksekusi",
+          "mencegah impuls",
+          "disiplin"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Susun sebuah argumen mengapa mengabaikan satu poin saja dalam checklist demi 'feeling' dapat mengancam integritas sistem trading Anda dalam jangka panjang.",
+        "expectedConcepts": [
+          "integritas sistem",
+          "mengabaikan aturan",
+          "feeling",
+          "konsistensi",
+          "jangka panjang"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Saat Anda menemukan setup yang hampir sempurna namun gagal memenuhi satu kriteria checklist utama, jelaskan dialog internal yang sehat untuk meyakinkan diri agar tidak memaksakan entry.",
+        "expectedConcepts": [
+          "dialog internal",
+          "menahan diri",
+          "kriteria",
+          "kesabaran",
+          "tidak memaksakan"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban sangat komprehensif, logis, dan menyentuh konsep utama secara mendalam. Menunjukkan pemahaman psikologi trading yang sangat baik dan kesadaran diri.",
+      "pass": "Jawaban memahami poin penting walaupun kurang lengkap atau agak dangkal. Menunjukkan pemahaman dasar tentang bahaya emosi dalam trading.",
+      "fail": "Jawaban dangkal, tidak relevan, atau tidak memahami konsep sama sekali. Gagal mengidentifikasi masalah psikologis atau memberikan solusi yang rasional."
+    },
+    "remedialLessons": [
+      "level-37/01-konsep-utama",
+      "level-37/02-gejala-di-chart-atau-diri-sendiri",
+      "level-37/03-kesalahan-umum",
+      "level-37/04-latihan-kontrol",
+      "level-37/05-studi-kasus",
+      "level-37/06-ringkasan-dan-remedial"
+    ]
+  },
+  {
+    "id": "essay-quiz-38",
+    "quizId": "quiz-38",
+    "levelId": "level-38",
+    "title": "No Trade Rules AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Mengapa memiliki aturan kapan TIDAK boleh trading (No Trade Rules) sama pentingnya dengan mengetahui kapan harus masuk pasar?",
+        "expectedConcepts": [
+          "melindungi modal",
+          "kondisi tidak ideal",
+          "no trade rules",
+          "filter",
+          "disiplin"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Analisis bagaimana kondisi mental seperti stres dari luar trading, kurang tidur, atau euforia, harus menjadi pemicu otomatis untuk mengaktifkan \"No Trade Rules\".",
+        "expectedConcepts": [
+          "stres luar",
+          "kurang tidur",
+          "euforia",
+          "pemicu",
+          "kesadaran diri"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Jelaskan cara Anda mengelola rasa bosan ketika pasar sedang sideways dan No Trade Rules mengharuskan Anda untuk tetap berada di luar pasar.",
+        "expectedConcepts": [
+          "rasa bosan",
+          "sideways",
+          "bersabar",
+          "tidak gatal klik",
+          "mengalihkan fokus"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban sangat komprehensif, logis, dan menyentuh konsep utama secara mendalam. Menunjukkan pemahaman psikologi trading yang sangat baik dan kesadaran diri.",
+      "pass": "Jawaban memahami poin penting walaupun kurang lengkap atau agak dangkal. Menunjukkan pemahaman dasar tentang bahaya emosi dalam trading.",
+      "fail": "Jawaban dangkal, tidak relevan, atau tidak memahami konsep sama sekali. Gagal mengidentifikasi masalah psikologis atau memberikan solusi yang rasional."
+    },
+    "remedialLessons": [
+      "level-38/01-konsep-utama",
+      "level-38/02-gejala-di-chart-atau-diri-sendiri",
+      "level-38/03-kesalahan-umum",
+      "level-38/04-latihan-kontrol",
+      "level-38/05-studi-kasus",
+      "level-38/06-ringkasan-dan-remedial"
+    ]
+  },
+  {
+    "id": "essay-quiz-39",
+    "quizId": "quiz-39",
+    "levelId": "level-39",
+    "title": "Weekly Evaluation AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Evaluasi mingguan lebih dari sekadar menghitung profit atau loss. Jelaskan bagaimana Anda mengevaluasi kualitas eksekusi dan tingkat kedisiplinan mental selama minggu tersebut.",
+        "expectedConcepts": [
+          "kualitas eksekusi",
+          "kedisiplinan",
+          "bukan sekadar PnL",
+          "evaluasi",
+          "proses"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Ketika Anda menemukan bahwa sebagian besar kerugian minggu ini disebabkan oleh pelanggaran emosional, langkah konkret apa yang akan Anda rancang untuk minggu depan guna memperbaikinya?",
+        "expectedConcepts": [
+          "perbaikan",
+          "pelanggaran emosi",
+          "langkah konkret",
+          "minggu depan",
+          "komitmen"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Bagaimana Anda memisahkan antara sistem yang perlu diperbaiki dengan psikologi trading yang perlu dikendalikan saat menganalisis jurnal mingguan?",
+        "expectedConcepts": [
+          "sistem vs psikologi",
+          "analisis jurnal",
+          "kesalahan eksekusi",
+          "kesalahan sistem",
+          "objektivitas"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban sangat komprehensif, logis, dan menyentuh konsep utama secara mendalam. Menunjukkan pemahaman psikologi trading yang sangat baik dan kesadaran diri.",
+      "pass": "Jawaban memahami poin penting walaupun kurang lengkap atau agak dangkal. Menunjukkan pemahaman dasar tentang bahaya emosi dalam trading.",
+      "fail": "Jawaban dangkal, tidak relevan, atau tidak memahami konsep sama sekali. Gagal mengidentifikasi masalah psikologis atau memberikan solusi yang rasional."
+    },
+    "remedialLessons": [
+      "level-39/01-konsep-utama",
+      "level-39/02-gejala-di-chart-atau-diri-sendiri",
+      "level-39/03-kesalahan-umum",
+      "level-39/04-latihan-kontrol",
+      "level-39/05-studi-kasus",
+      "level-39/06-ringkasan-dan-remedial"
+    ]
+  },
+  {
+    "id": "essay-quiz-40",
+    "quizId": "quiz-40",
+    "levelId": "level-40",
+    "title": "Trader Routine System AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Sistem rutinitas harian mencakup kebiasaan sebelum, saat, dan sesudah trading. Mengapa konsistensi dalam rutinitas ini berperan vital dalam membangun identitas Anda sebagai trader profesional?",
+        "expectedConcepts": [
+          "rutinitas harian",
+          "konsistensi",
+          "identitas trader",
+          "profesionalisme",
+          "kebiasaan"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Jelaskan bagaimana Trader Routine System melindungi Anda dari fluktuasi emosi harian dan menjaga agar keputusan trading tetap berlandaskan pada probabilitas rasional.",
+        "expectedConcepts": [
+          "perlindungan emosi",
+          "rutinitas",
+          "keputusan rasional",
+          "probabilitas",
+          "stabilitas"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Bagaimana Anda mengevaluasi dan menyesuaikan rutinitas trading Anda seiring dengan berkembangnya modal, jam terbang, dan kondisi psikologis Anda?",
+        "expectedConcepts": [
+          "adaptasi",
+          "evaluasi rutinitas",
+          "perkembangan diri",
+          "penyesuaian",
+          "jam terbang"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban sangat komprehensif, logis, dan menyentuh konsep utama secara mendalam. Menunjukkan pemahaman psikologi trading yang sangat baik dan kesadaran diri.",
+      "pass": "Jawaban memahami poin penting walaupun kurang lengkap atau agak dangkal. Menunjukkan pemahaman dasar tentang bahaya emosi dalam trading.",
+      "fail": "Jawaban dangkal, tidak relevan, atau tidak memahami konsep sama sekali. Gagal mengidentifikasi masalah psikologis atau memberikan solusi yang rasional."
+    },
+    "remedialLessons": [
+      "level-40/01-konsep-utama",
+      "level-40/02-gejala-di-chart-atau-diri-sendiri",
+      "level-40/03-kesalahan-umum",
+      "level-40/04-latihan-kontrol",
+      "level-40/05-studi-kasus",
+      "level-40/06-ringkasan-dan-remedial"
+    ]
+  },
+  {
+    "id": "essay-quiz-41",
+    "quizId": "quiz-41",
+    "levelId": "level-41",
+    "title": "HTF Bias to LTF Execution AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Sebagai seorang prop firm trader, Anda melihat bias bullish di Higher Time Frame (Daily/H4), namun Lower Time Frame (M15/M5) sedang menunjukkan struktur bearish yang agresif. Jelaskan secara rinci bagaimana Anda menyelaraskan eksekusi agar tidak terjebak melawan tren minor namun tetap sejalan dengan bias makro, termasuk kriteria invalidasi Anda.",
+        "expectedConcepts": [
+          "Multi-timeframe analysis",
+          "Patience/Waiting for LTF alignment",
+          "Invalidation levels",
+          "Risk management di masa transisi struktur"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Apa bahayanya melakukan eksekusi dini di LTF hanya berdasarkan asumsi bahwa harga telah mencapai POI (Point of Interest) di HTF tanpa menunggu konfirmasi perubahan karakter (CHoCH) di LTF? Berikan skenario nyata yang dapat menyebabkan drawdown beruntun akibat kebiasaan ini.",
+        "expectedConcepts": [
+          "Premature entry",
+          "CHoCH/BOS confirmation",
+          "Drawdown accumulation",
+          "POI mitigation vs reaction"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Jelaskan langkah-langkah disiplin yang Anda ambil jika bias HTF Anda ternyata salah (misalnya, candle Daily ditutup di luar zona ekspektasi). Bagaimana Anda melakukan pivot mental dari bias awal tanpa terjebak dalam 'revenge trading' pada sesi berikutnya?",
+        "expectedConcepts": [
+          "Mental pivot",
+          "Acceptance of loss",
+          "Re-analysis tanpa bias (neutral mindset)",
+          "Revenge trading avoidance"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban sangat komprehensif, mengartikulasikan dengan sangat jelas hubungan HTF dan LTF, menyertakan manajemen risiko tingkat prop firm, serta memahami cara menghindari bias yang kaku.",
+      "pass": "Jawaban memenuhi ekspektasi dasar dalam penyelarasan timeframe dan menyadari pentingnya konfirmasi, meskipun beberapa detail teknis atau psikologis kurang mendalam.",
+      "fail": "Jawaban dangkal, menunjukkan ketidakpahaman terhadap multi-timeframe analysis, atau menyarankan eksekusi ceroboh yang bertentangan dengan standar manajemen risiko."
+    },
+    "remedialLessons": [
+      "level-41/01-konsep-utama",
+      "level-41/02-gejala-di-chart-atau-diri-sendiri",
+      "level-41/03-kesalahan-umum",
+      "level-41/04-latihan-kontrol",
+      "level-41/05-studi-kasus",
+      "level-41/06-ringkasan-dan-remedial"
+    ]
+  },
+  {
+    "id": "essay-quiz-42",
+    "quizId": "quiz-42",
+    "levelId": "level-42",
+    "title": "Entry Confirmation Model AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Dalam standar prop firm, konfirmasi entry yang objektif adalah hal mutlak untuk menghindari trading emosional. Deskripsikan secara spesifik model konfirmasi entry yang Anda gunakan (contoh: wyckoff schematic, CHoCH + Flip, dll) dan parameter apa saja yang harus terpenuhi sebelum mengeksekusi.",
+        "expectedConcepts": [
+          "Objective rules",
+          "Specific entry model",
+          "Checklist parameter",
+          "Discipline in waiting"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Anda telah menunggu setup selama 3 jam, dan harga hampir membentuk model konfirmasi entry Anda, namun satu kriteria krusial (misal: sweep liquidity) tidak terjadi. Bagaimana Anda mengendalikan dorongan FOMO untuk tetap 'memaksakan' entry tersebut?",
+        "expectedConcepts": [
+          "FOMO control",
+          "Strict rule adherence",
+          "Capital preservation",
+          "Patience"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Bandingkan perbedaan psikologis dan hasil jangka panjang antara 'Risk Entry' (limit order di POI tanpa konfirmasi LTF) dengan 'Confirmation Entry'. Mengapa dalam pengelolaan dana besar (prop firm), confirmation entry sering kali lebih diutamakan meskipun terkadang tertinggal pergerakan awal?",
+        "expectedConcepts": [
+          "Risk vs Confirmation",
+          "Win rate vs R:R dynamic",
+          "Capital protection",
+          "Drawdown management"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Sangat spesifik dalam mendefinisikan model entry, menunjukkan tingkat kedisiplinan yang tinggi layaknya profesional, dan pemahaman mendalam tentang pelestarian modal.",
+      "pass": "Memiliki model entry yang cukup jelas dan mengerti bahaya FOMO, namun kurang elaborasi pada aspek pengelolaan risiko secara jangka panjang.",
+      "fail": "Model entry tidak jelas, cenderung bergantung pada perasaan (gut feeling), atau tidak mampu menjelaskan perbedaan antara eksekusi yang disiplin dan ceroboh."
+    },
+    "remedialLessons": [
+      "level-42/01-konsep-utama",
+      "level-42/02-gejala-di-chart-atau-diri-sendiri",
+      "level-42/03-kesalahan-umum",
+      "level-42/04-latihan-kontrol",
+      "level-42/05-studi-kasus",
+      "level-42/06-ringkasan-dan-remedial"
+    ]
+  },
+  {
+    "id": "essay-quiz-43",
+    "quizId": "quiz-43",
+    "levelId": "level-43",
+    "title": "Floating Trade Management AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Trade Anda sedang running profit sebesar 2R. Tiba-tiba ada rilis berita fundamental minor yang menyebabkan lonjakan harga (spike) yang mengikis profit menjadi 0.5R. Jelaskan protokol manajemen trade Anda dalam situasi ini agar Anda tidak panik dan menutup posisi secara emosional.",
+        "expectedConcepts": [
+          "Trade management rules",
+          "Emotional regulation",
+          "News awareness",
+          "Pre-defined trailing/breakeven rules"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Jelaskan kapan waktu yang tepat untuk memindahkan Stop Loss ke Breakeven (BE). Apa konsekuensi negatif jika Anda terlalu cepat memindahkan SL ke BE (misalnya karena takut rugi), dan bagaimana cara menentukan titik BE yang logis berdasarkan struktur pasar?",
+        "expectedConcepts": [
+          "Breakeven timing",
+          "Market structure-based trailing",
+          "Fear of loss (loss aversion)",
+          "Breathing room for trades"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Anda sedang mengalami floating minus mendalam karena salah membaca arah (namun belum menyentuh SL). Di saat yang sama, ada bisikan untuk melakukan 'hedging' atau 'averaging down'. Sebagai trader berstandar prop firm, mengapa tindakan ini sangat berbahaya dan apa prosedur standar yang harus Anda patuhi?",
+        "expectedConcepts": [
+          "Accepting the predefined SL",
+          "Danger of averaging down",
+          "Strict risk limits",
+          "Drawdown rules violation"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Menjabarkan protokol manajemen posisi yang sangat objektif dan berdasarkan struktur pasar, menolak averaging down secara tegas, dan mampu mengelola emosi saat floating.",
+      "pass": "Memahami konsep memindahkan SL dan bahaya averaging, tetapi aturan manajemen trade-nya kurang sistematis atau terlalu kaku.",
+      "fail": "Menyarankan averaging down, memindahkan SL berdasarkan ketakutan semata, atau tidak memiliki rencana manajemen posisi sama sekali."
+    },
+    "remedialLessons": [
+      "level-43/01-konsep-utama",
+      "level-43/02-gejala-di-chart-atau-diri-sendiri",
+      "level-43/03-kesalahan-umum",
+      "level-43/04-latihan-kontrol",
+      "level-43/05-studi-kasus",
+      "level-43/06-ringkasan-dan-remedial"
+    ]
+  },
+  {
+    "id": "essay-quiz-44",
+    "quizId": "quiz-44",
+    "levelId": "level-44",
+    "title": "Scale Out vs Hold Full AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Dalam skenario apa Anda memutuskan untuk melakukan 'Scale Out' (mengambil sebagian profit, misalnya 50% di 1:2) dibandingkan dengan 'Hold Full' hingga target akhir 1:5? Jelaskan pertimbangan struktur pasar dan probabilitas yang memengaruhi keputusan Anda.",
+        "expectedConcepts": [
+          "Scale out reasoning",
+          "Market conditions (ranging vs trending)",
+          "Securing profits",
+          "Psychological comfort vs mathematical EV"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Melakukan Scale Out terlalu dini sering kali disebabkan oleh kecemasan melihat profit yang hilang (profit evaporation). Bagaimana Anda membedakan antara Scale Out yang didasarkan pada strategi logis versus Scale Out yang didorong oleh rasa takut?",
+        "expectedConcepts": [
+          "Logical vs emotional exit",
+          "Trading plan adherence",
+          "Fear of losing profit",
+          "Pre-defined partial targets"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Bagi seorang trader yang mengelola akun pendanaan (funded account) besar, Scale Out dapat membantu menjaga equity curve agar tetap mulus (smooth) dan menghindari psikologi drawdown. Uraikan pandangan Anda tentang pernyataan ini beserta simulasi matematikanya secara singkat.",
+        "expectedConcepts": [
+          "Equity curve smoothing",
+          "Funded account psychology",
+          "Win rate vs R:R balance",
+          "Psychological capital"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban membedah dengan tajam antara aspek matematis dan psikologis dari scaling out, serta menghubungkannya secara relevan dengan manajemen akun pendanaan.",
+      "pass": "Mampu menjelaskan kapan harus scale out dan hold full, namun kurang mengaitkannya dengan masalah psikologi ketakutan atau equity curve.",
+      "fail": "Tidak dapat membedakan exit emosional dengan exit logis, atau tidak memahami konsep pengambilan profit parsial sama sekali."
+    },
+    "remedialLessons": [
+      "level-44/01-konsep-utama",
+      "level-44/02-gejala-di-chart-atau-diri-sendiri",
+      "level-44/03-kesalahan-umum",
+      "level-44/04-latihan-kontrol",
+      "level-44/05-studi-kasus",
+      "level-44/06-ringkasan-dan-remedial"
+    ]
+  },
+  {
+    "id": "essay-quiz-45",
+    "quizId": "quiz-45",
+    "levelId": "level-45",
+    "title": "Disciplined Exit AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Harga hanya berjarak 2 pips dari Take Profit Anda, lalu mulai berbalik arah dengan momentum kuat karena suatu rilis data. Sebagai profesional, apa keputusan Anda? Apakah Anda membiarkannya kembali ke SL/BE, atau Anda melakukan intervensi manual? Jelaskan alasannya.",
+        "expectedConcepts": [
+          "Manual intervention rules",
+          "Contextual awareness (news)",
+          "Protecting capital",
+          "Rigidity vs Flexibility"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Banyak trader amatir memindahkan Take Profit mereka lebih jauh secara impulsif saat melihat harga bergerak kuat, yang akhirnya berujung pada harga berbalik arah dan menyentuh SL. Bagaimana Anda melatih 'Disciplined Exit' agar selalu mematuhi target awal yang telah ditentukan di Trading Plan?",
+        "expectedConcepts": [
+          "Greed control",
+          "Respecting target zones",
+          "Trading plan execution",
+          "Exit discipline"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Sebutkan 3 alasan teknikal yang valid bagi Anda untuk melakukan 'Early Exit' (keluar posisi lebih awal dari target TP maupun SL). Bagaimana Anda memastikan alasan tersebut obyektif dan bukan rasionalisasi dari rasa takut?",
+        "expectedConcepts": [
+          "Opposing structural break",
+          "Time limits (end of session/week)",
+          "High impact news incoming",
+          "Objective rule formulation"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Menunjukkan kematangan emosional dalam menentukan exit, bisa menyeimbangkan antara mematuhi plan secara ketat dengan fleksibilitas berbasis data objektif.",
+      "pass": "Memberikan alasan teknikal yang cukup masuk akal untuk exit, namun strategi untuk mengatasi keserakahan (greed) atau ketakutan kurang tajam.",
+      "fail": "Cenderung membenarkan tindakan impulsif, tidak konsisten dengan trading plan, atau keluar sepenuhnya berdasarkan emosi sesaat."
+    },
+    "remedialLessons": [
+      "level-45/01-konsep-utama",
+      "level-45/02-gejala-di-chart-atau-diri-sendiri",
+      "level-45/03-kesalahan-umum",
+      "level-45/04-latihan-kontrol",
+      "level-45/05-studi-kasus",
+      "level-45/06-ringkasan-dan-remedial"
+    ]
+  },
+  {
+    "id": "essay-quiz-46",
+    "quizId": "quiz-46",
+    "levelId": "level-46",
+    "title": "Trending Market Case Study AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Di pasar yang sedang trending kuat (strong bullish), seringkali pullback yang terjadi sangat dangkal sehingga order di area diskon dalam (deep discount) tidak tersentuh. Bagaimana Anda mengadaptasi strategi eksekusi Anda agar tidak selalu tertinggal pergerakan (left behind)?",
+        "expectedConcepts": [
+          "Aggressive entries in strong trend",
+          "Continuation patterns",
+          "Shallow pullback acceptance",
+          "Adapting strategy contextually"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Saat sebuah aset mencetak All-Time High baru secara berurutan, tidak ada resistance historis di sebelah kiri sebagai target Take Profit. Sebagai prop trader, bagaimana Anda menentukan target profit yang rasional tanpa terjebak keserakahan (holding too long)?",
+        "expectedConcepts": [
+          "Fibonacci extension",
+          "Psychological round numbers",
+          "Trailing stop loss",
+          "Measuring momentum exhaustion"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Pasar yang trending kuat sering kali memicu hasrat 'FOMO buying' di pucuk harga. Bagaimana Anda membedakan antara entri continuation yang valid dengan entry yang terlambat di akhir sebuah tren yang sudah kelelahan (exhausted)?",
+        "expectedConcepts": [
+          "Momentum divergence",
+          "Climax volume",
+          "Market structure shifts",
+          "Late entry vs valid setup"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Mampu menjelaskan adaptasi strategi pada tren kuat dengan presisi teknikal yang luar biasa, menyertakan metode exit yang terukur saat ATH, dan manajemen FOMO yang ketat.",
+      "pass": "Mengetahui cara entry pada tren dan menentukan TP dengan indikator, namun kurang mendalami mitigasi risiko entry di pucuk tren.",
+      "fail": "Menyarankan mengejar harga (chasing price) secara buta tanpa kriteria risiko, atau tidak mengerti cara menentukan target saat tidak ada data historis."
+    },
+    "remedialLessons": [
+      "level-46/01-konsep-utama",
+      "level-46/02-gejala-di-chart-atau-diri-sendiri",
+      "level-46/03-kesalahan-umum",
+      "level-46/04-latihan-kontrol",
+      "level-46/05-studi-kasus",
+      "level-46/06-ringkasan-dan-remedial"
+    ]
+  },
+  {
+    "id": "essay-quiz-47",
+    "quizId": "quiz-47",
+    "levelId": "level-47",
+    "title": "Sideways Market Case Study AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Kondisi sideways (ranging) sering menjadi pembunuh modal terbesar karena banyaknya fakeout dan slippage. Sebagai profesional, apa kriteria objektif Anda untuk menetapkan bahwa pasar sedang sideways dan kapan Anda memutuskan untuk 'stay out' (tidak trading sama sekali)?",
+        "expectedConcepts": [
+          "Identifying chop/range",
+          "No clear directional bias",
+          "Capital preservation rule",
+          "Sitting on hands"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Jika Anda harus melakukan trading di dalam range yang lebar (broad ranging market), bagaimana Anda menyesuaikan ekspektasi Take Profit dan penempatan Stop Loss Anda dibandingkan saat pasar trending?",
+        "expectedConcepts": [
+          "Trading the edges (premium/discount)",
+          "Conservative TP targets (mid-range)",
+          "Wider SL for liquidity sweeps",
+          "Range-bound logic"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Jelaskan jebakan psikologis 'Overtrading' yang sering muncul di pasar sideways. Mengapa trader terus-menerus mencoba menebak arah breakout, dan bagaimana cara memutus siklus loss beruntun akibat perilaku ini?",
+        "expectedConcepts": [
+          "Overtrading in consolidation",
+          "Impatience for breakout",
+          "Vicious cycle of losses",
+          "Strict daily loss limit"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Sangat disiplin memisahkan pendekatan trending dan ranging, mengutamakan 'staying out' saat pasar chop, dan mendefinisikan pencegahan overtrading dengan sangat sistematis.",
+      "pass": "Mengetahui cara buy di support dan sell di resistance, mengenali bahaya overtrading, namun kriteria objektif dalam mendefinisikan sideways kurang solid.",
+      "fail": "Memaksakan sistem trend-following di pasar sideways tanpa penyesuaian, tidak memahami manajemen modal saat volatilitas tidak jelas."
+    },
+    "remedialLessons": [
+      "level-47/01-konsep-utama",
+      "level-47/02-gejala-di-chart-atau-diri-sendiri",
+      "level-47/03-kesalahan-umum",
+      "level-47/04-latihan-kontrol",
+      "level-47/05-studi-kasus",
+      "level-47/06-ringkasan-dan-remedial"
+    ]
+  },
+  {
+    "id": "essay-quiz-48",
+    "quizId": "quiz-48",
+    "levelId": "level-48",
+    "title": "Sweep Reversal Case Study AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Liquidity sweep (pengambilan likuiditas) sering terjadi di area swing high/low utama. Bagaimana Anda membedakan antara sweep sejati yang akan memicu reversal kuat dengan penembusan struktur sejati (BOS) yang menandakan kelanjutan tren?",
+        "expectedConcepts": [
+          "Candle closure (wick vs body)",
+          "Timeframe alignment",
+          "Momentum shift post-sweep",
+          "Liquidity logic"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Anda mengambil posisi reversal sesaat setelah terjadi liquidity sweep di Asia High, namun harga justru kembali naik menembus SL Anda. Bagaimana Anda mengevaluasi apakah Anda masuk terlalu dini, atau pasar memang memiliki niat trending yang kuat?",
+        "expectedConcepts": [
+          "Evaluating loss",
+          "Premature entry (catching falling knife)",
+          "Awaiting LTF structural shift",
+          "Context of higher timeframe"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Sebagai manajer risiko dana besar, trading reversal sering dianggap lebih berisiko karena melawan momentum dominan. Aturan manajemen risiko khusus apa yang Anda terapkan saat memperdagangkan model Sweep Reversal (misalnya: pengurangan ukuran lot)?",
+        "expectedConcepts": [
+          "Risk reduction (half risk)",
+          "Strict confirmation",
+          "Counter-trend dynamics",
+          "Capital protection"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Analisis mendalam membedakan sweep dan BOS (wick vs body closure), memadukan konfirmasi LTF, dan secara proaktif menurunkan risiko (risk dial-down) saat counter-trend.",
+      "pass": "Bisa mengidentifikasi sweep likuiditas dan tahu risikonya, namun kurang detail dalam metode eksekusi atau parameter manajemen risikonya standar saja.",
+      "fail": "Gagal memahami konsep likuiditas dasar, menyarankan eksekusi limit order agresif tanpa konfirmasi dalam arah berlawanan tren utama."
+    },
+    "remedialLessons": [
+      "level-48/01-konsep-utama",
+      "level-48/02-gejala-di-chart-atau-diri-sendiri",
+      "level-48/03-kesalahan-umum",
+      "level-48/04-latihan-kontrol",
+      "level-48/05-studi-kasus",
+      "level-48/06-ringkasan-dan-remedial"
+    ]
+  },
+  {
+    "id": "essay-quiz-49",
+    "quizId": "quiz-49",
+    "levelId": "level-49",
+    "title": "Fake Breakout Case Study AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Trader retail amatir sering terjebak membeli pucuk saat breakout karena tergiur candle besar yang akhirnya menjadi Fake Breakout. Jelaskan anatomi dari Fake Breakout dan mengapa institusi sering menggunakan manuver ini untuk mengisi pesanan mereka.",
+        "expectedConcepts": [
+          "Smart money concepts",
+          "Inducement",
+          "Trapping retail breakout traders",
+          "Order pairing dynamics"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Bagaimana Anda memodifikasi rencana trading (trading plan) Anda untuk berhenti berdagang secara breakout murni dan mulai memanfaatkan Fake Breakout sebagai area masuk (entry) probabilitas tinggi yang berlawanan dengan arah jebakan?",
+        "expectedConcepts": [
+          "Fade the breakout",
+          "Patience for closure",
+          "Deviations/Ranges",
+          "Shift in mindset from retail to institutional"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Terkena jebakan Fake Breakout berturut-turut dapat menghancurkan kepercayaan diri. Ceritakan protokol pemulihan psikologis Anda jika Anda menjadi korban Fake Breakout 2 kali dalam satu sesi. Apa langkah konkret agar Anda tidak mengulangi kesalahan di sesi berikutnya?",
+        "expectedConcepts": [
+          "Session limits (max 2 losses)",
+          "Screen break",
+          "Journaling the mistake",
+          "Mental reset"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Mengartikulasikan dengan sempurna manipulasi institusional, memiliki taktik 'fade the breakout' yang solid, dan mematuhi batasan kerugian per sesi secara profesional.",
+      "pass": "Memahami konsep fake breakout dan bisa menghindarinya, namun penjelasan mekanika pasar institusional atau pemulihan psikologisnya masih normatif.",
+      "fail": "Masih meyakini strategi breakout buta, menyalahkan pasar atas loss, atau tidak punya aturan berhenti trading setelah terkena jebakan beruntun."
+    },
+    "remedialLessons": [
+      "level-49/01-konsep-utama",
+      "level-49/02-gejala-di-chart-atau-diri-sendiri",
+      "level-49/03-kesalahan-umum",
+      "level-49/04-latihan-kontrol",
+      "level-49/05-studi-kasus",
+      "level-49/06-ringkasan-dan-remedial"
+    ]
+  },
+  {
+    "id": "essay-quiz-50",
+    "quizId": "quiz-50",
+    "levelId": "level-50",
+    "title": "Final Boss Consistent Trader Test AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 85,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Sebagai ujian akhir (Final Boss), Anda ditugaskan mengelola dana $1,000,000 dengan aturan Max Daily Drawdown 5% dan Max Total Drawdown 10%. Rancang secara rinci rencana manajemen risiko harian, mingguan, dan per-trade Anda (termasuk risk per trade, kriteria berhenti harian, dan scaling plan) untuk memastikan Anda tidak melanggar aturan ini apa pun kondisi pasarnya.",
+        "expectedConcepts": [
+          "Prop firm risk constraints",
+          "Risk per trade (e.g. 0.5% - 1%)",
+          "Daily loss limits",
+          "Drawdown recovery mechanics"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Konsistensi bukanlah tentang memenangkan setiap trade, melainkan mengulangi proses yang sama secara presisi. Deskripsikan rutinitas harian Anda (Pre-market, Execution, Post-market Review) sebagai trader elit yang telah mencapai konsistensi. Bagaimana Anda memastikan bahwa ego dan emosi tidak merusak rutinitas ini?",
+        "expectedConcepts": [
+          "Routine discipline",
+          "Pre-market preparation",
+          "Post-trade journaling",
+          "Ego detachment"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Anda menghadapi rentetan kekalahan (losing streak) terburuk Anda sepanjang tahun (misal: 6 kali loss berturut-turut) yang memangkas 4% dari modal. Anda tinggal berjarak 1% dari batas Drawdown harian. Tindakan ekstrem dan sistematis apa yang akan Anda ambil untuk melindungi sisa modal, menata ulang psikologi, dan kembali ke performa puncak tanpa sikap 'revenge'?",
+        "expectedConcepts": [
+          "Stopping trading entirely",
+          "Stepping away from the desk",
+          "Deep review of losing trades",
+          "Rebuilding confidence step by step (reducing size)"
+        ]
+      },
+      {
+        "id": "q4",
+        "prompt": "Pencapaian akhir seorang trader profesional adalah 'Multiple Streams of Income' dan menskalakan karier (Scaling up). Setelah Anda konsisten menghasilkan keuntungan di akun pendanaan, bagaimana peta jalan (roadmap) Anda selama 1-3 tahun ke depan dalam hal mengelola portofolio, penarikan keuntungan (payouts), dan mengamankan kekayaan jangka panjang?",
+        "expectedConcepts": [
+          "Scaling capital",
+          "Diversification of profits",
+          "Long term wealth building",
+          "Avoiding lifestyle creep"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban mendemonstrasikan standar tertinggi dari trader prop firm elit: matematis, sangat berpusat pada proses, bebas ego, tangguh menghadapi drawdown, dan visioner dalam pengelolaan kekayaan.",
+      "pass": "Memahami dan memenuhi batasan risiko prop firm dan mengerti pentingnya rutinitas, namun roadmap masa depan atau penanganan krisis drawdown kurang agresif/kurang spesifik.",
+      "fail": "Gagal merancang manajemen risiko yang sesuai dengan batas drawdown (misal menyarankan risk 2-3% per trade), tidak memiliki rutinitas profesional, atau menunjukkan indikasi revenge trading."
+    },
+    "remedialLessons": [
+      "level-50/01-konsep-utama",
+      "level-50/02-gejala-di-chart-atau-diri-sendiri",
+      "level-50/03-kesalahan-umum",
+      "level-50/04-latihan-kontrol",
+      "level-50/05-studi-kasus",
+      "level-50/06-ringkasan-dan-remedial"
+    ]
+  },
+  {
+    "id": "essay-quiz-51",
+    "quizId": "quiz-51",
+    "levelId": "level-51",
+    "title": "IPDA dan Price Delivery AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Jelaskan IPDA dan Price Delivery dengan urutan bias, liquidity, reaksi harga, entry zone, invalidation, dan target. Gunakan contoh XAUUSD sederhana.",
+        "expectedConcepts": [
+          "bias",
+          "liquidity",
+          "reaction",
+          "entry zone",
+          "invalidation",
+          "target",
+          "XAUUSD"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Bedakan setup IPDA dan Price Delivery yang valid dan yang harus diabaikan. Sebutkan minimal tiga tanda valid dan tiga tanda bahaya.",
+        "expectedConcepts": [
+          "valid setup",
+          "warning signs",
+          "displacement",
+          "follow-through",
+          "risk management",
+          "no trade"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Jika harga XAUUSD sudah bergerak jauh dari area IPDA dan jarak ke Stop Loss terlalu lebar, apa keputusan paling disiplin? Jelaskan alasannya.",
+        "expectedConcepts": [
+          "do not chase",
+          "risk reward",
+          "stop loss",
+          "discipline",
+          "wait for retracement",
+          "invalidation"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban menyusun alur lengkap, menyebut bias, liquidity, struktur, konfirmasi, invalidation, target, dan contoh XAUUSD secara objektif.",
+      "pass": "Jawaban memahami konsep utama dan mampu menjelaskan sebagian alur praktik meskipun detail chart belum lengkap.",
+      "fail": "Jawaban hanya menghafal istilah, tidak menjelaskan alur trading, atau tidak menyebut risk dan invalidation."
+    },
+    "remedialLessons": [
+      "level-51/01-pondasi-ipda-dan-price-delivery",
+      "level-51/02-mekanisme-ipda-dan-price-delivery",
+      "level-51/03-membaca-ipda-dan-price-delivery-di-chart",
+      "level-51/04-eksekusi-invalidasi-ipda-dan-price-delivery",
+      "level-51/05-kesalahan-umum-ipda-dan-price-delivery",
+      "level-51/06-studi-kasus-xauusd-ipda-dan-price-delivery"
+    ]
+  },
+  {
+    "id": "essay-quiz-52",
+    "quizId": "quiz-52",
+    "levelId": "level-52",
+    "title": "AMD dan Power of 3 AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Jelaskan AMD dan Power of 3 dengan urutan bias, liquidity, reaksi harga, entry zone, invalidation, dan target. Gunakan contoh XAUUSD sederhana.",
+        "expectedConcepts": [
+          "bias",
+          "liquidity",
+          "reaction",
+          "entry zone",
+          "invalidation",
+          "target",
+          "XAUUSD"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Bedakan setup AMD dan Power of 3 yang valid dan yang harus diabaikan. Sebutkan minimal tiga tanda valid dan tiga tanda bahaya.",
+        "expectedConcepts": [
+          "valid setup",
+          "warning signs",
+          "displacement",
+          "follow-through",
+          "risk management",
+          "no trade"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Jika harga XAUUSD sudah bergerak jauh dari area Accumulation dan jarak ke Stop Loss terlalu lebar, apa keputusan paling disiplin? Jelaskan alasannya.",
+        "expectedConcepts": [
+          "do not chase",
+          "risk reward",
+          "stop loss",
+          "discipline",
+          "wait for retracement",
+          "invalidation"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban menyusun alur lengkap, menyebut bias, liquidity, struktur, konfirmasi, invalidation, target, dan contoh XAUUSD secara objektif.",
+      "pass": "Jawaban memahami konsep utama dan mampu menjelaskan sebagian alur praktik meskipun detail chart belum lengkap.",
+      "fail": "Jawaban hanya menghafal istilah, tidak menjelaskan alur trading, atau tidak menyebut risk dan invalidation."
+    },
+    "remedialLessons": [
+      "level-52/01-pondasi-amd-dan-power-of-3",
+      "level-52/02-mekanisme-amd-dan-power-of-3",
+      "level-52/03-membaca-amd-dan-power-of-3-di-chart",
+      "level-52/04-eksekusi-invalidasi-amd-dan-power-of-3",
+      "level-52/05-kesalahan-umum-amd-dan-power-of-3",
+      "level-52/06-studi-kasus-xauusd-amd-dan-power-of-3"
+    ]
+  },
+  {
+    "id": "essay-quiz-53",
+    "quizId": "quiz-53",
+    "levelId": "level-53",
+    "title": "Judas Swing dan Session Manipulation AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Jelaskan Judas Swing dan Session Manipulation dengan urutan bias, liquidity, reaksi harga, entry zone, invalidation, dan target. Gunakan contoh XAUUSD sederhana.",
+        "expectedConcepts": [
+          "bias",
+          "liquidity",
+          "reaction",
+          "entry zone",
+          "invalidation",
+          "target",
+          "XAUUSD"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Bedakan setup Judas Swing dan Session Manipulation yang valid dan yang harus diabaikan. Sebutkan minimal tiga tanda valid dan tiga tanda bahaya.",
+        "expectedConcepts": [
+          "valid setup",
+          "warning signs",
+          "displacement",
+          "follow-through",
+          "risk management",
+          "no trade"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Jika harga XAUUSD sudah bergerak jauh dari area Judas Swing dan jarak ke Stop Loss terlalu lebar, apa keputusan paling disiplin? Jelaskan alasannya.",
+        "expectedConcepts": [
+          "do not chase",
+          "risk reward",
+          "stop loss",
+          "discipline",
+          "wait for retracement",
+          "invalidation"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban menyusun alur lengkap, menyebut bias, liquidity, struktur, konfirmasi, invalidation, target, dan contoh XAUUSD secara objektif.",
+      "pass": "Jawaban memahami konsep utama dan mampu menjelaskan sebagian alur praktik meskipun detail chart belum lengkap.",
+      "fail": "Jawaban hanya menghafal istilah, tidak menjelaskan alur trading, atau tidak menyebut risk dan invalidation."
+    },
+    "remedialLessons": [
+      "level-53/01-pondasi-judas-swing-dan-session-manipulation",
+      "level-53/02-mekanisme-judas-swing-dan-session-manipulation",
+      "level-53/03-membaca-judas-swing-dan-session-manipulation-di-chart",
+      "level-53/04-eksekusi-invalidasi-judas-swing-dan-session-manipulation",
+      "level-53/05-kesalahan-umum-judas-swing-dan-session-manipulation",
+      "level-53/06-studi-kasus-xauusd-judas-swing-dan-session-manipulation"
+    ]
+  },
+  {
+    "id": "essay-quiz-54",
+    "quizId": "quiz-54",
+    "levelId": "level-54",
+    "title": "Killzone dan Macro Time Windows AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Jelaskan Killzone dan Macro Time Windows dengan urutan bias, liquidity, reaksi harga, entry zone, invalidation, dan target. Gunakan contoh XAUUSD sederhana.",
+        "expectedConcepts": [
+          "bias",
+          "liquidity",
+          "reaction",
+          "entry zone",
+          "invalidation",
+          "target",
+          "XAUUSD"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Bedakan setup Killzone dan Macro Time Windows yang valid dan yang harus diabaikan. Sebutkan minimal tiga tanda valid dan tiga tanda bahaya.",
+        "expectedConcepts": [
+          "valid setup",
+          "warning signs",
+          "displacement",
+          "follow-through",
+          "risk management",
+          "no trade"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Jika harga XAUUSD sudah bergerak jauh dari area London Killzone dan jarak ke Stop Loss terlalu lebar, apa keputusan paling disiplin? Jelaskan alasannya.",
+        "expectedConcepts": [
+          "do not chase",
+          "risk reward",
+          "stop loss",
+          "discipline",
+          "wait for retracement",
+          "invalidation"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban menyusun alur lengkap, menyebut bias, liquidity, struktur, konfirmasi, invalidation, target, dan contoh XAUUSD secara objektif.",
+      "pass": "Jawaban memahami konsep utama dan mampu menjelaskan sebagian alur praktik meskipun detail chart belum lengkap.",
+      "fail": "Jawaban hanya menghafal istilah, tidak menjelaskan alur trading, atau tidak menyebut risk dan invalidation."
+    },
+    "remedialLessons": [
+      "level-54/01-pondasi-killzone-dan-macro-time-windows",
+      "level-54/02-mekanisme-killzone-dan-macro-time-windows",
+      "level-54/03-membaca-killzone-dan-macro-time-windows-di-chart",
+      "level-54/04-eksekusi-invalidasi-killzone-dan-macro-time-windows",
+      "level-54/05-kesalahan-umum-killzone-dan-macro-time-windows",
+      "level-54/06-studi-kasus-xauusd-killzone-dan-macro-time-windows"
+    ]
+  },
+  {
+    "id": "essay-quiz-55",
+    "quizId": "quiz-55",
+    "levelId": "level-55",
+    "title": "Turtle Soup Model AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Jelaskan Turtle Soup Model dengan urutan bias, liquidity, reaksi harga, entry zone, invalidation, dan target. Gunakan contoh XAUUSD sederhana.",
+        "expectedConcepts": [
+          "bias",
+          "liquidity",
+          "reaction",
+          "entry zone",
+          "invalidation",
+          "target",
+          "XAUUSD"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Bedakan setup Turtle Soup Model yang valid dan yang harus diabaikan. Sebutkan minimal tiga tanda valid dan tiga tanda bahaya.",
+        "expectedConcepts": [
+          "valid setup",
+          "warning signs",
+          "displacement",
+          "follow-through",
+          "risk management",
+          "no trade"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Jika harga XAUUSD sudah bergerak jauh dari area Turtle Soup dan jarak ke Stop Loss terlalu lebar, apa keputusan paling disiplin? Jelaskan alasannya.",
+        "expectedConcepts": [
+          "do not chase",
+          "risk reward",
+          "stop loss",
+          "discipline",
+          "wait for retracement",
+          "invalidation"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban menyusun alur lengkap, menyebut bias, liquidity, struktur, konfirmasi, invalidation, target, dan contoh XAUUSD secara objektif.",
+      "pass": "Jawaban memahami konsep utama dan mampu menjelaskan sebagian alur praktik meskipun detail chart belum lengkap.",
+      "fail": "Jawaban hanya menghafal istilah, tidak menjelaskan alur trading, atau tidak menyebut risk dan invalidation."
+    },
+    "remedialLessons": [
+      "level-55/01-pondasi-turtle-soup-model",
+      "level-55/02-mekanisme-turtle-soup-model",
+      "level-55/03-membaca-turtle-soup-model-di-chart",
+      "level-55/04-eksekusi-invalidasi-turtle-soup-model",
+      "level-55/05-kesalahan-umum-turtle-soup-model",
+      "level-55/06-studi-kasus-xauusd-turtle-soup-model"
+    ]
+  },
+  {
+    "id": "essay-quiz-56",
+    "quizId": "quiz-56",
+    "levelId": "level-56",
+    "title": "CISD / Change in State of Delivery AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Jelaskan CISD / Change in State of Delivery dengan urutan bias, liquidity, reaksi harga, entry zone, invalidation, dan target. Gunakan contoh XAUUSD sederhana.",
+        "expectedConcepts": [
+          "bias",
+          "liquidity",
+          "reaction",
+          "entry zone",
+          "invalidation",
+          "target",
+          "XAUUSD"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Bedakan setup CISD / Change in State of Delivery yang valid dan yang harus diabaikan. Sebutkan minimal tiga tanda valid dan tiga tanda bahaya.",
+        "expectedConcepts": [
+          "valid setup",
+          "warning signs",
+          "displacement",
+          "follow-through",
+          "risk management",
+          "no trade"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Jika harga XAUUSD sudah bergerak jauh dari area CISD dan jarak ke Stop Loss terlalu lebar, apa keputusan paling disiplin? Jelaskan alasannya.",
+        "expectedConcepts": [
+          "do not chase",
+          "risk reward",
+          "stop loss",
+          "discipline",
+          "wait for retracement",
+          "invalidation"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban menyusun alur lengkap, menyebut bias, liquidity, struktur, konfirmasi, invalidation, target, dan contoh XAUUSD secara objektif.",
+      "pass": "Jawaban memahami konsep utama dan mampu menjelaskan sebagian alur praktik meskipun detail chart belum lengkap.",
+      "fail": "Jawaban hanya menghafal istilah, tidak menjelaskan alur trading, atau tidak menyebut risk dan invalidation."
+    },
+    "remedialLessons": [
+      "level-56/01-pondasi-cisd-change-in-state-of-delivery",
+      "level-56/02-mekanisme-cisd-change-in-state-of-delivery",
+      "level-56/03-membaca-cisd-change-in-state-of-delivery-di-chart",
+      "level-56/04-eksekusi-invalidasi-cisd-change-in-state-of-delivery",
+      "level-56/05-kesalahan-umum-cisd-change-in-state-of-delivery",
+      "level-56/06-studi-kasus-xauusd-cisd-change-in-state-of-delivery"
+    ]
+  },
+  {
+    "id": "essay-quiz-57",
+    "quizId": "quiz-57",
+    "levelId": "level-57",
+    "title": "Silver Bullet Model AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Jelaskan Silver Bullet Model dengan urutan bias, liquidity, reaksi harga, entry zone, invalidation, dan target. Gunakan contoh XAUUSD sederhana.",
+        "expectedConcepts": [
+          "bias",
+          "liquidity",
+          "reaction",
+          "entry zone",
+          "invalidation",
+          "target",
+          "XAUUSD"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Bedakan setup Silver Bullet Model yang valid dan yang harus diabaikan. Sebutkan minimal tiga tanda valid dan tiga tanda bahaya.",
+        "expectedConcepts": [
+          "valid setup",
+          "warning signs",
+          "displacement",
+          "follow-through",
+          "risk management",
+          "no trade"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Jika harga XAUUSD sudah bergerak jauh dari area Silver Bullet dan jarak ke Stop Loss terlalu lebar, apa keputusan paling disiplin? Jelaskan alasannya.",
+        "expectedConcepts": [
+          "do not chase",
+          "risk reward",
+          "stop loss",
+          "discipline",
+          "wait for retracement",
+          "invalidation"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban menyusun alur lengkap, menyebut bias, liquidity, struktur, konfirmasi, invalidation, target, dan contoh XAUUSD secara objektif.",
+      "pass": "Jawaban memahami konsep utama dan mampu menjelaskan sebagian alur praktik meskipun detail chart belum lengkap.",
+      "fail": "Jawaban hanya menghafal istilah, tidak menjelaskan alur trading, atau tidak menyebut risk dan invalidation."
+    },
+    "remedialLessons": [
+      "level-57/01-pondasi-silver-bullet-model",
+      "level-57/02-mekanisme-silver-bullet-model",
+      "level-57/03-membaca-silver-bullet-model-di-chart",
+      "level-57/04-eksekusi-invalidasi-silver-bullet-model",
+      "level-57/05-kesalahan-umum-silver-bullet-model",
+      "level-57/06-studi-kasus-xauusd-silver-bullet-model"
+    ]
+  },
+  {
+    "id": "essay-quiz-58",
+    "quizId": "quiz-58",
+    "levelId": "level-58",
+    "title": "OTE dan Fibonacci ICT AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Jelaskan OTE dan Fibonacci ICT dengan urutan bias, liquidity, reaksi harga, entry zone, invalidation, dan target. Gunakan contoh XAUUSD sederhana.",
+        "expectedConcepts": [
+          "bias",
+          "liquidity",
+          "reaction",
+          "entry zone",
+          "invalidation",
+          "target",
+          "XAUUSD"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Bedakan setup OTE dan Fibonacci ICT yang valid dan yang harus diabaikan. Sebutkan minimal tiga tanda valid dan tiga tanda bahaya.",
+        "expectedConcepts": [
+          "valid setup",
+          "warning signs",
+          "displacement",
+          "follow-through",
+          "risk management",
+          "no trade"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Jika harga XAUUSD sudah bergerak jauh dari area OTE dan jarak ke Stop Loss terlalu lebar, apa keputusan paling disiplin? Jelaskan alasannya.",
+        "expectedConcepts": [
+          "do not chase",
+          "risk reward",
+          "stop loss",
+          "discipline",
+          "wait for retracement",
+          "invalidation"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban menyusun alur lengkap, menyebut bias, liquidity, struktur, konfirmasi, invalidation, target, dan contoh XAUUSD secara objektif.",
+      "pass": "Jawaban memahami konsep utama dan mampu menjelaskan sebagian alur praktik meskipun detail chart belum lengkap.",
+      "fail": "Jawaban hanya menghafal istilah, tidak menjelaskan alur trading, atau tidak menyebut risk dan invalidation."
+    },
+    "remedialLessons": [
+      "level-58/01-pondasi-ote-dan-fibonacci-ict",
+      "level-58/02-mekanisme-ote-dan-fibonacci-ict",
+      "level-58/03-membaca-ote-dan-fibonacci-ict-di-chart",
+      "level-58/04-eksekusi-invalidasi-ote-dan-fibonacci-ict",
+      "level-58/05-kesalahan-umum-ote-dan-fibonacci-ict",
+      "level-58/06-studi-kasus-xauusd-ote-dan-fibonacci-ict"
+    ]
+  },
+  {
+    "id": "essay-quiz-59",
+    "quizId": "quiz-59",
+    "levelId": "level-59",
+    "title": "ICT 2022 Mentorship Entry Model AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Jelaskan ICT 2022 Mentorship Entry Model dengan urutan bias, liquidity, reaksi harga, entry zone, invalidation, dan target. Gunakan contoh XAUUSD sederhana.",
+        "expectedConcepts": [
+          "bias",
+          "liquidity",
+          "reaction",
+          "entry zone",
+          "invalidation",
+          "target",
+          "XAUUSD"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Bedakan setup ICT 2022 Mentorship Entry Model yang valid dan yang harus diabaikan. Sebutkan minimal tiga tanda valid dan tiga tanda bahaya.",
+        "expectedConcepts": [
+          "valid setup",
+          "warning signs",
+          "displacement",
+          "follow-through",
+          "risk management",
+          "no trade"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Jika harga XAUUSD sudah bergerak jauh dari area liquidity sweep dan jarak ke Stop Loss terlalu lebar, apa keputusan paling disiplin? Jelaskan alasannya.",
+        "expectedConcepts": [
+          "do not chase",
+          "risk reward",
+          "stop loss",
+          "discipline",
+          "wait for retracement",
+          "invalidation"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban menyusun alur lengkap, menyebut bias, liquidity, struktur, konfirmasi, invalidation, target, dan contoh XAUUSD secara objektif.",
+      "pass": "Jawaban memahami konsep utama dan mampu menjelaskan sebagian alur praktik meskipun detail chart belum lengkap.",
+      "fail": "Jawaban hanya menghafal istilah, tidak menjelaskan alur trading, atau tidak menyebut risk dan invalidation."
+    },
+    "remedialLessons": [
+      "level-59/01-pondasi-ict-2022-mentorship-entry-model",
+      "level-59/02-mekanisme-ict-2022-mentorship-entry-model",
+      "level-59/03-membaca-ict-2022-mentorship-entry-model-di-chart",
+      "level-59/04-eksekusi-invalidasi-ict-2022-mentorship-entry-model",
+      "level-59/05-kesalahan-umum-ict-2022-mentorship-entry-model",
+      "level-59/06-studi-kasus-xauusd-ict-2022-mentorship-entry-model"
+    ]
+  },
+  {
+    "id": "essay-quiz-60",
+    "quizId": "quiz-60",
+    "levelId": "level-60",
+    "title": "Unicorn dan Inversion Entry Model AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Jelaskan Unicorn dan Inversion Entry Model dengan urutan bias, liquidity, reaksi harga, entry zone, invalidation, dan target. Gunakan contoh XAUUSD sederhana.",
+        "expectedConcepts": [
+          "bias",
+          "liquidity",
+          "reaction",
+          "entry zone",
+          "invalidation",
+          "target",
+          "XAUUSD"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Bedakan setup Unicorn dan Inversion Entry Model yang valid dan yang harus diabaikan. Sebutkan minimal tiga tanda valid dan tiga tanda bahaya.",
+        "expectedConcepts": [
+          "valid setup",
+          "warning signs",
+          "displacement",
+          "follow-through",
+          "risk management",
+          "no trade"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Jika harga XAUUSD sudah bergerak jauh dari area Unicorn setup dan jarak ke Stop Loss terlalu lebar, apa keputusan paling disiplin? Jelaskan alasannya.",
+        "expectedConcepts": [
+          "do not chase",
+          "risk reward",
+          "stop loss",
+          "discipline",
+          "wait for retracement",
+          "invalidation"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban menyusun alur lengkap, menyebut bias, liquidity, struktur, konfirmasi, invalidation, target, dan contoh XAUUSD secara objektif.",
+      "pass": "Jawaban memahami konsep utama dan mampu menjelaskan sebagian alur praktik meskipun detail chart belum lengkap.",
+      "fail": "Jawaban hanya menghafal istilah, tidak menjelaskan alur trading, atau tidak menyebut risk dan invalidation."
+    },
+    "remedialLessons": [
+      "level-60/01-pondasi-unicorn-dan-inversion-entry-model",
+      "level-60/02-mekanisme-unicorn-dan-inversion-entry-model",
+      "level-60/03-membaca-unicorn-dan-inversion-entry-model-di-chart",
+      "level-60/04-eksekusi-invalidasi-unicorn-dan-inversion-entry-model",
+      "level-60/05-kesalahan-umum-unicorn-dan-inversion-entry-model",
+      "level-60/06-studi-kasus-xauusd-unicorn-dan-inversion-entry-model"
+    ]
+  },
+  {
+    "id": "essay-quiz-61",
+    "quizId": "quiz-61",
+    "levelId": "level-61",
+    "title": "PD Array Matrix AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Jelaskan PD Array Matrix dengan urutan bias, liquidity, reaksi harga, entry zone, invalidation, dan target. Gunakan contoh XAUUSD sederhana.",
+        "expectedConcepts": [
+          "bias",
+          "liquidity",
+          "reaction",
+          "entry zone",
+          "invalidation",
+          "target",
+          "XAUUSD"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Bedakan setup PD Array Matrix yang valid dan yang harus diabaikan. Sebutkan minimal tiga tanda valid dan tiga tanda bahaya.",
+        "expectedConcepts": [
+          "valid setup",
+          "warning signs",
+          "displacement",
+          "follow-through",
+          "risk management",
+          "no trade"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Jika harga XAUUSD sudah bergerak jauh dari area PD Array dan jarak ke Stop Loss terlalu lebar, apa keputusan paling disiplin? Jelaskan alasannya.",
+        "expectedConcepts": [
+          "do not chase",
+          "risk reward",
+          "stop loss",
+          "discipline",
+          "wait for retracement",
+          "invalidation"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban menyusun alur lengkap, menyebut bias, liquidity, struktur, konfirmasi, invalidation, target, dan contoh XAUUSD secara objektif.",
+      "pass": "Jawaban memahami konsep utama dan mampu menjelaskan sebagian alur praktik meskipun detail chart belum lengkap.",
+      "fail": "Jawaban hanya menghafal istilah, tidak menjelaskan alur trading, atau tidak menyebut risk dan invalidation."
+    },
+    "remedialLessons": [
+      "level-61/01-pondasi-pd-array-matrix",
+      "level-61/02-mekanisme-pd-array-matrix",
+      "level-61/03-membaca-pd-array-matrix-di-chart",
+      "level-61/04-eksekusi-invalidasi-pd-array-matrix",
+      "level-61/05-kesalahan-umum-pd-array-matrix",
+      "level-61/06-studi-kasus-xauusd-pd-array-matrix"
+    ]
+  },
+  {
+    "id": "essay-quiz-62",
+    "quizId": "quiz-62",
+    "levelId": "level-62",
+    "title": "Consequent Encroachment AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Jelaskan Consequent Encroachment dengan urutan bias, liquidity, reaksi harga, entry zone, invalidation, dan target. Gunakan contoh XAUUSD sederhana.",
+        "expectedConcepts": [
+          "bias",
+          "liquidity",
+          "reaction",
+          "entry zone",
+          "invalidation",
+          "target",
+          "XAUUSD"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Bedakan setup Consequent Encroachment yang valid dan yang harus diabaikan. Sebutkan minimal tiga tanda valid dan tiga tanda bahaya.",
+        "expectedConcepts": [
+          "valid setup",
+          "warning signs",
+          "displacement",
+          "follow-through",
+          "risk management",
+          "no trade"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Jika harga XAUUSD sudah bergerak jauh dari area Consequent Encroachment dan jarak ke Stop Loss terlalu lebar, apa keputusan paling disiplin? Jelaskan alasannya.",
+        "expectedConcepts": [
+          "do not chase",
+          "risk reward",
+          "stop loss",
+          "discipline",
+          "wait for retracement",
+          "invalidation"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban menyusun alur lengkap, menyebut bias, liquidity, struktur, konfirmasi, invalidation, target, dan contoh XAUUSD secara objektif.",
+      "pass": "Jawaban memahami konsep utama dan mampu menjelaskan sebagian alur praktik meskipun detail chart belum lengkap.",
+      "fail": "Jawaban hanya menghafal istilah, tidak menjelaskan alur trading, atau tidak menyebut risk dan invalidation."
+    },
+    "remedialLessons": [
+      "level-62/01-pondasi-consequent-encroachment",
+      "level-62/02-mekanisme-consequent-encroachment",
+      "level-62/03-membaca-consequent-encroachment-di-chart",
+      "level-62/04-eksekusi-invalidasi-consequent-encroachment",
+      "level-62/05-kesalahan-umum-consequent-encroachment",
+      "level-62/06-studi-kasus-xauusd-consequent-encroachment"
+    ]
+  },
+  {
+    "id": "essay-quiz-63",
+    "quizId": "quiz-63",
+    "levelId": "level-63",
+    "title": "Propulsion Block AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Jelaskan Propulsion Block dengan urutan bias, liquidity, reaksi harga, entry zone, invalidation, dan target. Gunakan contoh XAUUSD sederhana.",
+        "expectedConcepts": [
+          "bias",
+          "liquidity",
+          "reaction",
+          "entry zone",
+          "invalidation",
+          "target",
+          "XAUUSD"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Bedakan setup Propulsion Block yang valid dan yang harus diabaikan. Sebutkan minimal tiga tanda valid dan tiga tanda bahaya.",
+        "expectedConcepts": [
+          "valid setup",
+          "warning signs",
+          "displacement",
+          "follow-through",
+          "risk management",
+          "no trade"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Jika harga XAUUSD sudah bergerak jauh dari area Propulsion Block dan jarak ke Stop Loss terlalu lebar, apa keputusan paling disiplin? Jelaskan alasannya.",
+        "expectedConcepts": [
+          "do not chase",
+          "risk reward",
+          "stop loss",
+          "discipline",
+          "wait for retracement",
+          "invalidation"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban menyusun alur lengkap, menyebut bias, liquidity, struktur, konfirmasi, invalidation, target, dan contoh XAUUSD secara objektif.",
+      "pass": "Jawaban memahami konsep utama dan mampu menjelaskan sebagian alur praktik meskipun detail chart belum lengkap.",
+      "fail": "Jawaban hanya menghafal istilah, tidak menjelaskan alur trading, atau tidak menyebut risk dan invalidation."
+    },
+    "remedialLessons": [
+      "level-63/01-pondasi-propulsion-block",
+      "level-63/02-mekanisme-propulsion-block",
+      "level-63/03-membaca-propulsion-block-di-chart",
+      "level-63/04-eksekusi-invalidasi-propulsion-block",
+      "level-63/05-kesalahan-umum-propulsion-block",
+      "level-63/06-studi-kasus-xauusd-propulsion-block"
+    ]
+  },
+  {
+    "id": "essay-quiz-64",
+    "quizId": "quiz-64",
+    "levelId": "level-64",
+    "title": "Volume Imbalance dan Gap Analysis AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Jelaskan Volume Imbalance dan Gap Analysis dengan urutan bias, liquidity, reaksi harga, entry zone, invalidation, dan target. Gunakan contoh XAUUSD sederhana.",
+        "expectedConcepts": [
+          "bias",
+          "liquidity",
+          "reaction",
+          "entry zone",
+          "invalidation",
+          "target",
+          "XAUUSD"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Bedakan setup Volume Imbalance dan Gap Analysis yang valid dan yang harus diabaikan. Sebutkan minimal tiga tanda valid dan tiga tanda bahaya.",
+        "expectedConcepts": [
+          "valid setup",
+          "warning signs",
+          "displacement",
+          "follow-through",
+          "risk management",
+          "no trade"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Jika harga XAUUSD sudah bergerak jauh dari area Volume Imbalance dan jarak ke Stop Loss terlalu lebar, apa keputusan paling disiplin? Jelaskan alasannya.",
+        "expectedConcepts": [
+          "do not chase",
+          "risk reward",
+          "stop loss",
+          "discipline",
+          "wait for retracement",
+          "invalidation"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban menyusun alur lengkap, menyebut bias, liquidity, struktur, konfirmasi, invalidation, target, dan contoh XAUUSD secara objektif.",
+      "pass": "Jawaban memahami konsep utama dan mampu menjelaskan sebagian alur praktik meskipun detail chart belum lengkap.",
+      "fail": "Jawaban hanya menghafal istilah, tidak menjelaskan alur trading, atau tidak menyebut risk dan invalidation."
+    },
+    "remedialLessons": [
+      "level-64/01-pondasi-volume-imbalance-dan-gap-analysis",
+      "level-64/02-mekanisme-volume-imbalance-dan-gap-analysis",
+      "level-64/03-membaca-volume-imbalance-dan-gap-analysis-di-chart",
+      "level-64/04-eksekusi-invalidasi-volume-imbalance-dan-gap-analysis",
+      "level-64/05-kesalahan-umum-volume-imbalance-dan-gap-analysis",
+      "level-64/06-studi-kasus-xauusd-volume-imbalance-dan-gap-analysis"
+    ]
+  },
+  {
+    "id": "essay-quiz-65",
+    "quizId": "quiz-65",
+    "levelId": "level-65",
+    "title": "Rejection Block dan Vacuum Block AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Jelaskan Rejection Block dan Vacuum Block dengan urutan bias, liquidity, reaksi harga, entry zone, invalidation, dan target. Gunakan contoh XAUUSD sederhana.",
+        "expectedConcepts": [
+          "bias",
+          "liquidity",
+          "reaction",
+          "entry zone",
+          "invalidation",
+          "target",
+          "XAUUSD"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Bedakan setup Rejection Block dan Vacuum Block yang valid dan yang harus diabaikan. Sebutkan minimal tiga tanda valid dan tiga tanda bahaya.",
+        "expectedConcepts": [
+          "valid setup",
+          "warning signs",
+          "displacement",
+          "follow-through",
+          "risk management",
+          "no trade"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Jika harga XAUUSD sudah bergerak jauh dari area Rejection Block dan jarak ke Stop Loss terlalu lebar, apa keputusan paling disiplin? Jelaskan alasannya.",
+        "expectedConcepts": [
+          "do not chase",
+          "risk reward",
+          "stop loss",
+          "discipline",
+          "wait for retracement",
+          "invalidation"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban menyusun alur lengkap, menyebut bias, liquidity, struktur, konfirmasi, invalidation, target, dan contoh XAUUSD secara objektif.",
+      "pass": "Jawaban memahami konsep utama dan mampu menjelaskan sebagian alur praktik meskipun detail chart belum lengkap.",
+      "fail": "Jawaban hanya menghafal istilah, tidak menjelaskan alur trading, atau tidak menyebut risk dan invalidation."
+    },
+    "remedialLessons": [
+      "level-65/01-pondasi-rejection-block-dan-vacuum-block",
+      "level-65/02-mekanisme-rejection-block-dan-vacuum-block",
+      "level-65/03-membaca-rejection-block-dan-vacuum-block-di-chart",
+      "level-65/04-eksekusi-invalidasi-rejection-block-dan-vacuum-block",
+      "level-65/05-kesalahan-umum-rejection-block-dan-vacuum-block",
+      "level-65/06-studi-kasus-xauusd-rejection-block-dan-vacuum-block"
+    ]
+  },
+  {
+    "id": "essay-quiz-66",
+    "quizId": "quiz-66",
+    "levelId": "level-66",
+    "title": "Liquidity Void AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Jelaskan Liquidity Void dengan urutan bias, liquidity, reaksi harga, entry zone, invalidation, dan target. Gunakan contoh XAUUSD sederhana.",
+        "expectedConcepts": [
+          "bias",
+          "liquidity",
+          "reaction",
+          "entry zone",
+          "invalidation",
+          "target",
+          "XAUUSD"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Bedakan setup Liquidity Void yang valid dan yang harus diabaikan. Sebutkan minimal tiga tanda valid dan tiga tanda bahaya.",
+        "expectedConcepts": [
+          "valid setup",
+          "warning signs",
+          "displacement",
+          "follow-through",
+          "risk management",
+          "no trade"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Jika harga XAUUSD sudah bergerak jauh dari area Liquidity Void dan jarak ke Stop Loss terlalu lebar, apa keputusan paling disiplin? Jelaskan alasannya.",
+        "expectedConcepts": [
+          "do not chase",
+          "risk reward",
+          "stop loss",
+          "discipline",
+          "wait for retracement",
+          "invalidation"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban menyusun alur lengkap, menyebut bias, liquidity, struktur, konfirmasi, invalidation, target, dan contoh XAUUSD secara objektif.",
+      "pass": "Jawaban memahami konsep utama dan mampu menjelaskan sebagian alur praktik meskipun detail chart belum lengkap.",
+      "fail": "Jawaban hanya menghafal istilah, tidak menjelaskan alur trading, atau tidak menyebut risk dan invalidation."
+    },
+    "remedialLessons": [
+      "level-66/01-pondasi-liquidity-void",
+      "level-66/02-mekanisme-liquidity-void",
+      "level-66/03-membaca-liquidity-void-di-chart",
+      "level-66/04-eksekusi-invalidasi-liquidity-void",
+      "level-66/05-kesalahan-umum-liquidity-void",
+      "level-66/06-studi-kasus-xauusd-liquidity-void"
+    ]
+  },
+  {
+    "id": "essay-quiz-67",
+    "quizId": "quiz-67",
+    "levelId": "level-67",
+    "title": "Trendline Liquidity AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Jelaskan Trendline Liquidity dengan urutan bias, liquidity, reaksi harga, entry zone, invalidation, dan target. Gunakan contoh XAUUSD sederhana.",
+        "expectedConcepts": [
+          "bias",
+          "liquidity",
+          "reaction",
+          "entry zone",
+          "invalidation",
+          "target",
+          "XAUUSD"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Bedakan setup Trendline Liquidity yang valid dan yang harus diabaikan. Sebutkan minimal tiga tanda valid dan tiga tanda bahaya.",
+        "expectedConcepts": [
+          "valid setup",
+          "warning signs",
+          "displacement",
+          "follow-through",
+          "risk management",
+          "no trade"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Jika harga XAUUSD sudah bergerak jauh dari area trendline liquidity dan jarak ke Stop Loss terlalu lebar, apa keputusan paling disiplin? Jelaskan alasannya.",
+        "expectedConcepts": [
+          "do not chase",
+          "risk reward",
+          "stop loss",
+          "discipline",
+          "wait for retracement",
+          "invalidation"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban menyusun alur lengkap, menyebut bias, liquidity, struktur, konfirmasi, invalidation, target, dan contoh XAUUSD secara objektif.",
+      "pass": "Jawaban memahami konsep utama dan mampu menjelaskan sebagian alur praktik meskipun detail chart belum lengkap.",
+      "fail": "Jawaban hanya menghafal istilah, tidak menjelaskan alur trading, atau tidak menyebut risk dan invalidation."
+    },
+    "remedialLessons": [
+      "level-67/01-pondasi-trendline-liquidity",
+      "level-67/02-mekanisme-trendline-liquidity",
+      "level-67/03-membaca-trendline-liquidity-di-chart",
+      "level-67/04-eksekusi-invalidasi-trendline-liquidity",
+      "level-67/05-kesalahan-umum-trendline-liquidity",
+      "level-67/06-studi-kasus-xauusd-trendline-liquidity"
+    ]
+  },
+  {
+    "id": "essay-quiz-68",
+    "quizId": "quiz-68",
+    "levelId": "level-68",
+    "title": "High Resistance vs Low Resistance Liquidity Run AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Jelaskan High Resistance vs Low Resistance Liquidity Run dengan urutan bias, liquidity, reaksi harga, entry zone, invalidation, dan target. Gunakan contoh XAUUSD sederhana.",
+        "expectedConcepts": [
+          "bias",
+          "liquidity",
+          "reaction",
+          "entry zone",
+          "invalidation",
+          "target",
+          "XAUUSD"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Bedakan setup High Resistance vs Low Resistance Liquidity Run yang valid dan yang harus diabaikan. Sebutkan minimal tiga tanda valid dan tiga tanda bahaya.",
+        "expectedConcepts": [
+          "valid setup",
+          "warning signs",
+          "displacement",
+          "follow-through",
+          "risk management",
+          "no trade"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Jika harga XAUUSD sudah bergerak jauh dari area high resistance liquidity dan jarak ke Stop Loss terlalu lebar, apa keputusan paling disiplin? Jelaskan alasannya.",
+        "expectedConcepts": [
+          "do not chase",
+          "risk reward",
+          "stop loss",
+          "discipline",
+          "wait for retracement",
+          "invalidation"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban menyusun alur lengkap, menyebut bias, liquidity, struktur, konfirmasi, invalidation, target, dan contoh XAUUSD secara objektif.",
+      "pass": "Jawaban memahami konsep utama dan mampu menjelaskan sebagian alur praktik meskipun detail chart belum lengkap.",
+      "fail": "Jawaban hanya menghafal istilah, tidak menjelaskan alur trading, atau tidak menyebut risk dan invalidation."
+    },
+    "remedialLessons": [
+      "level-68/01-pondasi-high-resistance-vs-low-resistance-liquidity-run",
+      "level-68/02-mekanisme-high-resistance-vs-low-resistance-liquidity-run",
+      "level-68/03-membaca-high-resistance-vs-low-resistance-liquidity-run-di-chart",
+      "level-68/04-eksekusi-invalidasi-high-resistance-vs-low-resistance-liquidity-run",
+      "level-68/05-kesalahan-umum-high-resistance-vs-low-resistance-liquidity-run",
+      "level-68/06-studi-kasus-xauusd-high-resistance-vs-low-resistance-liquidity-run"
+    ]
+  },
+  {
+    "id": "essay-quiz-69",
+    "quizId": "quiz-69",
+    "levelId": "level-69",
+    "title": "False Displacement AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Jelaskan False Displacement dengan urutan bias, liquidity, reaksi harga, entry zone, invalidation, dan target. Gunakan contoh XAUUSD sederhana.",
+        "expectedConcepts": [
+          "bias",
+          "liquidity",
+          "reaction",
+          "entry zone",
+          "invalidation",
+          "target",
+          "XAUUSD"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Bedakan setup False Displacement yang valid dan yang harus diabaikan. Sebutkan minimal tiga tanda valid dan tiga tanda bahaya.",
+        "expectedConcepts": [
+          "valid setup",
+          "warning signs",
+          "displacement",
+          "follow-through",
+          "risk management",
+          "no trade"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Jika harga XAUUSD sudah bergerak jauh dari area false displacement dan jarak ke Stop Loss terlalu lebar, apa keputusan paling disiplin? Jelaskan alasannya.",
+        "expectedConcepts": [
+          "do not chase",
+          "risk reward",
+          "stop loss",
+          "discipline",
+          "wait for retracement",
+          "invalidation"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban menyusun alur lengkap, menyebut bias, liquidity, struktur, konfirmasi, invalidation, target, dan contoh XAUUSD secara objektif.",
+      "pass": "Jawaban memahami konsep utama dan mampu menjelaskan sebagian alur praktik meskipun detail chart belum lengkap.",
+      "fail": "Jawaban hanya menghafal istilah, tidak menjelaskan alur trading, atau tidak menyebut risk dan invalidation."
+    },
+    "remedialLessons": [
+      "level-69/01-pondasi-false-displacement",
+      "level-69/02-mekanisme-false-displacement",
+      "level-69/03-membaca-false-displacement-di-chart",
+      "level-69/04-eksekusi-invalidasi-false-displacement",
+      "level-69/05-kesalahan-umum-false-displacement",
+      "level-69/06-studi-kasus-xauusd-false-displacement"
+    ]
+  },
+  {
+    "id": "essay-quiz-70",
+    "quizId": "quiz-70",
+    "levelId": "level-70",
+    "title": "Continuation Failure AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Jelaskan Continuation Failure dengan urutan bias, liquidity, reaksi harga, entry zone, invalidation, dan target. Gunakan contoh XAUUSD sederhana.",
+        "expectedConcepts": [
+          "bias",
+          "liquidity",
+          "reaction",
+          "entry zone",
+          "invalidation",
+          "target",
+          "XAUUSD"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Bedakan setup Continuation Failure yang valid dan yang harus diabaikan. Sebutkan minimal tiga tanda valid dan tiga tanda bahaya.",
+        "expectedConcepts": [
+          "valid setup",
+          "warning signs",
+          "displacement",
+          "follow-through",
+          "risk management",
+          "no trade"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Jika harga XAUUSD sudah bergerak jauh dari area continuation failure dan jarak ke Stop Loss terlalu lebar, apa keputusan paling disiplin? Jelaskan alasannya.",
+        "expectedConcepts": [
+          "do not chase",
+          "risk reward",
+          "stop loss",
+          "discipline",
+          "wait for retracement",
+          "invalidation"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban menyusun alur lengkap, menyebut bias, liquidity, struktur, konfirmasi, invalidation, target, dan contoh XAUUSD secara objektif.",
+      "pass": "Jawaban memahami konsep utama dan mampu menjelaskan sebagian alur praktik meskipun detail chart belum lengkap.",
+      "fail": "Jawaban hanya menghafal istilah, tidak menjelaskan alur trading, atau tidak menyebut risk dan invalidation."
+    },
+    "remedialLessons": [
+      "level-70/01-pondasi-continuation-failure",
+      "level-70/02-mekanisme-continuation-failure",
+      "level-70/03-membaca-continuation-failure-di-chart",
+      "level-70/04-eksekusi-invalidasi-continuation-failure",
+      "level-70/05-kesalahan-umum-continuation-failure",
+      "level-70/06-studi-kasus-xauusd-continuation-failure"
+    ]
+  },
+  {
+    "id": "essay-quiz-71",
+    "quizId": "quiz-71",
+    "levelId": "level-71",
+    "title": "MMXM / Market Maker Model AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Jelaskan MMXM / Market Maker Model dengan urutan bias, liquidity, reaksi harga, entry zone, invalidation, dan target. Gunakan contoh XAUUSD sederhana.",
+        "expectedConcepts": [
+          "bias",
+          "liquidity",
+          "reaction",
+          "entry zone",
+          "invalidation",
+          "target",
+          "XAUUSD"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Bedakan setup MMXM / Market Maker Model yang valid dan yang harus diabaikan. Sebutkan minimal tiga tanda valid dan tiga tanda bahaya.",
+        "expectedConcepts": [
+          "valid setup",
+          "warning signs",
+          "displacement",
+          "follow-through",
+          "risk management",
+          "no trade"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Jika harga XAUUSD sudah bergerak jauh dari area Market Maker Buy Model dan jarak ke Stop Loss terlalu lebar, apa keputusan paling disiplin? Jelaskan alasannya.",
+        "expectedConcepts": [
+          "do not chase",
+          "risk reward",
+          "stop loss",
+          "discipline",
+          "wait for retracement",
+          "invalidation"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban menyusun alur lengkap, menyebut bias, liquidity, struktur, konfirmasi, invalidation, target, dan contoh XAUUSD secara objektif.",
+      "pass": "Jawaban memahami konsep utama dan mampu menjelaskan sebagian alur praktik meskipun detail chart belum lengkap.",
+      "fail": "Jawaban hanya menghafal istilah, tidak menjelaskan alur trading, atau tidak menyebut risk dan invalidation."
+    },
+    "remedialLessons": [
+      "level-71/01-pondasi-mmxm-market-maker-model",
+      "level-71/02-mekanisme-mmxm-market-maker-model",
+      "level-71/03-membaca-mmxm-market-maker-model-di-chart",
+      "level-71/04-eksekusi-invalidasi-mmxm-market-maker-model",
+      "level-71/05-kesalahan-umum-mmxm-market-maker-model",
+      "level-71/06-studi-kasus-xauusd-mmxm-market-maker-model"
+    ]
+  },
+  {
+    "id": "essay-quiz-72",
+    "quizId": "quiz-72",
+    "levelId": "level-72",
+    "title": "SMT Divergence AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Jelaskan SMT Divergence dengan urutan bias, liquidity, reaksi harga, entry zone, invalidation, dan target. Gunakan contoh XAUUSD sederhana.",
+        "expectedConcepts": [
+          "bias",
+          "liquidity",
+          "reaction",
+          "entry zone",
+          "invalidation",
+          "target",
+          "XAUUSD"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Bedakan setup SMT Divergence yang valid dan yang harus diabaikan. Sebutkan minimal tiga tanda valid dan tiga tanda bahaya.",
+        "expectedConcepts": [
+          "valid setup",
+          "warning signs",
+          "displacement",
+          "follow-through",
+          "risk management",
+          "no trade"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Jika harga XAUUSD sudah bergerak jauh dari area SMT divergence dan jarak ke Stop Loss terlalu lebar, apa keputusan paling disiplin? Jelaskan alasannya.",
+        "expectedConcepts": [
+          "do not chase",
+          "risk reward",
+          "stop loss",
+          "discipline",
+          "wait for retracement",
+          "invalidation"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban menyusun alur lengkap, menyebut bias, liquidity, struktur, konfirmasi, invalidation, target, dan contoh XAUUSD secara objektif.",
+      "pass": "Jawaban memahami konsep utama dan mampu menjelaskan sebagian alur praktik meskipun detail chart belum lengkap.",
+      "fail": "Jawaban hanya menghafal istilah, tidak menjelaskan alur trading, atau tidak menyebut risk dan invalidation."
+    },
+    "remedialLessons": [
+      "level-72/01-pondasi-smt-divergence",
+      "level-72/02-mekanisme-smt-divergence",
+      "level-72/03-membaca-smt-divergence-di-chart",
+      "level-72/04-eksekusi-invalidasi-smt-divergence",
+      "level-72/05-kesalahan-umum-smt-divergence",
+      "level-72/06-studi-kasus-xauusd-smt-divergence"
+    ]
+  },
+  {
+    "id": "essay-quiz-73",
+    "quizId": "quiz-73",
+    "levelId": "level-73",
+    "title": "Weekly Profile AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Jelaskan Weekly Profile dengan urutan bias, liquidity, reaksi harga, entry zone, invalidation, dan target. Gunakan contoh XAUUSD sederhana.",
+        "expectedConcepts": [
+          "bias",
+          "liquidity",
+          "reaction",
+          "entry zone",
+          "invalidation",
+          "target",
+          "XAUUSD"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Bedakan setup Weekly Profile yang valid dan yang harus diabaikan. Sebutkan minimal tiga tanda valid dan tiga tanda bahaya.",
+        "expectedConcepts": [
+          "valid setup",
+          "warning signs",
+          "displacement",
+          "follow-through",
+          "risk management",
+          "no trade"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Jika harga XAUUSD sudah bergerak jauh dari area weekly open dan jarak ke Stop Loss terlalu lebar, apa keputusan paling disiplin? Jelaskan alasannya.",
+        "expectedConcepts": [
+          "do not chase",
+          "risk reward",
+          "stop loss",
+          "discipline",
+          "wait for retracement",
+          "invalidation"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban menyusun alur lengkap, menyebut bias, liquidity, struktur, konfirmasi, invalidation, target, dan contoh XAUUSD secara objektif.",
+      "pass": "Jawaban memahami konsep utama dan mampu menjelaskan sebagian alur praktik meskipun detail chart belum lengkap.",
+      "fail": "Jawaban hanya menghafal istilah, tidak menjelaskan alur trading, atau tidak menyebut risk dan invalidation."
+    },
+    "remedialLessons": [
+      "level-73/01-pondasi-weekly-profile",
+      "level-73/02-mekanisme-weekly-profile",
+      "level-73/03-membaca-weekly-profile-di-chart",
+      "level-73/04-eksekusi-invalidasi-weekly-profile",
+      "level-73/05-kesalahan-umum-weekly-profile",
+      "level-73/06-studi-kasus-xauusd-weekly-profile"
+    ]
+  },
+  {
+    "id": "essay-quiz-74",
+    "quizId": "quiz-74",
+    "levelId": "level-74",
+    "title": "NWOG dan NDOG AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Jelaskan NWOG dan NDOG dengan urutan bias, liquidity, reaksi harga, entry zone, invalidation, dan target. Gunakan contoh XAUUSD sederhana.",
+        "expectedConcepts": [
+          "bias",
+          "liquidity",
+          "reaction",
+          "entry zone",
+          "invalidation",
+          "target",
+          "XAUUSD"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Bedakan setup NWOG dan NDOG yang valid dan yang harus diabaikan. Sebutkan minimal tiga tanda valid dan tiga tanda bahaya.",
+        "expectedConcepts": [
+          "valid setup",
+          "warning signs",
+          "displacement",
+          "follow-through",
+          "risk management",
+          "no trade"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Jika harga XAUUSD sudah bergerak jauh dari area NWOG dan jarak ke Stop Loss terlalu lebar, apa keputusan paling disiplin? Jelaskan alasannya.",
+        "expectedConcepts": [
+          "do not chase",
+          "risk reward",
+          "stop loss",
+          "discipline",
+          "wait for retracement",
+          "invalidation"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban menyusun alur lengkap, menyebut bias, liquidity, struktur, konfirmasi, invalidation, target, dan contoh XAUUSD secara objektif.",
+      "pass": "Jawaban memahami konsep utama dan mampu menjelaskan sebagian alur praktik meskipun detail chart belum lengkap.",
+      "fail": "Jawaban hanya menghafal istilah, tidak menjelaskan alur trading, atau tidak menyebut risk dan invalidation."
+    },
+    "remedialLessons": [
+      "level-74/01-pondasi-nwog-dan-ndog",
+      "level-74/02-mekanisme-nwog-dan-ndog",
+      "level-74/03-membaca-nwog-dan-ndog-di-chart",
+      "level-74/04-eksekusi-invalidasi-nwog-dan-ndog",
+      "level-74/05-kesalahan-umum-nwog-dan-ndog",
+      "level-74/06-studi-kasus-xauusd-nwog-dan-ndog"
+    ]
+  },
+  {
+    "id": "essay-quiz-75",
+    "quizId": "quiz-75",
+    "levelId": "level-75",
+    "title": "OHLC / OLHC Daily Bias AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Jelaskan OHLC / OLHC Daily Bias dengan urutan bias, liquidity, reaksi harga, entry zone, invalidation, dan target. Gunakan contoh XAUUSD sederhana.",
+        "expectedConcepts": [
+          "bias",
+          "liquidity",
+          "reaction",
+          "entry zone",
+          "invalidation",
+          "target",
+          "XAUUSD"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Bedakan setup OHLC / OLHC Daily Bias yang valid dan yang harus diabaikan. Sebutkan minimal tiga tanda valid dan tiga tanda bahaya.",
+        "expectedConcepts": [
+          "valid setup",
+          "warning signs",
+          "displacement",
+          "follow-through",
+          "risk management",
+          "no trade"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Jika harga XAUUSD sudah bergerak jauh dari area OHLC dan jarak ke Stop Loss terlalu lebar, apa keputusan paling disiplin? Jelaskan alasannya.",
+        "expectedConcepts": [
+          "do not chase",
+          "risk reward",
+          "stop loss",
+          "discipline",
+          "wait for retracement",
+          "invalidation"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban menyusun alur lengkap, menyebut bias, liquidity, struktur, konfirmasi, invalidation, target, dan contoh XAUUSD secara objektif.",
+      "pass": "Jawaban memahami konsep utama dan mampu menjelaskan sebagian alur praktik meskipun detail chart belum lengkap.",
+      "fail": "Jawaban hanya menghafal istilah, tidak menjelaskan alur trading, atau tidak menyebut risk dan invalidation."
+    },
+    "remedialLessons": [
+      "level-75/01-pondasi-ohlc-olhc-daily-bias",
+      "level-75/02-mekanisme-ohlc-olhc-daily-bias",
+      "level-75/03-membaca-ohlc-olhc-daily-bias-di-chart",
+      "level-75/04-eksekusi-invalidasi-ohlc-olhc-daily-bias",
+      "level-75/05-kesalahan-umum-ohlc-olhc-daily-bias",
+      "level-75/06-studi-kasus-xauusd-ohlc-olhc-daily-bias"
+    ]
+  },
+  {
+    "id": "essay-quiz-76",
+    "quizId": "quiz-76",
+    "levelId": "level-76",
+    "title": "PDH dan PDL AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Jelaskan PDH dan PDL dengan urutan bias, liquidity, reaksi harga, entry zone, invalidation, dan target. Gunakan contoh XAUUSD sederhana.",
+        "expectedConcepts": [
+          "bias",
+          "liquidity",
+          "reaction",
+          "entry zone",
+          "invalidation",
+          "target",
+          "XAUUSD"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Bedakan setup PDH dan PDL yang valid dan yang harus diabaikan. Sebutkan minimal tiga tanda valid dan tiga tanda bahaya.",
+        "expectedConcepts": [
+          "valid setup",
+          "warning signs",
+          "displacement",
+          "follow-through",
+          "risk management",
+          "no trade"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Jika harga XAUUSD sudah bergerak jauh dari area PDH dan jarak ke Stop Loss terlalu lebar, apa keputusan paling disiplin? Jelaskan alasannya.",
+        "expectedConcepts": [
+          "do not chase",
+          "risk reward",
+          "stop loss",
+          "discipline",
+          "wait for retracement",
+          "invalidation"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban menyusun alur lengkap, menyebut bias, liquidity, struktur, konfirmasi, invalidation, target, dan contoh XAUUSD secara objektif.",
+      "pass": "Jawaban memahami konsep utama dan mampu menjelaskan sebagian alur praktik meskipun detail chart belum lengkap.",
+      "fail": "Jawaban hanya menghafal istilah, tidak menjelaskan alur trading, atau tidak menyebut risk dan invalidation."
+    },
+    "remedialLessons": [
+      "level-76/01-pondasi-pdh-dan-pdl",
+      "level-76/02-mekanisme-pdh-dan-pdl",
+      "level-76/03-membaca-pdh-dan-pdl-di-chart",
+      "level-76/04-eksekusi-invalidasi-pdh-dan-pdl",
+      "level-76/05-kesalahan-umum-pdh-dan-pdl",
+      "level-76/06-studi-kasus-xauusd-pdh-dan-pdl"
+    ]
+  },
+  {
+    "id": "essay-quiz-77",
+    "quizId": "quiz-77",
+    "levelId": "level-77",
+    "title": "News Day dan Abnormal Volatility AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Jelaskan News Day dan Abnormal Volatility dengan urutan bias, liquidity, reaksi harga, entry zone, invalidation, dan target. Gunakan contoh XAUUSD sederhana.",
+        "expectedConcepts": [
+          "bias",
+          "liquidity",
+          "reaction",
+          "entry zone",
+          "invalidation",
+          "target",
+          "XAUUSD"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Bedakan setup News Day dan Abnormal Volatility yang valid dan yang harus diabaikan. Sebutkan minimal tiga tanda valid dan tiga tanda bahaya.",
+        "expectedConcepts": [
+          "valid setup",
+          "warning signs",
+          "displacement",
+          "follow-through",
+          "risk management",
+          "no trade"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Jika harga XAUUSD sudah bergerak jauh dari area news day dan jarak ke Stop Loss terlalu lebar, apa keputusan paling disiplin? Jelaskan alasannya.",
+        "expectedConcepts": [
+          "do not chase",
+          "risk reward",
+          "stop loss",
+          "discipline",
+          "wait for retracement",
+          "invalidation"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban menyusun alur lengkap, menyebut bias, liquidity, struktur, konfirmasi, invalidation, target, dan contoh XAUUSD secara objektif.",
+      "pass": "Jawaban memahami konsep utama dan mampu menjelaskan sebagian alur praktik meskipun detail chart belum lengkap.",
+      "fail": "Jawaban hanya menghafal istilah, tidak menjelaskan alur trading, atau tidak menyebut risk dan invalidation."
+    },
+    "remedialLessons": [
+      "level-77/01-pondasi-news-day-dan-abnormal-volatility",
+      "level-77/02-mekanisme-news-day-dan-abnormal-volatility",
+      "level-77/03-membaca-news-day-dan-abnormal-volatility-di-chart",
+      "level-77/04-eksekusi-invalidasi-news-day-dan-abnormal-volatility",
+      "level-77/05-kesalahan-umum-news-day-dan-abnormal-volatility",
+      "level-77/06-studi-kasus-xauusd-news-day-dan-abnormal-volatility"
+    ]
+  },
+  {
+    "id": "essay-quiz-78",
+    "quizId": "quiz-78",
+    "levelId": "level-78",
+    "title": "DXY Correlation untuk XAUUSD AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Jelaskan DXY Correlation untuk XAUUSD dengan urutan bias, liquidity, reaksi harga, entry zone, invalidation, dan target. Gunakan contoh XAUUSD sederhana.",
+        "expectedConcepts": [
+          "bias",
+          "liquidity",
+          "reaction",
+          "entry zone",
+          "invalidation",
+          "target",
+          "XAUUSD"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Bedakan setup DXY Correlation untuk XAUUSD yang valid dan yang harus diabaikan. Sebutkan minimal tiga tanda valid dan tiga tanda bahaya.",
+        "expectedConcepts": [
+          "valid setup",
+          "warning signs",
+          "displacement",
+          "follow-through",
+          "risk management",
+          "no trade"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Jika harga XAUUSD sudah bergerak jauh dari area DXY dan jarak ke Stop Loss terlalu lebar, apa keputusan paling disiplin? Jelaskan alasannya.",
+        "expectedConcepts": [
+          "do not chase",
+          "risk reward",
+          "stop loss",
+          "discipline",
+          "wait for retracement",
+          "invalidation"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban menyusun alur lengkap, menyebut bias, liquidity, struktur, konfirmasi, invalidation, target, dan contoh XAUUSD secara objektif.",
+      "pass": "Jawaban memahami konsep utama dan mampu menjelaskan sebagian alur praktik meskipun detail chart belum lengkap.",
+      "fail": "Jawaban hanya menghafal istilah, tidak menjelaskan alur trading, atau tidak menyebut risk dan invalidation."
+    },
+    "remedialLessons": [
+      "level-78/01-pondasi-dxy-correlation-untuk-xauusd",
+      "level-78/02-mekanisme-dxy-correlation-untuk-xauusd",
+      "level-78/03-membaca-dxy-correlation-untuk-xauusd-di-chart",
+      "level-78/04-eksekusi-invalidasi-dxy-correlation-untuk-xauusd",
+      "level-78/05-kesalahan-umum-dxy-correlation-untuk-xauusd",
+      "level-78/06-studi-kasus-xauusd-dxy-correlation-untuk-xauusd"
+    ]
+  },
+  {
+    "id": "essay-quiz-79",
+    "quizId": "quiz-79",
+    "levelId": "level-79",
+    "title": "Framework Khusus XAUUSD AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Jelaskan Framework Khusus XAUUSD dengan urutan bias, liquidity, reaksi harga, entry zone, invalidation, dan target. Gunakan contoh XAUUSD sederhana.",
+        "expectedConcepts": [
+          "bias",
+          "liquidity",
+          "reaction",
+          "entry zone",
+          "invalidation",
+          "target",
+          "XAUUSD"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Bedakan setup Framework Khusus XAUUSD yang valid dan yang harus diabaikan. Sebutkan minimal tiga tanda valid dan tiga tanda bahaya.",
+        "expectedConcepts": [
+          "valid setup",
+          "warning signs",
+          "displacement",
+          "follow-through",
+          "risk management",
+          "no trade"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Jika harga XAUUSD sudah bergerak jauh dari area XAUUSD behavior dan jarak ke Stop Loss terlalu lebar, apa keputusan paling disiplin? Jelaskan alasannya.",
+        "expectedConcepts": [
+          "do not chase",
+          "risk reward",
+          "stop loss",
+          "discipline",
+          "wait for retracement",
+          "invalidation"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban menyusun alur lengkap, menyebut bias, liquidity, struktur, konfirmasi, invalidation, target, dan contoh XAUUSD secara objektif.",
+      "pass": "Jawaban memahami konsep utama dan mampu menjelaskan sebagian alur praktik meskipun detail chart belum lengkap.",
+      "fail": "Jawaban hanya menghafal istilah, tidak menjelaskan alur trading, atau tidak menyebut risk dan invalidation."
+    },
+    "remedialLessons": [
+      "level-79/01-pondasi-framework-khusus-xauusd",
+      "level-79/02-mekanisme-framework-khusus-xauusd",
+      "level-79/03-membaca-framework-khusus-xauusd-di-chart",
+      "level-79/04-eksekusi-invalidasi-framework-khusus-xauusd",
+      "level-79/05-kesalahan-umum-framework-khusus-xauusd",
+      "level-79/06-studi-kasus-xauusd-framework-khusus-xauusd"
+    ]
+  },
+  {
+    "id": "essay-quiz-80",
+    "quizId": "quiz-80",
+    "levelId": "level-80",
+    "title": "Full ICT Backtesting Model AI Essay Exam",
+    "type": "ai_essay",
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Jelaskan Full ICT Backtesting Model dengan urutan bias, liquidity, reaksi harga, entry zone, invalidation, dan target. Gunakan contoh XAUUSD sederhana.",
+        "expectedConcepts": [
+          "bias",
+          "liquidity",
+          "reaction",
+          "entry zone",
+          "invalidation",
+          "target",
+          "XAUUSD"
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Bedakan setup Full ICT Backtesting Model yang valid dan yang harus diabaikan. Sebutkan minimal tiga tanda valid dan tiga tanda bahaya.",
+        "expectedConcepts": [
+          "valid setup",
+          "warning signs",
+          "displacement",
+          "follow-through",
+          "risk management",
+          "no trade"
+        ]
+      },
+      {
+        "id": "q3",
+        "prompt": "Jika harga XAUUSD sudah bergerak jauh dari area backtesting dan jarak ke Stop Loss terlalu lebar, apa keputusan paling disiplin? Jelaskan alasannya.",
+        "expectedConcepts": [
+          "do not chase",
+          "risk reward",
+          "stop loss",
+          "discipline",
+          "wait for retracement",
+          "invalidation"
+        ]
+      }
+    ],
+    "rubric": {
+      "excellent": "Jawaban menyusun alur lengkap, menyebut bias, liquidity, struktur, konfirmasi, invalidation, target, dan contoh XAUUSD secara objektif.",
+      "pass": "Jawaban memahami konsep utama dan mampu menjelaskan sebagian alur praktik meskipun detail chart belum lengkap.",
+      "fail": "Jawaban hanya menghafal istilah, tidak menjelaskan alur trading, atau tidak menyebut risk dan invalidation."
+    },
+    "remedialLessons": [
+      "level-80/01-pondasi-full-ict-backtesting-model",
+      "level-80/02-mekanisme-full-ict-backtesting-model",
+      "level-80/03-membaca-full-ict-backtesting-model-di-chart",
+      "level-80/04-eksekusi-invalidasi-full-ict-backtesting-model",
+      "level-80/05-kesalahan-umum-full-ict-backtesting-model",
+      "level-80/06-studi-kasus-xauusd-full-ict-backtesting-model"
+    ]
+  }
+]

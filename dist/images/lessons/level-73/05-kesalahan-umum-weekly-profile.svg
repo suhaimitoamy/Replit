@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+<rect width="1200" height="675" fill="#0b1020"/>
+<line x1="80" y1="95" x2="80" y2="615" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="160" y1="95" x2="160" y2="615" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="240" y1="95" x2="240" y2="615" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="320" y1="95" x2="320" y2="615" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="400" y1="95" x2="400" y2="615" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="480" y1="95" x2="480" y2="615" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="560" y1="95" x2="560" y2="615" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="640" y1="95" x2="640" y2="615" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="720" y1="95" x2="720" y2="615" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="800" y1="95" x2="800" y2="615" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="880" y1="95" x2="880" y2="615" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="960" y1="95" x2="960" y2="615" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="1040" y1="95" x2="1040" y2="615" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="60" y1="120" x2="1140" y2="120" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="60" y1="180" x2="1140" y2="180" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="60" y1="240" x2="1140" y2="240" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="60" y1="300" x2="1140" y2="300" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="60" y1="360" x2="1140" y2="360" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="60" y1="420" x2="1140" y2="420" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="60" y1="480" x2="1140" y2="480" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="60" y1="540" x2="1140" y2="540" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="60" y1="600" x2="1140" y2="600" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<text x="50" y="55" fill="#18f57a" font-family="Arial, sans-serif" font-size="28" font-weight="700">Level 73 — Kesalahan Umum dalam Weekly Profile</text>
+<text x="50" y="86" fill="#9ca3af" font-family="Arial, sans-serif" font-size="16" font-weight="500">Amy Trading Quest • Advanced ICT / XAUUSD</text>
+<rect x="80" y="150" width="470" height="390" rx="20" fill="#111827" stroke="#ff4d4d" stroke-width="3"/>
+<rect x="650" y="150" width="470" height="390" rx="20" fill="#111827" stroke="#18f57a" stroke-width="3"/>
+<text x="120" y="200" fill="#ff4d4d" font-family="Arial, sans-serif" font-size="28" font-weight="800">Kesalahan</text>
+<text x="690" y="200" fill="#18f57a" font-family="Arial, sans-serif" font-size="28" font-weight="800">Pembacaan Sehat</text>
+<text x="125" y="260" fill="#e5e7eb" font-family="Arial, sans-serif" font-size="22" font-weight="600">✕ Entry dari nama pola</text>
+<text x="125" y="315" fill="#e5e7eb" font-family="Arial, sans-serif" font-size="22" font-weight="600">✕ Abaikan lokasi harga</text>
+<text x="125" y="370" fill="#e5e7eb" font-family="Arial, sans-serif" font-size="22" font-weight="600">✕ SL digeser saat salah</text>
+<text x="125" y="425" fill="#e5e7eb" font-family="Arial, sans-serif" font-size="22" font-weight="600">✕ Target tanpa liquidity</text>
+<text x="695" y="260" fill="#e5e7eb" font-family="Arial, sans-serif" font-size="22" font-weight="600">✓ Mulai dari bias</text>
+<text x="695" y="315" fill="#e5e7eb" font-family="Arial, sans-serif" font-size="22" font-weight="600">✓ Tunggu sweep/reaksi</text>
+<text x="695" y="370" fill="#e5e7eb" font-family="Arial, sans-serif" font-size="22" font-weight="600">✓ SL di invalidation</text>
+<text x="695" y="425" fill="#e5e7eb" font-family="Arial, sans-serif" font-size="22" font-weight="600">✓ Target liquidity terdekat</text>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#18f57a"/></marker></defs>
+</svg>

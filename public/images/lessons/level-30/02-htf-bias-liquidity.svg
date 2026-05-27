@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" style="background-color:#1a1a2e; font-family:sans-serif;">
+  <!-- Title -->
+  <text x="400" y="40" fill="#ffffff" font-size="24" font-weight="bold" text-anchor="middle">HTF BIAS &amp; LIQUIDITY SWEEP</text>
+  
+  <!-- Market structure line -->
+  <path d="M 100 300 L 200 150 L 300 220 L 400 150 L 500 320 L 600 200 L 700 80" fill="none" stroke="#00ffaa" stroke-width="4"/>
+  
+  <!-- Equal Highs / BSL -->
+  <line x1="150" y1="150" x2="450" y2="150" stroke="#ff3366" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="300" y="140" fill="#ff3366" font-size="14" text-anchor="middle">Equal Highs (Buy-side Liquidity)</text>
+
+  <!-- SSL / Sweep -->
+  <line x1="250" y1="220" x2="550" y2="220" stroke="#aaaaaa" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="400" y="210" fill="#aaaaaa" font-size="14" text-anchor="middle">Sell-side Liquidity</text>
+
+  <circle cx="500" cy="320" r="10" fill="none" stroke="#ff3366" stroke-width="3"/>
+  <text x="500" y="350" fill="#ff3366" font-size="14" font-weight="bold" text-anchor="middle">Liquidity Sweep (Purge)</text>
+  
+  <text x="700" y="60" fill="#00ffaa" font-size="16" font-weight="bold" text-anchor="middle">Target BSL</text>
+  <circle cx="700" cy="80" r="6" fill="#00ffaa"/>
+
+  <!-- Legend -->
+  <rect x="50" y="60" width="150" height="60" fill="#2d2d44" rx="5"/>
+  <text x="60" y="80" fill="#ffffff" font-size="12">Bias: Bullish</text>
+  <text x="60" y="100" fill="#ffffff" font-size="12">Action: Wait for SSL Sweep</text>
+</svg>

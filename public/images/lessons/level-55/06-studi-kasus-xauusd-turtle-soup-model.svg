@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+<rect width="1200" height="675" fill="#0b1020"/>
+<line x1="80" y1="95" x2="80" y2="615" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="160" y1="95" x2="160" y2="615" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="240" y1="95" x2="240" y2="615" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="320" y1="95" x2="320" y2="615" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="400" y1="95" x2="400" y2="615" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="480" y1="95" x2="480" y2="615" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="560" y1="95" x2="560" y2="615" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="640" y1="95" x2="640" y2="615" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="720" y1="95" x2="720" y2="615" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="800" y1="95" x2="800" y2="615" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="880" y1="95" x2="880" y2="615" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="960" y1="95" x2="960" y2="615" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="1040" y1="95" x2="1040" y2="615" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="60" y1="120" x2="1140" y2="120" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="60" y1="180" x2="1140" y2="180" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="60" y1="240" x2="1140" y2="240" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="60" y1="300" x2="1140" y2="300" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="60" y1="360" x2="1140" y2="360" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="60" y1="420" x2="1140" y2="420" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="60" y1="480" x2="1140" y2="480" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="60" y1="540" x2="1140" y2="540" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<line x1="60" y1="600" x2="1140" y2="600" stroke="#263246" stroke-width="1" opacity="0.35"/>
+<text x="50" y="55" fill="#18f57a" font-family="Arial, sans-serif" font-size="28" font-weight="700">Level 55 — Studi Kasus XAUUSD: Turtle Soup Model</text>
+<text x="50" y="86" fill="#9ca3af" font-family="Arial, sans-serif" font-size="16" font-weight="500">Amy Trading Quest • Advanced ICT / XAUUSD</text>
+<line x1="90" y1="210" x2="1110" y2="210" stroke="#9ca3af" stroke-width="4"/>
+<circle cx="130" cy="210" r="18" fill="#22d3ee"/>
+<text x="94" y="255" fill="#22d3ee" font-family="Arial, sans-serif" font-size="22" font-weight="700">Asia</text>
+<circle cx="390" cy="210" r="18" fill="#facc15"/>
+<text x="354" y="255" fill="#facc15" font-family="Arial, sans-serif" font-size="22" font-weight="700">London</text>
+<circle cx="665" cy="210" r="18" fill="#18f57a"/>
+<text x="629" y="255" fill="#18f57a" font-family="Arial, sans-serif" font-size="22" font-weight="700">NY</text>
+<circle cx="930" cy="210" r="18" fill="#a78bfa"/>
+<text x="894" y="255" fill="#a78bfa" font-family="Arial, sans-serif" font-size="22" font-weight="700">Close</text>
+<path d="M 120,500 L 230,470 L 330,505 L 440,385 L 560,410 L 680,300 L 780,330 L 900,240 L 1020,260" stroke="#18f57a" stroke-width="5" fill="none"/>
+<rect x="410" y="360" width="115" height="70" rx="10" fill="#ff4d4d" opacity="0.25" stroke="#ff4d4d" stroke-width="2"/>
+<text x="415" y="350" fill="#ff4d4d" font-family="Arial, sans-serif" font-size="18" font-weight="700">Sweep / Trap</text>
+<rect x="650" y="280" width="135" height="85" rx="10" fill="#22d3ee" opacity="0.18" stroke="#22d3ee" stroke-width="2"/>
+<text x="650" y="270" fill="#22d3ee" font-family="Arial, sans-serif" font-size="18" font-weight="700">Entry Zone</text>
+<text x="100" y="610" fill="#e5e7eb" font-family="Arial, sans-serif" font-size="22" font-weight="700">XAUUSD case flow: range → liquidity event → confirmation → execution.</text>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#18f57a"/></marker></defs>
+</svg>

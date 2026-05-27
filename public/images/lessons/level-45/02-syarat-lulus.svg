@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="100%" height="100%" fill="#1a1a2e" />
+  
+  <text x="400" y="50" fill="#ffffff" font-family="Arial" font-size="28" font-weight="bold" text-anchor="middle">Jalan Menuju Funded Trader</text>
+
+  <!-- Phase 1 -->
+  <rect x="50" y="100" width="700" height="120" rx="10" fill="#2d2d44" stroke="#ff3366" stroke-width="2"/>
+  <rect x="50" y="100" width="20" height="120" fill="#ff3366" rx="10"/>
+  <text x="100" y="140" fill="#ffffff" font-family="Arial" font-size="22" font-weight="bold">Fase 1: Challenge (Tantangan)</text>
+  <text x="100" y="170" fill="#aaaaaa" font-family="Arial" font-size="16">• Target Profit: 8%</text>
+  <text x="100" y="195" fill="#aaaaaa" font-family="Arial" font-size="16">• Tuntutan Konsistensi Paling Tinggi</text>
+  
+  <path d="M 400 220 L 400 250" fill="none" stroke="#ffffff" stroke-width="3" marker-end="url(#arrowDown)"/>
+
+  <!-- Phase 2 -->
+  <rect x="50" y="260" width="700" height="120" rx="10" fill="#2d2d44" stroke="#ffaa00" stroke-width="2"/>
+  <rect x="50" y="260" width="20" height="120" fill="#ffaa00" rx="10"/>
+  <text x="100" y="300" fill="#ffffff" font-family="Arial" font-size="22" font-weight="bold">Fase 2: Verification (Verifikasi)</text>
+  <text x="100" y="330" fill="#aaaaaa" font-family="Arial" font-size="16">• Target Profit: 5%</text>
+  <text x="100" y="355" fill="#aaaaaa" font-family="Arial" font-size="16">• Memastikan Lulus Fase 1 Bukan Karena Hoki</text>
+
+  <path d="M 400 380 L 400 410" fill="none" stroke="#00ffaa" stroke-width="3" marker-end="url(#arrowDownGreen)"/>
+
+  <!-- Funded -->
+  <rect x="50" y="420" width="700" height="120" rx="10" fill="#22223a" stroke="#00ffaa" stroke-width="3"/>
+  <rect x="50" y="420" width="20" height="120" fill="#00ffaa" rx="10"/>
+  <text x="100" y="460" fill="#00ffaa" font-family="Arial" font-size="24" font-weight="bold">Funded Trader</text>
+  <text x="100" y="490" fill="#ffffff" font-family="Arial" font-size="16">• Target Profit: Tidak Ada Batas (Unlimited)</text>
+  <text x="100" y="515" fill="#ffffff" font-family="Arial" font-size="16">• Dapat Profit Split (80% / 20%)</text>
+  
+  <text x="650" y="480" fill="#00ffaa" font-family="Arial" font-size="40" font-weight="bold">$$$</text>
+
+  <defs>
+    <marker id="arrowDown" viewBox="0 0 10 10" refX="5" refY="9" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 5 10 L 10 0 z" fill="#ffffff"/>
+    </marker>
+    <marker id="arrowDownGreen" viewBox="0 0 10 10" refX="5" refY="9" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 5 10 L 10 0 z" fill="#00ffaa"/>
+    </marker>
+  </defs>
+</svg>

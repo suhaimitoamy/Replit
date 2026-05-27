@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" style="background:#1a1a2e; font-family:sans-serif;">
+  <rect width="800" height="400" fill="#1a1a2e"/>
+  
+  <text x="400" y="40" fill="#ffffff" font-size="22" font-weight="bold" text-anchor="middle">Ringkasan Pondasi Trading (Level 1)</text>
+
+  <!-- Central Badge -->
+  <circle cx="400" cy="200" r="60" fill="#00ffaa" fill-opacity="0.1" stroke="#00ffaa" stroke-width="3"/>
+  <text x="400" y="200" fill="#00ffaa" font-size="24" font-weight="bold" text-anchor="middle">LVL 1</text>
+  <text x="400" y="220" fill="#ffffff" font-size="12" text-anchor="middle">Newbie Trader</text>
+
+  <!-- Pillar 1: Mindset -->
+  <rect x="80" y="80" width="160" height="60" rx="10" fill="#2d2d44" stroke="#f39c12" stroke-width="2"/>
+  <text x="160" y="105" fill="#f39c12" font-size="14" font-weight="bold" text-anchor="middle">Mindset Bisnis</text>
+  <text x="160" y="125" fill="#ffffff" font-size="11" text-anchor="middle">Probabilitas, bukan Judi</text>
+
+  <!-- Pillar 2: Candlestick -->
+  <rect x="560" y="80" width="160" height="60" rx="10" fill="#2d2d44" stroke="#00ffaa" stroke-width="2"/>
+  <text x="640" y="105" fill="#00ffaa" font-size="14" font-weight="bold" text-anchor="middle">Candlestick (OHLC)</text>
+  <text x="640" y="125" fill="#ffffff" font-size="11" text-anchor="middle">Bahasa emosi market</text>
+
+  <!-- Pillar 3: Market Structure -->
+  <rect x="80" y="260" width="160" height="60" rx="10" fill="#2d2d44" stroke="#3498db" stroke-width="2"/>
+  <text x="160" y="285" fill="#3498db" font-size="14" font-weight="bold" text-anchor="middle">Market Structure</text>
+  <text x="160" y="305" fill="#ffffff" font-size="11" text-anchor="middle">Uptrend, Downtrend, Range</text>
+
+  <!-- Pillar 4: S&R -->
+  <rect x="560" y="260" width="160" height="60" rx="10" fill="#2d2d44" stroke="#e74c3c" stroke-width="2"/>
+  <text x="640" y="285" fill="#e74c3c" font-size="14" font-weight="bold" text-anchor="middle">Support &amp; Resistance</text>
+  <text x="640" y="305" fill="#ffffff" font-size="11" text-anchor="middle">Zona pantul (Lantai &amp; Plafon)</text>
+
+  <!-- Connecting Lines -->
+  <path d="M 240 110 Q 320 150 350 170" fill="none" stroke="#f39c12" stroke-width="2" stroke-dasharray="4"/>
+  <path d="M 560 110 Q 480 150 450 170" fill="none" stroke="#00ffaa" stroke-width="2" stroke-dasharray="4"/>
+  <path d="M 240 290 Q 320 250 350 230" fill="none" stroke="#3498db" stroke-width="2" stroke-dasharray="4"/>
+  <path d="M 560 290 Q 480 250 450 230" fill="none" stroke="#e74c3c" stroke-width="2" stroke-dasharray="4"/>
+
+  <!-- Big Foundational Risk Management -->
+  <rect x="250" y="330" width="300" height="50" rx="10" fill="#9b59b6" fill-opacity="0.2" stroke="#9b59b6" stroke-width="2"/>
+  <text x="400" y="355" fill="#9b59b6" font-size="16" font-weight="bold" text-anchor="middle">MANAJEMEN RISIKO (Risk Management)</text>
+  <text x="400" y="372" fill="#ffffff" font-size="12" text-anchor="middle">Stop Loss Wajib &amp; Aturan Risiko 1% (Perisai Pelindung)</text>
+</svg>

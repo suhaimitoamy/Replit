@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#1a1a2e"/>
+  
+  <text x="400" y="40" fill="#ffffff" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle">Siklus: Sweep to Delivery</text>
+  
+  <!-- Resistance Level -->
+  <line x1="100" y1="150" x2="700" y2="150" stroke="#ffffff" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="200" y="140" fill="#ffffff" font-family="Arial" font-size="14" text-anchor="middle">Resistance (Buy-Side Liquidity)</text>
+  
+  <!-- Price action -->
+  <path d="M 100 250 L 150 160 L 200 220 L 250 170 L 300 240" fill="none" stroke="#555577" stroke-width="3"/>
+  
+  <!-- The Sweep -->
+  <path d="M 300 240 L 400 100" fill="none" stroke="#ff3366" stroke-width="4"/>
+  <rect x="380" y="90" width="40" height="60" fill="none" stroke="#ff3366" stroke-width="2"/>
+  <text x="400" y="80" fill="#ff3366" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">SWEEP (Fakeout)</text>
+  
+  <!-- The Reversal / Delivery -->
+  <path d="M 400 100 L 450 200 L 500 180 L 650 350" fill="none" stroke="#ff3366" stroke-width="5"/>
+  
+  <!-- FVG / Entry -->
+  <rect x="420" y="180" width="80" height="30" fill="#ff3366" opacity="0.3"/>
+  <text x="460" y="170" fill="#ffffff" font-family="Arial" font-size="12" text-anchor="middle">Entry (FVG)</text>
+  
+  <!-- Delivery Target -->
+  <line x1="550" y1="350" x2="750" y2="350" stroke="#00ffaa" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="650" y="340" fill="#00ffaa" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">DELIVERY TARGET</text>
+  <text x="650" y="375" fill="#ffffff" font-family="Arial" font-size="12" text-anchor="middle">(Sell-Side Liquidity)</text>
+  
+  <text x="550" y="270" fill="#ffffff" font-family="Arial" font-size="14" font-style="italic" transform="rotate(45, 550, 270)">Pergerakan Kuat &amp; Cepat</text>
+</svg>

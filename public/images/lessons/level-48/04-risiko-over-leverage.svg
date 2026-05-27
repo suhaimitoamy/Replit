@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#1a1a2e"/>
+  
+  <text x="400" y="50" fill="#ffffff" font-family="Arial" font-size="28" font-weight="bold" text-anchor="middle">Risiko Psikologis Over-Leverage Saat Scale Up</text>
+
+  <!-- Scale graphic -->
+  <path d="M 400 450 L 400 350" stroke="#ffffff" stroke-width="6"/>
+  <polygon points="400,320 350,350 450,350" fill="#4a4a6a"/>
+  
+  <!-- Beam -->
+  <g transform="rotate(-15, 400, 320)">
+    <rect x="150" y="315" width="500" height="10" fill="#a0a0b0"/>
+    
+    <!-- Left side: Account Size -->
+    <rect x="200" y="215" width="80" height="100" fill="#00ffaa"/>
+    <text x="240" y="200" fill="#00ffaa" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle">Akun $100k</text>
+    <text x="240" y="265" fill="#1a1a2e" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">Besar</text>
+
+    <!-- Right side: Risk Tolerance -->
+    <circle cx="600" cy="275" r="40" fill="#ff3366"/>
+    <text x="600" y="220" fill="#ff3366" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle">Mental Trader</text>
+    <text x="600" y="280" fill="#ffffff" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">Rapuh</text>
+  </g>
+
+  <!-- Comparison Box -->
+  <rect x="100" y="80" width="600" height="120" rx="10" fill="#2a2a4a" stroke="#ff3366" stroke-width="2"/>
+  
+  <text x="250" y="110" fill="#a0a0b0" font-family="Arial" font-size="16" text-anchor="middle">Akun Kecil ($1,000)</text>
+  <text x="250" y="140" fill="#ffffff" font-family="Arial" font-size="16" text-anchor="middle">Risiko 1% = <tspan fill="#00ffaa" font-weight="bold">$10</tspan></text>
+  <text x="250" y="170" fill="#ffffff" font-family="Arial" font-size="14" text-anchor="middle">"Tidak terasa, santai."</text>
+
+  <path d="M 400 90 L 400 190" stroke="#4a4a6a" stroke-width="2"/>
+
+  <text x="550" y="110" fill="#a0a0b0" font-family="Arial" font-size="16" text-anchor="middle">Akun Besar ($100,000)</text>
+  <text x="550" y="140" fill="#ffffff" font-family="Arial" font-size="16" text-anchor="middle">Risiko 1% = <tspan fill="#ff3366" font-weight="bold">$1,000</tspan></text>
+  <text x="550" y="170" fill="#ff3366" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">"PANIK! Setara gaji sebulan!"</text>
+
+</svg>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="100%" height="100%">
+  <defs>
+    <style>
+      .bg { fill: #1a1a2e; }
+      .text-light { fill: #e0e0e0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+      .text-accent { fill: #00ffaa; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold; }
+      .text-danger { fill: #ff3366; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold; }
+      .circle-win { fill: #00ffaa; fill-opacity: 0.2; stroke: #00ffaa; stroke-width: 4; }
+      .circle-loss { fill: #ff3366; fill-opacity: 0.2; stroke: #ff3366; stroke-width: 4; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="400" class="bg" rx="15" />
+
+  <!-- Title -->
+  <text x="400" y="50" class="text-light" font-size="24" font-weight="bold" text-anchor="middle">Probabilitas dalam Trading</text>
+  <text x="400" y="80" class="text-light" font-size="14" text-anchor="middle" opacity="0.8">Hasil sebuah trade acak, namun probabilitas menciptakan kepastian jangka panjang</text>
+
+  <!-- The Coin / Trade Concept -->
+  <g transform="translate(150, 200)">
+    <!-- Dice Box -->
+    <rect x="-60" y="-60" width="120" height="120" rx="20" fill="none" stroke="#e0e0e0" stroke-width="4" opacity="0.3" />
+    <circle cx="0" cy="0" r="45" fill="#3a3a5e" />
+    <text x="0" y="8" class="text-light" font-size="20" font-weight="bold" text-anchor="middle">?</text>
+    <text x="0" y="90" class="text-light" font-size="16" text-anchor="middle">1 Trade = Acak</text>
+  </g>
+
+  <!-- Arrow -->
+  <path d="M 250 200 L 320 200" fill="none" stroke="#e0e0e0" stroke-width="4" marker-end="url(#arrow)" opacity="0.5"/>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#e0e0e0" opacity="0.5"/>
+    </marker>
+  </defs>
+
+  <!-- The Long Term Edge (Pie Chart representation) -->
+  <g transform="translate(550, 200)">
+    <!-- Pie base (Loss) -->
+    <circle cx="0" cy="0" r="70" class="circle-loss" />
+    
+    <!-- Pie slice (Win - approx 60%) -->
+    <path d="M 0 0 L 0 -70 A 70 70 0 1 1 -66 23 Z" class="circle-win" />
+    
+    <text x="30" y="10" class="text-accent" font-size="22">60%</text>
+    <text x="30" y="30" class="text-light" font-size="12">WIN</text>
+
+    <text x="-30" y="-10" class="text-danger" font-size="18">40%</text>
+    <text x="-30" y="10" class="text-light" font-size="12">LOSS</text>
+
+    <text x="0" y="110" class="text-light" font-size="16" text-anchor="middle">100 Trades = Pasti (Edge)</text>
+  </g>
+
+  <!-- Explanation boxes -->
+  <rect x="50" y="310" width="700" height="60" rx="8" fill="#2a2a4e" />
+  <text x="400" y="335" class="text-light" font-size="14" text-anchor="middle">"Jangan terobsesi pada hasil 1 trade tunggal. Jika Anda punya edge yang teruji,</text>
+  <text x="400" y="355" class="text-light" font-size="14" text-anchor="middle">biarkan probabilitas bekerja untuk Anda dalam sampel yang lebih besar."</text>
+
+</svg>

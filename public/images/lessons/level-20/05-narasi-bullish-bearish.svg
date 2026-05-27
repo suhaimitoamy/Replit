@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#1a1a2e"/>
+  
+  <text x="400" y="40" fill="#ffffff" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle">Membangun Narasi</text>
+  
+  <!-- Bullish Narrative -->
+  <rect x="50" y="80" width="330" height="280" rx="10" fill="#2a2a40" stroke="#00ffaa" stroke-width="2"/>
+  <text x="215" y="110" fill="#00ffaa" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle">Narasi Bullish</text>
+  
+  <path d="M 100 280 L 150 200 L 200 240 L 250 310 L 280 250 L 320 150" fill="none" stroke="#00ffaa" stroke-width="3"/>
+  <circle cx="250" cy="310" r="5" fill="#ff3366"/>
+  <text x="250" y="335" fill="#ffffff" font-family="Arial" font-size="12" text-anchor="middle">1. Sweep Bawah</text>
+  <circle cx="320" cy="150" r="5" fill="#00ffaa"/>
+  <text x="320" y="135" fill="#ffffff" font-family="Arial" font-size="12" text-anchor="middle">2. Target Atas</text>
+  
+  <!-- Bearish Narrative -->
+  <rect x="420" y="80" width="330" height="280" rx="10" fill="#2a2a40" stroke="#ff3366" stroke-width="2"/>
+  <text x="585" y="110" fill="#ff3366" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle">Narasi Bearish</text>
+  
+  <path d="M 470 200 L 520 280 L 570 230 L 620 150 L 650 210 L 690 310" fill="none" stroke="#ff3366" stroke-width="3"/>
+  <circle cx="620" cy="150" r="5" fill="#00ffaa"/>
+  <text x="620" y="135" fill="#ffffff" font-family="Arial" font-size="12" text-anchor="middle">1. Sweep Atas</text>
+  <circle cx="690" cy="310" r="5" fill="#ff3366"/>
+  <text x="690" y="335" fill="#ffffff" font-family="Arial" font-size="12" text-anchor="middle">2. Target Bawah</text>
+  
+  <line x1="400" y1="80" x2="400" y2="360" stroke="#555577" stroke-width="2" stroke-dasharray="4,4"/>
+</svg>

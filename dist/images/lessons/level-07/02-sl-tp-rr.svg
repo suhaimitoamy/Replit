@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" width="100%" height="200" style="background-color: #1a1a2e; border-radius: 8px; border: 1px solid #2a2a4a; margin-top: 10px; margin-bottom: 20px;">
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+    <text x="200" y="20" fill="#ffffff" font-family="monospace" font-size="14" text-anchor="middle">Risk to Reward (RR) 1:2</text>
+    <line x1="150" y1="50" x2="250" y2="50" stroke="#00ffaa" stroke-width="2" stroke-dasharray="" filter="url(#glow)"/>
+    <text x="200" y="45" fill="#ffffff" font-family="monospace" font-size="14" text-anchor="middle">TP (+$20)</text>
+    <line x1="150" y1="100" x2="250" y2="100" stroke="#aaaaaa" stroke-width="2" stroke-dasharray="" filter="url(#glow)"/>
+    <text x="200" y="95" fill="#ffffff" font-family="monospace" font-size="14" text-anchor="middle">Entry</text>
+    <line x1="150" y1="125" x2="250" y2="125" stroke="#ff4444" stroke-width="2" stroke-dasharray="" filter="url(#glow)"/>
+    <text x="200" y="140" fill="#ffffff" font-family="monospace" font-size="14" text-anchor="middle">SL (-$10)</text>
+    <rect x="180,100" width="40" height="25" fill="#ff4444" opacity="0.3"/>
+    <rect x="180,50" width="40" height="50" fill="#00ffaa" opacity="0.3"/>
+  
+</svg>

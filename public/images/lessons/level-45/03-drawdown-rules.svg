@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="100%" height="100%" fill="#1a1a2e" />
+  
+  <text x="400" y="40" fill="#ffffff" font-family="Arial" font-size="28" font-weight="bold" text-anchor="middle">Memahami Aturan Drawdown</text>
+
+  <!-- Chart Axis -->
+  <line x1="100" y1="500" x2="700" y2="500" stroke="#ffffff" stroke-width="2"/>
+  <line x1="100" y1="100" x2="100" y2="500" stroke="#ffffff" stroke-width="2"/>
+
+  <!-- Y-axis Labels -->
+  <text x="90" y="150" fill="#00ffaa" font-family="Arial" font-size="14" text-anchor="end">$105,000</text>
+  <text x="90" y="250" fill="#ffffff" font-family="Arial" font-size="14" text-anchor="end">$100,000</text>
+  <text x="90" y="350" fill="#ffaa00" font-family="Arial" font-size="14" text-anchor="end">$95,000</text>
+  <text x="90" y="450" fill="#ff3366" font-family="Arial" font-size="14" text-anchor="end">$90,000</text>
+
+  <!-- Horizontal Lines -->
+  <line x1="100" y1="250" x2="700" y2="250" stroke="#ffffff" stroke-dasharray="5,5" stroke-width="1"/>
+  <line x1="100" y1="350" x2="700" y2="350" stroke="#ffaa00" stroke-dasharray="5,5" stroke-width="2"/>
+  <line x1="100" y1="450" x2="700" y2="450" stroke="#ff3366" stroke-dasharray="8,4" stroke-width="3"/>
+
+  <!-- Labels on Lines -->
+  <text x="710" y="255" fill="#ffffff" font-family="Arial" font-size="14">Initial Balance</text>
+  <text x="710" y="355" fill="#ffaa00" font-family="Arial" font-size="14">Daily Drawdown (5%)</text>
+  <text x="710" y="455" fill="#ff3366" font-family="Arial" font-size="14">Max Drawdown (10%)</text>
+
+  <!-- Equity Curve 1 (Good) -->
+  <path d="M 100 250 L 150 220 L 200 260 L 250 180 L 300 200 L 350 120 L 400 150 L 450 100" fill="none" stroke="#00ffaa" stroke-width="3"/>
+  <text x="400" y="90" fill="#00ffaa" font-family="Arial" font-size="16" font-weight="bold">Trader A: Profit &amp; Aman</text>
+
+  <!-- Equity Curve 2 (Bad - Hits Daily Drawdown) -->
+  <path d="M 100 250 L 140 280 L 180 240 L 220 310 L 250 290 L 300 380" fill="none" stroke="#ff3366" stroke-width="3"/>
+  <circle cx="300" cy="380" r="8" fill="#ff3366"/>
+  <text x="315" y="390" fill="#ff3366" font-family="Arial" font-size="16" font-weight="bold">Trader B: Melanggar Daily DD!</text>
+  
+  <!-- Info Box -->
+  <rect x="150" y="520" width="500" height="60" rx="5" fill="#2d2d44" stroke="#4a4a6a" stroke-width="2"/>
+  <text x="400" y="545" fill="#ffffff" font-family="Arial" font-size="14" text-anchor="middle">Aturan Emas: JANGAN PERNAH ambil risiko lebih dari 1% per trade.</text>
+  <text x="400" y="565" fill="#aaaaaa" font-family="Arial" font-size="14" text-anchor="middle">Jika Max Daily DD adalah 5%, risiko 1% memberi Anda 5 "nyawa" per hari.</text>
+
+</svg>

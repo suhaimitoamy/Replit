@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" style="background-color:#1a1a2e;">
+  <!-- Title -->
+  <text x="400" y="40" fill="#ffffff" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle">Menentukan Target Likuiditas (Take Profit)</text>
+
+  <!-- Market Structure & Liquidity Targets -->
+  <line x1="100" y1="120" x2="650" y2="120" stroke="#ff3366" stroke-width="2" stroke-dasharray="4,4"/>
+  <text x="100" y="110" fill="#ff3366" font-family="Arial" font-size="14" font-weight="bold">External Liquidity Tersapu (Awal Reversal)</text>
+
+  <!-- Targets Below -->
+  <rect x="350" y="280" width="80" height="40" fill="#4a90e2" opacity="0.3"/>
+  <text x="390" y="305" fill="#4a90e2" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle">FVG (Internal)</text>
+  <text x="390" y="270" fill="#ffffff" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Target 1 (TP1)</text>
+
+  <line x1="200" y1="420" x2="650" y2="420" stroke="#00ffaa" stroke-width="2" stroke-dasharray="4,4"/>
+  <text x="200" y="440" fill="#00ffaa" font-family="Arial" font-size="14" font-weight="bold">External Liquidity Bawah (Swing Low Lama)</text>
+  <text x="600" y="410" fill="#ffffff" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Target 2 (TP Utama)</text>
+
+  <!-- Price Path -->
+  <path d="M 100 250 L 200 420 L 250 150 L 300 80 L 350 200 L 400 300 L 450 250 L 600 420 L 650 350" fill="none" stroke="#ffffff" stroke-width="3" stroke-linejoin="round"/>
+  
+  <circle cx="300" cy="80" r="8" fill="#ff3366"/>
+  
+  <circle cx="400" cy="300" r="8" fill="#4a90e2"/>
+  
+  <circle cx="600" cy="420" r="8" fill="#00ffaa"/>
+
+  <path d="M 320 100 Q 380 180 395 285" fill="none" stroke="#ffff00" stroke-width="2" stroke-dasharray="3,3" marker-end="url(#arrowhead)"/>
+  <path d="M 450 260 Q 550 320 595 410" fill="none" stroke="#ffff00" stroke-width="2" stroke-dasharray="3,3" marker-end="url(#arrowhead)"/>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ffff00" />
+    </marker>
+  </defs>
+</svg>

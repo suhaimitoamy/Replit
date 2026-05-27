@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" style="background:#1a1a2e; font-family:sans-serif;">
+  <rect width="800" height="400" fill="#1a1a2e"/>
+  <text x="400" y="50" fill="#ffffff" font-size="24" font-weight="bold" text-anchor="middle">Anatomi Candlestick (OHLC)</text>
+
+  <!-- Bullish Candle -->
+  <g transform="translate(250, 100)">
+    <!-- Wick -->
+    <line x1="25" y1="20" x2="25" y2="200" stroke="#00ffaa" stroke-width="4"/>
+    <!-- Body -->
+    <rect x="0" y="60" width="50" height="100" fill="#00ffaa" stroke="#00ffaa" stroke-width="2"/>
+    
+    <!-- Labels -->
+    <text x="70" y="25" fill="#ffffff" font-size="14">High (Tertinggi)</text>
+    <text x="70" y="65" fill="#00ffaa" font-size="14" font-weight="bold">Close (Penutupan)</text>
+    <text x="70" y="165" fill="#00ffaa" font-size="14" font-weight="bold">Open (Pembukaan)</text>
+    <text x="70" y="205" fill="#ffffff" font-size="14">Low (Terendah)</text>
+    <text x="-40" y="115" fill="#00ffaa" font-size="16" font-weight="bold" transform="rotate(-90 -40 115)">BULLISH</text>
+  </g>
+
+  <!-- Bearish Candle -->
+  <g transform="translate(550, 100)">
+    <!-- Wick -->
+    <line x1="25" y1="20" x2="25" y2="200" stroke="#ff3366" stroke-width="4"/>
+    <!-- Body -->
+    <rect x="0" y="60" width="50" height="100" fill="#ff3366" stroke="#ff3366" stroke-width="2"/>
+    
+    <!-- Labels -->
+    <text x="-140" y="25" fill="#ffffff" font-size="14">High (Tertinggi)</text>
+    <text x="-150" y="65" fill="#ff3366" font-size="14" font-weight="bold">Open (Pembukaan)</text>
+    <text x="-155" y="165" fill="#ff3366" font-size="14" font-weight="bold">Close (Penutupan)</text>
+    <text x="-135" y="205" fill="#ffffff" font-size="14">Low (Terendah)</text>
+    <text x="90" y="115" fill="#ff3366" font-size="16" font-weight="bold" transform="rotate(90 90 115)">BEARISH</text>
+  </g>
+
+  <text x="400" y="360" fill="#aaaaaa" font-size="14" text-anchor="middle">Sumbu (Wick) mewakili penolakan pergerakan harga, Badan (Body) menunjukkan pemenang (Bulls vs Bears)</text>
+</svg>

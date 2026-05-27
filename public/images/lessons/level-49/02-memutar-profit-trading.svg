@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#1a1a2e"/>
+  
+  <text x="400" y="40" fill="#ffffff" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle">Pipa Kekayaan: Memutar Profit Trading</text>
+  
+  <!-- Active Income Box -->
+  <rect x="50" y="100" width="200" height="150" rx="15" fill="#2a2a4e" stroke="#ff3366" stroke-width="3"/>
+  <text x="150" y="140" fill="#ffffff" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle">Akun Trading</text>
+  <text x="150" y="170" fill="#ff3366" font-family="Arial" font-size="14" text-anchor="middle">(Risiko Tinggi / Aktif)</text>
+  <text x="150" y="200" fill="#00ffaa" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle">Profit Bulanan</text>
+  
+  <!-- Arrows -->
+  <path d="M 250,175 L 350,175" stroke="#00ffaa" stroke-width="4" marker-end="url(#arrowhead)"/>
+  
+  <!-- Withdrawal Hub -->
+  <circle cx="400" cy="175" r="50" fill="#3a3a5e" stroke="#00ffaa" stroke-width="3"/>
+  <text x="400" y="170" fill="#ffffff" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Withdraw</text>
+  <text x="400" y="190" fill="#00ffaa" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">50%</text>
+
+  <!-- Distribute Arrows -->
+  <path d="M 450,175 L 530,120" stroke="#4a90e2" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <path d="M 450,175 L 530,175" stroke="#4a90e2" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <path d="M 450,175 L 530,230" stroke="#4a90e2" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- Passive Asset Boxes -->
+  <rect x="550" y="80" width="200" height="60" rx="8" fill="#2a2a4e" stroke="#4a90e2" stroke-width="2"/>
+  <text x="650" y="105" fill="#ffffff" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Dana Darurat</text>
+  <text x="650" y="125" fill="#4a90e2" font-family="Arial" font-size="12" text-anchor="middle">Reksadana / Tabungan</text>
+
+  <rect x="550" y="150" width="200" height="60" rx="8" fill="#2a2a4e" stroke="#f39c12" stroke-width="2"/>
+  <text x="650" y="175" fill="#ffffff" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Investasi Saham</text>
+  <text x="650" y="195" fill="#f39c12" font-family="Arial" font-size="12" text-anchor="middle">Dividen / Long-term</text>
+
+  <rect x="550" y="220" width="200" height="60" rx="8" fill="#2a2a4e" stroke="#00ffaa" stroke-width="2"/>
+  <text x="650" y="245" fill="#ffffff" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Aset Fisik (Emas)</text>
+  <text x="650" y="265" fill="#00ffaa" font-family="Arial" font-size="12" text-anchor="middle">Pelindung Inflasi</text>
+
+  <!-- Cycle back arrow -->
+  <path d="M 150,250 L 150,300 L 400,300 L 400,225" stroke="#ff3366" stroke-width="2" stroke-dasharray="5,5" fill="none"/>
+  <text x="275" y="320" fill="#ffffff" font-family="Arial" font-size="12" text-anchor="middle">Jika akun trading hancur, kekayaan di kanan tetap aman!</text>
+
+  <!-- Marker Definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#00ffaa" />
+    </marker>
+  </defs>
+  
+  <!-- Info Bottom -->
+  <rect x="20" y="380" width="760" height="100" rx="10" fill="#2a2a4e"/>
+  <text x="400" y="415" fill="#00ffaa" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle">The Golden Rule</text>
+  <text x="400" y="445" fill="#ffffff" font-family="Arial" font-size="16" text-anchor="middle">"Trading belum menghasilkan uang sampai Anda menekan tombol WITHDRAW."</text>
+</svg>

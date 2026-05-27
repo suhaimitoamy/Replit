@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <rect width="800" height="400" fill="#1a1a2e" />
+  
+  <text x="400" y="40" fill="#ffffff" font-family="sans-serif" font-size="24" font-weight="bold" text-anchor="middle">Evolusi Trader: Dari Keruwetan Menuju Kesederhanaan</text>
+  
+  <!-- Left Side: Messy (Pemula) -->
+  <g transform="translate(50, 80)">
+    <rect x="0" y="0" width="300" height="250" fill="#252542" rx="10" />
+    <text x="150" y="30" fill="#ffffff" font-family="sans-serif" font-size="16" text-anchor="middle">Pemula: Penuh Indikator</text>
+    
+    <!-- Candles -->
+    <path d="M50,150 L50,110 M45,140 L55,140 L55,120 L45,120 Z" fill="#00ffaa" stroke="#00ffaa" />
+    <path d="M80,120 L80,70 M75,110 L85,110 L85,80 L75,80 Z" fill="#00ffaa" stroke="#00ffaa" />
+    <path d="M110,80 L110,130 M105,90 L115,90 L115,120 L105,120 Z" fill="#ff3366" stroke="#ff3366" />
+    <path d="M140,120 L140,180 M135,130 L145,130 L145,170 L135,170 Z" fill="#ff3366" stroke="#ff3366" />
+    
+    <!-- Messy Indicators -->
+    <path d="M30,160 Q70,90 100,140 T150,100 T200,160 T250,90" fill="none" stroke="#ffff00" stroke-width="2" />
+    <path d="M30,130 Q80,150 120,80 T180,140 T220,110 T280,180" fill="none" stroke="#ff00ff" stroke-width="2" />
+    <path d="M30,100 Q60,180 110,150 T160,80 T210,170 T270,120" fill="none" stroke="#00ffff" stroke-width="2" />
+    <!-- Bollinger bands-like -->
+    <path d="M30,80 Q70,40 120,60 T180,30 T250,70" fill="none" stroke="#aaaaaa" stroke-width="1" stroke-dasharray="5,5" />
+    <path d="M30,220 Q70,190 120,210 T180,190 T250,220" fill="none" stroke="#aaaaaa" stroke-width="1" stroke-dasharray="5,5" />
+  </g>
+  
+  <!-- Right Side: Clean (Master) -->
+  <g transform="translate(450, 80)">
+    <rect x="0" y="0" width="300" height="250" fill="#252542" rx="10" />
+    <text x="150" y="30" fill="#ffffff" font-family="sans-serif" font-size="16" text-anchor="middle">Master: Kesederhanaan (Price Action)</text>
+    
+    <!-- Clean Candles -->
+    <path d="M60,180 L60,140 M55,170 L65,170 L65,150 L55,150 Z" fill="#00ffaa" stroke="#00ffaa" />
+    <path d="M90,150 L90,100 M85,140 L95,140 L95,110 L85,110 Z" fill="#00ffaa" stroke="#00ffaa" />
+    <path d="M120,110 L120,60 M115,100 L125,100 L125,70 L115,70 Z" fill="#00ffaa" stroke="#00ffaa" />
+    
+    <path d="M150,70 L150,130 M145,80 L155,80 L155,120 L145,120 Z" fill="#ff3366" stroke="#ff3366" />
+    <path d="M180,120 L180,170 M175,130 L185,130 L185,160 L175,160 Z" fill="#ff3366" stroke="#ff3366" />
+    <path d="M210,160 L210,120 M205,150 L215,150 L215,130 L205,130 Z" fill="#00ffaa" stroke="#00ffaa" />
+    <path d="M240,130 L240,80 M235,120 L245,120 L245,90 L235,90 Z" fill="#00ffaa" stroke="#00ffaa" />
+    
+    <!-- Marking Structure -->
+    <line x1="80" y1="110" x2="160" y2="110" stroke="#aaaaaa" stroke-width="1" stroke-dasharray="4,4" />
+    <text x="120" y="105" fill="#aaaaaa" font-family="sans-serif" font-size="12" text-anchor="middle">BOS</text>
+    
+    <!-- FVG / Order Block -->
+    <rect x="50" y="150" width="60" height="20" fill="#00ffaa" opacity="0.2" />
+    <text x="80" y="165" fill="#00ffaa" font-family="sans-serif" font-size="12" text-anchor="middle">Demand Zone</text>
+    
+    <!-- Arrow -->
+    <path d="M180,170 L210,150 L240,120" fill="none" stroke="#ffffff" stroke-width="2" stroke-dasharray="4,4" />
+  </g>
+  
+  <!-- Arrow in middle -->
+  <path d="M360,200 L430,200 L410,180 M430,200 L410,220" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+  
+</svg>

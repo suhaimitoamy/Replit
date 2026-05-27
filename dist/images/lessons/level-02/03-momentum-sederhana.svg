@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" width="100%" height="200" style="background-color: #1a1a2e; border-radius: 8px; border: 1px solid #2a2a4a; margin-top: 10px; margin-bottom: 20px;">
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+    <text x="200" y="20" fill="#ffffff" font-family="monospace" font-size="14" text-anchor="middle">Momentum (Kecepatan)</text>
+    
+  <line x1="90" y1="40" x2="90" y2="120" stroke="#ff4444" stroke-width="2"/>
+  <rect x="80" y="50" width="20" height="60" fill="#ff4444" rx="2"/>
+
+    
+  <line x1="130" y1="100" x2="130" y2="170" stroke="#ff4444" stroke-width="2"/>
+  <rect x="120" y="110" width="20" height="50" fill="#ff4444" rx="2"/>
+
+    
+  <line x1="170" y1="150" x2="170" y2="190" stroke="#ff4444" stroke-width="2"/>
+  <rect x="160" y="160" width="20" height="20" fill="#ff4444" rx="2"/>
+
+    <text x="120" y="190" fill="#ff4444" font-family="monospace" font-size="12" text-anchor="middle">Melemah</text>
+    
+    
+  <line x1="270" y1="130" x2="270" y2="170" stroke="#00ffaa" stroke-width="2"/>
+  <rect x="260" y="140" width="20" height="20" fill="#00ffaa" rx="2"/>
+
+    
+  <line x1="310" y1="80" x2="310" y2="150" stroke="#00ffaa" stroke-width="2"/>
+  <rect x="300" y="90" width="20" height="50" fill="#00ffaa" rx="2"/>
+
+    
+  <line x1="350" y1="20" x2="350" y2="100" stroke="#00ffaa" stroke-width="2"/>
+  <rect x="340" y="30" width="20" height="60" fill="#00ffaa" rx="2"/>
+
+    <text x="300" y="190" fill="#00ffaa" font-family="monospace" font-size="12" text-anchor="middle">Menguat</text>
+  
+</svg>

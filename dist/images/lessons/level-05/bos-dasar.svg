@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#1a1a2e"/>
+  
+  <g stroke="#ffffff" stroke-opacity="0.05" stroke-width="1">
+    <path d="M0,50 H800 M0,100 H800 M0,150 H800 M0,200 H800 M0,250 H800 M0,300 H800 M0,350 H800"/>
+  </g>
+
+  <text x="400" y="40" fill="#ffffff" font-family="sans-serif" font-size="24" font-weight="bold" text-anchor="middle">Break of Structure (BOS)</text>
+
+  <!-- Path -->
+  <path d="M 100,320 L 250,200 L 330,260 L 500,120 L 580,180 L 720,60" fill="none" stroke="#00ffaa" stroke-width="4" stroke-linejoin="round"/>
+  
+  <!-- High 1 -->
+  <circle cx="250" cy="200" r="5" fill="#00ffaa"/>
+  <!-- HL 1 -->
+  <circle cx="330" cy="260" r="5" fill="#00ffaa"/>
+  
+  <!-- BOS Line 1 -->
+  <line x1="250" y1="200" x2="450" y2="200" stroke="#ffffff" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="360" y="190" fill="#ffffff" font-family="sans-serif" font-size="14" font-weight="bold">BOS (Break of Structure)</text>
+  
+  <!-- High 2 -->
+  <circle cx="500" cy="120" r="5" fill="#00ffaa"/>
+  <!-- HL 2 -->
+  <circle cx="580" cy="180" r="5" fill="#00ffaa"/>
+
+  <!-- BOS Line 2 -->
+  <line x1="500" y1="120" x2="680" y2="120" stroke="#ffffff" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="590" y="110" fill="#ffffff" font-family="sans-serif" font-size="14" font-weight="bold">BOS</text>
+
+  <!-- Arrows -->
+  <path d="M 390,200 L 390,170" fill="none" stroke="#00ffaa" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M 640,120 L 640,90" fill="none" stroke="#00ffaa" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#00ffaa"/>
+    </marker>
+  </defs>
+
+  <text x="400" y="370" fill="#ffffff" font-family="sans-serif" font-size="16" text-anchor="middle">BOS terjadi ketika harga menembus High (dalam Uptrend) untuk melanjutkan struktur</text>
+</svg>

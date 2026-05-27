@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#1a1a2e"/>
+  
+  <text x="400" y="40" fill="#ffffff" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle">Kesalahan Fatal Setelah Loss: Martingale / Double Down</text>
+
+  <!-- Sequence of Trades -->
+  <!-- Trade 1 -->
+  <rect x="100" y="100" width="120" height="180" fill="#2a2a4a" rx="5" stroke="#ff3366" stroke-width="2"/>
+  <text x="160" y="130" fill="#ffffff" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">Trade 1</text>
+  <text x="160" y="160" fill="#aaaaaa" font-family="Arial" font-size="14" text-anchor="middle">Lot: 0.1</text>
+  <text x="160" y="190" fill="#ff3366" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle">- $10</text>
+  <text x="160" y="240" fill="#ffaa00" font-family="Arial" font-size="12" text-anchor="middle">"Ah, cuma sial"</text>
+
+  <path d="M 230 190 L 260 190" stroke="#ffffff" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <!-- Trade 2 -->
+  <rect x="280" y="100" width="120" height="180" fill="#2a2a4a" rx="5" stroke="#ff3366" stroke-width="3"/>
+  <text x="340" y="130" fill="#ffffff" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">Trade 2</text>
+  <text x="340" y="160" fill="#ffaa00" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Lot: 0.2 (x2)</text>
+  <text x="340" y="190" fill="#ff3366" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle">- $20</text>
+  <text x="340" y="240" fill="#ffaa00" font-family="Arial" font-size="12" text-anchor="middle">"Harus balik modal!"</text>
+
+  <path d="M 410 190 L 440 190" stroke="#ffffff" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <!-- Trade 3 -->
+  <rect x="460" y="100" width="120" height="180" fill="#2a2a4a" rx="5" stroke="#ff3366" stroke-width="4"/>
+  <text x="520" y="130" fill="#ffffff" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">Trade 3</text>
+  <text x="520" y="160" fill="#ff3366" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Lot: 0.5 (Balas Dendam)</text>
+  <text x="520" y="190" fill="#ff3366" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle">- $50</text>
+  <text x="520" y="240" fill="#ffaa00" font-family="Arial" font-size="12" text-anchor="middle">Emosi Tidak Terkontrol</text>
+
+  <path d="M 590 190 L 620 190" stroke="#ffffff" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <!-- Result -->
+  <rect x="640" y="100" width="120" height="180" fill="#ff3366" rx="5"/>
+  <text x="700" y="170" fill="#ffffff" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle">MARGIN</text>
+  <text x="700" y="200" fill="#ffffff" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle">CALL</text>
+  <text x="700" y="240" fill="#ffffff" font-family="Arial" font-size="12" text-anchor="middle">Akun Hancur</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#ffffff" />
+    </marker>
+  </defs>
+</svg>

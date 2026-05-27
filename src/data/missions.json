@@ -1,0 +1,14 @@
+[
+  {
+    "id": "mission-1-1",
+    "levelId": "level-1",
+    "title": "Analisa Trend Awal",
+    "type": "chart_upload",
+    "description": "Upload screenshot chart apa saja (Crypto, Forex, atau Saham). Coba tuliskan apakah saat ini sedang tren naik (Uptrend) atau turun (Downtrend).",
+    "xpReward": 25,
+    "requiresAI": true,
+    "aiRubricId": "rubric-1",
+    "completionRule": "ai_passed",
+    "failAction": "remedial_review"
+  }
+]

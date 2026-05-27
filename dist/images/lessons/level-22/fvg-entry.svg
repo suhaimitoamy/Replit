@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <rect width="800" height="500" fill="#1a1a2e"/>
+  
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">Eksekusi Trade Menggunakan FVG</text>
+  
+  <g transform="translate(150, 80)">
+    
+    <!-- Previous Swing High for SL Placement -->
+    <path d="M 0 350 L 50 100 L 100 130" fill="none" stroke="#888" stroke-width="2" stroke-dasharray="3,3"/>
+    <circle cx="50" cy="100" r="5" fill="#ff3366"/>
+    <text x="60" y="95" font-family="Arial" font-size="12" fill="#ff3366">Swing High (Area Stop Loss Aman)</text>
+    <line x1="50" y1="80" x2="250" y2="80" stroke="#ff3366" stroke-width="2"/>
+    <text x="260" y="85" font-family="Arial" font-size="14" font-weight="bold" fill="#ff3366">STOP LOSS (SL)</text>
+
+    <!-- Bearish Displacement down forming FVG -->
+    <line x1="150" y1="120" x2="150" y2="280" stroke="#ff3366" stroke-width="4"/>
+    <rect x="135" y="130" width="30" height="150" fill="#ff3366"/>
+
+    <line x1="100" y1="120" x2="100" y2="150" stroke="#ff3366" stroke-width="4"/>
+    <rect x="85" y="125" width="30" height="20" fill="#ff3366"/>
+
+    <line x1="200" y1="260" x2="200" y2="350" stroke="#ff3366" stroke-width="4"/>
+    <rect x="185" y="270" width="30" height="70" fill="#ff3366"/>
+
+    <!-- The FVG Zone -->
+    <rect x="100" y="150" width="400" height="110" fill="#ff3366" fill-opacity="0.15" stroke="#ff3366" stroke-width="1"/>
+    
+    <!-- Entry Label at FVG bottom boundary (for Sell Limit) -->
+    <line x1="250" y1="260" x2="400" y2="260" stroke="#ffffff" stroke-width="2" stroke-dasharray="4,4"/>
+    <text x="410" y="265" font-family="Arial" font-size="14" font-weight="bold" fill="#ffffff">ENTRY (Sell Limit)</text>
+    
+    <!-- 50% CE Label -->
+    <line x1="250" y1="205" x2="400" y2="205" stroke="#ffffff" stroke-width="1" stroke-dasharray="2,2"/>
+    <text x="410" y="210" font-family="Arial" font-size="12" fill="#888">50% CE (Alternatif Entry)</text>
+
+    <!-- Price Pullback and Reaction -->
+    <path d="M 200 350 Q 250 360, 300 250 T 350 205" fill="none" stroke="#00ffaa" stroke-width="3"/>
+    <!-- Reaction Drop -->
+    <path d="M 350 205 Q 370 260, 450 400" fill="none" stroke="#ff3366" stroke-width="4"/>
+    <polygon points="440,390 460,395 450,410" fill="#ff3366"/>
+
+    <text x="460" y="405" font-family="Arial" font-size="14" font-weight="bold" fill="#00ffaa">Menuju Take Profit (TP)</text>
+
+  </g>
+</svg>

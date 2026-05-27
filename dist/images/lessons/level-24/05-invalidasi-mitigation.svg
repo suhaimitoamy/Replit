@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <!-- Background -->
+  <rect width="800" height="450" fill="#1a1a2e" />
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" fill="#ffffff" font-weight="bold" text-anchor="middle">Invalidasi Mitigation Block</text>
+
+  <!-- Two Scenarios: Valid (Wick) vs Invalid (Close above) -->
+  
+  <!-- Line separator -->
+  <line x1="400" y1="70" x2="400" y2="400" stroke="#555577" stroke-width="2" stroke-dasharray="10,10" />
+  
+  <!-- Scenario 1: VALID (Wicking) -->
+  <text x="200" y="90" font-family="Arial, sans-serif" font-size="18" fill="#00ffaa" font-weight="bold" text-anchor="middle">Skenario VALID (Toleransi)</text>
+  
+  <!-- The Mitigation Block -->
+  <rect x="100" y="180" width="200" height="60" fill="rgba(0,255,170,0.1)" stroke="#00ffaa" stroke-width="1" stroke-dasharray="4,4" />
+  <line x1="100" y1="210" x2="300" y2="210" stroke="#ffcc00" stroke-width="2" stroke-dasharray="4,4" /> <!-- Mean threshold -->
+  <text x="100" y="175" font-family="Arial, sans-serif" font-size="12" fill="#aaaaaa">High (Batas Atas Blok)</text>
+  <text x="100" y="255" font-family="Arial, sans-serif" font-size="12" fill="#aaaaaa">Open (Batas Bawah Blok)</text>
+  <text x="310" y="215" font-family="Arial, sans-serif" font-size="12" fill="#ffcc00">50%</text>
+
+  <!-- Price action Wicking -->
+  <line x1="200" y1="160" x2="200" y2="280" stroke="#00ffaa" stroke-width="4" /> <!-- Wick goes above 50% but not above high -->
+  <rect x="185" y="215" width="30" height="65" fill="#00ffaa" /> <!-- Body closes below 50% -->
+  
+  <text x="200" y="320" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">Harga hanya menyapu (wicking)</text>
+  <text x="200" y="340" font-family="Arial, sans-serif" font-size="14" fill="#00ffaa" font-weight="bold" text-anchor="middle">Blok Masih Valid</text>
+
+
+  <!-- Scenario 2: INVALID (Closing) -->
+  <text x="600" y="90" font-family="Arial, sans-serif" font-size="18" fill="#ff3366" font-weight="bold" text-anchor="middle">Skenario INVALID (Gagal)</text>
+
+  <!-- The Mitigation Block -->
+  <rect x="500" y="180" width="200" height="60" fill="rgba(255,51,102,0.1)" stroke="#ff3366" stroke-width="1" stroke-dasharray="4,4" />
+  <line x1="500" y1="210" x2="700" y2="210" stroke="#ffcc00" stroke-width="2" stroke-dasharray="4,4" /> <!-- Mean threshold -->
+  <text x="500" y="175" font-family="Arial, sans-serif" font-size="12" fill="#aaaaaa">High (Batas Atas Blok)</text>
+  <text x="500" y="255" font-family="Arial, sans-serif" font-size="12" fill="#aaaaaa">Open (Batas Bawah Blok)</text>
+  
+  <!-- Price action Closing Above 50% -->
+  <line x1="560" y1="190" x2="560" y2="280" stroke="#00ffaa" stroke-width="4" />
+  <rect x="545" y="200" width="30" height="80" fill="#00ffaa" /> <!-- Body closes ABOVE 50% -->
+  <text x="545" y="160" font-family="Arial, sans-serif" font-size="12" fill="#ffcc00" font-weight="bold">Red Flag!</text>
+  <path d="M 560,195 L 540,165 L 580,165 Z" fill="#ffcc00" />
+  
+  <!-- Price action Closing Entirely Above -->
+  <line x1="640" y1="120" x2="640" y2="210" stroke="#00ffaa" stroke-width="4" />
+  <rect x="625" y="130" width="30" height="60" fill="#00ffaa" /> <!-- Body closes entirely above High -->
+  
+  <text x="600" y="320" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">Body candle TUTUP di luar blok</text>
+  <text x="600" y="340" font-family="Arial, sans-serif" font-size="14" fill="#ff3366" font-weight="bold" text-anchor="middle">Setup INVALID! Cut Loss.</text>
+
+</svg>

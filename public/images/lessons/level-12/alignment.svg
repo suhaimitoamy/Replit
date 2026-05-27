@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#1a1a2e"/>
+  
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="24" fill="#ffffff" text-anchor="middle" font-weight="bold">Timeframe Alignment</text>
+  
+  <!-- Left Side: Unaligned / Conflict -->
+  <rect x="50" y="100" width="300" height="300" fill="rgba(255, 51, 102, 0.05)" stroke="#333344" stroke-width="2" rx="10" />
+  <text x="200" y="130" font-family="Arial, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle" font-weight="bold">Fase Tidak Sejajar</text>
+  
+  <text x="100" y="170" font-family="Arial, sans-serif" font-size="14" fill="#00ffaa" font-weight="bold">HTF: Bullish</text>
+  <path d="M 100 200 L 140 180" fill="none" stroke="#00ffaa" stroke-width="3" />
+  <polygon points="145,177 135,185 140,170" fill="#00ffaa" transform="rotate(25 140 180)" />
+  
+  <text x="220" y="170" font-family="Arial, sans-serif" font-size="14" fill="#ff3366" font-weight="bold">LTF: Bearish</text>
+  <path d="M 220 180 L 260 200" fill="none" stroke="#ff3366" stroke-width="3" />
+  <polygon points="265,203 255,195 260,210" fill="#ff3366" transform="rotate(-25 260 200)" />
+  
+  <!-- LTF Structure dropping into POI -->
+  <path d="M 120 220 L 160 270 L 190 240 L 250 320" fill="none" stroke="#ff3366" stroke-width="3" stroke-linecap="round" />
+  <text x="200" y="350" font-family="Arial, sans-serif" font-size="14" fill="#a0a0b0" text-anchor="middle">(Pullback HTF = Tren Turun LTF)</text>
+  
+  <!-- Right Side: Aligned -->
+  <rect x="450" y="100" width="300" height="300" fill="rgba(0, 255, 170, 0.05)" stroke="#00ffaa" stroke-width="2" rx="10" />
+  <text x="600" y="130" font-family="Arial, sans-serif" font-size="18" fill="#00ffaa" text-anchor="middle" font-weight="bold">Fase ALIGNED (Kesejajaran)</text>
+  
+  <text x="520" y="170" font-family="Arial, sans-serif" font-size="14" fill="#00ffaa" font-weight="bold">HTF: Bullish</text>
+  <path d="M 520 200 L 560 180" fill="none" stroke="#00ffaa" stroke-width="3" />
+  <polygon points="565,177 555,185 560,170" fill="#00ffaa" transform="rotate(25 560 180)" />
+  
+  <text x="620" y="170" font-family="Arial, sans-serif" font-size="14" fill="#00ffaa" font-weight="bold">LTF: Bullish</text>
+  <path d="M 620 200 L 660 180" fill="none" stroke="#00ffaa" stroke-width="3" />
+  <polygon points="665,177 655,185 660,170" fill="#00ffaa" transform="rotate(25 660 180)" />
+  
+  <!-- LTF Structure rocketing out of POI -->
+  <path d="M 500 320 L 580 200 L 620 250 L 700 140" fill="none" stroke="#00ffaa" stroke-width="4" stroke-linecap="round" />
+  <text x="600" y="350" font-family="Arial, sans-serif" font-size="14" fill="#00ffaa" text-anchor="middle">(HTF &amp; LTF searah, pergerakan agresif)</text>
+  
+  <!-- Arrow bridging the two -->
+  <path d="M 360 250 L 430 250" fill="none" stroke="#ffffff" stroke-width="4" stroke-dasharray="5,5" />
+  <polygon points="435,250 420,240 420,260" fill="#ffffff" />
+  <text x="395" y="235" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">CHoCH</text>
+  
+  <text x="400" y="450" font-family="Arial, sans-serif" font-size="16" fill="#a0a0b0" text-anchor="middle">Alignment terjadi saat struktur LTF berbalik arah menyesuaikan dengan bias HTF utama.</text>
+</svg>

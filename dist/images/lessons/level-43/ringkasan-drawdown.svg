@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" style="background-color:#1a1a2e;font-family:sans-serif;">
+  <rect width="800" height="400" fill="#1a1a2e" />
+  
+  <text x="400" y="40" fill="#ffffff" font-size="24" font-weight="bold" text-anchor="middle">Blueprint: Handling Drawdown</text>
+  
+  <rect x="50" y="80" width="200" height="100" fill="#2a2a4e" rx="10" stroke="#00ffaa" stroke-width="2" />
+  <text x="150" y="120" fill="#ffffff" font-size="16" font-weight="bold" text-anchor="middle">1. Terima Fakta</text>
+  <text x="150" y="145" fill="#aaaaaa" font-size="12" text-anchor="middle">Losing streak pasti terjadi</text>
+  <text x="150" y="160" fill="#aaaaaa" font-size="12" text-anchor="middle">Jangan panik, jangan ubah sistem</text>
+  
+  <path d="M 260 130 L 290 130" fill="none" stroke="#ffffff" stroke-width="3" marker-end="url(#arrow)" />
+  
+  <rect x="300" y="80" width="200" height="100" fill="#2a2a4e" rx="10" stroke="#00ffaa" stroke-width="2" />
+  <text x="400" y="120" fill="#ffffff" font-size="16" font-weight="bold" text-anchor="middle">2. Aktifkan Defense</text>
+  <text x="400" y="145" fill="#aaaaaa" font-size="12" text-anchor="middle">Pantau kedalaman (Max DD)</text>
+  <text x="400" y="160" fill="#aaaaaa" font-size="12" text-anchor="middle">Mulai turunkan risiko</text>
+  
+  <path d="M 510 130 L 540 130" fill="none" stroke="#ffffff" stroke-width="3" marker-end="url(#arrow)" />
+  
+  <rect x="550" y="80" width="200" height="100" fill="#2a2a4e" rx="10" stroke="#ff3366" stroke-width="2" />
+  <text x="650" y="120" fill="#ffffff" font-size="16" font-weight="bold" text-anchor="middle">3. Cegah Jurang</text>
+  <text x="650" y="145" fill="#aaaaaa" font-size="12" text-anchor="middle">Hindari drop > 20%</text>
+  <text x="650" y="160" fill="#aaaaaa" font-size="12" text-anchor="middle">Fase Recovery sangat berat</text>
+  
+  <rect x="250" y="240" width="300" height="80" fill="#1a1a2e" rx="10" stroke="#ffffff" stroke-width="2" stroke-dasharray="5,5" />
+  <text x="400" y="275" fill="#00ffaa" font-size="18" font-weight="bold" text-anchor="middle">Survival > Fast Profit</text>
+  <text x="400" y="295" fill="#ffffff" font-size="14" text-anchor="middle">Trading adalah maraton panjang</text>
+  
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#ffffff" />
+    </marker>
+  </defs>
+</svg>

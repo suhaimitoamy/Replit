@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" style="background-color:#1a1a2e;font-family:sans-serif;">
+  <rect width="800" height="400" fill="#1a1a2e" />
+  
+  <text x="400" y="40" fill="#ffffff" font-size="24" font-weight="bold" text-anchor="middle">Apa Itu Drawdown</text>
+  
+  <path d="M 100 300 L 250 100 L 400 200 L 550 50 L 700 250" fill="none" stroke="#00ffaa" stroke-width="4" />
+  <circle cx="250" cy="100" r="6" fill="#00ffaa" />
+  <circle cx="400" cy="200" r="6" fill="#ff3366" />
+  <circle cx="550" cy="50" r="6" fill="#00ffaa" />
+  <circle cx="700" cy="250" r="6" fill="#ff3366" />
+  
+  <line x1="250" y1="100" x2="400" y2="100" stroke="#ffffff" stroke-width="1" stroke-dasharray="5,5" />
+  <line x1="400" y1="100" x2="400" y2="200" stroke="#ff3366" stroke-width="3" />
+  
+  <line x1="550" y1="50" x2="700" y2="50" stroke="#ffffff" stroke-width="1" stroke-dasharray="5,5" />
+  <line x1="700" y1="50" x2="700" y2="250" stroke="#ff3366" stroke-width="3" />
+  
+  <text x="250" y="80" fill="#ffffff" font-size="16" text-anchor="middle">Peak (Puncak)</text>
+  <text x="400" y="230" fill="#ffffff" font-size="16" text-anchor="middle">Valley (Lembah)</text>
+  <text x="550" y="30" fill="#ffffff" font-size="16" text-anchor="middle">New Peak</text>
+  
+  <text x="420" y="155" fill="#ff3366" font-size="18" font-weight="bold">Drawdown 1</text>
+  <text x="720" y="150" fill="#ff3366" font-size="18" font-weight="bold">Drawdown 2</text>
+</svg>

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <style>
+      .bg { fill: #1a1a2e; }
+      .text-light { fill: #e0e0e0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+      .text-accent { fill: #00ffaa; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold; }
+      .text-danger { fill: #ff3366; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold; }
+      .text-tp { fill: #00bfff; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold; }
+      .fib-line { stroke: #aaaaaa; stroke-width: 1; stroke-dasharray: 5,5; }
+      .bos-line { stroke: #e0e0e0; stroke-width: 2; stroke-dasharray: 5,5; }
+      .price-line { stroke: #e0e0e0; stroke-width: 3; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      .poi-valid { fill: #00ffaa; fill-opacity: 0.2; stroke: #00ffaa; stroke-width: 2; }
+      .poi-invalid { fill: #ff3366; fill-opacity: 0.2; stroke: #ff3366; stroke-width: 2; }
+      .entry-zone { fill: #00ffaa; fill-opacity: 0.1; }
+      .sl-zone { fill: #ff3366; fill-opacity: 0.1; }
+      .tp-zone { fill: #00bfff; fill-opacity: 0.1; }
+      .arrow { fill: #e0e0e0; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" class="arrow" />
+    </marker>
+  </defs>
+
+  <rect class="bg" width="800" height="500" rx="10" />
+  
+  <text x="400" y="30" class="text-light" font-size="22" text-anchor="middle" font-weight="bold">Studi Kasus: Penerapan Premium &amp; Discount</text>
+
+  <!-- BOS Line -->
+  <line x1="100" y1="280" x2="300" y2="280" class="bos-line" />
+  <text x="200" y="270" class="text-light" font-size="12" text-anchor="middle">BOS</text>
+
+  <!-- Fib Area Visuals -->
+  <!-- Premium is top half, Discount bottom half -->
+  <line x1="150" y1="120" x2="650" y2="120" class="fib-line" />
+  <text x="140" y="125" class="text-light" font-size="12" text-anchor="end">100%</text>
+
+  <line x1="150" y1="260" x2="650" y2="260" class="fib-line" stroke="#ffcc00" />
+  <text x="140" y="265" fill="#ffcc00" font-size="12" text-anchor="end">50%</text>
+
+  <line x1="150" y1="400" x2="650" y2="400" class="fib-line" />
+  <text x="140" y="405" class="text-light" font-size="12" text-anchor="end">0%</text>
+
+  <!-- POIs -->
+  <!-- Invalid POI -->
+  <rect x="350" y="200" width="80" height="30" class="poi-invalid" />
+  <text x="440" y="220" class="text-danger" font-size="12">Inducement (Abaikan)</text>
+
+  <!-- Valid POI -->
+  <rect x="350" y="350" width="80" height="30" class="poi-valid" />
+  <text x="440" y="370" class="text-accent" font-size="12">Order Block Valid</text>
+
+  <!-- R:R Tool Visual -->
+  <!-- Target (TP) is at Swing High (y=120). Entry is at valid POI (y=350). SL is below Swing Low (y=420) -->
+  <rect x="680" y="120" width="40" height="230" class="tp-zone" /> <!-- Reward area -->
+  <rect x="680" y="350" width="40" height="70" class="sl-zone" /> <!-- Risk area -->
+  <text x="730" y="235" class="text-tp" font-size="12">Reward (TP)</text>
+  <text x="730" y="390" class="text-danger" font-size="12">Risk (SL)</text>
+
+  <!-- Price Movement -->
+  <!-- Start -> High to break BOS -> form swing high -> dip to inducement -> sweep -> valid POI -> go to TP -->
+  <path class="price-line" d="M 80 400 L 150 280 L 220 400 L 300 120 L 360 200 L 380 180 L 410 350 L 550 100" marker-end="url(#arrowhead)" />
+  
+  <circle cx="220" cy="400" r="4" fill="#e0e0e0" />
+  <text x="220" y="420" class="text-light" font-size="12" text-anchor="middle">Swing Low</text>
+
+  <circle cx="300" cy="120" r="4" fill="#e0e0e0" />
+  <text x="300" y="100" class="text-light" font-size="12" text-anchor="middle">Swing High</text>
+
+  <circle cx="410" cy="350" r="6" fill="#00ffaa" />
+  <text x="410" y="395" class="text-accent" font-size="12" text-anchor="middle">Sniper Entry!</text>
+
+  <!-- Steps Box -->
+  <rect x="50" y="440" width="700" height="50" fill="#2a2a4a" rx="5" />
+  <text x="400" y="460" class="text-light" font-size="12" text-anchor="middle">1. Tren Naik (BOS) -> 2. Tarik Fibo (Low ke High) -> 3. Tandai POI di bawah 50% (Discount)</text>
+  <text x="400" y="475" class="text-light" font-size="12" text-anchor="middle">4. Abaikan POI di area Premium (Inducement) -> 5. Entry Buy di Discount, TP di Swing High.</text>
+
+</svg>

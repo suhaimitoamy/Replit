@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" style="background-color:#1a1a2e;font-family:sans-serif;">
+  <rect width="800" height="400" fill="#1a1a2e" />
+  
+  <text x="400" y="40" fill="#ffffff" font-size="24" font-weight="bold" text-anchor="middle">Fase Recovery (Pemulihan)</text>
+  
+  <!-- Equity curve -->
+  <path d="M 100 100 L 300 350" fill="none" stroke="#ff3366" stroke-width="4" />
+  <path d="M 300 350 Q 500 340 700 100" fill="none" stroke="#00ffaa" stroke-width="4" stroke-dasharray="8,4" />
+  
+  <line x1="100" y1="100" x2="700" y2="100" stroke="#ffffff" stroke-width="2" stroke-dasharray="5,5" />
+  
+  <text x="100" y="80" fill="#ffffff" font-size="16" text-anchor="middle">Saldo Awal ($1000)</text>
+  <text x="300" y="380" fill="#ffffff" font-size="16" text-anchor="middle">Drawdown 50% ($500)</text>
+  <text x="700" y="80" fill="#ffffff" font-size="16" text-anchor="middle">Kembali Impas</text>
+  
+  <text x="200" y="220" fill="#ff3366" font-size="20" font-weight="bold">- 50% Loss</text>
+  <text x="500" y="250" fill="#00ffaa" font-size="20" font-weight="bold">+ 100% Profit Dibutuhkan!</text>
+  
+  <circle cx="100" cy="100" r="6" fill="#ffffff" />
+  <circle cx="300" cy="350" r="6" fill="#ff3366" />
+  <circle cx="700" cy="100" r="6" fill="#00ffaa" />
+</svg>

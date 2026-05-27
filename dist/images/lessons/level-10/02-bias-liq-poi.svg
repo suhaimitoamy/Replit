@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#1a1a2e"/>
+  
+  <!-- Bias text -->
+  <text x="400" y="40" fill="#ffffff" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle">Bias: Bullish</text>
+  
+  <!-- Price action -->
+  <path d="M 100 150 L 200 250 L 250 200 L 350 250 L 400 180 L 500 250 L 550 150" fill="none" stroke="#ffffff" stroke-width="3"/>
+  
+  <!-- Equal Lows / Liquidity -->
+  <line x1="180" y1="250" x2="520" y2="250" stroke="#f1c40f" stroke-width="2" stroke-dasharray="6,4"/>
+  <text x="350" y="270" fill="#f1c40f" font-family="Arial" font-size="14" text-anchor="middle">Equal Lows ($$ Liquidity $$)</text>
+  
+  <!-- POI (Order Block) -->
+  <rect x="250" y="320" width="300" height="40" fill="#00ffaa" fill-opacity="0.2" stroke="#00ffaa" stroke-width="1"/>
+  <text x="400" y="345" fill="#00ffaa" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">HTF Order Block (POI)</text>
+  
+  <!-- The Sweep -->
+  <path d="M 550 150 L 600 330" fill="none" stroke="#ff3366" stroke-width="3" stroke-dasharray="4,4"/>
+  <text x="590" y="290" fill="#ff3366" font-family="Arial" font-size="14" text-anchor="end">Liquidity Sweep</text>
+  
+  <!-- The Reversal -->
+  <path d="M 600 330 L 700 100" fill="none" stroke="#00ffaa" stroke-width="4" marker-end="url(#arrow-green)"/>
+  <text x="660" y="220" fill="#00ffaa" font-family="Arial" font-size="14" text-anchor="start">Institutional Move</text>
+
+  <defs>
+    <marker id="arrow-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#00ffaa"/>
+    </marker>
+  </defs>
+</svg>

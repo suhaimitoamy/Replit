@@ -1,0 +1,6 @@
+{
+  "appName": "Amy Trading Quest",
+  "version": "1.0.0",
+  "defaultAiProvider": "OpenRouter",
+  "dbVersion": 1
+}

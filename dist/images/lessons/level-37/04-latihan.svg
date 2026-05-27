@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#1a1a2e" />
+  
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#ffffff" text-anchor="middle">Latihan Kontrol Diri dengan Checklist</text>
+  <text x="400" y="80" font-family="Arial, sans-serif" font-size="16" fill="#a0a0b0" text-anchor="middle">Mengubah 'Rencana' menjadi 'Refleks'</text>
+
+  <!-- Big Stop Sign / Hand -->
+  <g transform="translate(100, 200)">
+    <polygon points="50,0 110,0 160,50 160,110 110,160 50,160 0,110 0,50" fill="#ff3366" stroke="#ffffff" stroke-width="4"/>
+    <text x="80" y="95" font-family="Arial, sans-serif" font-size="40" font-weight="bold" fill="#ffffff" text-anchor="middle">STOP</text>
+  </g>
+
+  <path d="M 300 280 L 350 280" stroke="#ffffff" stroke-width="4" stroke-dasharray="8,8"/>
+  <polygon points="350,270 370,280 350,290" fill="#ffffff"/>
+
+  <!-- The Process Box -->
+  <rect x="400" y="150" width="300" height="260" rx="15" fill="#2d2d44" stroke="#00ffaa" stroke-width="3"/>
+  <text x="550" y="190" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#00ffaa" text-anchor="middle">Rutinitas Pre-Entry</text>
+
+  <!-- Process Steps -->
+  <circle cx="430" cy="230" r="12" fill="#00ffaa"/>
+  <text x="430" y="235" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1a1a2e" text-anchor="middle">1</text>
+  <text x="460" y="235" font-family="Arial, sans-serif" font-size="16" fill="#ffffff">Jauhkan tangan dari Mouse</text>
+
+  <circle cx="430" cy="280" r="12" fill="#00ffaa"/>
+  <text x="430" y="285" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1a1a2e" text-anchor="middle">2</text>
+  <text x="460" y="285" font-family="Arial, sans-serif" font-size="16" fill="#ffffff">Baca Checklist Bersuara</text>
+
+  <circle cx="430" cy="330" r="12" fill="#00ffaa"/>
+  <text x="430" y="335" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1a1a2e" text-anchor="middle">3</text>
+  <text x="460" y="335" font-family="Arial, sans-serif" font-size="16" fill="#ffffff">Semua Ya? Hitung Lot.</text>
+
+  <circle cx="430" cy="380" r="12" fill="#00ffaa"/>
+  <text x="430" y="385" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1a1a2e" text-anchor="middle">4</text>
+  <text x="460" y="385" font-family="Arial, sans-serif" font-size="16" fill="#ffffff">Eksekusi tanpa Ragu</text>
+
+  <!-- Result Banner -->
+  <rect x="250" y="480" width="300" height="50" rx="25" fill="#1a1a2e" stroke="#ffaa00" stroke-width="2"/>
+  <text x="400" y="512" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffaa00" text-anchor="middle">Disiplin = Kebebasan (Profit Jangka Panjang)</text>
+
+</svg>

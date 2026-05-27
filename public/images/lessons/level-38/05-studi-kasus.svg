@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#1a1a2e" />
+  
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="22" fill="#ffffff" text-anchor="middle" font-weight="bold">STUDI KASUS: DISIPLIN VS TIDAK DISIPLIN</text>
+
+  <!-- Left: Trader A -->
+  <rect x="50" y="80" width="300" height="280" fill="#2a2a4e" rx="10" />
+  <text x="200" y="110" font-family="Arial, sans-serif" font-size="18" fill="#ff3366" text-anchor="middle" font-weight="bold">TRADER A (MEMAKSA)</text>
+  
+  <!-- Chop zone representation -->
+  <path d="M 80 160 L 120 220 L 160 140 L 200 240 L 240 130 L 280 200" fill="none" stroke="#ff3366" stroke-width="2" />
+  <circle cx="120" cy="220" r="5" fill="#ff3366" />
+  <circle cx="160" cy="140" r="5" fill="#ff3366" />
+  <circle cx="200" cy="240" r="5" fill="#ff3366" />
+  
+  <text x="200" y="280" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">Trading di Chop Zone</text>
+  <text x="200" y="310" font-family="Arial, sans-serif" font-size="18" fill="#ff3366" text-anchor="middle" font-weight="bold">Hasil: LOSS -5%</text>
+
+  <!-- Right: Trader B -->
+  <rect x="450" y="80" width="300" height="280" fill="#2a2a4e" rx="10" />
+  <text x="600" y="110" font-family="Arial, sans-serif" font-size="18" fill="#00ffaa" text-anchor="middle" font-weight="bold">TRADER B (SABAR)</text>
+  
+  <!-- Wait and clean trend -->
+  <path d="M 480 180 L 550 180" fill="none" stroke="#a0a0b0" stroke-width="2" stroke-dasharray="4,4" />
+  <text x="515" y="170" font-family="Arial, sans-serif" font-size="12" fill="#a0a0b0" text-anchor="middle">Menunggu...</text>
+  
+  <path d="M 550 180 L 580 220 L 680 120" fill="none" stroke="#00ffaa" stroke-width="4" />
+  <circle cx="580" cy="220" r="5" fill="#00ffaa" />
+  <text x="610" y="220" font-family="Arial, sans-serif" font-size="12" fill="#00ffaa">Entry Valid</text>
+  
+  <text x="600" y="280" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">Modal utuh, siap ambil setup A+</text>
+  <text x="600" y="310" font-family="Arial, sans-serif" font-size="18" fill="#00ffaa" text-anchor="middle" font-weight="bold">Hasil: PROFIT +3%</text>
+
+</svg>

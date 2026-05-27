@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#1a1a2e"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" fill="#ffffff" font-family="sans-serif" font-size="24" font-weight="bold" text-anchor="middle">Reaction Quality</text>
+  
+  <!-- Support Line -->
+  <line x1="50" y1="300" x2="750" y2="300" stroke="#00ffaa" stroke-width="3" />
+  <text x="400" y="325" fill="#00ffaa" font-family="sans-serif" font-size="18" font-weight="bold" text-anchor="middle">Major Support Level</text>
+  
+  <!-- Left Side: High Quality -->
+  <text x="200" y="80" fill="#00ffaa" font-family="sans-serif" font-size="20" font-weight="bold" text-anchor="middle">High Quality (V-Shape)</text>
+  <path d="M100 150 L 150 200 L 200 290 L 250 150 L 300 100" fill="none" stroke="#ffffff" stroke-width="4"/>
+  <circle cx="200" cy="290" r="8" fill="#00ffaa"/>
+  <text x="200" y="350" fill="#ffffff" font-family="sans-serif" font-size="14" text-anchor="middle">Rejeksi Kuat / Aggressive Buyers</text>
+  
+  <!-- Divider -->
+  <line x1="400" y1="70" x2="400" y2="380" stroke="#555" stroke-width="2" stroke-dasharray="4,4"/>
+  
+  <!-- Right Side: Low Quality -->
+  <text x="600" y="80" fill="#ff3366" font-family="sans-serif" font-size="20" font-weight="bold" text-anchor="middle">Low Quality (Choppy)</text>
+  <path d="M500 150 L 530 220 L 550 200 L 570 280 L 590 270 L 610 295 L 630 285 L 650 350" fill="none" stroke="#ffffff" stroke-width="4"/>
+  
+  <rect x="560" y="260" width="80" height="40" fill="rgba(255, 51, 102, 0.3)" stroke="#ff3366" stroke-width="2"/>
+  <text x="600" y="245" fill="#ff3366" font-family="sans-serif" font-size="14" text-anchor="middle">Build-up / Konsolidasi Lama</text>
+  <text x="600" y="375" fill="#ffffff" font-family="sans-serif" font-size="14" text-anchor="middle">Breakout ke Bawah (Liquidity Sweep)</text>
+</svg>

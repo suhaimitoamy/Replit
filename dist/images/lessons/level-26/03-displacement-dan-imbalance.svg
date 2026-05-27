@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="100%" height="100%">
+  <rect width="800" height="400" fill="#1a1a2e"/>
+  <text x="400" y="40" fill="#ffffff" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle">Displacement Meninggalkan Imbalance (FVG)</text>
+  
+  <g transform="translate(100, 20)">
+    <!-- Candle 1 -->
+    <line x1="150" y1="250" x2="150" y2="320" stroke="#ff3366" stroke-width="3" />
+    <rect x="135" y="270" width="30" height="30" fill="#ff3366" />
+    
+    <!-- Candle 2: The Displacement -->
+    <line x1="250" y1="100" x2="250" y2="280" stroke="#00ffaa" stroke-width="3" />
+    <rect x="235" y="110" width="30" height="150" fill="#00ffaa" />
+    <text x="350" y="180" fill="#00ffaa" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Displacement Candle</text>
+    <line x1="280" y1="175" x2="340" y2="175" stroke="#00ffaa" stroke-width="2" />
+    
+    <!-- Candle 3 -->
+    <line x1="350" y1="40" x2="350" y2="120" stroke="#00ffaa" stroke-width="3" />
+    <rect x="335" y="50" width="30" height="50" fill="#00ffaa" />
+    
+    <!-- Imbalance Highlight -->
+    <rect x="150" y="120" width="200" height="130" fill="#ffffff" fill-opacity="0.1" stroke="#ffffff" stroke-dasharray="4,4" />
+    
+    <line x1="150" y1="250" x2="450" y2="250" stroke="#ff3366" stroke-width="2" stroke-dasharray="4,4" />
+    <text x="460" y="255" fill="#a0a0b0" font-family="Arial, sans-serif" font-size="14">High Candle 1</text>
+    
+    <line x1="350" y1="120" x2="450" y2="120" stroke="#00ffaa" stroke-width="2" stroke-dasharray="4,4" />
+    <text x="460" y="125" fill="#a0a0b0" font-family="Arial, sans-serif" font-size="14">Low Candle 3</text>
+    
+    <text x="500" y="190" fill="#ffffff" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Imbalance / FVG</text>
+    <path d="M 490 185 Q 470 185 450 185" fill="none" stroke="#ffffff" stroke-width="2" marker-end="url(#arrow)" />
+  </g>
+</svg>

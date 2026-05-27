@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" style="background-color:#1a1a2e;font-family:sans-serif;">
+  <rect width="800" height="400" fill="#1a1a2e" />
+  
+  <text x="400" y="40" fill="#ffffff" font-size="24" font-weight="bold" text-anchor="middle">Studi Kasus: 6 Kekalahan Beruntun</text>
+  
+  <line x1="50" y1="100" x2="750" y2="100" stroke="#ffffff" stroke-width="1" stroke-dasharray="5,5" />
+  <text x="50" y="90" fill="#ffffff" font-size="14">Modal $10.000</text>
+  
+  <!-- Trader B: Discipline -->
+  <path d="M 100 100 L 200 120 L 300 140 L 400 150 L 500 155 L 600 160" fill="none" stroke="#00ffaa" stroke-width="4" />
+  <text x="610" y="160" fill="#00ffaa" font-size="16" font-weight="bold">Trader B (-5% Drop)</text>
+  <text x="610" y="180" fill="#00ffaa" font-size="12">Risiko: 1% -> 1% -> 1% -> 1% -> 0.5% -> 0.5%</text>
+  
+  <!-- Trader A: Emotional -->
+  <path d="M 100 100 L 200 120 L 300 150 L 400 210 L 500 280 L 600 380" fill="none" stroke="#ff3366" stroke-width="4" />
+  <text x="450" y="370" fill="#ff3366" font-size="16" font-weight="bold">Trader A (-32% Drop)</text>
+  <text x="450" y="390" fill="#ff3366" font-size="12">Risiko: 1% -> 2% -> 4% -> 8% -> 20%</text>
+</svg>

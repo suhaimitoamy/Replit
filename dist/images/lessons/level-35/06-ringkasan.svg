@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#1a1a2e"/>
+  
+  <text x="400" y="50" fill="#ffffff" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle">Tameng Psikologis: Mental Reset</text>
+  
+  <!-- Trader behind shield -->
+  <circle cx="400" cy="220" r="40" fill="#00ffaa"/>
+  <rect x="375" y="260" width="50" height="80" fill="#00ffaa" rx="10"/>
+  <text x="400" y="230" fill="#1a1a2e" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle">^_^</text>
+
+  <!-- Forcefield / Shield -->
+  <path d="M 250 200 Q 400 50 550 200 Q 550 350 400 380 Q 250 350 250 200" stroke="#00ffaa" stroke-width="4" stroke-dasharray="10,5" fill="none"/>
+
+  <!-- Attacks / Losses -->
+  <!-- Arrow 1 -->
+  <path d="M 100 150 L 220 180" stroke="#ff3366" stroke-width="6" marker-end="url(#red-arrow)"/>
+  <text x="120" y="140" fill="#ff3366" font-family="Arial" font-size="14" font-weight="bold">SL Hit!</text>
+
+  <!-- Arrow 2 -->
+  <path d="M 680 150 L 570 180" stroke="#ff3366" stroke-width="6" marker-end="url(#red-arrow)"/>
+  <text x="640" y="140" fill="#ff3366" font-family="Arial" font-size="14" font-weight="bold">Whipsaw</text>
+
+  <!-- Arrow 3 -->
+  <path d="M 120 300 L 220 250" stroke="#ff3366" stroke-width="6" marker-end="url(#red-arrow)"/>
+  <text x="100" y="320" fill="#ff3366" font-family="Arial" font-size="14" font-weight="bold">Fakeout</text>
+
+  <!-- Shield Labels -->
+  <rect x="300" y="90" width="200" height="30" fill="#2a2a4a" rx="5"/>
+  <text x="400" y="110" fill="#ffffff" font-family="Arial" font-size="12" text-anchor="middle">SOP Circuit Breaker</text>
+
+  <rect x="300" y="130" width="200" height="30" fill="#2a2a4a" rx="5"/>
+  <text x="400" y="150" fill="#ffffff" font-family="Arial" font-size="12" text-anchor="middle">Terima Probabilitas</text>
+
+  <defs>
+    <marker id="red-arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#ff3366" />
+    </marker>
+  </defs>
+</svg>

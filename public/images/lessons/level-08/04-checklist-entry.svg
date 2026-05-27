@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="100%" height="100%">
+  <rect width="800" height="400" fill="#1a1a2e"/>
+  
+  <!-- Clipboard -->
+  <rect x="250" y="40" width="300" height="320" rx="10" fill="#24243e" stroke="#505070" stroke-width="3"/>
+  <rect x="350" y="25" width="100" height="20" rx="5" fill="#707090"/>
+  
+  <text x="400" y="80" fill="#ffffff" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle">CHECKLIST ENTRY</text>
+  <line x1="300" y1="95" x2="500" y2="95" stroke="#505070" stroke-width="2"/>
+
+  <!-- Items -->
+  <g transform="translate(280, 130)">
+    <rect x="0" y="0" width="20" height="20" rx="3" fill="#1a1a2e" stroke="#00ffaa" stroke-width="2"/>
+    <path d="M 4 10 L 9 15 L 16 5" fill="none" stroke="#00ffaa" stroke-width="3"/>
+    <text x="35" y="15" fill="#ffffff" font-family="Arial" font-size="16">1. Tren Teridentifikasi?</text>
+    
+    <rect x="0" y="40" width="20" height="20" rx="3" fill="#1a1a2e" stroke="#00ffaa" stroke-width="2"/>
+    <path d="M 4 50 L 9 55 L 16 45" fill="none" stroke="#00ffaa" stroke-width="3"/>
+    <text x="35" y="55" fill="#ffffff" font-family="Arial" font-size="16">2. Harga ada di POI?</text>
+
+    <rect x="0" y="80" width="20" height="20" rx="3" fill="#1a1a2e" stroke="#00ffaa" stroke-width="2"/>
+    <path d="M 4 90 L 9 95 L 16 85" fill="none" stroke="#00ffaa" stroke-width="3"/>
+    <text x="35" y="95" fill="#ffffff" font-family="Arial" font-size="16">3. Konfirmasi (CHoCH)?</text>
+
+    <rect x="0" y="120" width="20" height="20" rx="3" fill="#1a1a2e" stroke="#00ffaa" stroke-width="2"/>
+    <path d="M 4 130 L 9 135 L 16 125" fill="none" stroke="#00ffaa" stroke-width="3"/>
+    <text x="35" y="135" fill="#ffffff" font-family="Arial" font-size="16">4. Risk / Reward logis?</text>
+    
+    <rect x="0" y="160" width="20" height="20" rx="3" fill="#1a1a2e" stroke="#ff3366" stroke-width="2"/>
+    <line x1="4" y1="164" x2="16" y2="176" stroke="#ff3366" stroke-width="3"/>
+    <line x1="16" y1="164" x2="4" y2="176" stroke="#ff3366" stroke-width="3"/>
+    <text x="35" y="175" fill="#ff3366" font-family="Arial" font-size="16">5. Ada Berita High Impact?</text>
+  </g>
+
+  <rect x="330" y="310" width="140" height="35" rx="17.5" fill="#00ffaa"/>
+  <text x="400" y="333" fill="#1a1a2e" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">IZIN ENTRY</text>
+
+</svg>
