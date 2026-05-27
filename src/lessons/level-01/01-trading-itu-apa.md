@@ -50,3 +50,6 @@ Coba perhatikan fluktuasi harga barang-barang di pasar atau supermarket terdekat
 
 ## Materi Remedial
 Jika gagal quiz atau belum paham, ulangi materi ini dan fokus pada bagian **Trading sebagai bisnis probabilitas** dan mengapa ekspektasi yang benar sangat menentukan keberhasilan masa depanmu.
+
+![1000680333](/images/lessons/level-01/1779852726005-1000680333.jpg)
+
