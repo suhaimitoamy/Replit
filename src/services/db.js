@@ -81,6 +81,7 @@ export async function getSettings() {
     model: 'openrouter/auto',
     visualTheme: 'neon-green',
     touchEffect: 'Firefly',
+    developerModeUnlocked: false,
   };
   return settings ? { ...defaults, ...settings } : defaults;
 }

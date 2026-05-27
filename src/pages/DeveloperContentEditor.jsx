@@ -1,5 +1,5 @@
-import { useMemo, useRef, useState } from 'react';
-import { Github, LockKeyhole, RefreshCw, Save, Upload, Trash2, Plus, FileText, Image as ImageIcon, Eye } from 'lucide-react';
+import { useEffect, useMemo, useRef, useState } from 'react';
+import { Github, LockKeyhole, RefreshCw, Save, Upload, Trash2, Plus, FileText, Image as ImageIcon, Eye, LogOut } from 'lucide-react';
 import {
   deleteGithubFile,
   fileToBase64Payload,
@@ -9,8 +9,15 @@ import {
   putGithubBase64File,
   putGithubTextFile
 } from '../services/githubContent';
-
-const DEVELOPER_CODE = 'AMY-DEV-2026';
+import { useStore } from '../store/useStore';
+import {
+  DEVELOPER_CODE,
+  DEVELOPER_LOCAL_UNLOCK_KEY,
+  githubRawPublicUrl,
+  isDeveloperModeStoredLocally,
+  normalizeLessonImagePath,
+  setDeveloperModeStoredLocally
+} from '../utils/developerMode';
 const TOKEN_STORAGE_KEY = 'amy_dev_github_token';
 const TARGET_STORAGE_KEY = 'amy_dev_target_repo';
 const IMAGE_EXTENSIONS = ['jpg', 'jpeg', 'png', 'webp', 'svg', 'gif'];
@@ -56,14 +63,14 @@ function extractMarkdownImages(markdown) {
 }
 
 function resolveGithubTargetPath(imageSrc) {
-  if (!imageSrc) return '';
-  if (imageSrc.startsWith('/')) return imageSrc.slice(1);
-  return imageSrc;
+  return normalizeLessonImagePath(imageSrc);
 }
 
 export default function DeveloperContentEditor() {
+  const settings = useStore((state) => state.settings);
+  const updateSettings = useStore((state) => state.updateSettings);
   const [developerCode, setDeveloperCode] = useState('');
-  const [isUnlocked, setIsUnlocked] = useState(false);
+  const [isUnlocked, setIsUnlocked] = useState(() => isDeveloperModeStoredLocally());
   const [token, setToken] = useState(() => localStorage.getItem(TOKEN_STORAGE_KEY) || '');
   const [repos, setRepos] = useState([]);
   const [branches, setBranches] = useState([]);
@@ -93,6 +100,7 @@ export default function DeveloperContentEditor() {
   const [status, setStatus] = useState('');
   const [loading, setLoading] = useState(false);
   const [previewOpen, setPreviewOpen] = useState(false);
+  const [imagePreviewNonce, setImagePreviewNonce] = useState(Date.now());
   const textareaRef = useRef(null);
 
   const selectedRepo = useMemo(() => {
@@ -104,6 +112,20 @@ export default function DeveloperContentEditor() {
   const selectedLevel = useMemo(() => levels.find((level) => level.id === selectedLevelId), [levels, selectedLevelId]);
   const selectedLessonPath = selectedLessonId ? `src/lessons/${selectedLessonId}.md` : '';
   const images = useMemo(() => extractMarkdownImages(lessonContent), [lessonContent]);
+
+  useEffect(() => {
+    if (settings?.developerModeUnlocked || isDeveloperModeStoredLocally()) {
+      setIsUnlocked(true);
+    }
+  }, [settings?.developerModeUnlocked]);
+
+  function getImagePreviewSrc(imageSrc) {
+    const rawUrl = githubRawPublicUrl(selectedRepoFullName, selectedBranch, imageSrc);
+    if (/^https?:\/\//i.test(rawUrl)) {
+      return `${rawUrl}${rawUrl.includes('?') ? '&' : '?'}v=${imagePreviewNonce}`;
+    }
+    return rawUrl;
+  }
 
   function setSafeStatus(message) {
     setStatus(message);
@@ -122,13 +144,30 @@ export default function DeveloperContentEditor() {
     }
   }
 
-  function unlockDeveloper() {
+  async function unlockDeveloper() {
     if (developerCode === DEVELOPER_CODE) {
       setIsUnlocked(true);
-      setSafeStatus('Developer mode terbuka.');
+      setDeveloperModeStoredLocally(true);
+      try {
+        await updateSettings({ developerModeUnlocked: true });
+      } catch {
+        localStorage.setItem(DEVELOPER_LOCAL_UNLOCK_KEY, 'true');
+      }
+      setSafeStatus('Developer mode tersimpan. Semua materi terbuka untuk pengecekan.');
     } else {
       setSafeStatus('Kode developer salah.');
     }
+  }
+
+  async function lockDeveloper() {
+    setIsUnlocked(false);
+    setDeveloperModeStoredLocally(false);
+    try {
+      await updateSettings({ developerModeUnlocked: false });
+    } catch {
+      localStorage.removeItem(DEVELOPER_LOCAL_UNLOCK_KEY);
+    }
+    setSafeStatus('Developer mode dikunci kembali.');
   }
 
   async function loadRepos() {
@@ -217,7 +256,7 @@ export default function DeveloperContentEditor() {
         message: `Update materi ${selectedLessonId}`
       });
       setOriginalLessonContent(lessonContent);
-    }, 'Materi berhasil disimpan ke GitHub.');
+    }, 'Materi berhasil disimpan ke GitHub. Tunggu GitHub Actions selesai lalu refresh aplikasi.');
   }
 
   async function saveLevelsJson(nextLevels, message = 'Update daftar materi') {
@@ -306,8 +345,9 @@ export default function DeveloperContentEditor() {
   function insertIntoEditor(text) {
     const textarea = textareaRef.current;
     if (!textarea) {
-      setLessonContent((current) => `${current}\n\n${text}\n`);
-      return;
+      const next = `${lessonContent}\n\n${text}\n`;
+      setLessonContent(next);
+      return next;
     }
 
     const start = textarea.selectionStart;
@@ -323,6 +363,8 @@ export default function DeveloperContentEditor() {
       textarea.selectionStart = start + text.length;
       textarea.selectionEnd = start + text.length;
     });
+
+    return next;
   }
 
   async function uploadImage(event) {
@@ -353,8 +395,21 @@ export default function DeveloperContentEditor() {
       });
 
       const alt = file.name.replace(/\.[^.]+$/, '').replace(/[-_]+/g, ' ');
-      insertIntoEditor(`\n\n![${alt}](${markdownPath})\n\n`);
-    }, 'Gambar berhasil diupload dan markdown sudah disisipkan. Klik Simpan Materi untuk commit isi materi.');
+      const nextContent = insertIntoEditor(`\n\n![${alt}](${markdownPath})\n\n`);
+
+      await putGithubTextFile({
+        token: token.trim(),
+        owner: selectedRepo.owner,
+        repo: selectedRepo.repo,
+        branch: selectedBranch,
+        path: selectedLessonPath,
+        content: nextContent,
+        message: `Tambah gambar ${safeName} ke ${selectedLessonId}`
+      });
+
+      setOriginalLessonContent(nextContent);
+      setImagePreviewNonce(Date.now());
+    }, 'Gambar berhasil diupload dan materi otomatis disimpan ke GitHub. Tunggu GitHub Actions selesai lalu refresh aplikasi.');
   }
 
   function removeImageFromMarkdown(imageMarkdown) {
@@ -381,6 +436,7 @@ export default function DeveloperContentEditor() {
         message: `Hapus gambar ${path}`
       });
       if (image?.markdown) removeImageFromMarkdown(image.markdown);
+      setImagePreviewNonce(Date.now());
     }, 'File gambar berhasil dihapus. Klik Simpan Materi jika markdown ikut berubah.');
   }
 
@@ -436,8 +492,16 @@ export default function DeveloperContentEditor() {
             <h1 className="text-2xl font-bold font-mono text-neon">Developer Content Editor</h1>
             <p className="text-sm text-gray-400 mt-1">Edit materi, gambar, dan daftar lesson langsung ke GitHub repo yang dipilih.</p>
           </div>
-          <div className="text-xs text-gray-500 bg-darker border border-gray-800 rounded-lg px-3 py-2">
-            Mode: GitHub Direct Commit
+          <div className="flex items-center gap-2 flex-wrap">
+            <div className="text-xs text-neon bg-darker border border-neon/40 rounded-lg px-3 py-2">
+              Mode: GitHub Direct Commit · Unlock All Materi ON
+            </div>
+            <button
+              onClick={lockDeveloper}
+              className="text-xs bg-darker border border-gray-700 rounded-lg px-3 py-2 flex items-center gap-2 hover:border-danger hover:text-danger"
+            >
+              <LogOut size={14} /> Kunci Lagi
+            </button>
           </div>
         </div>
       </div>
@@ -489,6 +553,7 @@ export default function DeveloperContentEditor() {
           >
             Load Project Data
           </button>
+          <p className="text-xs text-gray-500 leading-relaxed">Setelah commit gambar/materi, tunggu GitHub Actions selesai hijau lalu refresh aplikasi agar hasil deploy terbaru terbaca.</p>
         </div>
 
         <div className="bg-dark border border-gray-800 rounded-2xl p-4 space-y-3 md:col-span-2">
@@ -619,6 +684,16 @@ export default function DeveloperContentEditor() {
               {images.map((image, index) => (
                 <div key={`${image.src}-${index}`} className="bg-darker border border-gray-800 rounded-xl p-3 space-y-2">
                   <p className="text-xs text-gray-400 break-all">{image.src}</p>
+                  <div className="rounded-lg border border-gray-800 bg-dark overflow-hidden">
+                    <img
+                      src={getImagePreviewSrc(image.src)}
+                      alt={image.alt || 'Preview gambar materi'}
+                      className="w-full max-h-48 object-contain bg-black/40"
+                      onError={(event) => {
+                        event.currentTarget.style.display = 'none';
+                      }}
+                    />
+                  </div>
                   <div className="flex gap-2 flex-wrap">
                     <button
                       onClick={() => removeImageFromMarkdown(image.markdown)}

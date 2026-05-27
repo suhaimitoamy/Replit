@@ -13,6 +13,7 @@ export const useStore = create((set, get) => ({
     model: 'openrouter/auto',
     visualTheme: 'neon-green',
     touchEffect: 'Firefly',
+    developerModeUnlocked: false,
   },
 
   loadSettings: async () => {

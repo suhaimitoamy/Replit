@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import { useStore } from '../store/useStore';
+import { resolvePublicAssetPath } from '../utils/developerMode';
 
 export default function LessonReader() {
   const { lessonId } = useParams();
@@ -62,15 +63,8 @@ export default function LessonReader() {
 
   const isError = !content;
   
-  const base = import.meta.env.BASE_URL || "/";
-
   function resolveAssetPath(src) {
-    if (!src) return "";
-    if (src.startsWith("http")) return src;
-    if (src.startsWith("/images/")) {
-      return `${base.replace(/\/$/, "")}${src}`;
-    }
-    return src;
+    return resolvePublicAssetPath(src);
   }
   
   const RenderedMarkdown = () => {

@@ -7,7 +7,8 @@ import { CheckCircle, XCircle, AlertTriangle, BookOpen, RefreshCw } from 'lucide
 export default function Quiz() {
   const { quizId } = useParams();
   const navigate = useNavigate();
-  const { progress, addXP, unlockLevel, saveQuizResult, levels } = useStore();
+  const { progress, addXP, unlockLevel, saveQuizResult, levels, settings } = useStore();
+  const developerModeUnlocked = Boolean(settings?.developerModeUnlocked);
   
   const quiz = quizData.find(q => q.id === quizId);
   const [currentQ, setCurrentQ] = useState(0);
@@ -18,7 +19,7 @@ export default function Quiz() {
   if (!quiz) return <div className="p-8 text-danger text-center mt-10">Quiz not found or not created yet for this level.</div>;
 
   const failCount = progress.quizFails?.[quizId] || 0;
-  const isLocked = progress.lockedQuizzes?.includes(quizId);
+  const isLocked = !developerModeUnlocked && progress.lockedQuizzes?.includes(quizId);
 
   if (isLocked) {
     return (

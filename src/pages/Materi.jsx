@@ -5,7 +5,8 @@ import { Lock, CheckCircle, BookOpen } from 'lucide-react';
 
 export default function Materi() {
   const navigate = useNavigate();
-  const { levels, progress, loadProgress } = useStore();
+  const { levels, progress, loadProgress, settings } = useStore();
+  const developerModeUnlocked = Boolean(settings?.developerModeUnlocked);
 
   useEffect(() => {
     loadProgress();
@@ -14,10 +15,15 @@ export default function Materi() {
   return (
     <div className="p-4 max-w-2xl mx-auto space-y-6">
       <h1 className="text-2xl font-bold font-mono text-neon text-center mb-6">Materi Belajar</h1>
+      {developerModeUnlocked && (
+        <div className="bg-neon/10 border border-neon/40 text-neon rounded-xl p-3 text-sm font-bold text-center">
+          Developer Mode aktif: semua materi terbuka untuk pengecekan.
+        </div>
+      )}
       
       {levels.map((level) => {
-        const isUnlocked = level.id === 'level-1' || level.id === 'level-01' || progress.unlockedLevels?.includes(level.id);
-        const levelCompleted = level.lessons.every(lesson => progress.completedLessons?.includes(lesson));
+        const isUnlocked = developerModeUnlocked || level.id === 'level-1' || level.id === 'level-01' || progress.unlockedLevels?.includes(level.id);
+        const levelCompleted = developerModeUnlocked || level.lessons.every(lesson => progress.completedLessons?.includes(lesson));
 
         return (
           <div key={level.id} className={`bg-dark rounded-xl border ${isUnlocked ? 'border-gray-700' : 'border-gray-800 opacity-70'} overflow-hidden`}>

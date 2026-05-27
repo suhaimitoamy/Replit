@@ -5,7 +5,8 @@ import { Lock, Unlock, CheckCircle } from 'lucide-react';
 
 export default function QuestMap() {
   const navigate = useNavigate();
-  const { levels, progress, loadProgress, isLoading } = useStore();
+  const { levels, progress, loadProgress, isLoading, settings } = useStore();
+  const developerModeUnlocked = Boolean(settings?.developerModeUnlocked);
 
   useEffect(() => {
     loadProgress();
@@ -14,6 +15,11 @@ export default function QuestMap() {
   return (
     <div className="p-4 pb-24">
       <h1 className="text-3xl font-bold font-mono text-center text-neon glow-text mb-8 mt-4">Quest Map</h1>
+      {developerModeUnlocked && (
+        <div className="bg-neon/10 border border-neon/40 text-neon rounded-xl p-3 text-sm font-bold text-center mb-6">
+          Developer Mode aktif: semua level terbuka untuk pengecekan.
+        </div>
+      )}
       
       <div className="relative">
         {/* Map Line Connector */}
@@ -21,11 +27,11 @@ export default function QuestMap() {
 
         <div className="space-y-12 relative z-10">
           {levels.map((level, index) => {
-            const isUnlocked = level.id === 'level-1' || level.id === 'level-01' || progress.unlockedLevels?.includes(level.id);
+            const isUnlocked = developerModeUnlocked || level.id === 'level-1' || level.id === 'level-01' || progress.unlockedLevels?.includes(level.id);
             // Completed if all lessons are done AND quiz is passed
             const lessonsDone = level.lessons.every(l => progress.completedLessons?.includes(l));
             const quizScore = progress.quizResults?.[level.quizId]?.score;
-            const isCompleted = lessonsDone && quizScore !== undefined && progress.quizResults[level.quizId].passed;
+            const isCompleted = !developerModeUnlocked && lessonsDone && quizScore !== undefined && progress.quizResults[level.quizId].passed;
             
             const isLeft = index % 2 === 0;
 
