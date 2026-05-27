@@ -28,14 +28,19 @@ jobs:
         with:
           node-version: 20
 
-      - name: Clean broken node_modules
-        run: rm -rf node_modules
+      - name: Clean install files
+        run: |
+          rm -rf node_modules
+          rm -f package-lock.json
 
       - name: Install dependencies
-        run: npm install --include=dev
+        run: npm install --no-audit --no-fund
+
+      - name: Force install Vite
+        run: npm install -D vite@latest @vitejs/plugin-react@latest --no-audit --no-fund
 
       - name: Build
-        run: npx vite build
+        run: npm run build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
